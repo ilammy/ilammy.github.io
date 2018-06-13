@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "News digest #140"
+date:   2018-06-11 12:00:00 +0300
+tags:   digest apple c++ dev git java rust misc
+---
+
+### Apple
+
+[Apple introduces macOS Mojave](https://www.apple.com/newsroom/2018/06/apple-introduces-macos-mojave/)<br/>
+Кто пропустил WWDC, новая ОС называется Mojave, как пустыня.
+
+[What’s New in macOS](https://developer.apple.com/macos/whats-new/#deprecationofopenglandopencl)<br/>
+Помимо всего прочего Apple объявляет OpenGL устаревшим и продвигает свой Metal.
+
+[What’s New in iOS](https://developer.apple.com/ios/whats-new/)<br/>
+В том числе OpenGL ES на iOS.
+
+[Build Handwriting Recognizer & Ship It To App Store](https://medium.com/@melodyfs/build-a-handwriting-recognizer-ship-it-to-app-store-fcce24205b4b)<br/>
+Как выглядит ML-фреймворк Apple (CoreML) на примере распознавалки каны (японского слогового алфавита) с помощью свёрточных нейросетей.
+
+### C++
+
+[Как не надо писать код](https://habr.com/post/413697/)<br/>
+Немного головоломок на Си++
+
+[Minimalist C Libraries](http://nullprogram.com/blog/2018/06/10/)<br/>
+О дизайне интерфейсов библиотек на Си
+
+[Retguard: An improved stack protector for OpenBSD](https://news.ycombinator.com/item?id=17246537)<br/>
+RetGuard — улучшенная канарейка от OpenBSD
+
+### Development
+
+[HTTP Status as a Service](https://status.icu)<br/>
+Полезняшка для тестирования HTTP API
+
+[Blush: grep with colors](https://github.com/arsham/blush)<br/>
+Клёвая утилита — grep с контролируемой подсветкой.
+
+[Пишем свой протокол поверх UDP](https://habr.com/company/oleg-bunin/blog/413479/)<br/>
+Рассмотрено много подводных камней дизайна протоколов.
+
+[Awesome design patterns](https://github.com/DovAmir/awesome-design-patterns)<br/>
+Портал к паттернам проектирования
+
+[The Hardest Program I've Ever Written](http://journal.stuffwithstuff.com/2015/09/08/the-hardest-program-ive-ever-written)<br/>
+Сказ о том, как программист форматировалку кода писал.<br/>
+(Особенно полезно — черепки.)
+
+### Git
+
+[I’m Nat Friedman, future CEO of GitHub. Ask me anything](https://www.reddit.com/r/AMA/comments/8pc8mf/im_nat_friedman_future_ceo_of_github_ama/e0a6bsz/)<br/>
+Люди задают вопросы будущему CEO GitHub
+
+### Java
+
+[Why does `array[idx++] += "a"` increase idx once in Java 8 but twice in Java 9 and 10?](https://stackoverflow.com/questions/50683786/why-does-arrayin-i-give-different-results-in-java-8-and-java-10)<br/>
+Случайно нашли баг в компиляторе
+
+[JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html)<br/>
+Галопом по устройству типичной JVM
+
+### Rust
+
+[How to speed up the Rust compiler some more in 2018](https://blog.mozilla.org/nnethercote/2018/06/05/how-to-speed-up-the-rust-compiler-some-more-in-2018/)<br/>
+Об оптимизациях компилятора
+
+### Miscellaneous
+
+[The State of Developer Ecosystem in 2018](https://www.jetbrains.com/research/devecosystem-2018/)<br/>
+JetBrains опросили 6000 разработчиков, вот что из этого вышло
+
+[GitLab Team Handbook](https://about.gitlab.com/handbook/)<br/>
+КП GitLab в публичном доступе
