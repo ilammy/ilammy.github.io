@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "News digest #141"
+date:   2018-06-18 12:00:00 +0300
+tags:   digest c++ dev linux misc
+---
+
+### C++
+
+[Использование Docker для сборки и запуска проекта на C++](https://habr.com/post/414109/)<br/>
+Немножко странный подход — сборка как _часть контейнера_ — но... вариант.
+
+### Development
+
+[Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)<br/>
+Хорошо рассмотрен процесс оптимизации программы. Смотрите на выводы в конце поста.
+
+[Becoming a dramatically better programmer](https://recurse.henrystanley.com/post/better/)<br/>
+Разумные мысли (применимо не только к программированию).
+
+[Use the decorator pattern for clean I/O boundaries](http://rea.tech/use-the-decorator-pattern-for-clean-i-o-boundaries/)<br/>
+Небольшой совет, как писать тестируемый код, выполняющий ввод-вывод: абстрагируйте данные.
+
+[Code review: вы делаете это неправильно](https://habr.com/company/badoo/blog/413965/)<br/>
+В принципе правильные мысли о ревью кода, хоть и немного затянуто.
+
+[Reverse Engineering Instruments’ File Format](http://jamie-wong.com/post/reverse-engineering-instruments-file-format/)<br/>
+Разгадывание формата профайлера Xcode, а также реклама использования UNIX-утилит для ревёрсинга.
+
+[Recommended reading order of Lua code base](https://www.reddit.com/r/programming/comments/63hth/ask_reddit_which_oss_codebases_out_there_are_so/c02pxbp/)<br/>
+Автор Lua рассказывает, в каком порядке лучше знакомиться с кодом интерпретатора.
+
+### Linux
+
+[Насколько хорошо ты знаешь bash?](https://habr.com/post/413935/)<br/>
+Головоломки с Bash.
+
+[Ancient "su - hostile" vulnerability in debian 8 and 9](https://j.ludost.net/blog/archives/2018/06/13/ancient_su_-_hostile_vulnerability_in_debian_8_and_9/)<br/>
+Интересная уязвимость терминалов, приводящая к повышению привилегий.
+
+[FBGraphics: Lightweight C graphics library](https://github.com/grz0zrg/fbg)<br/>
+Nuff said: библиотека для работы с фреймбуфером (для всяких Raspberry Pi).
+
+[Learning operating system development using Linux kernel and Raspberry Pi](https://news.ycombinator.com/item?id=17282000)<br/>
+Советы по изучению low-level программирования (в комментариях).
+
+### Miscellaneous
+
+[The Lifespan of a Lie – Why can’t we escape the Stanford Prison Experiment?](https://news.ycombinator.com/item?id=17287319)<br/>
+Об известном психологическом эксперименте, который уже не одно десятилетие является больше мемом и _объектом_ исследования.
+
+[Hair Ice](https://en.wikipedia.org/wiki/Hair_ice)<br/>
+Просто прикольный вид льда.
