@@ -2,5 +2,18 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-02 12:00:00 +0300
-tags:   digest
+tags:   digest git
 ---
+
+### Git
+
+[6 Git Aha Moments](https://henrikwarne.com/2018/06/25/6-git-aha-moments/)<br/>
+На человека снизошло озарение, когда он понял, _как_ работает Git.
+
+> The conclusion I draw from this is that you can only really use Git if you
+> understand how Git works. Merely memorizing which commands you should run
+> at what times will work in the short run, but it’s only a matter of time
+> before you get stuck or, worse, break something.
+
+— [_Understanding Git Conceptually_](https://www.sbf5.com/~cduan/technical/git/)
+
