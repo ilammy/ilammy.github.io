@@ -2,8 +2,16 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-02 12:00:00 +0300
-tags:   digest git
+tags:   digest dev git security misc
 ---
+
+### Development
+
+[Why we all choose to not pay back tech debt](https://uselessdevblog.wordpress.com/2018/06/24/why-we-all-choose-to-not-pay-back-tech-debt/)<br/>
+Размышления о техническом долге. А как давно _вы_ рефакторили?
+
+[IterviewBit Problems](https://www.interviewbit.com/all-problem-list)<br/>
+Три сотни задачек с собеседований. Можно размять мозги немного.
 
 ### Git
 
@@ -17,3 +25,18 @@ tags:   digest git
 
 — [_Understanding Git Conceptually_](https://www.sbf5.com/~cduan/technical/git/)
 
+### Security
+
+[Meet TLBleed: A crypto-key-leaking CPU attack that Intel reckons we shouldn't worry about](https://www.theregister.co.uk/2018/06/22/intel_tlbleed_key_data_leak/)<br/>
+Очередная side-channel атака на процессоры, ворующая ключи, явки, пароли через кеш.<br/>
+[Тео де Раадт не рад](https://www.itwire.com/security/83347-openbsd-chief-de-raadt-says-no-easy-fix-for-new-intel-cpu-bug.html). Кстати да, OpenBSD опять не предупредили об уязвимости.<br/>
+И, наконец, хорошее высказывание в тему:
+
+> Putting anything that gets benchmarked in a position of security responsibility is very, very dangerous.
+
+— [John Carmack](https://twitter.com/ID_AA_Carmack/status/395927588108918785)
+
+### Miscellaneous
+
+[Radio AdBlock](http://blog.rekawek.eu/2016/02/24/radio-adblock/)<br/>
+Человек открыл для себя чудо цифровой обработки сигналов.
