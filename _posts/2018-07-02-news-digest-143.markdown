@@ -13,6 +13,9 @@ tags:   digest dev git linux security misc
 [InterviewBit Problems](https://www.interviewbit.com/all-problem-list)<br/>
 Три сотни задачек с собеседований. Можно размять мозги немного.
 
+[Parallelism and concurrency need different tools](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)<br/>
+О разнице между параллельными и одновременными потоками исполнения.
+
 ### Git
 
 [6 Git Aha Moments](https://henrikwarne.com/2018/06/25/6-git-aha-moments/)<br/>
