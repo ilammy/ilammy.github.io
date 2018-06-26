@@ -10,7 +10,7 @@ tags:   digest dev git linux security misc
 [Why we all choose to not pay back tech debt](https://uselessdevblog.wordpress.com/2018/06/24/why-we-all-choose-to-not-pay-back-tech-debt/)<br/>
 Размышления о техническом долге. А как давно _вы_ рефакторили?
 
-[IterviewBit Problems](https://www.interviewbit.com/all-problem-list)<br/>
+[InterviewBit Problems](https://www.interviewbit.com/all-problem-list)<br/>
 Три сотни задачек с собеседований. Можно размять мозги немного.
 
 ### Git
