@@ -40,3 +40,6 @@ tags:   digest dev git security misc
 
 [Radio AdBlock](http://blog.rekawek.eu/2016/02/24/radio-adblock/)<br/>
 Человек открыл для себя чудо цифровой обработки сигналов.
+
+[Dell и DROVA: как играть в требовательные игры даже на слабом ноутбуке](https://habr.com/company/dell/blog/414901/)<br/>
+Клёвая идея. Теперь даже геймерские железки можно будет утащить «в облака».
