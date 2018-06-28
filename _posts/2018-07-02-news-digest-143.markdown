@@ -28,10 +28,16 @@ tags:   digest dev git internet linux security misc
 
 — [_Understanding Git Conceptually_](https://www.sbf5.com/~cduan/technical/git/)
 
+[Supercharging the Git Commit Graph](https://blogs.msdn.microsoft.com/devops/2018/06/25/supercharging-the-git-commit-graph/)<br/>
+Microsoft немного (раз в 10) ускорила работу с графом коммитов в версии 2.18+
+
 ### Internet
 
 [Another 10 Years Later](http://www.potaroo.net/ispcol/2018-06/10years.html)<br/>
 Краткая история Интернета за прошедшие 10 лет. У него же есть и за предыдущие 10 лет.
+
+[Network Protocols for Anyone Who Knows a Programming Language](https://www.destroyallsoftware.com/compendium/network-protocols)<br/>
+Объяснение действительно на очень простом уровне.
 
 ### Linux
 
