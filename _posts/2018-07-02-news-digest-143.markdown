@@ -2,7 +2,7 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-02 12:00:00 +0300
-tags:   digest dev git linux security misc
+tags:   digest dev git internet linux security misc
 ---
 
 ### Development
@@ -27,6 +27,11 @@ tags:   digest dev git linux security misc
 > before you get stuck or, worse, break something.
 
 — [_Understanding Git Conceptually_](https://www.sbf5.com/~cduan/technical/git/)
+
+### Internet
+
+[Another 10 Years Later](http://www.potaroo.net/ispcol/2018-06/10years.html)<br/>
+Краткая история Интернета за прошедшие 10 лет. У него же есть и за предыдущие 10 лет.
 
 ### Linux
 
