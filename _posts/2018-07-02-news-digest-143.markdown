@@ -16,6 +16,9 @@ tags:   digest dev git internet linux security misc
 [Parallelism and concurrency need different tools](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)<br/>
 О разнице между параллельными и одновременными потоками исполнения.
 
+[Python 3 at Facebook](https://lwn.net/SubscriberLink/758159/f1f631e1535ab9d6/)<br/>
+Сказ о том, как инженер менял Python 2 на Python 3 во всей организации.
+
 ### Git
 
 [6 Git Aha Moments](https://henrikwarne.com/2018/06/25/6-git-aha-moments/)<br/>
