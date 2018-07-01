@@ -19,6 +19,9 @@ tags:   digest dev git internet linux security misc
 [Python 3 at Facebook](https://lwn.net/SubscriberLink/758159/f1f631e1535ab9d6/)<br/>
 Сказ о том, как инженер менял Python 2 на Python 3 во всей организации.
 
+[Why you should not use Google Cloud](https://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de)<br/>
+Бот заблокировал и угрожал удалить через 76 часов весь продакшн компании, которая не использовала enterprise-поддержку.
+
 ### Git
 
 [6 Git Aha Moments](https://henrikwarne.com/2018/06/25/6-git-aha-moments/)<br/>
@@ -40,12 +43,15 @@ Microsoft немного (раз в 10) ускорила работу с гра�
 Краткая история Интернета за прошедшие 10 лет. У него же есть и за предыдущие 10 лет.
 
 [Network Protocols for Anyone Who Knows a Programming Language](https://www.destroyallsoftware.com/compendium/network-protocols)<br/>
-Объяснение действительно на очень простом уровне.
+Объяснение на действительно очень простом уровне.
 
 ### Linux
 
 [Зачем забивать гвозди микроскопом, если есть Alpine Linux?](https://habr.com/company/digdes/blog/415279/)<br/>
 На основе этого дистрибутива часто делают мелкие Docker-образы.
+
+[Transparently running binaries from any architecture in Linux with QEMU and binfmt_misc](https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/)<br/>
+Этот подход гораздо удобнее традиционной кросс-компиляции.
 
 ### Security
 
