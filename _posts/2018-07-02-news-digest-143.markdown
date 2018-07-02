@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "News digest #143"
+date:   2018-07-02 12:00:00 +0300
+tags:   digest dev git internet linux security misc
+---
+
+### Development
+
+[Why we all choose to not pay back tech debt](https://uselessdevblog.wordpress.com/2018/06/24/why-we-all-choose-to-not-pay-back-tech-debt/)<br/>
+Размышления о техническом долге. А как давно _вы_ рефакторили?
+
+[InterviewBit Problems](https://www.interviewbit.com/all-problem-list)<br/>
+Три сотни задачек с собеседований. Можно размять мозги немного.
+
+[Parallelism and concurrency need different tools](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)<br/>
+О разнице между параллельными и одновременными потоками исполнения.
+
+[Python 3 at Facebook](https://lwn.net/SubscriberLink/758159/f1f631e1535ab9d6/)<br/>
+Сказ о том, как инженер менял Python 2 на Python 3 во всей организации.
+
+[Why you should not use Google Cloud](https://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de)<br/>
+Бот заблокировал и угрожал удалить через 76 часов весь продакшн компании, которая не использовала enterprise-поддержку.
+
+### Git
+
+[6 Git Aha Moments](https://henrikwarne.com/2018/06/25/6-git-aha-moments/)<br/>
+На человека снизошло озарение, когда он понял, _как_ работает Git.
+
+> The conclusion I draw from this is that you can only really use Git if you
+> understand how Git works. Merely memorizing which commands you should run
+> at what times will work in the short run, but it’s only a matter of time
+> before you get stuck or, worse, break something.
+
+— [_Understanding Git Conceptually_](https://www.sbf5.com/~cduan/technical/git/)
+
+[Supercharging the Git Commit Graph](https://blogs.msdn.microsoft.com/devops/2018/06/25/supercharging-the-git-commit-graph/)<br/>
+Microsoft немного (раз в 10) ускорила работу с графом коммитов в версии 2.18+
+
+### Internet
+
+[Another 10 Years Later](http://www.potaroo.net/ispcol/2018-06/10years.html)<br/>
+Краткая история Интернета за прошедшие 10 лет. У него же есть и за предыдущие 10 лет.
+
+[Network Protocols for Anyone Who Knows a Programming Language](https://www.destroyallsoftware.com/compendium/network-protocols)<br/>
+Объяснение на действительно очень простом уровне.
+
+### Linux
+
+[Зачем забивать гвозди микроскопом, если есть Alpine Linux?](https://habr.com/company/digdes/blog/415279/)<br/>
+На основе этого дистрибутива часто делают мелкие Docker-образы.
+
+[Transparently running binaries from any architecture in Linux with QEMU and binfmt_misc](https://ownyourbits.com/2018/06/13/transparently-running-binaries-from-any-architecture-in-linux-with-qemu-and-binfmt_misc/)<br/>
+Этот подход гораздо удобнее традиционной кросс-компиляции.
+
+### Security
+
+[Meet TLBleed: A crypto-key-leaking CPU attack that Intel reckons we shouldn't worry about](https://www.theregister.co.uk/2018/06/22/intel_tlbleed_key_data_leak/)<br/>
+Очередная side-channel атака на процессоры, ворующая ключи, явки, пароли через кеш.<br/>
+[Тео де Раадт не рад](https://www.itwire.com/security/83347-openbsd-chief-de-raadt-says-no-easy-fix-for-new-intel-cpu-bug.html). Кстати да, OpenBSD опять не предупредили об уязвимости.<br/>
+И, наконец, хорошее высказывание в тему:
+
+> Putting anything that gets benchmarked in a position of security responsibility is very, very dangerous.
+
+— [_John Carmack's Twitter_](https://twitter.com/ID_AA_Carmack/status/395927588108918785)
+
+### Miscellaneous
+
+[Radio AdBlock](http://blog.rekawek.eu/2016/02/24/radio-adblock/)<br/>
+Человек открыл для себя чудо цифровой обработки сигналов.
+
+[Dell и DROVA: как играть в требовательные игры даже на слабом ноутбуке](https://habr.com/company/dell/blog/414901/)<br/>
+Клёвая идея. Теперь даже геймерские железки можно будет утащить «в облака».
+
+[SpaceX отправила на МКС робота с искусственным интеллектом](https://habr.com/post/415785/)<br/>
+Летит, кстати, на б/у оборудовании, которое уже летало на орбиту и вернулось.
