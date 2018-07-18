@@ -2,7 +2,7 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-23 12:00:00 +0300
-tags:   digest android c++ git linux python
+tags:   digest android c++ dev git linux security python
 ---
 
 Извиняюсь за задержку в публикациях: были другие дела. Теперь я в рабочей канве.
@@ -21,6 +21,15 @@ tags:   digest android c++ git linux python
 
 [3-1]: https://habr.com/post/417027/
 
+### Development
+
+[SICP Goodness - What is Meant by Data? (I)][7-1-1]<br/>
+[SICP Goodness - What is Meant by Data? (II)][7-1-2]<br/>
+Вброшу немного про _Structure and Interpretation of Computer Programs_. Если вы не читали этот учебник и вас заинтересовал пост, то можете глянуть. Лисп иногда раскрывает глаза.
+
+[7-1-1]: https://www.lvguowei.me/post/sicp-goodness-data/
+[7-1-2]: https://www.lvguowei.me/post/sicp-goodness-data-2/
+
 ### Git
 
 [Как следует писать комментарии к коммитам][5-1]<br/>
@@ -35,6 +44,11 @@ tags:   digest android c++ git linux python
 
 [4-1]: https://habr.com/company/it-grad/blog/417155/
 
+[Writing a cross-platform ELF binary][8]<br/>
+Интересно, а можно ли в один бинарник _ещё больше_ операционных систем затолкать?
+
+[8]: http://blog.codetastrophe.com/2008/12/writing-cross-platform-elf-binary.html
+
 ### Python
 
 [\[python-committers\] Transfer of power][1-1] [(хабр)][1-2]<br/>
@@ -42,6 +56,13 @@ tags:   digest android c++ git linux python
 
 [1-1]: https://mail.python.org/pipermail/python-committers/2018-July/005664.html
 [1-2]: https://habr.com/post/417047/
+
+### Security
+
+[How Tinder keeps your exact location (a bit) private][9]<br/>
+Забавная история злоупотребления точными координатами и расстояниями до людей. Enjoy your social Internet.
+
+[9]: https://robertheaton.com/2018/07/09/how-tinder-keeps-your-location-a-bit-private/
 
 ### Swift
 
