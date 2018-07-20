@@ -2,7 +2,7 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-23 12:00:00 +0300
-tags:   digest android c++ dev git linux security python
+tags:   digest android c++ dev git linux python security swift misc
 ---
 
 Извиняюсь за задержку в публикациях: были другие дела. Теперь я в рабочей канве.
@@ -70,3 +70,8 @@ tags:   digest android c++ dev git linux security python
 Кто-то написал TLS сам, а не сделал очередную обёртку над SomeSSL.
 
 [6-1]: https://github.com/nsc/SwiftTLS
+
+### Miscellaneous
+
+[Как мы перебанили обычных игроков и заDDoSили свои сервера: практическое руководство](https://habr.com/company/pixonic/blog/417441/)<br/>
+Геймдев — это весело.
