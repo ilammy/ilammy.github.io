@@ -2,7 +2,7 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-23 12:00:00 +0300
-tags:   digest android c++ dev git linux python security swift misc
+tags:   digest android c++ dev git linux python rust security swift misc
 ---
 
 Извиняюсь за задержку в публикациях: были другие дела. Теперь я в рабочей канве.
@@ -56,6 +56,11 @@ tags:   digest android c++ dev git linux python security swift misc
 
 [1-1]: https://mail.python.org/pipermail/python-committers/2018-July/005664.html
 [1-2]: https://habr.com/post/417047/
+
+### Rust
+
+[Бот для Starcraft на Rust](https://habr.com/post/416743/)<br/>
+Хардкорный hello world ребята выбрали.
 
 ### Security
 
