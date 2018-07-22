@@ -18,8 +18,8 @@ author: Alexei Lozovsky
 email: a.lozovsky@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Crap I have found on the Interwebs
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://blog.ilammy.net"
 github_username: ilammy
 
 # For the love of God, use ISO 8601
