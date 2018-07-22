@@ -30,6 +30,9 @@ tags:   digest android c++ dev git linux python rust security swift misc
 [7-1-1]: https://www.lvguowei.me/post/sicp-goodness-data/
 [7-1-2]: https://www.lvguowei.me/post/sicp-goodness-data-2/
 
+[JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)<br/>
+Если вдруг забудете какой-нибудь классический алгоритм.
+
 ### Git
 
 [Как следует писать комментарии к коммитам][5-1]<br/>
@@ -49,6 +52,12 @@ tags:   digest android c++ dev git linux python rust security swift misc
 
 [8]: http://blog.codetastrophe.com/2008/12/writing-cross-platform-elf-binary.html
 
+[psi: pressure stall information for CPU, memory, and IO v2](https://lwn.net/Articles/759658/)<br/>
+Сколько лет уже тянутся эти лайвлоки в работе OOM-киллера. Теперь их может быть возможно предсказывать лучше.
+
+[In UNIX Everything is a File](https://ph7spot.com/musings/in-unix-everything-is-a-file)<br/>
+Понравилась идея _порталов_ из BSD.
+ 
 ### Python
 
 [\[python-committers\] Transfer of power][1-1] [(хабр)][1-2]<br/>
@@ -80,3 +89,5 @@ tags:   digest android c++ dev git linux python rust security swift misc
 
 [Как мы перебанили обычных игроков и заDDoSили свои сервера: практическое руководство](https://habr.com/company/pixonic/blog/417441/)<br/>
 Геймдев — это весело.
+
+[RFC for 700 HTTP Status Codes](https://github.com/joho/7XX-rfc)
