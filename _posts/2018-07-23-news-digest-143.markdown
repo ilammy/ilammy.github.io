@@ -2,7 +2,7 @@
 layout: post
 title:  "News digest #143"
 date:   2018-07-23 12:00:00 +0300
-tags:   digest android c++ dev git linux python rust security swift misc
+tags:   digest android c++ dev git linux python rust security swift windows misc
 comments: true
 ---
 
@@ -54,6 +54,10 @@ comments: true
 [1-1]: https://mail.python.org/pipermail/python-committers/2018-July/005664.html
 [1-2]: https://habr.com/post/417047/
 
+[Garbage collection in Python: things you need to know](https://rushter.com/blog/python-garbage-collector/) [(по-русски)](https://habr.com/post/417215/)<br/>
+Обзорчик алгоритмов, используемых каноничным интерпретатором Python.<br/>
+Если вас в целом интересует тема сборщиков мусора, то можете начать с _The Garbage Collection Handbook_.
+
 ### Rust
 
 [Бот для Starcraft на Rust](https://habr.com/post/416743/)<br/>
@@ -76,6 +80,11 @@ comments: true
 Кто-то написал TLS сам, а не сделал очередную обёртку над SomeSSL.
 
 [6-1]: https://github.com/nsc/SwiftTLS
+
+### Windows
+
+[Windows Command-Line: Backgrounder](https://blogs.msdn.microsoft.com/commandline/2018/06/20/windows-command-line-backgrounder/) [(по-русски)](https://habr.com/post/417679/)<br/>
+Хорошая ретроспектива консоли в Windows.
 
 ### Miscellaneous
 
