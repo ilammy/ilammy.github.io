@@ -3,6 +3,7 @@ layout: post
 title:  "News digest #142"
 date:   2018-06-25 12:00:00 +0300
 tags:   digest apple c++ dev internet java linux rust security misc pol
+comments: true
 ---
 
 ### Apple

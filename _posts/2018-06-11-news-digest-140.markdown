@@ -3,6 +3,7 @@ layout: post
 title:  "News digest #140"
 date:   2018-06-11 12:00:00 +0300
 tags:   digest apple c++ dev git java rust misc
+comments: true
 ---
 
 ### Apple
