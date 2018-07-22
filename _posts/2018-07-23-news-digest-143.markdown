@@ -9,48 +9,35 @@ tags:   digest android c++ dev git linux python rust security swift misc
 
 ### Android
 
-[Приложение Burger King: насмешка над защитой персональных данных. Исправляем?][2-1]<br/>
+[Приложение Burger King: насмешка над защитой персональных данных. Исправляем?](https://habr.com/company/roskomsvoboda/blog/417145/)<br/>
 Немного нашумевших постов (в начале есть ссылки) о ленивом подходе к логгированию у разработчиков и влиянию этого на общественное мнение. Очень интересно было следить за реакциями в комментариях.
-
-[2-1]: https://habr.com/company/roskomsvoboda/blog/417145/
 
 ### C++
 
-[Как я стандартную библиотеку C++11 писал или почему boost такой страшный][3-1]<br/>
-Иногла интересно посмотреть на создание своих велосипедов.
-
-[3-1]: https://habr.com/post/417027/
+[Как я стандартную библиотеку C++11 писал или почему boost такой страшный](https://habr.com/post/417027/)<br/>
+Иногда интересно посмотреть на создание своих велосипедов.
 
 ### Development
 
-[SICP Goodness - What is Meant by Data? (I)][7-1-1]<br/>
-[SICP Goodness - What is Meant by Data? (II)][7-1-2]<br/>
+[SICP Goodness - What is Meant by Data? (I)](https://www.lvguowei.me/post/sicp-goodness-data/)<br/>
+[SICP Goodness - What is Meant by Data? (II)](https://www.lvguowei.me/post/sicp-goodness-data-2/)<br/>
 Вброшу немного про _Structure and Interpretation of Computer Programs_. Если вы не читали этот учебник и вас заинтересовал пост, то можете глянуть. Лисп иногда раскрывает глаза.
-
-[7-1-1]: https://www.lvguowei.me/post/sicp-goodness-data/
-[7-1-2]: https://www.lvguowei.me/post/sicp-goodness-data-2/
 
 [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)<br/>
 Если вдруг забудете какой-нибудь классический алгоритм.
 
 ### Git
 
-[Как следует писать комментарии к коммитам][5-1]<br/>
+[Как следует писать комментарии к коммитам](https://habr.com/post/416887/)<br/>
 Повтор неплохого поста о важности комментариев к коммитам. И комментарии к посту тоже можно почитать
-
-[5-1]: https://habr.com/post/416887/
 
 ### Linux
 
-[Linux kernel 4.18: что готовит грядущий релиз][4-1]<br/>
+[Linux kernel 4.18: что готовит грядущий релиз](https://habr.com/company/it-grad/blog/417155/)<br/>
 Превьюшка релиза.
 
-[4-1]: https://habr.com/company/it-grad/blog/417155/
-
-[Writing a cross-platform ELF binary][8]<br/>
+[Writing a cross-platform ELF binary](http://blog.codetastrophe.com/2008/12/writing-cross-platform-elf-binary.html)<br/>
 Интересно, а можно ли в один бинарник _ещё больше_ операционных систем затолкать?
-
-[8]: http://blog.codetastrophe.com/2008/12/writing-cross-platform-elf-binary.html
 
 [psi: pressure stall information for CPU, memory, and IO v2](https://lwn.net/Articles/759658/)<br/>
 Сколько лет уже тянутся эти лайвлоки в работе OOM-киллера. Теперь их может быть возможно предсказывать лучше.
@@ -69,14 +56,18 @@ tags:   digest android c++ dev git linux python rust security swift misc
 ### Rust
 
 [Бот для Starcraft на Rust](https://habr.com/post/416743/)<br/>
-Хардкорный hello world ребята выбрали.
+Хардкорный hello world ребята выбрали.<br/>
+Ага, это те самые, которые писали [интерпретатор Smalltalk](https://github.com/0x7CFE/llst) (пост [1], [2], [3], [4]).
+
+[1]: https://habr.com/post/164153/
+[2]: https://habr.com/post/164769/
+[3]: https://habr.com/post/191250/
+[4]: https://habr.com/post/197474/
 
 ### Security
 
-[How Tinder keeps your exact location (a bit) private][9]<br/>
+[How Tinder keeps your exact location (a bit) private](https://robertheaton.com/2018/07/09/how-tinder-keeps-your-location-a-bit-private/)<br/>
 Забавная история злоупотребления точными координатами и расстояниями до людей. Enjoy your social Internet.
-
-[9]: https://robertheaton.com/2018/07/09/how-tinder-keeps-your-location-a-bit-private/
 
 ### Swift
 
@@ -87,7 +78,6 @@ tags:   digest android c++ dev git linux python rust security swift misc
 
 ### Miscellaneous
 
-[Как мы перебанили обычных игроков и заDDoSили свои сервера: практическое руководство](https://habr.com/company/pixonic/blog/417441/)<br/>
-Геймдев — это весело.
+[Как мы перебанили обычных игроков и заDDoSили свои сервера: практическое руководство](https://habr.com/company/pixonic/blog/417441/)
 
 [RFC for 700 HTTP Status Codes](https://github.com/joho/7XX-rfc)
