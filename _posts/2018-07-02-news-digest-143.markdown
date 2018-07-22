@@ -3,6 +3,7 @@ layout: post
 title:  "News digest #143"
 date:   2018-07-02 12:00:00 +0300
 tags:   digest dev git internet linux security misc
+comments: true
 ---
 
 ### Development
