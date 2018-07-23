@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "News digest #145"
-date:   2018-07-30 12:00:00 +0300
-tags:   digest
+layout:   post
+title:    "News digest #145"
+date:     2018-07-30 12:00:00 +0300
+tags:     digest swift
 comments: true
 ---
 
+### Swift
+
+[lumos - a light Swift wrapper around Objective-C Runtime](https://github.com/sushinoya/lumos)<br/>
+Obj-C магия для программ на Swift.
