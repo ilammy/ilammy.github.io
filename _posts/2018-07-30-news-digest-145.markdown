@@ -2,11 +2,25 @@
 layout:   post
 title:    "News digest #145"
 date:     2018-07-30 12:00:00 +0300
-tags:     digest swift
+tags:     digest blockchain linux swift misc
 comments: true
 ---
+
+### Blockchain
+
+[Google Cloud Launches Blockchain Toolkit for App Developers](https://www.ccn.com/google-cloud-launches-blockchain-toolkit-for-app-developers/)<br/>
+Google тоже подключается к гонке.
+
+### Linux
+
+[Open sourcing oomd, a new approach to handling OOMs](https://code.fb.com/production-engineering/open-sourcing-oomd-a-new-approach-to-handling-ooms/)<br/>
+Попытка исправить ситуацию с OOM.
 
 ### Swift
 
 [lumos - a light Swift wrapper around Objective-C Runtime](https://github.com/sushinoya/lumos)<br/>
 Obj-C магия для программ на Swift.
+
+### Miscellaneous
+
+[What is a coder's worst nightmare?](https://www.quora.com/What-is-a-coders-worst-nightmare/answer/Mick-Stute)
