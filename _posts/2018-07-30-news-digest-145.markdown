@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #145"
 date:     2018-07-30 12:00:00 +0300
-tags:     digest dev blockchain linux macos security swift misc
+tags:     digest dev blockchain linux macos rust security swift misc
 comments: true
 ---
 
@@ -33,6 +33,11 @@ Google тоже подключается к гонке.
 
 [Трюки при линковке и загрузке файлов Mach-O](https://habr.com/post/417507/)<br/>
 Я не знал, что так можно. Но я и не особо специалист.
+
+### Rust
+
+[Ready At Dawn Studios переходит на Rust](https://forum.rustycrate.ru/t/ready-at-dawn-studios-perehodit-na-rust/433)<br/>
+Использование потихоньку растёт. Геймдев — одна из основных областей применения C++ всё же.
 
 ### Security
 
