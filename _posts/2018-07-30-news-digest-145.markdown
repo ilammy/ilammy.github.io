@@ -29,6 +29,9 @@ Google тоже подключается к гонке.
 [TLDR pages](http://tldr.sh/)<br/>
 Этот «упрощённый man» уже где-то мелькал. Но я напомню, вдруг кому-то пригодиться.
 
+[Basics of Futexes](https://eli.thegreenplace.net/2018/basics-of-futexes/)<br/>
+О самом низкоуровневом API для построения примитивов синхронизации.
+
 ### macOS
 
 [Трюки при линковке и загрузке файлов Mach-O](https://habr.com/post/417507/)<br/>
@@ -38,6 +41,12 @@ Google тоже подключается к гонке.
 
 [Ready At Dawn Studios переходит на Rust](https://forum.rustycrate.ru/t/ready-at-dawn-studios-perehodit-na-rust/433)<br/>
 Использование потихоньку растёт. Геймдев — одна из основных областей применения C++ всё же.
+
+[What is Rust 2018?](https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html)<br/>
+О результатах стабильной работы за _три года_.
+
+[Version selection in Cargo](http://aturon.github.io/2018/07/25/cargo-version-selection/)<br/>
+О дизайне версионирования зависимостей в местном пакетом менеджере.
 
 ### Security
 
