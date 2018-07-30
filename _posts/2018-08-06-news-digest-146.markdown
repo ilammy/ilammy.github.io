@@ -5,3 +5,11 @@ date:     2018-08-06 12:00:00 +0300
 tags:     digest
 comments: true
 ---
+
+### Miscellaneous
+
+[A Spectre Is Haunting Unicode](https://www.dampfkraft.com/ghost-characters.html)<br/>
+О «призрачных кандзи», которые есть в кодировках, но никто не знает, что они значат и откуда взялись.
+
+[Refresh — A fresh approach to the web browser](https://refresh.study/)<br/>
+Если вы вдруг захотите написать браузер.
