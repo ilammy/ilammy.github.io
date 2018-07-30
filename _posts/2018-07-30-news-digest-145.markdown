@@ -1,0 +1,68 @@
+---
+layout:   post
+title:    "News digest #145"
+date:     2018-07-30 12:00:00 +0300
+tags:     digest dev blockchain linux macos rust security swift misc
+comments: true
+---
+
+### Blockchain
+
+[Google Cloud Launches Blockchain Toolkit for App Developers](https://www.ccn.com/google-cloud-launches-blockchain-toolkit-for-app-developers/)<br/>
+Google тоже подключается к гонке.
+
+### C++
+
+[Performance of std::string_view vs std::string from C++17](https://www.bfilipek.com/2018/07/string-view-perf.html)<br/>
+О производительности местных слайсов. Ими, похоже, реально есть смысл пользоваться с большими строками.
+
+### Development
+
+[Ad Hoc Profiling](https://blog.mozilla.org/nnethercote/2018/07/24/ad-hoc-profiling/)<br/>
+Напоминание о том, что профайлить и логгировать можно вручную.
+
+### Linux
+
+[Open sourcing oomd, a new approach to handling OOMs](https://code.fb.com/production-engineering/open-sourcing-oomd-a-new-approach-to-handling-ooms/)<br/>
+Попытка исправить ситуацию с OOM.
+
+[TLDR pages](http://tldr.sh/)<br/>
+Этот «упрощённый man» уже где-то мелькал. Но я напомню, вдруг кому-то пригодиться.
+
+[Basics of Futexes](https://eli.thegreenplace.net/2018/basics-of-futexes/)<br/>
+О самом низкоуровневом API для построения примитивов синхронизации.
+
+### macOS
+
+[Трюки при линковке и загрузке файлов Mach-O](https://habr.com/post/417507/)<br/>
+Я не знал, что так можно. Но я и не особо специалист.
+
+### Rust
+
+[Ready At Dawn Studios переходит на Rust](https://forum.rustycrate.ru/t/ready-at-dawn-studios-perehodit-na-rust/433)<br/>
+Использование потихоньку растёт. Геймдев — одна из основных областей применения C++ всё же.
+
+[What is Rust 2018?](https://blog.rust-lang.org/2018/07/27/what-is-rust-2018.html)<br/>
+О результатах стабильной работы за _три года_.
+
+[Version selection in Cargo](http://aturon.github.io/2018/07/25/cargo-version-selection/)<br/>
+О дизайне версионирования зависимостей в местном пакетом менеджере.
+
+### Security
+
+[Epic fail of the month: rsync как «вектор» на утянуть данные](https://habr.com/post/418119/)<br/>
+Мораль басни: умейте настраивать сетевой экран на своих серверах.
+
+[Курс MIT «Безопасность компьютерных систем»](https://habr.com/company/ua-hosting/blog/418195/)<br/>
+Им было не влом подготовить расшифровку текстом.
+
+### Swift
+
+[lumos - a light Swift wrapper around Objective-C Runtime](https://github.com/sushinoya/lumos)<br/>
+Obj-C магия для программ на Swift.
+
+### Miscellaneous
+
+[What is a coder's worst nightmare?](https://www.quora.com/What-is-a-coders-worst-nightmare/answer/Mick-Stute)
+
+[A JIT compiler for Brainfuck running on x86_64 UEFI](https://github.com/m4tx/uefi-jitfuck)
