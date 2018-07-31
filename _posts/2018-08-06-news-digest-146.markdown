@@ -13,3 +13,5 @@ comments: true
 
 [Refresh — A fresh approach to the web browser](https://refresh.study/)<br/>
 Если вы вдруг захотите написать браузер.
+
+[How is git commit sha1 formed](https://gist.github.com/masak/2415865)
