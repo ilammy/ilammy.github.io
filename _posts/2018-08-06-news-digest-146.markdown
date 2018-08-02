@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #146"
 date:     2018-08-06 12:00:00 +0300
-tags:     digest c++ web misc
+tags:     digest c++ linux rust web misc
 comments: true
 ---
 
@@ -10,6 +10,23 @@ comments: true
 
 [Все, что вы давно просили, в одном релизе — CLion 2018.2](https://habr.com/company/JetBrains/blog/418729/)<br/>
 Прямо таки критических обновлений нет, но радует, что LSP набирает обороты. 
+
+### Linux
+
+[zinc: Introduce minimal cryptography library](https://git.kernel.org/pub/scm/linux/kernel/git/zx2c4/linux.git/commit/?h=zinc)<br/>
+В ядро едет новый API для криптографии.
+
+[WireGuard: Secure Network Tunnel](https://marc.info/?l=linux-netdev&m=153306429108040&w=2)<br/>
+Это Zinc — зависимость для WireGuard — нового перспективного VPN-протокола — который тоже недавно довели до бета-состояния.
+
+[How we scaled nginx and saved the world 54 years every day](https://blog.cloudflare.com/how-we-scaled-nginx-and-saved-the-world-54-years-every-day/?ref)<br/>
+О производительности ввода-вывода в Linux на примере nginx.
+
+### Rust
+
+[Announcing Rust 1.28](https://blog.rust-lang.org/2018/08/02/Rust-1.28.html)<br/>
+Главная возможность: [выбор аллокатора памяти](https://github.com/rust-lang/rust/pull/51241/) в стандартной библиотеке.<br/>
+Ещё из приятного: [улучшенные сообщения](https://github.com/rust-lang/rust/pull/51298/) о проваленных тестах.
 
 ### Web
 
