@@ -42,3 +42,6 @@ comments: true
 Если вы вдруг захотите написать браузер.
 
 [How is git commit sha1 formed](https://gist.github.com/masak/2415865)
+
+[Introduction to Computer Organization](http://bob.cs.sonoma.edu/index.html)<br/>
+Обзор устройства компьютеров через ассемблер.
