@@ -30,7 +30,7 @@ comments: true
 
 ### Web
 
-[The Website Obesity Crisis](http://idlewords.com/talks/website_obesity.htm)</br>
+[The Website Obesity Crisis](http://idlewords.com/talks/website_obesity.htm)<br/>
 (Правдивое) нытьё о том, как реклама изговнякала веб.
 
 ### Miscellaneous
