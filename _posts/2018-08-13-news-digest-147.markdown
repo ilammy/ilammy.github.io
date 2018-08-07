@@ -2,6 +2,14 @@
 layout:   post
 title:    "News digest #147"
 date:     2018-08-13 12:00:00 +0300
-tags:     digest
+tags:     digest misc
 comments: true
 ---
+
+### Miscellaneous
+
+[Подробный разбор матча по Dota 2 между OpenAI и людьми в формате 5x5](https://habr.com/company/crossover/blog/419407/)<br/>
+Люди проиграли в очередную игру.
+
+[Inko Programming Language](https://inko-lang.org)<br/>
+<3 gradual typing, может быть референсом в реализации.
