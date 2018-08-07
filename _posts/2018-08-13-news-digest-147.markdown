@@ -2,14 +2,32 @@
 layout:   post
 title:    "News digest #147"
 date:     2018-08-13 12:00:00 +0300
-tags:     digest misc
+tags:     digest internet plt misc
 comments: true
 ---
+
+### Internet
+
+[Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
+
+### Programming Language Theory
+
+[Inko Programming Language](https://inko-lang.org)<br/>
+<3 gradual typing, может быть референсом в реализации.
+
+[Dora: Implementing a JIT-compiler with Rust](https://dinfuehr.github.io/blog/dora-implementing-a-jit-compiler-with-rust/)<br/>
+И ещё один JIT-компилятор.
+
+[A Couple of Meta-interpreters in Prolog](https://www.metalevel.at/acomip/)<br/>
+Метаинтерпретаторы — хорошая замена hello world для выразительных языков.
+
+[Announcing Dart 2: Optimized for Client-Side Development](https://medium.com/dartlang/announcing-dart-2-80ba01f43b6)<br/>
+Не особо взлетевший Dart (вне Google) хотят перезагрузить.
 
 ### Miscellaneous
 
 [Подробный разбор матча по Dota 2 между OpenAI и людьми в формате 5x5](https://habr.com/company/crossover/blog/419407/)<br/>
 Люди проиграли в очередную игру.
 
-[Inko Programming Language](https://inko-lang.org)<br/>
-<3 gradual typing, может быть референсом в реализации.
+[LVM snapshot broke between 4.14 and 4.16](https://lkml.org/lkml/2018/8/3/621)<br/>
+Линусу опять приходится объяснять, что юзерспейс ломать нельзя. Даже если вы пытались исправить баг.
