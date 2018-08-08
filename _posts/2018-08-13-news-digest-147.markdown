@@ -6,6 +6,11 @@ tags:     digest internet plt security unix misc
 comments: true
 ---
 
+### C++
+
+[Реализация оператора in в С++](https://habr.com/post/419579/)<br/>
+Ещё один трюк с препроцессором в вашу копилку.
+
 ### Internet
 
 [Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
