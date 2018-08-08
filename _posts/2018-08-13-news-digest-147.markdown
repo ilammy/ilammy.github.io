@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #147"
 date:     2018-08-13 12:00:00 +0300
-tags:     digest internet plt misc
+tags:     digest internet plt security unix misc
 comments: true
 ---
 
@@ -10,7 +10,7 @@ comments: true
 
 [Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
 
-### Programming Language Theory
+### Programming Languages
 
 [Inko Programming Language](https://inko-lang.org)<br/>
 <3 gradual typing, может быть референсом в реализации.
@@ -24,6 +24,21 @@ comments: true
 [Announcing Dart 2: Optimized for Client-Side Development](https://medium.com/dartlang/announcing-dart-2-80ba01f43b6)<br/>
 Не особо взлетевший Dart (вне Google) хотят перезагрузить.
 
+[Sadly, I must say goodbye to Leaf](https://mortoray.com/2018/08/07/sadly-i-must-say-goodbye-to-leaf-my-programming-language/)
+
+### Security
+
+[The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)<br/>
+В WPA2-PSK недавно нашли очередную проблему, но это вряд ли затронет потребительский сегмент.
+
+[How I gained commit access to Homebrew in 30 minutes](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab)<br/>
+Почему стоит следить за своими токенами доступа и конфигурацией билд-серверов.
+
+### UNIX
+
+[UNIX Syscalls](https://john-millikin.com/unix-syscalls)<br/>
+Обзор ABI системных вызовов в UNIX-системах.
+
 ### Miscellaneous
 
 [Подробный разбор матча по Dota 2 между OpenAI и людьми в формате 5x5](https://habr.com/company/crossover/blog/419407/)<br/>
@@ -31,3 +46,5 @@ comments: true
 
 [LVM snapshot broke between 4.14 and 4.16](https://lkml.org/lkml/2018/8/3/621)<br/>
 Линусу опять приходится объяснять, что юзерспейс ломать нельзя. Даже если вы пытались исправить баг.
+
+[Tokyo medical school admits changing results to exclude women](https://www.theguardian.com/world/2018/aug/08/tokyo-medical-school-admits-changing-results-to-exclude-women)
