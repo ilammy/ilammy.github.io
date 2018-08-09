@@ -70,3 +70,5 @@ Side-by-side сравнение представителей семейств я
 [I’m Tomu, a tiny ARM microprocessor which fits in your USB port](https://tomu.im)
 
 [Laziness Does Not Exist](https://medium.com/@dr_eprice/laziness-does-not-exist-3af27e312d01) (but unseen barriers do)
+
+[Magic Leap One AR headset is out now for $2,295, but only in six specific cities](https://www.cnet.com/google-amp/news/magic-leap-one-ar-headset-is-now-out-for-2295-but-only-in-six-specific-cities/)
