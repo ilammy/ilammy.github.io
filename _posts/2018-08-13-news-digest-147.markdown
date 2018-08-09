@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #147"
 date:     2018-08-13 12:00:00 +0300
-tags:     digest internet plt security unix misc
+tags:     digest cpp internet linux plt security unix misc
 comments: true
 ---
 
@@ -14,6 +14,16 @@ comments: true
 ### Internet
 
 [Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
+
+### Linux
+
+[Darling](http://www.darlinghq.org)<br/>
+Интересная идея: cлой эмуляции macOS для Linux. Пока без GUI.<br/>
+<span style="color: gray">(И название клёвое.)</span>
+
+[A timesyncd total failure and systemd's complete lack of debugability](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdTimesyncdFailure)<br/>
+[Systemd's `DynamicUser` feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)<br/>
+Make what you want out of this.
 
 ### Programming Languages
 
@@ -30,6 +40,9 @@ comments: true
 Не особо взлетевший Dart (вне Google) хотят перезагрузить.
 
 [Sadly, I must say goodbye to Leaf](https://mortoray.com/2018/08/07/sadly-i-must-say-goodbye-to-leaf-my-programming-language/)
+
+[Hyperpolyglot](http://hyperpolyglot.org)<br/>
+Side-by-side сравнение представителей семейств языков.
 
 ### Security
 
@@ -53,3 +66,5 @@ comments: true
 Линусу опять приходится объяснять, что юзерспейс ломать нельзя. Даже если вы пытались исправить баг.
 
 [Tokyo medical school admits changing results to exclude women](https://www.theguardian.com/world/2018/aug/08/tokyo-medical-school-admits-changing-results-to-exclude-women)
+
+[I’m Tomu, a tiny ARM microprocessor which fits in your USB port](https://tomu.im)
