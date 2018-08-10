@@ -42,6 +42,9 @@ comments: true
 [Hyperpolyglot](http://hyperpolyglot.org)<br/>
 Side-by-side сравнение представителей семейств языков.
 
+[Julia 1.0](https://julialang.org/blog/2018/08/one-point-zero)<br/>
+Этот «компилируемый Matlab» выпустил стабильную версию.
+
 [Sadly, I must say goodbye to Leaf](https://mortoray.com/2018/08/07/sadly-i-must-say-goodbye-to-leaf-my-programming-language/)
 
 ### Security
@@ -56,6 +59,9 @@ Side-by-side сравнение представителей семейств я
 
 [UNIX Syscalls](https://john-millikin.com/unix-syscalls)<br/>
 Обзор ABI системных вызовов в UNIX-системах.
+
+[pure bash bible](https://github.com/dylanaraps/pure-bash-bible)<br/>
+Когда хочется ввернуть что-нибудь этакое в скриптах.
 
 ### Miscellaneous
 
