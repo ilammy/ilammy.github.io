@@ -26,7 +26,7 @@ comments: true
 Он, конечно, немного белочка-истеричка, но показывает, что иногда баги бывают сложными.
 
 [We’re ending support for Dropbox syncing to drives with certain uncommon file systems](https://www.dropboxforum.com/t5/Syncing-and-uploads/Linux-Dropbox-client-warn-me-that-it-ll-stop-syncing-in-Nov-why/m-p/290065/highlight/true#M42255)<br/>
-А именно: только NTFS, HFS+, APFS, ext4.
+А именно: только NTFS, HFS+, APFS, ext4. Ага, _без_ XFS — файловой системы по умолчанию в Red Hat семействе.
 
 ### Programming Languages
 
