@@ -65,6 +65,9 @@ Side-by-side сравнение представителей семейств я
 
 ### Miscellaneous
 
+[We’re ending support for Dropbox syncing to drives with certain uncommon file systems](https://www.dropboxforum.com/t5/Syncing-and-uploads/Linux-Dropbox-client-warn-me-that-it-ll-stop-syncing-in-Nov-why/m-p/290065/highlight/true#M42255)<br/>
+А именно: только NTFS, HFS+, APS, ext4.
+
 [Подробный разбор матча по Dota 2 между OpenAI и людьми в формате 5x5](https://habr.com/company/crossover/blog/419407/)<br/>
 Люди проиграли в очередную игру.
 
