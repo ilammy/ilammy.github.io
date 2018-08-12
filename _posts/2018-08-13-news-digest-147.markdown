@@ -2,9 +2,12 @@
 layout:   post
 title:    "News digest #147"
 date:     2018-08-13 12:00:00 +0300
-tags:     digest cpp internet linux plt security unix misc
+tags:     digest blockchain cpp internet linux plt security unix misc
 comments: true
 ---
+
+### Blockchain
+
 
 ### C++
 
@@ -14,6 +17,9 @@ comments: true
 ### Internet
 
 [Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
+
+[RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://tools.ietf.org/html/rfc8446)<br/>
+Почти-почти принят стандарт, он уже на финальной стадии.
 
 ### Linux
 
@@ -81,3 +87,8 @@ Side-by-side сравнение представителей семейств я
 [Laziness Does Not Exist](https://medium.com/@dr_eprice/laziness-does-not-exist-3af27e312d01) (but unseen barriers do)
 
 [Magic Leap One AR headset is out now for $2,295, but only in six specific cities](https://www.cnet.com/google-amp/news/magic-leap-one-ar-headset-is-now-out-for-2295-but-only-in-six-specific-cities/)
+
+[Vitalik’s new Consensus Algorithm to make 51% attack obsolete, requires 99% nodes for attack](https://blockmanity.com/news/ethereum/vitaliks-new-consensus-algorithm-make-51-attack-obsolete-requires-99-nodes-attack/)<br/>
+[A Guide to 99% Fault Tolerant Consensus](https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html)<br/>
+Мне нравится как красиво здесь «учёный изнасиловал журналиста». Сравните содержимое поста Виталика и статьи Ишана. И так со многими темами, связанными с блокчейном...<br/>
+On a side note, Лесли Лемпорт — это _тот самый,_ который придумал LaTeX.
