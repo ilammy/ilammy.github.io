@@ -1,0 +1,94 @@
+---
+layout:   post
+title:    "News digest #147"
+date:     2018-08-13 12:00:00 +0300
+tags:     digest blockchain cpp internet linux plt security unix misc
+comments: true
+---
+
+### Blockchain
+
+
+### C++
+
+[Реализация оператора in в С++](https://habr.com/post/419579/)<br/>
+Ещё один трюк с препроцессором в вашу копилку.
+
+### Internet
+
+[Let's Encrypt Root Trusted By All Major Root Programs](https://letsencrypt.org/2018/08/06/trusted-by-all-major-root-programs.html) :tada:
+
+[RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3](https://tools.ietf.org/html/rfc8446)<br/>
+Почти-почти принят стандарт, он уже на финальной стадии.
+
+### Linux
+
+[Darling](http://www.darlinghq.org)<br/>
+Интересная идея: cлой эмуляции macOS для Linux. Пока без GUI.<br/>
+<span style="color: gray">(И название клёвое.)</span>
+
+[A timesyncd total failure and systemd's complete lack of debugability](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdTimesyncdFailure)<br/>
+[Systemd's `DynamicUser` feature is (currently) dangerous](https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdDynamicUserDangerous)<br/>
+Он, конечно, немного белочка-истеричка, но показывает, что иногда баги бывают сложными.
+
+[We’re ending support for Dropbox syncing to drives with certain uncommon file systems](https://www.dropboxforum.com/t5/Syncing-and-uploads/Linux-Dropbox-client-warn-me-that-it-ll-stop-syncing-in-Nov-why/m-p/290065/highlight/true#M42255)<br/>
+А именно: только NTFS, HFS+, APFS, ext4. Ага, _без_ XFS — файловой системы по умолчанию в Red Hat семействе.
+
+### Programming Languages
+
+[Inko Programming Language](https://inko-lang.org)<br/>
+<3 gradual typing, может быть референсом в реализации.
+
+[Dora: Implementing a JIT-compiler with Rust](https://dinfuehr.github.io/blog/dora-implementing-a-jit-compiler-with-rust/)<br/>
+И ещё один JIT-компилятор.
+
+[A Couple of Meta-interpreters in Prolog](https://www.metalevel.at/acomip/)<br/>
+Метаинтерпретаторы — хорошая замена hello world для выразительных языков.
+
+[Announcing Dart 2: Optimized for Client-Side Development](https://medium.com/dartlang/announcing-dart-2-80ba01f43b6)<br/>
+Не особо взлетевший Dart (вне Google) хотят перезагрузить.
+
+[Hyperpolyglot](http://hyperpolyglot.org)<br/>
+Side-by-side сравнение представителей семейств языков.
+
+[Julia 1.0](https://julialang.org/blog/2018/08/one-point-zero)<br/>
+Этот «компилируемый Matlab» выпустил стабильную версию.
+
+[Sadly, I must say goodbye to Leaf](https://mortoray.com/2018/08/07/sadly-i-must-say-goodbye-to-leaf-my-programming-language/)
+
+### Security
+
+[The Beginning of the End of WPA-2 — Cracking WPA-2 Just Got a Whole Lot Easier](https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a)<br/>
+В WPA2-PSK недавно нашли очередную проблему, но это вряд ли затронет потребительский сегмент.
+
+[How I gained commit access to Homebrew in 30 minutes](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab)<br/>
+Почему стоит следить за своими токенами доступа и конфигурацией билд-серверов.
+
+### UNIX
+
+[UNIX Syscalls](https://john-millikin.com/unix-syscalls)<br/>
+Обзор ABI системных вызовов в UNIX-системах.
+
+[pure bash bible](https://github.com/dylanaraps/pure-bash-bible)<br/>
+Когда хочется ввернуть что-нибудь этакое в скриптах.
+
+### Miscellaneous
+
+[Подробный разбор матча по Dota 2 между OpenAI и людьми в формате 5x5](https://habr.com/company/crossover/blog/419407/)<br/>
+Люди проиграли в очередную игру.
+
+[LVM snapshot broke between 4.14 and 4.16](https://lkml.org/lkml/2018/8/3/621)<br/>
+Линусу опять приходится объяснять, что юзерспейс ломать нельзя. Даже если вы пытались исправить баг.
+
+[Tokyo medical school admits changing results to exclude women](https://www.theguardian.com/world/2018/aug/08/tokyo-medical-school-admits-changing-results-to-exclude-women)
+
+[I’m Tomu, a tiny ARM microprocessor which fits in your USB port](https://tomu.im)
+
+[Laziness Does Not Exist](https://medium.com/@dr_eprice/laziness-does-not-exist-3af27e312d01) (but unseen barriers do)
+
+[Magic Leap One AR headset is out now for $2,295, but only in six specific cities](https://www.cnet.com/google-amp/news/magic-leap-one-ar-headset-is-now-out-for-2295-but-only-in-six-specific-cities/)
+
+[Vitalik’s new Consensus Algorithm to make 51% attack obsolete, requires 99% nodes for attack](https://blockmanity.com/news/ethereum/vitaliks-new-consensus-algorithm-make-51-attack-obsolete-requires-99-nodes-attack/)<br/>
+[A Guide to 99% Fault Tolerant Consensus](https://vitalik.ca/general/2018/08/07/99_fault_tolerant.html)<br/>
+Мне нравится как красиво здесь «учёный изнасиловал журналиста». Сравните содержимое поста Виталика и статьи Ишана. И так со многими темами, связанными с блокчейном...<br/>
+On a side note, Лесли Лемпорт — это _тот самый,_ который придумал LaTeX.
