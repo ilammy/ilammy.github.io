@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #148"
 date:     2018-08-20 12:00:00 +0300
-tags:     digest cpp linux security misc
+tags:     digest cpp dev linux security misc
 comments: true
 ---
 
@@ -10,15 +10,29 @@ comments: true
 
 [Qt обертка вокруг фреймворка gRPC в C++](https://habr.com/post/420237/)
 
+### Development
+
+[24-core CPU and I can’t type an email (part one)](https://randomascii.wordpress.com/2018/08/16/24-core-cpu-and-i-cant-type-an-email-part-one/)<br/>
+Баги с производительностью всегда весёлые.
+
 ### Linux
 
 [Пошаговая инструкция по восстановлению доступа к Linux Amazon EC2 инстансу при потере pem-файла](https://habr.com/post/420297/)<br/>
 В закладки, вдруг пригодится.
 
+[Tiny Wayland compositor](https://gist.github.com/SirCmpwn/ae4d1cdcca97ffeb2c35f0878d75dc17)<br/>
+Минимальный пример композитора (оконного менеджера) для Wayland.
+
+[The TTY demystified](https://www.linusakesson.net/programming/tty/)<br/>
+Обзор подсистемы терминалов.
+
 ### Security
 
 [Foreshadow](https://foreshadowattack.eu) [(хабр)](https://habr.com/company/crossover/blog/420291/)<br/>
 Ожидаемо, нашли ещё одну проблему с out-of-order execution в процессорах.
+
+[On exploiting the jemalloc memory manager](http://phrack.com/issues/68/10.html#article)<br/>
+Какие дырки могут быть в аллокаторе памяти. Конкретно этот используется в Rust и Firefox.
 
 ### Miscellaneous
 
