@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #148"
 date:     2018-08-20 12:00:00 +0300
-tags:     digest cpp dev linux security misc
+tags:     digest cpp dev linux plt security misc
 comments: true
 ---
 
@@ -15,6 +15,12 @@ comments: true
 [24-core CPU and I can’t type an email (part one)](https://randomascii.wordpress.com/2018/08/16/24-core-cpu-and-i-cant-type-an-email-part-one/)<br/>
 Баги с производительностью всегда весёлые.
 
+### Programming Languages
+
+[GoAWK: an AWK interpreter written in Go](https://github.com/benhoyt/goawk)
+
+[Think Julia: How to Think Like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+
 ### Linux
 
 [Пошаговая инструкция по восстановлению доступа к Linux Amazon EC2 инстансу при потере pem-файла](https://habr.com/post/420297/)<br/>
@@ -25,6 +31,9 @@ comments: true
 
 [The TTY demystified](https://www.linusakesson.net/programming/tty/)<br/>
 Обзор подсистемы терминалов.
+
+[Myths about /dev/urandom](https://www.2uo.de/myths-about-urandom)<br/>
+Обзор подсистемы случайных чисел.
 
 ### Security
 
@@ -38,3 +47,6 @@ comments: true
 
 [Bryan Cantrill: The Summer of Rust](https://www.youtube.com/watch?v=LjFM8vw3pbU)<br/>
 У Брайана есть ещё [много](https://www.youtube.com/watch?v=9QMGAtxUlAc) [других](https://www.youtube.com/watch?v=30jNsCVLpAE&) [клёвых](https://www.youtube.com/watch?v=fE2KDzZaxvE) [докладов](https://www.youtube.com/watch?v=7AO4wz6gI3Q) об отладке.
+
+[Favioli](https://eligrey.com/blog/favioli/)<br/>
+Забавная мелкая идея и интересная реализация.
