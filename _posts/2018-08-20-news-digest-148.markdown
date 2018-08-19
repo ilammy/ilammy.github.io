@@ -23,6 +23,8 @@ comments: true
 
 ### Linux
 
+[Debian — 25 лет (и будет больше!)](https://bits.debian.org/2018/08/debian-is-25-ru.html)
+
 [Пошаговая инструкция по восстановлению доступа к Linux Amazon EC2 инстансу при потере pem-файла](https://habr.com/post/420297/)<br/>
 В закладки, вдруг пригодится.
 
@@ -50,3 +52,6 @@ comments: true
 
 [Favioli](https://eligrey.com/blog/favioli/)<br/>
 Забавная мелкая идея и интересная реализация.
+
+[I thought go doesn't have generics](https://www.reddit.com/r/rust/comments/5penft/parallelizing_enjarify_in_go_and_rust/dcsgk7n/)<br/>
+[(Продолжение банкета.)](https://github.com/reinderien/mimic)
