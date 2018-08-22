@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #149"
 date:     2018-08-27 12:00:00 +0300
-tags:     digest cpp dev windows pol
+tags:     digest cpp dev rust windows pol
 comments: true
 ---
 
@@ -16,6 +16,17 @@ comments: true
 [Обзор техник реализации игрового ИИ](https://habr.com/post/420219/)<br/>
 Вот как раз для такого нуба, как я, ага.
 
+[Wargames](https://github.com/belzebalex/wargames)<br/>
+Ещё немного простеньких экспериментов с ИИ.
+
+### Rust
+
+[Never patterns, exhaustive matching, and uninhabited types (oh my!)](http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/)<br/>
+Об истинно `void` типах. (Я даже не знал, что так _вообще_ можно.)
+
+[How to alleviate the pain of Rust compile times](https://vfoley.xyz/rust-compile-speed-tips/)<br/>
+Капитан Очевидность даёт советы.
+
 ### Windows
 
 [Встречайте псевдоконсоль Windows (ConPTY)](https://habr.com/post/420853/)<br/>
@@ -24,3 +35,5 @@ comments: true
 ### Политота
 
 [В Египте ввели штрафы за посещение заблокированных сайтов](https://habr.com/post/420699/)
+
+[Indo-Pakistani Naval War of 1971](https://en.wikipedia.org/wiki/Indo-Pakistani_Naval_War_of_1971)
