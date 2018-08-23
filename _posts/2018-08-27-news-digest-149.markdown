@@ -11,6 +11,9 @@ comments: true
 [С — не низкоуровневый язык](https://habr.com/company/badoo/blog/420407/)<br/>
 Ради срача в комментариях.
 
+[Measuring multiple return values in Go and C++](https://science.raphael.poss.name/measuring-multiple-return-values-in-go-and-cpp.html)<br/>
+Quality post.
+
 ### Development
 
 [Обзор техник реализации игрового ИИ](https://habr.com/post/420219/)<br/>
@@ -18,6 +21,14 @@ comments: true
 
 [Wargames](https://github.com/belzebalex/wargames)<br/>
 Ещё немного простеньких экспериментов с ИИ.
+
+[24-core CPU and I can’t type an email (part two)](https://randomascii.wordpress.com/2018/08/22/24-core-cpu-and-i-cant-type-an-email-part-two/)<br/>
+Продолжение истории с control flow guard и случайными просадками производительности.
+
+### Java
+
+[Пишем Java-френдли Kotlin-код](https://habr.com/company/jugru/blog/417951/)<br/>
+Длиннопост. Я не читал, просто добавил в закладки.
 
 ### Rust
 
@@ -32,8 +43,17 @@ comments: true
 [Встречайте псевдоконсоль Windows (ConPTY)](https://habr.com/post/420853/)<br/>
 На наших глазах свершается чудо: Windows превращается в Linux.
 
+[ValveSoftware/Proton](https://github.com/ValveSoftware/Proton)<br/>
+Compatibility tool for Steam Play based on Wine and additional components.
+
+### Miscellaneous
+
+[Windows 95 in Electron. Runs on macOS, Linux, and Windows](https://github.com/felixrieseberg/windows95)
+
 ### Политота
 
 [В Египте ввели штрафы за посещение заблокированных сайтов](https://habr.com/post/420699/)
+
+[Под новый законопроект \[в РФ\] о досудебной блокировке могут попасть 19 млн сайтов](https://habr.com/post/421095/)
 
 [Indo-Pakistani Naval War of 1971](https://en.wikipedia.org/wiki/Indo-Pakistani_Naval_War_of_1971)
