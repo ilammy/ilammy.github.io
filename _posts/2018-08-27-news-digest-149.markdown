@@ -25,6 +25,8 @@ Quality post.
 [24-core CPU and I can’t type an email (part two)](https://randomascii.wordpress.com/2018/08/22/24-core-cpu-and-i-cant-type-an-email-part-two/)<br/>
 Продолжение истории с control flow guard и случайными просадками производительности.
 
+[A Hitchhiker's Guide to OpenGL](https://github.com/bartvbl/A-Hitchhikers-Guide-to-OpenGL)
+
 ### Java
 
 [Пишем Java-френдли Kotlin-код](https://habr.com/company/jugru/blog/417951/)<br/>
