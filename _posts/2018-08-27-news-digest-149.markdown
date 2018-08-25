@@ -27,6 +27,9 @@ Quality post.
 
 [A Hitchhiker's Guide to OpenGL](https://github.com/bartvbl/A-Hitchhikers-Guide-to-OpenGL)
 
+[Build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)<br/>
+Уже что-то такое когда-то вроде бы было, но вот ещё списочек руководств по велосипедостроению.
+
 ### Java
 
 [Пишем Java-френдли Kotlin-код](https://habr.com/company/jugru/blog/417951/)<br/>
@@ -57,5 +60,7 @@ Compatibility tool for Steam Play based on Wine and additional components.
 [В Египте ввели штрафы за посещение заблокированных сайтов](https://habr.com/post/420699/)
 
 [Под новый законопроект \[в РФ\] о досудебной блокировке могут попасть 19 млн сайтов](https://habr.com/post/421095/)
+
+[Центробанк просит полномочий для досудебной блокировки вредоносных сайтов](https://habr.com/post/421241/)
 
 [Indo-Pakistani Naval War of 1971](https://en.wikipedia.org/wiki/Indo-Pakistani_Naval_War_of_1971)
