@@ -61,6 +61,6 @@ Compatibility tool for Steam Play based on Wine and additional components.
 
 [Под новый законопроект \[в РФ\] о досудебной блокировке могут попасть 19 млн сайтов](https://habr.com/post/421095/)
 
-[Центробанк просит полномочий для досудебной блокировки вредоносных сайтов](https://habr.com/post/421241/)
+[Центробанк \[РФ\] просит полномочий для досудебной блокировки вредоносных сайтов](https://habr.com/post/421241/)
 
 [Indo-Pakistani Naval War of 1971](https://en.wikipedia.org/wiki/Indo-Pakistani_Naval_War_of_1971)
