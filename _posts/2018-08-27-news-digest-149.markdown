@@ -1,0 +1,69 @@
+---
+layout:   post
+title:    "News digest #149"
+date:     2018-08-27 12:00:00 +0300
+tags:     digest cpp dev java rust windows misc pol
+comments: true
+---
+
+### C++
+
+[С — не низкоуровневый язык](https://habr.com/company/badoo/blog/420407/)<br/>
+Ради срача в комментариях.
+
+[Measuring multiple return values in Go and C++](https://science.raphael.poss.name/measuring-multiple-return-values-in-go-and-cpp.html)<br/>
+Quality post.
+
+### Development
+
+[Обзор техник реализации игрового ИИ](https://habr.com/post/420219/)<br/>
+Вот как раз для такого нуба, как я, ага.
+
+[Wargames](https://github.com/belzebalex/wargames)<br/>
+Ещё немного простеньких экспериментов с ИИ.
+
+[24-core CPU and I can’t type an email (part two)](https://randomascii.wordpress.com/2018/08/22/24-core-cpu-and-i-cant-type-an-email-part-two/)<br/>
+Продолжение истории с control flow guard и случайными просадками производительности.
+
+[A Hitchhiker's Guide to OpenGL](https://github.com/bartvbl/A-Hitchhikers-Guide-to-OpenGL)
+
+[Build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)<br/>
+Уже что-то такое когда-то вроде бы было, но вот ещё списочек руководств по велосипедостроению.
+
+### Java
+
+[Пишем Java-френдли Kotlin-код](https://habr.com/company/jugru/blog/417951/)<br/>
+Длиннопост. Я не читал, просто добавил в закладки.
+
+### Rust
+
+[Never patterns, exhaustive matching, and uninhabited types (oh my!)](http://smallcultfollowing.com/babysteps/blog/2018/08/13/never-patterns-exhaustive-matching-and-uninhabited-types-oh-my/)<br/>
+Об истинно `void` типах. (Я даже не знал, что так _вообще_ можно.)
+
+[How to alleviate the pain of Rust compile times](https://vfoley.xyz/rust-compile-speed-tips/)<br/>
+Капитан Очевидность даёт советы.
+
+### Windows
+
+[Встречайте псевдоконсоль Windows (ConPTY)](https://habr.com/post/420853/)<br/>
+На наших глазах свершается чудо: Windows превращается в Linux.
+
+[ValveSoftware/Proton](https://github.com/ValveSoftware/Proton)<br/>
+Compatibility tool for Steam Play based on Wine and additional components.
+
+### Miscellaneous
+
+[Windows 95 in Electron. Runs on macOS, Linux, and Windows](https://github.com/felixrieseberg/windows95)
+
+[A former Tesla employee, who worked on their IT infrastructure, is posting in a subforum of a subforum, a little-known place for funy computer forgotten by time. His NDA has expired](https://twitter.com/atomicthumbs/status/1032939617404645376)<br/>
+Немного прохладных историй про сесурити машин Tesla.
+
+### Политота
+
+[В Египте ввели штрафы за посещение заблокированных сайтов](https://habr.com/post/420699/)
+
+[Под новый законопроект \[в РФ\] о досудебной блокировке могут попасть 19 млн сайтов](https://habr.com/post/421095/)
+
+[Центробанк \[РФ\] просит полномочий для досудебной блокировки вредоносных сайтов](https://habr.com/post/421241/)
+
+[Indo-Pakistani Naval War of 1971](https://en.wikipedia.org/wiki/Indo-Pakistani_Naval_War_of_1971)
