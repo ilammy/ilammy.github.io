@@ -2,6 +2,11 @@
 layout:   post
 title:    "News digest #150"
 date:     2018-09-03 12:00:00 +0300
-tags:     digest
+tags:     digest lisp
 comments: true
 ---
+
+### Lisp
+
+[A Road to Common Lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)<br/>
+С чего начинать изучать CL.
