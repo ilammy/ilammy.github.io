@@ -55,6 +55,9 @@ Compatibility tool for Steam Play based on Wine and additional components.
 
 [Windows 95 in Electron. Runs on macOS, Linux, and Windows](https://github.com/felixrieseberg/windows95)
 
+[A former Tesla employee, who worked on their IT infrastructure, is posting in a subforum of a subforum, a little-known place for funy computer forgotten by time. His NDA has expired](https://twitter.com/atomicthumbs/status/1032939617404645376)<br/>
+Немного прохладных историй про сесурити машин Tesla.
+
 ### Политота
 
 [В Египте ввели штрафы за посещение заблокированных сайтов](https://habr.com/post/420699/)
