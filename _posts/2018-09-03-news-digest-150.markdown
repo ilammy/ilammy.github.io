@@ -6,6 +6,10 @@ tags:     digest lisp
 comments: true
 ---
 
+### Development
+
+[Как я научил ИИ играть в Tetris для NES. Часть 2: ИИ](https://habr.com/post/421065/)
+
 ### Lisp
 
 [A Road to Common Lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)<br/>
