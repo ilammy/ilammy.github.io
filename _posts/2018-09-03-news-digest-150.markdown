@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #150"
 date:     2018-09-03 12:00:00 +0300
-tags:     digest lisp
+tags:     digest dev lisp misc
 comments: true
 ---
 
@@ -10,7 +10,16 @@ comments: true
 
 [Как я научил ИИ играть в Tetris для NES. Часть 2: ИИ](https://habr.com/post/421065/)
 
+[Quake 3 Source Code Review](http://fabiensanglard.net/quake3/)<br/>
+Я уже когда-то давал эту ссылочку, время почитать ещё раз о том, как устроен Quake 3.<br/>
+Вот [виртуальная машина](https://github.com/jnz/q3vm) из этой игры отдельно.
+
 ### Lisp
 
 [A Road to Common Lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)<br/>
 С чего начинать изучать CL.
+
+### Miscellaneous
+
+[GOD MODE UNLOCKED - Hardware Backdoors in x86 CPUs](https://www.youtube.com/watch?v=_eSAF_qT_FY)<br/>
+Этот чувак опять показывает крышесносные вещи на Black Hat.
