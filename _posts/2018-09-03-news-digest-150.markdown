@@ -24,6 +24,6 @@ comments: true
 [GOD MODE UNLOCKED - Hardware Backdoors in x86 CPUs](https://www.youtube.com/watch?v=_eSAF_qT_FY)<br/>
 Этот чувак опять показывает крышесносные вещи на Black Hat.
 
-[Higgins time](https://github.com/eggert/tz/blob/da31293a319ba5227342e236bcdadaf5d288e1f3/asia#L2940)<br/>
+[Higgins time](https://github.com/eggert/tz/commit/da31293a319ba5227342e236bcdadaf5d288e1f3)<br/>
 Вы всё ещё думаете, что таймзоны это просто? Почитайте вот эту свежую историю от мейнтейнера tzdata об исчислении времени в Саудовской Аравии.<br/>
 (Там в комментариях вообще очень много таких клёвых историй.)
