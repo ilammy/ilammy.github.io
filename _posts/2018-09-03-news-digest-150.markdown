@@ -1,0 +1,55 @@
+---
+layout:   post
+title:    "News digest #150"
+date:     2018-09-03 12:00:00 +0300
+tags:     digest dev lisp unix web misc
+comments: true
+---
+
+### C++
+
+[An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)<br/>
+Ещё попытка написать руководство по CMake.
+
+### Development
+
+[Как я научил ИИ играть в Tetris для NES. Часть 2: ИИ](https://habr.com/post/421065/)
+
+[Quake 3 Source Code Review](http://fabiensanglard.net/quake3/)<br/>
+Я уже когда-то давал эту ссылочку, время почитать ещё раз о том, как устроен Quake 3.<br/>
+Вот [виртуальная машина](https://github.com/jnz/q3vm) из этой игры отдельно.
+
+[Allocator Wrestling](https://about.sourcegraph.com/go/gophercon-2018-allocator-wrestling/)<br/>
+Как работает сборщик мусора в Go. Если заинтересовала тема, то _The Garbage Collection Handbook_ будет вашей следующей остановкой.
+
+[aergoio/litetree](https://github.com/aergoio/litetree)<br/>
+SQLite с ветками. У разработчика, конечно, блокчейн-хайп выкручен на полную катушку, но идея с БД интересная. Особенно, если у них получится реализовать мердж веток.
+
+### Lisp
+
+[A Road to Common Lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/)<br/>
+С чего начинать изучать CL.
+
+### Unix
+
+[Beej's Quick Guide to GDB](https://beej.us/guide/bggdb/)
+
+[SCI and 62;c62;c62;c...](https://www.polydesmida.info/BASHing/2018-08-25.html)<br/>
+О мистическом взаимодействии терминалов и Юникода. Вообще интересно почитать записки этого техномага.
+
+### Web
+
+[Changing Our Approach to Anti-tracking](https://blog.mozilla.org/futurereleases/2018/08/30/changing-our-approach-to-anti-tracking/)<br/>
+Mozilla обещает включить защиту от межсайтового отслеживания по умолчанию в Firefox.
+
+### Miscellaneous
+
+[GOD MODE UNLOCKED - Hardware Backdoors in x86 CPUs](https://www.youtube.com/watch?v=_eSAF_qT_FY)<br/>
+Этот чувак опять показывает крышесносные вещи на Black Hat.
+
+[Higgins time](https://github.com/eggert/tz/commit/da31293a319ba5227342e236bcdadaf5d288e1f3)<br/>
+Вы всё ещё думаете, что часовые пояса это просто? Почитайте вот эту свежую историю от мейнтейнера tzdata об исчислении времени в Саудовской Аравии.<br/>
+(Там в комментариях вообще очень много таких клёвых историй.)
+
+[Things of Interest: Today in Time...](https://qntm.org/time)<br/>
+Ещё в этом блоге есть несколько интересных постов с разбором приколов с часами и временем как в реальном мире, так и нескольких художественных произведениях.
