@@ -6,6 +6,11 @@ tags:     digest dev lisp unix web misc
 comments: true
 ---
 
+### C++
+
+[An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)<br/>
+Ещё попытка написать руководство по CMake.
+
 ### Development
 
 [Как я научил ИИ играть в Tetris для NES. Часть 2: ИИ](https://habr.com/post/421065/)
