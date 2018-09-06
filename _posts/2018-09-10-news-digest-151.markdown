@@ -1,0 +1,7 @@
+---
+layout:   post
+title:    "News digest #151"
+date:     2018-09-10 12:00:00 +0300
+tags:     digest
+comments: true
+---
