@@ -2,6 +2,39 @@
 layout:   post
 title:    "News digest #151"
 date:     2018-09-10 12:00:00 +0300
-tags:     digest
+tags:     digest dev plt security web misc
 comments: true
 ---
+
+### Development
+
+[Рецепт полезного код-ревью от разработчика из Яндекса](https://habr.com/company/yandex/blog/422143/)<br/>
+[Процесс ревью кода в hh.ru](https://habr.com/company/hh/blog/422399/)<br/>
+На Хабре неделя ревью.
+
+### Programming Languages
+
+[How the Go runtime implements maps efficiently (without generics)](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)
+
+[How LLVM Optimizes a Function](https://blog.regehr.org/archives/1603)
+
+### Security
+
+[Удалённое выполнение кода через загрузку картинок на вашем сервере или локальном компьютере в ghostscript/imagick](https://habr.com/post/422351/)<br/>
+Это не первая дырка в ImageMagick. PostScript — это очень гибкий язык.
+
+### Web
+
+[Distrust of Symantec TLS Certificates](https://blog.mozilla.org/security/2018/03/12/distrust-symantec-tls-certificates/)<br/>
+Близится октябрь. Mozilla обещала перестать доверять сертификатам Symantec (включая другие торговые марки, которые им принадлежат: GeoTrust, RapidSSL, Thawte, VeriSign).
+
+[Яндекс запустил облако](https://habr.com/company/poiskvps/blog/422337/)<br/>
+Тем временем правительство РФ блокирует облачные компании других стран. Совпадение?
+
+### Miscellaneous
+
+[I know it's ridiculous, but I just made a regex in PCRE to match "A B C" where A+B=C](https://regex101.com/r/YCTmCs/3)<br/>
+Компилятор в регэкспы when?
+
+[The Tools I Use To Write Books](https://thorstenball.com/blog/2018/09/04/the-tools-i-use-to-write-books/)<br/>
+Последний совет — самый важный
