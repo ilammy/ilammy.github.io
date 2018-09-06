@@ -37,4 +37,7 @@ comments: true
 Компилятор в регэкспы when?
 
 [The Tools I Use To Write Books](https://thorstenball.com/blog/2018/09/04/the-tools-i-use-to-write-books/)<br/>
-Последний совет — самый важный
+Последний совет — самый важный.
+
+[Survival Tips For Women In Tech](https://patricia.no/2018/09/06/survival_tips_for_women_in_tech.html)<br/>
+Советы в равной степени применимы и противоположным полом, на самом деле.
