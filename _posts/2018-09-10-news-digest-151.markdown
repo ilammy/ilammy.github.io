@@ -18,6 +18,9 @@ comments: true
 
 [How LLVM Optimizes a Function](https://blog.regehr.org/archives/1603)
 
+[Adding peephole optimization to GCC](https://medium.com/@prathamesh1615/adding-peephole-optimization-to-gcc-89c329dd27b3)<br/>
+Немного взглянуть под капот gcc.
+
 ### Security
 
 [Удалённое выполнение кода через загрузку картинок на вашем сервере или локальном компьютере в ghostscript/imagick](https://habr.com/post/422351/)<br/>
@@ -33,8 +36,8 @@ comments: true
 
 ### Miscellaneous
 
-[I know it's ridiculous, but I just made a regex in PCRE to match "A B C" where A+B=C](https://regex101.com/r/YCTmCs/3)<br/>
-Компилятор в регэкспы when?
+[I know it's ridiculous, but I just made a regex in PCRE to match "A B C" where A+B=C](https://regex101.com/r/YCTmCs/3) [(reddit)](https://www.reddit.com/r/programming/comments/9d768u/i_know_its_ridiculous_but_i_just_made_a_regex_in/)<br/>
+Компилятор в регэкспы when? Вот [объяснение](http://www.drregex.com/2018/09/a-regex-i-submitted-to-reddit-climbed.html) от автора, как это работает.
 
 [The Tools I Use To Write Books](https://thorstenball.com/blog/2018/09/04/the-tools-i-use-to-write-books/)<br/>
 Последний совет — самый важный.
