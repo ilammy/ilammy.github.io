@@ -14,6 +14,9 @@ comments: true
 
 ### Programming Languages
 
+[Обработка ошибок в Go 2](https://habr.com/post/422049/)<br/>
+И традиционный срач в комментариях тоже можно почитать.
+
 [How the Go runtime implements maps efficiently (without generics)](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)
 
 [How LLVM Optimizes a Function](https://blog.regehr.org/archives/1603)
