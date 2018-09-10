@@ -1,0 +1,67 @@
+---
+layout:   post
+title:    "News digest #151"
+date:     2018-09-10 12:00:00 +0300
+tags:     digest cpp dev plt security web misc
+comments: true
+---
+
+### C++
+
+[О сборке JDK 8 на Ubuntu, качестве кода Hotspot и почему всё валят на C++](https://habr.com/company/jugru/blog/422861/)<br/>
+О том, каких драконов скрывает в себе OpenJDK.
+
+### Development
+
+[Рецепт полезного код-ревью от разработчика из Яндекса](https://habr.com/company/yandex/blog/422143/)<br/>
+[Процесс ревью кода в hh.ru](https://habr.com/company/hh/blog/422399/)<br/>
+На Хабре неделя ревью.
+
+[Современный формат презентаций](https://habr.com/company/pt/blog/414757/)<br/>
+Лично я не всё поддерживаю, но полезные мысли о докладах тут есть.
+
+[Я не буду учить твой Garbage Query Language](https://habr.com/post/422667/)<br/>
+И вот ещё срач про ORM в комментариях. Могу также напомнить [о классическом «лонгриде»](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/) на тему «ORM — зло» (и по совместительству, о кратком обзоре Вьетнамской войны).
+
+### Programming Languages
+
+[Обработка ошибок в Go 2](https://habr.com/post/422049/)<br/>
+[Не без паники в Go](https://habr.com/post/422419/)<br/>
+Про обработку ошибок в Go. И традиционный срач в комментариях первого поста тоже можно почитать.
+
+[How the Go runtime implements maps efficiently (without generics)](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)<br/>
+Сразу вспомнилась глава про дженерики из книги Аппеля _Modern Compiler Implementation in $language_.
+
+[How LLVM Optimizes a Function](https://blog.regehr.org/archives/1603)
+
+[Adding peephole optimization to GCC](https://medium.com/@prathamesh1615/adding-peephole-optimization-to-gcc-89c329dd27b3)<br/>
+Немного взглянуть под капот gcc.
+
+### Security
+
+[Удалённое выполнение кода через загрузку картинок на вашем сервере или локальном компьютере в ghostscript/imagick](https://habr.com/post/422351/)<br/>
+Это далеко не первая дырка в ImageMagick. PostScript — это очень гибкий язык.
+
+### Web
+
+[Distrust of Symantec TLS Certificates](https://blog.mozilla.org/security/2018/03/12/distrust-symantec-tls-certificates/)<br/>
+Близится октябрь. Mozilla обещала перестать доверять сертификатам Symantec (включая другие торговые марки, которые им принадлежат: GeoTrust, RapidSSL, Thawte, VeriSign).
+
+[Яндекс запустил облако](https://habr.com/company/poiskvps/blog/422337/)<br/>
+Тем временем правительство РФ блокирует облачные компании других стран. Совпадение?
+
+[Google AMP Can Go To Hell](https://www.polemicdigital.com/google-amp-go-to-hell/)<br/>
+С одной стороны, Google получает свой walled garden. Как в некоторых странах абсолютно _без иронии_ считается, что Facebook — это и есть весь Интернет. Это плохо.<br/>
+С другой стороны, запрет на JavaScript, на много CSS, и понижение в рейтинге может вбить разум в сеошников. Или заставить их выйти в окно.<br/>
+Даже не знаю, что лучше, но хочу, чтобы вы знали об этой штуке от Google.
+
+### Miscellaneous
+
+[I know it's ridiculous, but I just made a regex in PCRE to match "A B C" where A+B=C](https://regex101.com/r/YCTmCs/3) [(reddit)](https://www.reddit.com/r/programming/comments/9d768u/i_know_its_ridiculous_but_i_just_made_a_regex_in/)<br/>
+Компилятор в регэкспы when? Вот [объяснение](http://www.drregex.com/2018/09/a-regex-i-submitted-to-reddit-climbed.html) от автора, как это работает.
+
+[The Tools I Use To Write Books](https://thorstenball.com/blog/2018/09/04/the-tools-i-use-to-write-books/)<br/>
+Последний совет — самый важный.
+
+[Survival Tips For Women In Tech](https://patricia.no/2018/09/06/survival_tips_for_women_in_tech.html)<br/>
+Советы в равной степени применимы и противоположным полом, на самом деле.
