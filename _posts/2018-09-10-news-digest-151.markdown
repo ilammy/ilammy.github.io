@@ -2,9 +2,14 @@
 layout:   post
 title:    "News digest #151"
 date:     2018-09-10 12:00:00 +0300
-tags:     digest dev plt security web misc
+tags:     digest cpp dev plt security web misc
 comments: true
 ---
+
+### C++
+
+[О сборке JDK 8 на Ubuntu, качестве кода Hotspot и почему всё валят на C++](https://habr.com/company/jugru/blog/422861/)<br/>
+О том, каких драконом скрывает в себе OpenJDK.
 
 ### Development
 
@@ -12,12 +17,21 @@ comments: true
 [Процесс ревью кода в hh.ru](https://habr.com/company/hh/blog/422399/)<br/>
 На Хабре неделя ревью.
 
+[Современный формат презентаций](https://habr.com/company/pt/blog/414757/)<br/>
+Лично я не всё поддерживаю, но полезные мысли о докладах тут есть.
+
+[Я не буду учить твой Garbage Query Language](https://habr.com/post/422667/)<br/>
+И вот ещё срач про ORM в комментариях.<br/>
+Могу также напомнить [о классическом «лонгриде»](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/) на тему «ORM — зло» (и по совместительству, о кратком обзоре Вьетнамской войны).
+
 ### Programming Languages
 
 [Обработка ошибок в Go 2](https://habr.com/post/422049/)<br/>
-И традиционный срач в комментариях тоже можно почитать.
+[Не без паники в Go](https://habr.com/post/422419/)<br/>
+Про обработку ошибок в Go. И традиционный срач в комментариях первого поста тоже можно почитать.
 
-[How the Go runtime implements maps efficiently (without generics)](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)
+[How the Go runtime implements maps efficiently (without generics)](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)<br/>
+Сразу вспомнилась глава про дженерики из книги Аппеля _Modern Compiler Implementation in $language_.
 
 [How LLVM Optimizes a Function](https://blog.regehr.org/archives/1603)
 
