@@ -9,7 +9,7 @@ comments: true
 ### C++
 
 [О сборке JDK 8 на Ubuntu, качестве кода Hotspot и почему всё валят на C++](https://habr.com/company/jugru/blog/422861/)<br/>
-О том, каких драконом скрывает в себе OpenJDK.
+О том, каких драконов скрывает в себе OpenJDK.
 
 ### Development
 
@@ -21,8 +21,7 @@ comments: true
 Лично я не всё поддерживаю, но полезные мысли о докладах тут есть.
 
 [Я не буду учить твой Garbage Query Language](https://habr.com/post/422667/)<br/>
-И вот ещё срач про ORM в комментариях.<br/>
-Могу также напомнить [о классическом «лонгриде»](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/) на тему «ORM — зло» (и по совместительству, о кратком обзоре Вьетнамской войны).
+И вот ещё срач про ORM в комментариях. Могу также напомнить [о классическом «лонгриде»](http://blogs.tedneward.com/post/the-vietnam-of-computer-science/) на тему «ORM — зло» (и по совместительству, о кратком обзоре Вьетнамской войны).
 
 ### Programming Languages
 
@@ -41,7 +40,7 @@ comments: true
 ### Security
 
 [Удалённое выполнение кода через загрузку картинок на вашем сервере или локальном компьютере в ghostscript/imagick](https://habr.com/post/422351/)<br/>
-Это не первая дырка в ImageMagick. PostScript — это очень гибкий язык.
+Это далеко не первая дырка в ImageMagick. PostScript — это очень гибкий язык.
 
 ### Web
 
