@@ -2,6 +2,37 @@
 layout:   post
 title:    "News digest #152"
 date:     2018-09-17 12:00:00 +0300
-tags:     digest
+tags:     digest cpp dev git plt misc
 comments: true
 ---
+
+Первым заголовком обычно шёл «C++», что плохо сказывалось на качестве превьюшек ссылок на посты: они почти всегда содержали одну строку «С++». Поэтому теперь я буду, наверное, писать краткое содержание первым абзацем.
+
+### C++
+
+[Quirks of C](https://gist.github.com/zneak/5ccbe684e6e56a7df8815c3486568f01)<br/>
+Немного забавных фактоидов про Си (без плюсов).
+
+### Development
+
+[Announcing Azure Pipelines with unlimited CI/CD minutes for open source](https://azure.microsoft.com/en-us/blog/announcing-azure-pipelines-with-unlimited-ci-cd-minutes-for-open-source/)<br/>
+Облачные билд-серверы от Microsoft, под все три главные платформы. И интеграцией с GitHub, естественно.
+
+### Git
+
+[Highlights from Git 2.19](https://blog.github.com/2018-09-10-highlights-from-git-2-19/)<br/>
+Свеженькое в новой версии. Лично мне часто хотелось `git grep -o` и `git range-diff`, теперь это реальность.
+
+[GitHub Pull Requests in Visual Studio Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)<br/>
+Крутая фича. Попробую ревьювить код в ней.
+
+### Programming Languages
+
+[Go, Rust and the cost of brain power](https://www.ninjadojo.com.au/blog/post/rust-and-cost-brain-power) [(reddit)](https://www.reddit.com/r/golang/comments/9evy8t/go_rust_and_the_cost_of_brain_power/)<br/>
+Вот чем с одной стороны хороши «простые» языки типа Go и Java: в них сравнительно сложно упороться _элегантностью_ типов, кода, архитектуры, использования ресурсов — всем тем, что часто само по себе является вознаграждением творцу в программистах. Единственное, чем вознаградит тебя программа на Java — это решённой задачей.
+
+### Miscellaneous
+
+[libcurl gets a URL API](https://daniel.haxx.se/blog/2018/09/09/libcurl-gets-a-url-api/) (курлык)
+
+[MS Paint IDE](https://ms-paint-i.de/)
