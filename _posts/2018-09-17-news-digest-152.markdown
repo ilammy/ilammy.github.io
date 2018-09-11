@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #152"
 date:     2018-09-17 12:00:00 +0300
-tags:     digest cpp dev git plt misc
+tags:     digest cpp dev git java plt misc
 comments: true
 ---
 
@@ -25,6 +25,11 @@ comments: true
 
 [GitHub Pull Requests in Visual Studio Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)<br/>
 Крутая фича. Попробую ревьювить код в ней.
+
+### Java
+
+[Раздача халявы: нетормозящие треды в Java. Project Loom](https://habr.com/company/jugru/blog/422519/)<br/>
+Я понял где-то две трети материала. И то, что постить автор умеет.
 
 ### Programming Languages
 
