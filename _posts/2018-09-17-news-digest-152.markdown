@@ -8,6 +8,12 @@ comments: true
 
 Первым заголовком обычно шёл «C++», что плохо сказывалось на качестве превьюшек ссылок на посты: они почти всегда содержали одну строку «С++». Поэтому теперь я буду, наверное, писать краткое содержание первым абзацем.
 
+### Apple
+
+[Apple Special Event, сентябрь 2018](https://habr.com/post/423069/)<br/>
+[Что нового показали на презентации Apple](https://habr.com/company/pochtoy/blog/423095/)<br/>
+Nothing really special.
+
 ### C++
 
 [Quirks of C](https://gist.github.com/zneak/5ccbe684e6e56a7df8815c3486568f01)<br/>
@@ -41,3 +47,6 @@ comments: true
 [libcurl gets a URL API](https://daniel.haxx.se/blog/2018/09/09/libcurl-gets-a-url-api/) (курлык)
 
 [MS Paint IDE](https://ms-paint-i.de/)
+
+[Python тоже частично отказывается от терминов master/slave](https://habr.com/post/423057/)<br/>
+Он опять выходит на связь...
