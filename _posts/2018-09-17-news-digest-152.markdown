@@ -48,5 +48,5 @@ Nothing really special.
 
 [MS Paint IDE](https://ms-paint-i.de/)
 
-[Python тоже частично отказывается от терминов master/slave](https://habr.com/post/423057/)<br/>
+[Проект Python для соблюдения политкорректности избавляется от терминов "master" и "slave"](http://www.opennet.ru/opennews/art.shtml?num=49256)<br/>
 Он опять выходит на связь...
