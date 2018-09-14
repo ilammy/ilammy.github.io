@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #152"
 date:     2018-09-17 12:00:00 +0300
-tags:     digest cpp dev git java plt misc
+tags:     digest apple cpp dev git java plt misc pol
 comments: true
 ---
 
@@ -23,6 +23,9 @@ Nothing really special.
 
 [Announcing Azure Pipelines with unlimited CI/CD minutes for open source](https://azure.microsoft.com/en-us/blog/announcing-azure-pipelines-with-unlimited-ci-cd-minutes-for-open-source/)<br/>
 Облачные билд-серверы от Microsoft, под все три главные платформы. И интеграцией с GitHub, естественно.
+
+[LOLWUT: a piece of art inside a database command](http://antirez.com/news/123)<br/>
+А какие пасхалки делаете вы?
 
 ### Git
 
@@ -48,5 +51,16 @@ Nothing really special.
 
 [MS Paint IDE](https://ms-paint-i.de/)
 
-[Проект Python для соблюдения политкорректности избавляется от терминов "master" и "slave"](http://www.opennet.ru/opennews/art.shtml?num=49256)<br/>
-Он опять выходит на связь...
+[Today in History, Brought to You by UNIX](https://akr.am/blog/posts/today-in-history-brought-to-you-by-unix)<br/>
+A small insight of UNIX way.
+
+[The Quantum Physics Sequence](https://www.lesswrong.com/posts/hc9Eg6erp6hk9bWhn/the-quantum-physics-sequence)<br/>
+Много букв о философии квантовой физики. Автор — пропонент подхода «заткнись и считай» и многомировой интерпретации.
+
+### Политота
+
+[Academic Activists Send a Published Paper Down the Memory Hole](https://quillette.com/2018/09/07/academic-activists-send-a-published-paper-down-the-memory-hole/)
+
+[Why Women Don’t Code](https://quillette.com/2018/06/19/why-women-dont-code/)
+
+[Проект Python для соблюдения политкорректности избавляется от терминов "master" и "slave"](http://www.opennet.ru/opennews/art.shtml?num=49256)
