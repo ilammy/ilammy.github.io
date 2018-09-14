@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #152"
 date:     2018-09-17 12:00:00 +0300
-tags:     digest apple cpp dev git java plt misc pol
+tags:     digest apple cpp dev git java plt rust misc pol
 comments: true
 ---
 
@@ -44,6 +44,17 @@ Nothing really special.
 
 [Go, Rust and the cost of brain power](https://www.ninjadojo.com.au/blog/post/rust-and-cost-brain-power) [(reddit)](https://www.reddit.com/r/golang/comments/9evy8t/go_rust_and_the_cost_of_brain_power/)<br/>
 Вот чем с одной стороны хороши «простые» языки типа Go и Java: в них сравнительно сложно упороться _элегантностью_ типов, кода, архитектуры, использования ресурсов — всем тем, что часто само по себе является ценностью для творцов в программистах. Единственное, чем вознаградит тебя программа на Java — это решённой задачей.
+
+### Rust
+
+[How we organize a complex Rust codebase](https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/)<br/>
+Есть несколько полезных советов.
+
+[Выпуск Rust 1.29](https://habr.com/post/423249/)<br/>
+Вышел по расписанию. Главная новинка: статический анализатор clippy теперь работает со stable-версией.
+
+[RustConf 2018](https://www.youtube.com/playlist?list=PL85XCvVPmGQi3tivxDDF1hrT9qr5hdMBZ)<br/>
+Видео докладов с конференции. Я ещё не смотрел, посоветовать дельные не могу.
 
 ### Miscellaneous
 
