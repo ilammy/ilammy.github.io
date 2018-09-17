@@ -1,0 +1,96 @@
+---
+layout:   post
+title:    "News digest #152"
+date:     2018-09-17 12:00:00 +0300
+tags:     digest apple cpp dev git java linux plt rust misc pol
+comments: true
+---
+
+Первым заголовком обычно шёл «C++», что плохо сказывалось на качестве превьюшек ссылок на посты: они почти всегда содержали одну строку «С++». Поэтому теперь я буду, наверное, писать краткое содержание первым абзацем.
+
+### Apple
+
+[Apple Special Event, сентябрь 2018](https://habr.com/post/423069/)<br/>
+[Что нового показали на презентации Apple](https://habr.com/company/pochtoy/blog/423095/)<br/>
+Nothing really special.
+
+### C++
+
+[Quirks of C](https://gist.github.com/zneak/5ccbe684e6e56a7df8815c3486568f01)<br/>
+Немного забавных фактоидов про Си (без плюсов).
+
+### Development
+
+[Announcing Azure Pipelines with unlimited CI/CD minutes for open source](https://azure.microsoft.com/en-us/blog/announcing-azure-pipelines-with-unlimited-ci-cd-minutes-for-open-source/)<br/>
+Облачные билд-серверы от Microsoft, под все три главные платформы. И интеграцией с GitHub, естественно.
+
+[LOLWUT: a piece of art inside a database command](http://antirez.com/news/123)<br/>
+А какие пасхалки делаете вы?
+
+[It Doesn’t Have to be Perfect](https://itnext.io/it-doesnt-have-to-be-perfect-25071b56959b)<br/>
+Напоминание о том, как вести себя с легаси-кодом.
+
+[Работа тимлидом в 2018-ом году](https://habr.com/post/423457/)<br/>
+Внутри Битрикс и прочий 1C, но люди-то особо не варьируются.
+
+### Git
+
+[Highlights from Git 2.19](https://blog.github.com/2018-09-10-highlights-from-git-2-19/)<br/>
+Свеженькое в новой версии. Лично мне часто хотелось `git grep -o` и `git range-diff`, теперь это реальность.
+
+[GitHub Pull Requests in Visual Studio Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)<br/>
+Крутая фича. Попробую ревьювить код в ней.
+
+### Java
+
+[Раздача халявы: нетормозящие треды в Java. Project Loom](https://habr.com/company/jugru/blog/422519/)<br/>
+Я понял где-то две трети материала. И то, что постить автор умеет.
+
+### Linux
+
+[Изучаем процессы в Linux](https://habr.com/post/423049/)<br/>
+Очень поверхностный обзор, но можно освежить знания.
+
+[Линус Торвальдс берёт отпуск, чтобы подумать над своим поведением](https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/)<br/>
+Ой божечки, что ж мы сделали с Линусом? В Интернете много всяких пересудов. Я ограничусь только его личным письмом. Ну и [вот этим коммитом](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a104f8b5867c682d994ffa7a74093c54469c11f) с принятием code of conduct вместо code of conflict.
+
+### Programming Languages
+
+[Go, Rust and the cost of brain power](https://www.ninjadojo.com.au/blog/post/rust-and-cost-brain-power) [(reddit)](https://www.reddit.com/r/golang/comments/9evy8t/go_rust_and_the_cost_of_brain_power/)<br/>
+Вот чем с одной стороны хороши «простые» языки типа Go и Java: в них сравнительно сложно упороться _элегантностью_ типов, кода, архитектуры, использования ресурсов — всем тем, что часто само по себе является ценностью для творцов в программистах. Единственное, чем вознаградит тебя программа на Java — это решённой задачей.
+
+### Rust
+
+[How we organize a complex Rust codebase](https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/)<br/>
+Есть несколько полезных советов.
+
+[Выпуск Rust 1.29](https://habr.com/post/423249/)<br/>
+Вышел по расписанию. Главная новинка: статический анализатор clippy теперь работает со stable-версией.
+
+[RustConf 2018](https://www.youtube.com/playlist?list=PL85XCvVPmGQi3tivxDDF1hrT9qr5hdMBZ)<br/>
+Видео докладов с конференции. Я ещё не смотрел, посоветовать дельные не могу.
+
+[You can’t “turn off the borrow checker” in Rust](https://words.steveklabnik.com/you-can-t-turn-off-the-borrow-checker-in-rust)<br/>
+Busting misconceptions, one stupidity at a time.
+
+### Miscellaneous
+
+[libcurl gets a URL API](https://daniel.haxx.se/blog/2018/09/09/libcurl-gets-a-url-api/) (курлык)
+
+[MS Paint IDE](https://ms-paint-i.de/)
+
+[Today in History, Brought to You by UNIX](https://akr.am/blog/posts/today-in-history-brought-to-you-by-unix)<br/>
+A small insight of UNIX way.
+
+[The Quantum Physics Sequence](https://www.lesswrong.com/posts/hc9Eg6erp6hk9bWhn/the-quantum-physics-sequence)<br/>
+Много букв о философии квантовой физики. Автор — пропонент подхода «заткнись и считай» и многомировой интерпретации.
+
+### Политота
+
+[Academic Activists Send a Published Paper Down the Memory Hole](https://quillette.com/2018/09/07/academic-activists-send-a-published-paper-down-the-memory-hole/)
+
+[Why Women Don’t Code](https://quillette.com/2018/06/19/why-women-dont-code/)
+
+[Проект Python для соблюдения политкорректности избавляется от терминов "master" и "slave"](http://www.opennet.ru/opennews/art.shtml?num=49256)
+
+[Steam разрешил эротику, порно и насилие в играх](https://habr.com/post/423099/)
