@@ -85,8 +85,6 @@ A small insight of UNIX way.
 [The Quantum Physics Sequence](https://www.lesswrong.com/posts/hc9Eg6erp6hk9bWhn/the-quantum-physics-sequence)<br/>
 Много букв о философии квантовой физики. Автор — пропонент подхода «заткнись и считай» и многомировой интерпретации.
 
-[Steam разрешил эротику, порно и насилие в играх](https://habr.com/post/423099/)
-
 ### Политота
 
 [Academic Activists Send a Published Paper Down the Memory Hole](https://quillette.com/2018/09/07/academic-activists-send-a-published-paper-down-the-memory-hole/)
@@ -94,3 +92,5 @@ A small insight of UNIX way.
 [Why Women Don’t Code](https://quillette.com/2018/06/19/why-women-dont-code/)
 
 [Проект Python для соблюдения политкорректности избавляется от терминов "master" и "slave"](http://www.opennet.ru/opennews/art.shtml?num=49256)
+
+[Steam разрешил эротику, порно и насилие в играх](https://habr.com/post/423099/)
