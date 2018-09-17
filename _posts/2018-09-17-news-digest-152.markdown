@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #152"
 date:     2018-09-17 12:00:00 +0300
-tags:     digest apple cpp dev git java plt rust misc pol
+tags:     digest apple cpp dev git java linux plt rust misc pol
 comments: true
 ---
 
@@ -27,6 +27,12 @@ Nothing really special.
 [LOLWUT: a piece of art inside a database command](http://antirez.com/news/123)<br/>
 А какие пасхалки делаете вы?
 
+[It Doesn’t Have to be Perfect](https://itnext.io/it-doesnt-have-to-be-perfect-25071b56959b)<br/>
+Напоминание о том, как вести себя с легаси-кодом.
+
+[Работа тимлидом в 2018-ом году](https://habr.com/post/423457/)<br/>
+Внутри Битрикс и прочий 1C, но люди-то особо не варьируются.
+
 ### Git
 
 [Highlights from Git 2.19](https://blog.github.com/2018-09-10-highlights-from-git-2-19/)<br/>
@@ -39,6 +45,14 @@ Nothing really special.
 
 [Раздача халявы: нетормозящие треды в Java. Project Loom](https://habr.com/company/jugru/blog/422519/)<br/>
 Я понял где-то две трети материала. И то, что постить автор умеет.
+
+### Linux
+
+[Изучаем процессы в Linux](https://habr.com/post/423049/)<br/>
+Очень поверхностный обзор, но можно освежить знания.
+
+[Линус Торвальдс берёт отпуск, чтобы подумать над своим поведением](https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/)<br/>
+Ой божечки, что ж мы сделали с Линусом? В Интернете много всяких пересудов. Я ограничусь только его личным письмом. Ну и [вот этим коммитом](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8a104f8b5867c682d994ffa7a74093c54469c11f) с принятием code of conduct вместо code of conflict.
 
 ### Programming Languages
 
@@ -56,6 +70,9 @@ Nothing really special.
 [RustConf 2018](https://www.youtube.com/playlist?list=PL85XCvVPmGQi3tivxDDF1hrT9qr5hdMBZ)<br/>
 Видео докладов с конференции. Я ещё не смотрел, посоветовать дельные не могу.
 
+[You can’t “turn off the borrow checker” in Rust](https://words.steveklabnik.com/you-can-t-turn-off-the-borrow-checker-in-rust)<br/>
+Busting misconceptions, one stupidity at a time.
+
 ### Miscellaneous
 
 [libcurl gets a URL API](https://daniel.haxx.se/blog/2018/09/09/libcurl-gets-a-url-api/) (курлык)
@@ -67,6 +84,8 @@ A small insight of UNIX way.
 
 [The Quantum Physics Sequence](https://www.lesswrong.com/posts/hc9Eg6erp6hk9bWhn/the-quantum-physics-sequence)<br/>
 Много букв о философии квантовой физики. Автор — пропонент подхода «заткнись и считай» и многомировой интерпретации.
+
+[Steam разрешил эротику, порно и насилие в играх](https://habr.com/post/423099/)
 
 ### Политота
 
