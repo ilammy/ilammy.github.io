@@ -2,6 +2,22 @@
 layout:   post
 title:    "News digest #153"
 date:     2018-10-01 12:00:00 +0300
-tags:     digest
+tags:     digest java linux misc
 comments: true
 ---
+
+### Java
+
+[Java 11 / JDK 11: General Availability](https://habr.com/company/jugru/blog/424543/)<br/>
+Только перевёл продакшн на JDK 8 :trollface:
+
+### Linux
+
+[Как работает stack trace на ARM](https://habr.com/company/embox/blog/424365/)<br/>
+Пятиминутка low-level.
+
+### Miscellaneous
+
+[Наши с вами персональные данные ничего не стоят](https://habr.com/post/423947/)
+
+[Мой любимый файл в кодовой базе Chromium](https://habr.com/company/infopulse/blog/424369/)
