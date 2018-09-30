@@ -6,6 +6,8 @@ tags:     digest cpp dev internet java linux rust misc pol
 comments: true
 ---
 
+Если вы видите этот текст, то я забыл написать саммари.
+
 ### C++
 
 [Concepts: The Next Major Change Coming to C++](https://www.inversepalindrome.com/blog/2018/9/26/concepts)<br/>
@@ -49,7 +51,7 @@ Friendly reminder: на Rust можно писать плагины.
 [Мой любимый файл в кодовой базе Chromium](https://habr.com/company/infopulse/blog/424369/)
 
 [Всякие штуки в MetaPost](https://habr.com/post/423571/)<br/>
-У кого-то получилось алгоритмизировать этот милый гравюрный стиль рисунков.
+У кого-то получилось алгоритмизировать этот милый гравюрный стиль рисунков из старых учебников по физике.
 
 [MS-DOS v1.25 and v2.0 Source Code](https://github.com/Microsoft/MS-DOS)
 
