@@ -25,6 +25,9 @@ comments: true
 
 [Introducing Cloudflare Registrar: Domain Registration You Can Love](https://blog.cloudflare.com/cloudflare-registrar/)
 
+[Solid (social linked data)](https://solid.mit.edu/)<br/>
+Немного претензионный и спорный проект, но вам стоит о нём знать.
+
 ### Java
 
 [Java 11 / JDK 11: General Availability](https://habr.com/company/jugru/blog/424543/)<br/>
