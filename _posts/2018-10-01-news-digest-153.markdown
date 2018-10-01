@@ -19,7 +19,10 @@ comments: true
 Немного советов по поддержке зависимостей (не привязаны к RoR).
 
 [Writing Good Commit Messages](https://medium.com/compass-true-north/writing-good-commit-messages-fc33af9d6321)<br/>
-Пришло время ещё раз прочитать эту проповедь.
+Пришло время ещё раз повторить эту проповедь.
+
+[Моё разочарование в софте](https://habr.com/post/423889/)<br/>
+И вот эту тоже, о потреблении ресурсов программным обеспечением.
 
 ### Internet
 
