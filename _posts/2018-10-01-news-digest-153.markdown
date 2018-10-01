@@ -1,0 +1,68 @@
+---
+layout:   post
+title:    "News digest #153"
+date:     2018-10-01 12:00:00 +0300
+tags:     digest cpp dev internet java linux rust misc pol
+comments: true
+---
+
+Если вы видите этот текст, то я забыл написать саммари.
+
+### C++
+
+[Concepts: The Next Major Change Coming to C++](https://www.inversepalindrome.com/blog/2018/9/26/concepts)<br/>
+«Статические интерфейсы», которые может быть доедут в язык к 2020 году. С примерами кода.
+
+### Development
+
+[Upgrading GitHub from Rails 3.2 to 5.2](https://githubengineering.com/upgrading-github-from-rails-3-2-to-5-2/)<br/>
+Немного советов по поддержке зависимостей (не привязаны к RoR).
+
+[Writing Good Commit Messages](https://medium.com/compass-true-north/writing-good-commit-messages-fc33af9d6321)<br/>
+Пришло время ещё раз повторить эту проповедь.
+
+[Моё разочарование в софте](https://habr.com/post/423889/)<br/>
+И вот эту тоже, о потреблении ресурсов программным обеспечением.
+
+### Internet
+
+[Introducing Cloudflare Registrar: Domain Registration You Can Love](https://blog.cloudflare.com/cloudflare-registrar/)
+
+[Solid (social linked data)](https://solid.mit.edu/)<br/>
+Немного претензионный и спорный проект, но вам стоит о нём знать.
+
+### Java
+
+[Java 11 / JDK 11: General Availability](https://habr.com/company/jugru/blog/424543/)<br/>
+Только перевёл продакшн на JDK 8 :trollface:
+
+### Linux
+
+[Как работает stack trace на ARM](https://habr.com/company/embox/blog/424365/)<br/>
+Пятиминутка low-level.
+
+[How I ended up writing opensnoop in pure C using eBPF](https://bolinfest.github.io/opensnoop-native/)<br/>
+Об анализе производительности и поведения Linux-систем.
+
+### Rust
+
+[The relative performance of C and Rust](http://dtrace.org/blogs/bmc/2018/09/28/the-relative-performance-of-c-and-rust/)<br/>
+О силе zero-cost abstractions.
+
+[Write your next C extension in Rust](https://tim.mcnamara.nz/post/178475377027/write-your-next-c-extension-in-rust)<br/>
+Friendly reminder: на Rust можно писать плагины.
+
+### Miscellaneous
+
+[Мой любимый файл в кодовой базе Chromium](https://habr.com/company/infopulse/blog/424369/)
+
+[Всякие штуки в MetaPost](https://habr.com/post/423571/)<br/>
+У кого-то получилось алгоритмизировать этот милый гравюрный стиль рисунков из старых учебников по физике.
+
+[MS-DOS v1.25 and v2.0 Source Code](https://github.com/Microsoft/MS-DOS)
+
+### Политота
+
+[Наши с вами персональные данные ничего не стоят](https://habr.com/post/423947/)
+
+[Facebook says nearly 50m users compromised in huge security breach](https://www.theguardian.com/technology/2018/sep/28/facebook-50-million-user-accounts-security-berach)
