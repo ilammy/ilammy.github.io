@@ -2,8 +2,18 @@
 layout:   post
 title:    "News digest #154"
 date:     2018-10-08 12:00:00 +0300
-tags:     digest
+tags:     digest dev rust
 comments: true
 ---
 
 Тепер із національним колоритом.
+
+### Development
+
+[A cache invalidation bug in Linux memory management](https://googleprojectzero.blogspot.com/2018/09/a-cache-invalidation-bug-in-linux.html)<br/>
+Про „розумні“ „оптимізації“ багатопоточного коду.
+
+### Rust
+
+[Новости Rust #1 (Сентябрь 2018)](https://habr.com/post/425005/)
+Цей дайджест потроху переходить на метарівень.
