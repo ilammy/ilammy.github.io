@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #154"
 date:     2018-10-08 12:00:00 +0300
-tags:     digest cpp dev rust unix
+tags:     digest cpp dev rust unix misc
 comments: true
 ---
 
@@ -33,3 +33,8 @@ comments: true
 
 [Работаем в консоли быстро и эффективно](https://habr.com/post/425137/)<br/>
 Про це вже сотні разів казали, але хтось саме зараз відкриє для себе щось нове.
+
+### Miscellaneous
+
+[Как украсть деньги с бесконтактной карты и Apple Pay](https://habr.com/post/422551/)<br/>
+Якісний лікбез (та пост) від Павла.
