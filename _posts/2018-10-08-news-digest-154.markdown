@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #154"
 date:     2018-10-08 12:00:00 +0300
-tags:     digest algo cpp dev rust unix misc
+tags:     digest algo cpp dev internet plt rust swift unix misc
 comments: true
 ---
 
@@ -53,6 +53,10 @@ comments: true
 [A web application completely in Rust](https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471)<br/>
 Full-stack, eh?
 
+### Swift
+
+[Swift Package Manager support in CLion](https://blog.jetbrains.com/objc/2018/10/spm-support-clion/)
+
 ### UNIX
 
 [Работаем в консоли быстро и эффективно](https://habr.com/post/425137/)<br/>
@@ -62,3 +66,8 @@ Full-stack, eh?
 
 [Как украсть деньги с бесконтактной карты и Apple Pay](https://habr.com/post/422551/)<br/>
 Якісний лікбез (та пост) від Павла.
+
+[The metamorphosis of Escher](https://escher.ntr.nl/en/)
+
+[The first “social network” of brains lets three people transmit thoughts to each other’s heads](https://www.technologyreview.com/s/612212/the-first-social-network-of-brains-lets-three-people-transmit-thoughts-to-each-others-heads/)<br/>
+Жовтуватий заголовок, але прикольно.
