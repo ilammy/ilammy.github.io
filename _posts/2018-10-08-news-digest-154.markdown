@@ -13,13 +13,13 @@ comments: true
 [Текстовый редактор — это вам не высшая математика, тут думать надо](https://habr.com/company/jugru/blog/424763/)<br/>
 Що всередині редакторів JetBrains.
 
-### C++
-
-[std::make_shared vs. the Normal std::shared_ptr Constructor](https://arne-mertz.de/2018/09/make_shared-vs-the-normal-shared_ptr-constructor/)<br/>
-Невеличкий лікбез з цієї теми.
-
 [Brute-forcing a seemingly simple number puzzle](https://www.nurkiewicz.com/2018/09/brute-forcing-seemingly-simple-number.html)<br/>
 Людина відкрила для себе дерева пошуку розв'язків, так мило. Нагадало мені [цей пост Норвіґа про судоку](http://norvig.com/sudoku.html).
+
+### C++
+
+[`std::make_shared` vs. the Normal `std::shared_ptr` Constructor](https://arne-mertz.de/2018/09/make_shared-vs-the-normal-shared_ptr-constructor/)<br/>
+Невеличкий лікбез з цієї теми.
 
 ### Development
 
