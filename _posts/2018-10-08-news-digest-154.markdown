@@ -32,6 +32,9 @@ comments: true
 [Why Do Things Go Right?](https://web.archive.org/web/20181001110144/http://www.safetydifferently.com/why-do-things-go-right/)<br/>
 Про безпеку, організаційні недоліки та соціальні проблеми.
 
+[Announcing the new GitHub and Jira Software integration](https://blog.github.com/2018-10-04-announcing-the-new-github-and-jira-software-cloud-integration/)<br/>
+Я вважаю, що це круто. Хоча дехто каже, що це _embrace-extend-entinguish_ в дії, з боку Microsoft та/або Atlassian.
+
 ### Internet
 
 [EV-сертификаты мертвы](https://habr.com/post/425261/)<br/>
@@ -44,6 +47,9 @@ comments: true
 
 [The Costs of Programming Language Fragmentation](https://news.ycombinator.com/item?id=18119077)<br/>
 Дискусія про доцільність переписування усього на $нову_кльову_мову з соціальної точки зору.
+
+[A Year in Clojure](https://blog.taylorwood.io/2017/09/15/year-behind.html)<br/>
+Трошки обережного досвіду з цим Ліспом для JVM.
 
 ### Rust
 
@@ -61,6 +67,9 @@ Full-stack, eh?
 
 [Работаем в консоли быстро и эффективно](https://habr.com/post/425137/)<br/>
 Про це вже сотні разів казали, але хтось саме зараз відкриє для себе щось нове.
+
+[Измерение времени с наносекундной точностью](https://habr.com/post/425237/)<br/>
+Інтересна з технічної точки зору стаття, але для практичного застосування така методологія вимірювання не дуже підходить.
 
 ### Miscellaneous
 
