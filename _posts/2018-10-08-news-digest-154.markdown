@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #154"
 date:     2018-10-08 12:00:00 +0300
-tags:     digest algo cpp dev internet plt rust swift unix misc
+tags:     digest algo cpp dev git internet plt rust swift unix misc
 comments: true
 ---
 
@@ -32,8 +32,13 @@ comments: true
 [Why Do Things Go Right?](https://web.archive.org/web/20181001110144/http://www.safetydifferently.com/why-do-things-go-right/)<br/>
 Про безпеку, організаційні недоліки та соціальні проблеми.
 
+### Git
+
 [Announcing the new GitHub and Jira Software integration](https://blog.github.com/2018-10-04-announcing-the-new-github-and-jira-software-cloud-integration/)<br/>
 Я вважаю, що це круто. Хоча дехто каже, що це _embrace-extend-entinguish_ в дії, з боку Microsoft та/або Atlassian.
+
+[git-worktree — Manage multiple working trees](https://git-scm.com/docs/git-worktree)<br/>
+Якщо ви не знаєте про `git worktree`, то саме час прочитати документацію.
 
 ### Internet
 
@@ -71,6 +76,9 @@ Full-stack, eh?
 [Измерение времени с наносекундной точностью](https://habr.com/post/425237/)<br/>
 Інтересна з технічної точки зору стаття, але для практичного застосування така методологія вимірювання не дуже підходить.
 
+[Daemonize - a Tiny C Library for Programming the UNIX Daemons](https://chaoticlab.io/c/c++/unix/2018/10/01/daemonize.html)<br/>
+Призов демонів без systemd (тільки не забувайте залишити недемонізований режим, він інколи зручний).
+
 ### Miscellaneous
 
 [Как украсть деньги с бесконтактной карты и Apple Pay](https://habr.com/post/422551/)<br/>
@@ -80,3 +88,5 @@ Full-stack, eh?
 
 [The first “social network” of brains lets three people transmit thoughts to each other’s heads](https://www.technologyreview.com/s/612212/the-first-social-network-of-brains-lets-three-people-transmit-thoughts-to-each-others-heads/)<br/>
 Жовтуватий заголовок, але прикольно.
+
+[Meet R3–14, My Personal Assistant](https://medium.com/@thesanjeetc/https-medium-com-thesanjeetc-meet-r3-14-my-personal-assistant-e22bee7fc47d)
