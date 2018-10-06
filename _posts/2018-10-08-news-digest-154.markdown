@@ -26,7 +26,7 @@ comments: true
 [A cache invalidation bug in Linux memory management](https://googleprojectzero.blogspot.com/2018/09/a-cache-invalidation-bug-in-linux.html)<br/>
 Про «розумні оптимізації» багатопоточного коду.
 
-(?) [Полномасштабный DevOps: греческая трагедия в трёх актах](https://habr.com/company/jugru/blog/425115/)<br/>
+[Полномасштабный DevOps: греческая трагедия в трёх актах](https://habr.com/company/jugru/blog/425115/)<br/>
 Віконце до світу _ентерпрайзу_.
 
 [Why Do Things Go Right?](https://web.archive.org/web/20181001110144/http://www.safetydifferently.com/why-do-things-go-right/)<br/>
@@ -64,6 +64,11 @@ comments: true
 [A web application completely in Rust](https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471)<br/>
 Full-stack, eh?
 
+### Security
+
+[Курс MIT «Безопасность компьютерных систем». Лекция 10: «Символьное выполнение», часть 1](https://habr.com/company/ua-hosting/blog/425557/)<br/>
+Колись я вже кидав це в дайджест. Так от, вони продовжують публікувати переклади.
+
 ### Swift
 
 [Swift Package Manager support in CLion](https://blog.jetbrains.com/objc/2018/10/spm-support-clion/)
@@ -90,3 +95,5 @@ Full-stack, eh?
 Жовтуватий заголовок, але прикольно.
 
 [Meet R3–14, My Personal Assistant](https://medium.com/@thesanjeetc/https-medium-com-thesanjeetc-meet-r3-14-my-personal-assistant-e22bee7fc47d)
+
+[Двадцать задачек (по безумной, восхитительной геометрии)](https://habr.com/post/425457/)
