@@ -1,0 +1,99 @@
+---
+layout:   post
+title:    "News digest #154"
+date:     2018-10-08 12:00:00 +0300
+tags:     digest algo cpp dev git internet plt rust swift unix misc
+comments: true
+---
+
+Сьогодні з національним колоритом, на честь дня народження Френка Герберта.
+
+### Algorithms
+
+[Текстовый редактор — это вам не высшая математика, тут думать надо](https://habr.com/company/jugru/blog/424763/)<br/>
+Що всередині редакторів JetBrains.
+
+[Brute-forcing a seemingly simple number puzzle](https://www.nurkiewicz.com/2018/09/brute-forcing-seemingly-simple-number.html)<br/>
+Людина відкрила для себе дерева пошуку розв'язків, так мило. Нагадало мені [цей пост Норвіґа про судоку](http://norvig.com/sudoku.html).
+
+### C++
+
+[`std::make_shared` vs. the Normal `std::shared_ptr` Constructor](https://arne-mertz.de/2018/09/make_shared-vs-the-normal-shared_ptr-constructor/)<br/>
+Невеличкий лікбез з цієї теми.
+
+### Development
+
+[A cache invalidation bug in Linux memory management](https://googleprojectzero.blogspot.com/2018/09/a-cache-invalidation-bug-in-linux.html)<br/>
+Про «розумні оптимізації» багатопоточного коду.
+
+[Полномасштабный DevOps: греческая трагедия в трёх актах](https://habr.com/company/jugru/blog/425115/)<br/>
+Віконце до світу _ентерпрайзу_.
+
+[Why Do Things Go Right?](https://web.archive.org/web/20181001110144/http://www.safetydifferently.com/why-do-things-go-right/)<br/>
+Про безпеку, організаційні недоліки та соціальні проблеми.
+
+### Git
+
+[Announcing the new GitHub and Jira Software integration](https://blog.github.com/2018-10-04-announcing-the-new-github-and-jira-software-cloud-integration/)<br/>
+Я вважаю, що це круто. Хоча дехто каже, що це _embrace-extend-entinguish_ в дії, з боку Microsoft та/або Atlassian.
+
+[git-worktree — Manage multiple working trees](https://git-scm.com/docs/git-worktree)<br/>
+Якщо ви не знаєте про `git worktree`, то саме час прочитати документацію.
+
+### Internet
+
+[EV-сертификаты мертвы](https://habr.com/post/425261/)<br/>
+Ви ще гадаєте, що у світі з Let's Encrypt «зелений замочок» щось означає? І до Let's Encrypt він _нічого_ не означав.
+
+### Programming Languages
+
+[Introducing Haskell to a Company](https://alasconnect.github.io/blog/posts/2018-10-02-introducing-haskell-to-a-company.html)<br/>
+Як протовкнути Хаскел в експлуатацію. На жаль, з перками «особистий друг CEO» та «софт виключно для внутрішнього користування».
+
+[The Costs of Programming Language Fragmentation](https://news.ycombinator.com/item?id=18119077)<br/>
+Дискусія про доцільність переписування усього на $нову_кльову_мову з соціальної точки зору.
+
+[A Year in Clojure](https://blog.taylorwood.io/2017/09/15/year-behind.html)<br/>
+Трошки обережного досвіду з цим Ліспом для JVM.
+
+### Rust
+
+[Новости Rust #1 (Сентябрь 2018)](https://habr.com/post/425005/)<br/>
+Цей дайджест потроху переходить на метарівень.
+
+[A web application completely in Rust](https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471)<br/>
+Full-stack, eh?
+
+### Security
+
+[Курс MIT «Безопасность компьютерных систем». Лекция 10: «Символьное выполнение», часть 1](https://habr.com/company/ua-hosting/blog/425557/)<br/>
+Колись я вже кидав це в дайджест. Так от, вони продовжують публікувати переклади.
+
+### Swift
+
+[Swift Package Manager support in CLion](https://blog.jetbrains.com/objc/2018/10/spm-support-clion/)
+
+### UNIX
+
+[Работаем в консоли быстро и эффективно](https://habr.com/post/425137/)<br/>
+Про це вже сотні разів казали, але хтось саме зараз відкриє для себе щось нове.
+
+[Измерение времени с наносекундной точностью](https://habr.com/post/425237/)<br/>
+Інтересна з технічної точки зору стаття, але для практичного застосування така методологія вимірювання не дуже підходить.
+
+[Daemonize - a Tiny C Library for Programming the UNIX Daemons](https://chaoticlab.io/c/c++/unix/2018/10/01/daemonize.html)<br/>
+Призов демонів без systemd (тільки не забувайте залишити недемонізований режим, він інколи зручний).
+
+### Miscellaneous
+
+[Как украсть деньги с бесконтактной карты и Apple Pay](https://habr.com/post/422551/)<br/>
+Якісний лікбез (та пост) від Павла.
+
+[The metamorphosis of Escher](https://escher.ntr.nl/en/)
+
+[The first “social network” of brains lets three people transmit thoughts to each other’s heads](https://www.technologyreview.com/s/612212/the-first-social-network-of-brains-lets-three-people-transmit-thoughts-to-each-others-heads/)<br/>
+Жовтуватий заголовок, але прикольно.
+
+[Meet R3–14, My Personal Assistant](https://medium.com/@thesanjeetc/https-medium-com-thesanjeetc-meet-r3-14-my-personal-assistant-e22bee7fc47d)
+
+[Двадцать задачек (по безумной, восхитительной геометрии)](https://habr.com/post/425457/)
