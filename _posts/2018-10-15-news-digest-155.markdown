@@ -2,8 +2,71 @@
 layout:   post
 title:    "News digest #155"
 date:     2018-10-15 12:00:00 +0300
-tags:     digest 
+tags:     digest cpp dev git linux rust misc
 comments: true
 ---
 
 Language rotation is actual. I repeat, language rotation actual.
+
+### C++
+
+[Write a simple memory allocator](https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory)<br/>
+It is _really_ simple but does a decent job at demystifying `malloc()`.
+
+[When a type is not a type](https://mariusbancila.ro/blog/2018/09/06/when-a-type-is-not-a-type/)<br/>
+/me laughing at the concept of _deduction guides_. Especially at the fact that it's technically undefined behavior to add them to the `std` namespace. But okay C++, go on, I'm rooting for you /s
+
+[Optimizing a Sort Function](https://gist.github.com/amonakov/1de8c395f544e4d65ade63e0b9f50395)<br/>
+How gcc optimized the `qsort()` function. (Did you know that C has a built-in sort function?)
+
+### Development
+
+[Google Interview Questions Deconstructed: The Knight’s Dialer](https://medium.com/@alexgolec/google-interview-questions-deconstructed-the-knights-dialer-f780d516f029)<br/>
+A really simple algorithmic question, but imagine doing it in 30 minutes _at Google_.
+
+[The Illustrated TLS Connection](https://tls.ulfheim.net)<br/>
+Nice abridged version of the RFCs.
+
+[Protobuffers Are Wrong](http://reasonablypolymorphic.com/blog/protos-are-wrong/)<br/>
+Haters gonna hate. Read it yourself and make your own reasoning.
+
+[Dealing with complex projects](http://vadimkravcenko.com/dealing-with-complex-projects)<br/>
+Some obvious points, which are almost never made into a check-list.
+
+### Git
+
+[Stop cherry-picking, start merging](https://blogs.msdn.microsoft.com/oldnewthing/20180323-01/?p=98325)<br/>
+A good example to learn from. This is what you get when you abuse a tool, find it ineffective, and then try to recover from it with more abuse.
+
+### Linux
+
+[Qt Creator 4.8 Beta released](http://blog.qt.io/blog/2018/10/11/qt-creator-4-8-beta-released/)<br/>
+Yay! Qt Creator is going to support the Language Server Protocol (and a built-in `clang-format`).
+
+[Eleven bash Tips You Might Want to Know](https://zwischenzugs.com/2018/10/12/eleven-bash-tips-you-might-want-to-know/)
+
+[How is /proc able to list process IDs?](https://ops.tips/blog/how-is-proc-able-to-list-pids/)<br/>
+If you never wondered about it then this might be an interesting read.
+
+### Rust
+
+[Porting C to Rust](https://wiki.alopex.li/PortingCToRust)<br/>
+Some nice observations on the topic.
+
+[Ada Concurrency](http://sworthodoxy.blogspot.com/2018/10/ada-concurrency.html)<br/>
+Hey look, all this fancy 'safe concurrency' has been around since 1983.<br/>
+(If the only thing you know about Ada is that it's a verbose language invented at DOD which nobody uses then God forbid you from discovering Algol 68.)
+
+[Rust has a static garbage collector](https://words.steveklabnik.com/borrow-checking-escape-analysis-and-the-generational-hypothesis)<br/>
+Well, not _reeeally_ a “garbage collector”, but if you do ‘squint hard enough’ then you may think of it that way.
+
+### Miscellaneous
+
+[How new-lines affect the Linux kernel performance](https://nadav.amit.zone/blog/linux-inline)<br/>
+The compiler doing funny things with assumptions again.
+
+[Microsoft joins Open Invention Network to help protect Linux and open source](https://azure.microsoft.com/en-us/blog/microsoft-joins-open-invention-network-to-help-protect-linux-and-open-source/)<br/>
+[Microsoft makes its 60,000 patents open source to help Linux](https://www.theverge.com/2018/10/10/17959978/microsoft-makes-its-60000-patents-open-source-to-help-linux)
+
+[These 299 macOS apps are so buggy, Apple had to fix them in AppKit](https://worthdoingbadly.com/appkitcompat/) [(reddit)](https://www.reddit.com/r/programming/comments/9nfc2h/these_299_macos_apps_are_so_buggy_apple_had_to/)<br/>
+I've posted this a while ago, but it's still an amusing read.
