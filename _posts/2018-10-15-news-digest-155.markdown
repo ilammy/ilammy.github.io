@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #155"
 date:     2018-10-15 12:00:00 +0300
-tags:     digest cpp dev git linux rust misc
+tags:     digest cpp dev git linux python rust misc
 comments: true
 ---
 
@@ -48,6 +48,15 @@ Yay! Qt Creator is going to support the Language Server Protocol (and a built-in
 [How is /proc able to list process IDs?](https://ops.tips/blog/how-is-proc-able-to-list-pids/)<br/>
 If you never wondered about it then this might be an interesting read.
 
+[Code of Conduct: почему разработчики ядра Linux угрожали удалить свой код — разбираемся в конфликте](https://habr.com/company/it-grad/blog/426229/)<br/>
+Wanna talk some shit on this hot topic but not up to date?
+
+### Python
+
+[Python: метапрограммирование в продакшене. Часть первая](https://habr.com/company/binarydistrict/blog/422409/)<br/>
+[Python: метапрограммирование в продакшене. Часть вторая](https://habr.com/company/binarydistrict/blog/422415/)<br/>
+Cute stuff to do with your production code base.
+
 ### Rust
 
 [Porting C to Rust](https://wiki.alopex.li/PortingCToRust)<br/>
@@ -70,3 +79,9 @@ The compiler doing funny things with assumptions again.
 
 [These 299 macOS apps are so buggy, Apple had to fix them in AppKit](https://worthdoingbadly.com/appkitcompat/) [(reddit)](https://www.reddit.com/r/programming/comments/9nfc2h/these_299_macos_apps_are_so_buggy_apple_had_to/)<br/>
 I've posted this a while ago, but it's still an amusing read.
+
+[Под капотом Graveyard Keeper: Как реализованы графические эффекты](https://habr.com/post/425989/)<br/>
+Gamedev magic has always fascinated me.
+
+[Титаны от математики схлестнулись над эпичным доказательством abc-гипотезы](https://habr.com/post/426033/)<br/>
+About that fascinatingly massive proof by Shinichi Mochizuki. Humanity is still working on understanding it.
