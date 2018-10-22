@@ -1,0 +1,92 @@
+---
+layout:   post
+title:    "News digest #156"
+date:     2018-10-22 12:00:00 +0300
+tags:     digest cpp dev git linux oss rust misc pol
+comments: true
+---
+
+Много всякой всячины, мне было лень категоризировать по-нормальному.
+
+Событие дня: 56 лет назад начался Кубинский кризис.
+
+### C++
+
+[mio — Cross-platform header-only C++11 library for memory mapped file IO](https://github.com/mandreyel/mio)<br/>
+Вдруг кому-то пригодится, чтобы не тащить в проект boost.
+
+[Что будет с обработкой ошибок в С++2a](https://habr.com/post/426965/)<br/>
+[Фатализм в обработке ошибок](https://habr.com/post/426971/)<br/>
+Немного заезженная лошадка, но комментарии можно почитать.
+
+### Development
+
+[Suggested Changes (Public Beta)](https://blog.github.com/changelog/2018-10-16-suggested-changes/)<br/>
+Тихо и незаметно выкатилась возможность, которую я долго ждал: мгновенное применение диффов из комментариев в ревью (выглядит [как-то так](https://twitter.com/wa7son/status/1052326282900443137)).
+
+[GitHub Actions](https://github.com/features/actions)<br/>
+GitHub запустили в бету свой CI-сервис.
+
+[Когда программный код вызывает восхищение?](https://habr.com/company/parallels/blog/426679/)<br/>
+Кроме шуток, я считаю код и git-историю Linux одним из лучших примеров для подражания.
+
+[Как сделать поездку на конференцию максимально бесполезной](https://habr.com/company/productsense/blog/426407/)<br/>
+True story.
+
+[Falsehoods about Garbage Collection](http://paul.bone.id.au/2018/10/19/gc-falsehoods/)<br/>
+Небольшой ликбез в автоматическом управлении памятью. 
+
+[Meow Hash](https://mollyrocket.com/meowhash)<br/>
+Мне понравилась идея нестандартного использования AES-инструкций (ну и название, да).
+
+### Git
+
+[Flight rules for Git](https://github.com/k88hudson/git-flight-rules)<br/>
+Руководство по безвыходным ситуациям с git. (Когда-то я это уже постил, повторю, наверное.)
+
+### Linux
+
+[How Linux creates sockets and counts them](https://ops.tips/blog/how-linux-creates-sockets/)<br/>
+Он продолжает постить обзоры системных вызовов Linux в картинках.
+
+### Open Source
+
+[Можно ли закрыть обратно открытый исходный код?](https://habr.com/post/426159/)<br/>
+Мне часто задавали этот вопрос.
+
+### Rust
+
+[Crates.io incident 2018-10-15](https://internals.rust-lang.org/t/crates-io-incident-2018-10-15/8568)<br/>
+[Update on the October 15, 2018 incident on crates.io](https://blog.rust-lang.org/2018/10/19/Update-on-crates.io-incident.html)<br/>
+Кто-то решил толсто поднять вопрос необходимости пространств имён на crates.io
+
+[Rust and the Three Laws of Informatics](https://medium.com/@schemouil/rust-and-the-three-laws-of-informatics-4324062b322b)<br/>
+Из меня евангелист не очень, но я умею репостить. Здесь вот в целом неплохо расписано, почему этот язык клёвый.
+
+### Miscellaneous
+
+[Пользователи Google перешагнули 25% рубеж по количеству IPv6-соединений](https://habr.com/company/crossover/blog/426457/)
+
+[Интересные задачки с технических собеседований](https://habr.com/post/426345/)<br/>
+Немного классических головоломок. Над которыми люди не любят думать и тупо гуглят ответы, или узнают культурным осмосом.
+
+[Digital Communications Protocols](https://docs.google.com/spreadsheets/d/1-UlA4-tslROBDS9IqHalWVztqZo7uxlCeKPQ-8uoFOU/htmlview?sle=true#gid=0)<br/>
+Сравнение разнообразных протоколов мессенджеров и говорилок.
+
+[<span style='font-family: "Comic Sans"'>Comic Shanns</span>](https://github.com/shannpersand/comic-shanns)<br/>
+Моноширинный. (Правда, только с basic ASCII.)
+
+`traceroute bad.horse`<br/>
+Без ссылки, пробуйте со своей машины.
+
+[How I hacked modern Vending Machines](https://hackernoon.com/how-i-hacked-modern-vending-machines-43f4ae8decec)<br/>
+Вот так я узнал, как никогда не надо делать кошельки, и как никогда не надо постить.
+
+[Blockchain 2018: Myths vs Reality](https://www.erlang-solutions.com/blog/blockchain-2018-myths-vs-reality.html)<br/>
+На случай, если вы совсем не в теме.
+
+### Политота
+
+[В России разрабатывают аналог DMCA](https://habr.com/post/426715/)<br/>
+[«Яндекс» может перейти под госуправление](https://habr.com/post/427001/)<br/>
+Внимательно слежу за соседями.
