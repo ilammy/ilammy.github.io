@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #157"
 date:     2018-10-29 12:00:00 +0300
-tags:     digest cpp dev internet rust misc
+tags:     digest cpp dev internet linux rust misc
 comments: true
 ---
 
@@ -31,6 +31,11 @@ gRPC напряму з JavaScript, може комусь знадобиться.
 
 [Google Public DNS тихо включили поддержку DNS over TLS](https://habr.com/post/427639/)
 
+### Linux
+
+[Линус Торвальдс снова в строю после релиза 4.19 версии ядра](https://habr.com/post/427731/)<br/>
+Лінус в нормі, розходимось.
+
 ### Rust
 
 [Announcing Rust 1.30](https://blog.rust-lang.org/2018/10/25/Rust-1.30.0.html)<br/>
@@ -44,3 +49,7 @@ gRPC напряму з JavaScript, може комусь знадобиться.
 Не знав, що у SQLite [такий кльовий „кодекс етики“](https://www.sqlite.org/codeofethics.html).
 
 [🚀 fucking fast file-manager](https://github.com/dylanaraps/fff)
+
+[Интерпретаторы байт-кодов своими руками](https://habr.com/company/badoo/blog/425325/)
+
+[190 universities just launched 600 free online courses. Here’s the full list](https://gist.github.com/haydenk/958b433ee107537bb166b98b59262b2a#file-free_courses-csv)
