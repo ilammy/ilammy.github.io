@@ -6,7 +6,7 @@ tags:     digest cpp dev internet linux rust unix misc
 comments: true
 ---
 
-_інтро українською_
+Присвячується ARPANET, перші повідомлення яким були передані в ніч з 29 на 30 жовтня.
 
 ### C++
 
@@ -50,10 +50,18 @@ gRPC напряму з JavaScript, може комусь знадобиться.
 [Вычисляем по IP: как бороться со спамом в социальной сети](https://habr.com/company/oleg-bunin/blog/426843/)
 
 [Ричард Столлман опубликовал «Руководство по приятному общению в проектах GNU»](https://habr.com/post/427635/)<br/>
-Не знав, що у SQLite [такий кльовий „кодекс етики“](https://www.sqlite.org/codeofethics.html).
+Не знав, що у SQLite [такий кльовий «кодекс етики»](https://www.sqlite.org/codeofethics.html).
 
 [🚀 fucking fast file-manager](https://github.com/dylanaraps/fff)
 
 [Интерпретаторы байт-кодов своими руками](https://habr.com/company/badoo/blog/425325/)
 
 [190 universities just launched 600 free online courses. Here’s the full list](https://gist.github.com/haydenk/958b433ee107537bb166b98b59262b2a#file-free_courses-csv)
+
+[The Waiting Time Paradox, or, Why Is My Bus Always Late?](http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/)<br/>
+Про одну властивість пуассонівського розподілу.
+
+[Why the NSA Called Me After Midnight and Requested My Source Code](https://medium.com/datadriveninvestor/why-the-nsa-called-me-after-midnight-and-requested-my-source-code-f7076c59ab3d)<br/>
+Як би ви себе повели у подібній ситуації? (Не проґавили би шанс відподвісти: «I’m sorry, Dave. I’m afraid I can’t do that»?)
+
+[Elon Musk: im actually cat girl here’s selfie rn](https://twitter.com/elonmusk/status/1055653541317042177)
