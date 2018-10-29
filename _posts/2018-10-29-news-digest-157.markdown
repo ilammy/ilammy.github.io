@@ -35,6 +35,9 @@ gRPC напряму з JavaScript, може комусь знадобиться.
 
 [Линус Торвальдс вернулся](https://www.linux.org.ru/news/linux-general/14552423)
 
+[Red Hat будет поглощен IBM](https://habr.com/post/428035/)<br/>
+Воу-воу... Тепер я починаю нервувати.
+
 ### Rust
 
 [Announcing Rust 1.30](https://blog.rust-lang.org/2018/10/25/Rust-1.30.0.html)<br/>
