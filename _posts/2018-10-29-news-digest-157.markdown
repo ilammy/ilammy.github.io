@@ -1,0 +1,70 @@
+---
+layout:   post
+title:    "News digest #157"
+date:     2018-10-29 12:00:00 +0300
+tags:     digest cpp dev internet linux rust unix misc
+comments: true
+---
+
+Присвячується ARPANET, перші повідомлення яким були передані в ніч з 29 на 30 жовтня 1969 року.
+
+### C++
+
+[Разработка интерфейсных классов на С++](https://habr.com/post/427281/)<br/>
+Так розфасовано та загорнуто у красивий папір.
+
+[Почему перенос при целочисленном переполнении — не очень хорошая идея](https://habr.com/company/pvs-studio/blog/427683/)<br/>
+Це один з найнепомітніших undefined behavior.
+
+[oat++ framework](https://oatpp.io)<br/>
+Ще один фреймворк для веб-сервісів.
+
+### Development
+
+[gRPC-Web is going GA](https://www.cncf.io/blog/2018/10/24/grpc-web-is-going-ga/)<br/>
+gRPC напряму з JavaScript, може комусь знадобиться.
+
+[Digital Ocean Managed Databases](https://try.digitalocean.com/dbaas-beta/)<br/>
+Вони за вас подивляться за базою даних.
+
+### Internet
+
+[Google Public DNS тихо включили поддержку DNS over TLS](https://habr.com/post/427639/)
+
+### Linux
+
+[Линус Торвальдс вернулся](https://www.linux.org.ru/news/linux-general/14552423)
+
+[Red Hat будет поглощен IBM](https://habr.com/post/428035/)<br/>
+Воу-воу... Тепер я починаю нервувати.
+
+### Rust
+
+[Announcing Rust 1.30](https://blog.rust-lang.org/2018/10/25/Rust-1.30.0.html)<br/>
+Найголовніше: стабілізовані процедурні макроси. Як латентний ліспер я це підтримую. Та ще трохи невеликих покращень (типу прогрес-бара в cargo).
+
+### UNIX
+
+[What I learned from porting my projects to FreeBSD](https://github.com/shlomif/what-i-learned-from-porting-to-freebsd)<br/>
+Цей чудесний світ переносимих програм та скриптів.
+
+### Miscellaneous
+
+[Вычисляем по IP: как бороться со спамом в социальной сети](https://habr.com/company/oleg-bunin/blog/426843/)
+
+[Ричард Столлман опубликовал «Руководство по приятному общению в проектах GNU»](https://habr.com/post/427635/)<br/>
+Не знав, що у SQLite [такий кльовий «кодекс етики»](https://www.sqlite.org/codeofethics.html).
+
+[🚀 fucking fast file-manager](https://github.com/dylanaraps/fff)
+
+[Интерпретаторы байт-кодов своими руками](https://habr.com/company/badoo/blog/425325/)
+
+[190 universities just launched 600 free online courses. Here’s the full list](https://gist.github.com/haydenk/958b433ee107537bb166b98b59262b2a#file-free_courses-csv)
+
+[The Waiting Time Paradox, or, Why Is My Bus Always Late?](http://jakevdp.github.io/blog/2018/09/13/waiting-time-paradox/)<br/>
+Про одну властивість пуассонівського розподілу.
+
+[Why the NSA Called Me After Midnight and Requested My Source Code](https://medium.com/datadriveninvestor/why-the-nsa-called-me-after-midnight-and-requested-my-source-code-f7076c59ab3d)<br/>
+Як би ви себе повели у подібній ситуації? (Не проґавили би шанс відподвісти: «I’m sorry, Dave. I’m afraid I can’t do that»?)
+
+[Elon Musk: im actually cat girl here’s selfie rn](https://twitter.com/elonmusk/status/1055653541317042177)
