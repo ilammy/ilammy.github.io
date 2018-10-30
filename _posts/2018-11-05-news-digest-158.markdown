@@ -1,0 +1,9 @@
+---
+layout:   post
+title:    "News digest #158"
+date:     2018-11-05 12:00:00 +0200
+tags:     digest
+comments: true
+---
+
+_intro in English_
