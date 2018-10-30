@@ -2,8 +2,44 @@
 layout:   post
 title:    "News digest #158"
 date:     2018-11-05 12:00:00 +0200
-tags:     digest
+tags:     digest dev plt misc
 comments: true
 ---
 
 _intro in English_
+
+Happy Guy Fawkes Night 🎉 Long live the Queen
+
+### Apple
+
+[Новый iPad, MacBook Air, Mac mini. Что показала Apple на октябрьском hardware event](https://habr.com/company/pochtoy/blog/428273/)
+
+### Development
+
+[Our Experience Writing a VSCode Extension](https://blog.adversalabs.com/2018/10/29/our-experience-writing-a-vscode-extension/)
+
+[Принцип KISS в разработке](https://habr.com/company/pixonic/blog/427797/)<br/>
+Some generic truths are worth recalling once in a while.
+
+### Languages
+
+[The D Language Front-End Finally Merged Into GCC 9](https://www.phoronix.com/scan.php?page=news_item&px=GCC-9-Merges-D-Language)<br/>
+One does not simply make a GCC frontend. Congratulations to Dlang developers.
+
+[Kotlin 1.3 Released with Coroutines, Kotlin/Native Beta, and more](https://blog.jetbrains.com/kotlin/2018/10/kotlin-1-3/)
+
+[A Look at the Design of Lua](https://cacm.acm.org/magazines/2018/11/232214-a-look-at-the-design-of-lua/fulltext)<br/>
+It's actually a good example of an embeddable C API.
+
+### Linux
+
+[Red Hat заменяет Docker на Podman](https://habr.com/company/flant/blog/426141/)<br/>
+This promises to be a useful _utility_ (which I like 'cuz UNIX way).
+
+[Подборка докладов по ядру Linux с Open Source Summit Europe 2018](https://habr.com/company/pt/blog/428165/) (video)
+
+### Miscellaneous
+
+[DeepCreamPy: Decensoring Hentai with Deep Neural Networks](https://github.com/deeppomf/DeepCreamPy) 😍
+
+[nnn: 🐬 The fastest terminal file manager ever written](https://github.com/jarun/nnn)
