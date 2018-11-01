@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #158"
 date:     2018-11-05 12:00:00 +0200
-tags:     digest dev plt misc
+tags:     digest cpp dev plt linux misc
 comments: true
 ---
 
@@ -14,12 +14,23 @@ Happy Guy Fawkes Night 🎉 Long live the Queen
 
 [Новый iPad, MacBook Air, Mac mini. Что показала Apple на октябрьском hardware event](https://habr.com/company/pochtoy/blog/428273/)
 
+### C++
+
+[Simple compile-time raytracer using C++17](https://github.com/tcbrindle/raytracer.hpp)<br/>
+What do you mean, _why_? Why _not_?
+
 ### Development
 
 [Our Experience Writing a VSCode Extension](https://blog.adversalabs.com/2018/10/29/our-experience-writing-a-vscode-extension/)
 
 [Принцип KISS в разработке](https://habr.com/company/pixonic/blog/427797/)<br/>
 Some generic truths are worth recalling once in a while.
+
+[October 21 post-incident analysis](https://blog.github.com/2018-10-30-oct21-post-incident-analysis/)<br/>
+The problem is 'technically' trivial, but the timeline itself and transparency is of interest.
+
+[Гибкая система тестирования и сбора метрик программ на примере LLVM test-suite](https://habr.com/post/428421/)<br/>
+I have always been fascinated by test suits in compilers.
 
 ### Languages
 
@@ -43,3 +54,5 @@ This promises to be a useful _utility_ (which I like 'cuz UNIX way).
 [DeepCreamPy: Decensoring Hentai with Deep Neural Networks](https://github.com/deeppomf/DeepCreamPy) 😍
 
 [nnn: 🐬 The fastest terminal file manager ever written](https://github.com/jarun/nnn)
+
+[Как студент-интерн создал самую популярную в мире видеоигру, или история игр Windows](https://habr.com/post/428091/)
