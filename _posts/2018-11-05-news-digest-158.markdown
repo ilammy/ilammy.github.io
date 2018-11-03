@@ -32,6 +32,11 @@ The problem is 'technically' trivial, but the timeline itself and transparency i
 [Гибкая система тестирования и сбора метрик программ на примере LLVM test-suite](https://habr.com/post/428421/)<br/>
 I have always been fascinated by test suits in compilers.
 
+### Intenet
+
+[Как я вижу идеальный браузер](https://habr.com/post/426295/)<br/>
+A cute, unfeasible dream.
+
 ### Languages
 
 [The D Language Front-End Finally Merged Into GCC 9](https://www.phoronix.com/scan.php?page=news_item&px=GCC-9-Merges-D-Language)<br/>
@@ -56,3 +61,5 @@ This promises to be a useful _utility_ (which I like 'cuz UNIX way).
 [nnn: 🐬 The fastest terminal file manager ever written](https://github.com/jarun/nnn)
 
 [Как студент-интерн создал самую популярную в мире видеоигру, или история игр Windows](https://habr.com/post/428091/)
+
+[Remember that A+B=C regex? I felt it wasn't ridiculous enough, so I added negative number AND decimal support. Candidate for craziest regex ever made?](http://www.drregex.com/2018/11/how-to-match-b-c-where-abc-beast-reborn.html)
