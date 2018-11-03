@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #158"
 date:     2018-11-05 12:00:00 +0200
-tags:     digest cpp dev plt linux misc
+tags:     digest cpp dev internet plt linux misc
 comments: true
 ---
 
@@ -32,7 +32,7 @@ The problem is 'technically' trivial, but the timeline itself and transparency i
 [Гибкая система тестирования и сбора метрик программ на примере LLVM test-suite](https://habr.com/post/428421/)<br/>
 I have always been fascinated by test suits in compilers.
 
-### Intenet
+### Internet
 
 [Как я вижу идеальный браузер](https://habr.com/post/426295/)<br/>
 A cute, unfeasible dream.
