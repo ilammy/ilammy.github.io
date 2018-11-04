@@ -54,6 +54,9 @@ This promises to be a useful _utility_ (which I like 'cuz UNIX way).
 
 [Подборка докладов по ядру Linux с Open Source Summit Europe 2018](https://habr.com/company/pt/blog/428165/) (video)
 
+[Code Review: On Signals](http://delyan.me/code-review-signals/)<br/>
+Neat little intro into this topic with some interesting use-cases.
+
 ### Miscellaneous
 
 [DeepCreamPy: Decensoring Hentai with Deep Neural Networks](https://github.com/deeppomf/DeepCreamPy) 😍
