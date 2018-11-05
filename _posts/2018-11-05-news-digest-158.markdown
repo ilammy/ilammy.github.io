@@ -2,11 +2,9 @@
 layout:   post
 title:    "News digest #158"
 date:     2018-11-05 12:00:00 +0200
-tags:     digest cpp dev internet plt linux misc
+tags:     digest apple cpp dev internet plt linux misc
 comments: true
 ---
-
-_intro in English_
 
 Happy Guy Fawkes Night 🎉 Long live the Queen
 
