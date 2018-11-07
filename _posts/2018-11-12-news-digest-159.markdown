@@ -1,0 +1,9 @@
+---
+layout:   post
+title:    "News digest #159"
+date:     2018-11-12 12:00:00 +0200
+tags:     digest
+comments: true
+---
+
+_введение на русском_
