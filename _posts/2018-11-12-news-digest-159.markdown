@@ -2,8 +2,38 @@
 layout:   post
 title:    "News digest #159"
 date:     2018-11-12 12:00:00 +0200
-tags:     digest
+tags:     digest cpp linux rust misc pol
 comments: true
 ---
 
 _введение на русском_
+
+### C++
+
+[Работа со строками на этапе компиляции в современном C++](https://habr.com/post/428846/)<br/>
+Вот это грибы...
+
+[Проблемные аспекты программирования на С++](https://habr.com/post/428898/)<br/>
+Путеводитель по 3% грабель, которые вас ожидают.
+
+### Linux
+
+[Как написать расширение для GNOME Shell: режим «Do Not Disturb»](https://habr.com/post/428187/)
+
+[На новых MacBook невозможно загрузить Linux из-за чипа T2](https://habr.com/post/429070/)<br/>
+UEFI Secure Boot working as intended.
+
+### Rust
+
+[Новости Rust #2 (октябрь 2018)](https://habr.com/post/429038/)
+
+### Miscellaneous
+
+[Портирование Quake3](https://habr.com/company/embox/blog/428634/)<br/>
+Лёгкость, с которой это было сделано, подтверждает гениальность Кармака.
+
+[Полёт свиньи, или Оптимизация интерпретаторов байт-кода](https://habr.com/company/badoo/blog/428878/)
+
+### Политота
+
+[Правительство [России] запретило регистрацию в мессенджерах по чужим номерам](https://habr.com/post/428874/)
