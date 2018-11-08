@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #159"
 date:     2018-11-12 12:00:00 +0200
-tags:     digest cpp linux rust misc pol
+tags:     digest cpp dev linux rust misc pol
 comments: true
 ---
 
@@ -16,6 +16,11 @@ _введение на русском_
 [Проблемные аспекты программирования на С++](https://habr.com/post/428898/)<br/>
 Путеводитель по 3% грабель, которые вас ожидают.
 
+### Development
+
+[F# меня испортил, или почему я больше не хочу писать на C#](https://habr.com/post/428930/)<br/>
+Человек уверовал в функциональный подход к программированию.
+
 ### Linux
 
 [Как написать расширение для GNOME Shell: режим «Do Not Disturb»](https://habr.com/post/428187/)
@@ -26,6 +31,9 @@ UEFI Secure Boot working as intended.
 ### Rust
 
 [Новости Rust #2 (октябрь 2018)](https://habr.com/post/429038/)
+
+[On dealing with owning and borrowing in public interfaces](https://phaazon.net/blog/on-owning-borrowing-pub-interface)<br/>
+Неплохо разложены по полочкам варианты передачи аргументов в функции.
 
 ### Miscellaneous
 
