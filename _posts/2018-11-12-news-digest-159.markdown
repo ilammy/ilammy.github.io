@@ -27,6 +27,9 @@ _введение на русском_
 [Language Server Protocol for Swift and C languages](https://nshipster.com/language-server-protocol/)<br/>
 И ещё Apple тоже уверовала в LSP, что даёт надежду на улучшенные IDE.
 
+[Interactive tutorial for git branching](https://learngitbranching.js.org/)<br/>
+Неплохой тренажёр.
+
 ### Linux
 
 [Как написать расширение для GNOME Shell: режим «Do Not Disturb»](https://habr.com/post/428187/)
@@ -53,6 +56,8 @@ UEFI Secure Boot working as intended.
 
 [THIS THING DELETED 3 MONTHS OF WORK!!!!](https://github.com/Microsoft/vscode/issues/324050)<br/>
 Мне искренне жаль человека.
+
+[Against software development](http://www.rntz.net/post/against-software-development.html)
 
 ### Политота
 
