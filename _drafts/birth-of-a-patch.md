@@ -2,24 +2,70 @@
 layout:   post
 title:    "Making of Patch"
 date:     2018-11-11 04:00:00 +0200
-tags:     post philosophy
+tags:     post development git github
 comments: true
 ---
 
-> talk about how I make patches to public projects
-> this is about open-source which is labor of love
-> I strive to keep the same process at my day job
+Today I’m going to talk about how I make beautiful commits to public projects.
+I will be focusing more on matters and processes around **git** usage,
+rather than technical details of the contribution
+or social aspects of interacting with random people over Internet.
 
-> start with an idea
-> look at an issue
-> devise a way to resolve it
-> (experience helps here)
-> leave some message trail behind, useful in case you fluke and someone else has to deal with this
+Note that while this will be about an open-source project
+— which is definitely a labor of love for me —
+I strive to maintain the same process at my day job as well.
+Quality is rarely a matter of budget constraints,
+_actually caring_ about it and setting the bar high enough
+is way more important.
+
+### How it begins
+
+You start off with an issue.
+Ideally, one that affects yourself
+(aka scratch your own itch)
+but other people’s issues are fine too,
+everybody likes when their problems go away.
+If you have no idea then try looking for or in the issue tracker.
+Usually the software we write is terrible,
+it always has some issues.
+And somebody might be annoyed enough to write these issues down
+or at least to voice their complaints.
+That was the case for me:
+I was shuffling through my inbox,
+stumbled upon [this person](https://github.com/FreeRDP/FreeRDP/issues/4984#issue-377672013)
+and felt sorry for them.
+For real,
+FreeRDP should have had this feature years ago
+but it doesn’t.
+Because _no one cared about it_
+aside from that person.
+Do _you_ care about it?
+Are you bad enough to rescue the President?
+
+Okay, you have your problem,
+now we need a solution.
+Experience definitely helps here
+as solving similar problems should be easier next time you have them.
+Thankfully,
+I do have enough experience with FreeRDP and X11 under my belt
+so I knew where and what to look for.
+(If that wasn’t the case then the journey would be even more fun.)
+Initially I did not intend to fix that issue myself
+so I left [a comment](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-436786068)
+with some hints for whoever is going to tackle that issue.
+It’s very important to leave this sort of message trail,
+especially in open-source work done during you free time,
+because of the immense help such notes provide
+in case you flake and someone else has to deal with this.
+
+### Starting your work
 
 > wait for it... the desire to do the deed
 
 > fork it, make a branch
 > i like wip/ prefixes
+
+### Hacking around
 
 > start hacking
 > i do rather crappy commit messages
@@ -28,10 +74,14 @@ comments: true
 > and [tags] in messages
 > but note that changes are still self-contained, these are not commits created every N minutes
 
+### Wrapping up for the day
+
 > see something working at the end of hacking session
 > [post screenshots] - not *quite* working, but we'll fix bugs later
 > get satisfaction and feeling of accomplishment
 > don't forget to push
+
+### Keeping commits organized
 
 45daf77d08c55901f02ac42c7c2218dca0410345 - 2018-11-10-end - start
 1cac1cf5a6f6c9c1f8e256826660fa78332b30c7 - 2018-11-11-begin - end
@@ -102,6 +152,12 @@ just check in gitk that changes kinda make sense and keep commit count at bay
 > next day make a cleanup
 > don't leave *too* long stream of incoherent commits, it is hard to rebase
 > still don't bother with messages, just prune the intermediate changes and failed experiments
+
+### Getting through it
+
+### Submitting your work
+
+### xxx
 
 next:
 
