@@ -28,12 +28,16 @@ everybody likes when their problems go away.
 If you have no idea then try looking for or in the issue tracker.
 Usually the software we write is terrible,
 it always has some issues.
-And somebody might be annoyed enough to write these issues down
+Somebody eveb might be annoyed enough to write these issues down
 or at least to voice their complaints.
+
 That was the case for me:
 I was shuffling through my inbox,
 stumbled upon [this person](https://github.com/FreeRDP/FreeRDP/issues/4984#issue-377672013)
 and felt sorry for them.
+
+> [screenshot]
+
 For real,
 FreeRDP should have had this feature years ago
 but it doesn’t.
@@ -48,31 +52,69 @@ Experience definitely helps here
 as solving similar problems should be easier next time you have them.
 Thankfully,
 I do have enough experience with FreeRDP and X11 under my belt
-so I knew where and what to look for.
-(If that wasn’t the case then the journey would be even more fun.)
+so I knew more or less where and what to look for.
+We just need to look at some specs and implement a minor feature.
+
 Initially I did not intend to fix that issue myself
 so I left [a comment](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-436786068)
 with some hints for whoever is going to tackle that issue.
 It’s very important to leave this sort of message trail,
 especially in open-source work done during you free time,
 because of the immense help such notes provide
-in case you flake and someone else has to deal with this.
+in case you flake and someone else has to deal with this later.
 
-### Starting your work
+### Starting my work, hacking around
 
-> wait for it... the desire to do the deed
+Now comes the hard part (at least for me):
+starting.
+Once I’ve done that it’s infinitely easier to continue.
+So I patiently wait for desire to get to the code.
+This time it did not take long,
+I was kinda frustrated with another project
+and seemed to be a good idea to C some Rust off my X11 skills
+(pun intended).
 
-> fork it, make a branch
-> i like wip/ prefixes
+Make a fork, checkout a new branch, start hacking.
+Sounds easy.
+I like to name my first-contact branches with a `wip` prefix
+so this gets called `wip/rail-icons`.
+I know I’ll need an icon cache
+so I build something like that,
+improving it along the way.
+At some point I want to test things out so I add some debug logging,
+marking it as such so it's easy to remove later.
+Then more code for color conversion follows,
+with experiments, curses and TODOs all around it.
 
-### Hacking around
+I make rather crappy commits while developing and experimenting:
 
-> start hacking
-> i do rather crappy commit messages
-> keep in my head
-> and todos
-> and [tags] in messages
-> but note that changes are still self-contained, these are not commits created every N minutes
+> [screenshot]
+
+And this is fine because _they are not meant to go public_.
+Some people would submit a code like that for review as soon as it works,
+but I find it disgustingly uncultured practice.
+This is my workplace,
+I keep it comfortable to me.
+But other developers do not need to know about my habits,
+and they honestly should not care.
+(“Hey, so why are you writing this post then?”)
+
+Keeping TODOs in the code,
+occasionally swearing,
+marking commits with `[tags]`...
+All this works for me
+but maybe it won‘t for you.
+You’re free to do anything you want as long as you’re comfortable with it,
+just hide the ‘sausage making’.
+
+Note, however, that while my commits seem to be incoherent
+they are not made by simply binding Ctrl-S hotkey to `git commit`.
+While I keep most of the information in my head
+the commits are still self-contained pieces of changes.
+Each of them introduces some _small_ atomic improvement.
+It is important to keep them small but meaningful.
+Commit early and often, do not postpone committing until the end of the day.
+If you feel that you‘re not ready to commit then you won’t _ever_ be ready.
 
 ### Wrapping up for the day
 
