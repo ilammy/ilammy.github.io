@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #159"
 date:     2018-11-12 12:00:00 +0200
-tags:     digest cpp dev linux rust misc pol
+tags:     digest cpp dev internet linux rust misc pol
 comments: true
 ---
 
@@ -29,6 +29,11 @@ _введение на русском_
 
 [Interactive tutorial for git branching](https://learngitbranching.js.org/)<br/>
 Неплохой тренажёр.
+
+### Internet
+
+[HTTP-over-QUIC will officially become HTTP/3](https://daniel.haxx.se/blog/2018/11/11/http-3/)<br/>
+Вдобавок к тому, что IETF недавно [объявила о «почти-готовности» QUIC](https://habr.com/company/vasexperts/blog/429380/). [Вот тут](https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/) можно почитать о том, что это вообще такое и зачем.
 
 ### Linux
 
