@@ -63,7 +63,7 @@ especially in open-source work done during you free time,
 because of the immense help such notes provide
 in case you flake and someone else has to deal with this later.
 
-### Starting my work, hacking around
+### Starting my work
 
 Now comes the hard part (at least for me):
 starting.
@@ -85,6 +85,8 @@ At some point I want to test things out so I add some debug logging,
 marking it as such so it's easy to remove later.
 Then more code for color conversion follows,
 with experiments, curses and TODOs all around it.
+
+### Hacking around
 
 I make rather crappy commits while developing and experimenting:
 
@@ -118,17 +120,53 @@ If you feel that you‘re not ready to commit then you won’t _ever_ be ready.
 
 ### Wrapping up for the day
 
-> see something working at the end of hacking session
-> [post screenshots] - not *quite* working, but we'll fix bugs later
-> get satisfaction and feeling of accomplishment
-> don't forget to push
+It's important to have something working at the end of your hacking session.
+This feeling of accomplishment keeps you motivated and preserves momentum.
+In my case I've managed to get the feature more or less working.
+At least on my machine.
+In one environment.
+Sometimes.
 
-### Keeping commits organized
+> [screenshot]
 
-45daf77d08c55901f02ac42c7c2218dca0410345 - 2018-11-10-end - start
-1cac1cf5a6f6c9c1f8e256826660fa78332b30c7 - 2018-11-11-begin - end
+Now all that remains is to do more testing,
+fix remaining known bugs
+(there _will_ be bugs),
+cleanup the code,
+prepare the patches
+and submit a pull request.
 
-start with this:
+I like to leave incomplete tasks slightly broken by the end of the day.
+This gives you a good anchor point to resume your work next day.
+In this case I left the commits and remaining bugs as-is,
+knowing that they will be the first thing I notice tomorrow.
+Just don't forget to `git push` them to some remote repository.
+
+### Keeping commits organized with `git rebase`
+
+Remember that ugly stream of incoherent commits?
+That's obviously _not pretty_.
+If you keep pumping out commits like that
+then you're digging your own grave
+when the only remaining option will be
+to squash them all into one giant ball of mud.
+In order to avoid that I like to prune my git trees
+at least once per day.
+
+`git rebase --interactive` is an amazing tool for that.
+It lets you rearrange, split and squash, and meld commits
+into whatever shape you need.
+
+Another tool that I use for rebasing is `gitk`.
+Despite its simplistic Tcl/Tk interface,
+it does a great job at displaying branch history
+and all relevant information about commits.
+
+> [screenshot]
+
+So I start with [this branch tip](45daf77d08c55901f02ac42c7c2218dca0410345),
+run `git rebase -i master`
+and get the following commit list:
 
 ```
 pick e44a3e1 prepare icon cache structs
@@ -153,13 +191,17 @@ pick 42a05aa fix order reading
 pick 45daf77 palette
 ```
 
-first step is to just bunch up changes, split into three changesets:
+Then I stare at these commits in gitk,
+review their contents
+and think how they can be grouped up.
+The following four groups seem to emerge:
 
-- patching bugs in 'external' code
-- mainaining icon cache and interacting with RDP
-- processing and setting icons
+- temporary debugging commits that need to be removed
+- bug fixes in code that is not directly related to my feature
+- mainaining the icon cache and interacting with RDP stack
+- processing images and actually setting the icons
 
-leave with this file:
+Which gives us the following rebase worklist:
 
 ```
 pick 9355a0b [debug] flush on output
@@ -187,15 +229,23 @@ s 016ffb2 fix alpha
 s 45daf77 palette
 ```
 
-and that's more of less clean, leave it
-just check in gitk that changes kinda make sense and keep commit count at bay
-(it just happens that i don't need to remove changes of resolve conflicts)
+Bamf! Save, quit, enjoy.
+I don't bother with better commit messages for now,
+it's good enough to just keep the commit count at bay
+and get rid of some failed experiments I made on the way.
+Plus, reviewing the commit messages reminds me what the hell did I do yesterday.
 
-> next day make a cleanup
-> don't leave *too* long stream of incoherent commits, it is hard to rebase
-> still don't bother with messages, just prune the intermediate changes and failed experiments
+Also, I'm happy to avoid having to resolve any rebase conflict this time.
+That's usually the case if you rebase and prune commits often.
+However, if you neglect this care for too long then you're bound to encounter conflicts.
 
-### Getting through it
+So, at the start of the next day
+I'm at [this tip](1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
+which contains only four commits.
+I expect to do only bug fixes now
+so it seems the final patch set will contain around this number of commits.
+
+### Finishing up the code changes
 
 ### Submitting your work
 
