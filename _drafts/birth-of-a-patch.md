@@ -388,7 +388,7 @@ because these diffs look ugly:
 
 ```
 @@ -63,9 +64,8 @@ static const char* movetype_names[] =
- 
+
  struct xf_rail_icon
  {
 -	UINT16 width;
@@ -408,7 +408,7 @@ it should be defined correctly from the start
 @@ -611,15 +611,206 @@ static xfRailIcon* RailIconCache_Lookup(xfRailIconCache* cache,
  	return &cache->entries[cache->numCacheEntries * cacheId + cacheEntry];
  }
- 
+
 -static void xf_rail_convert_icon(ICON_INFO* iconInfo, xfRailIcon *railIcon)
 +static inline UINT32 read_color_quad(const BYTE* pixels)
 +{
