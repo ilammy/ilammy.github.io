@@ -209,24 +209,24 @@ pick 9355a0b [debug] flush on output
 pick 42a05aa fix order reading
 
 pick e44a3e1 prepare icon cache structs
-s 8696117 allocating caches
-s 9f473d8 icon cache values, cleanup and lookup
-s f3a0706 rename pixel field
-s 77012ff introduce scratch icon
-s 60fbab6 using icon caches
-s 5a2c635 [debug] output
-s ec352a2 cache: actually, check 0xFF first
-s e7fdb62 [debug] output
+s    8696117 allocating caches
+s    9f473d8 icon cache values, cleanup and lookup
+s    f3a0706 rename pixel field
+s    77012ff introduce scratch icon
+s    60fbab6 using icon caches
+s    5a2c635 [debug] output
+s    ec352a2 cache: actually, check 0xFF first
+s    e7fdb62 [debug] output
 
 pick f2c70c7 color conversion
-s 295fa41 setting icons
-s 93d984a todo
-s 444d8f3 icons are appended
-s f5dd034 pixel formats
-s c9c7f3f better convesions
-s cbff68a fix comment
-s 016ffb2 fix alpha
-s 45daf77 palette
+s    295fa41 setting icons
+s    93d984a todo
+s    444d8f3 icons are appended
+s    f5dd034 pixel formats
+s    c9c7f3f better convesions
+s    cbff68a fix comment
+s    016ffb2 fix alpha
+s    45daf77 palette
 ```
 
 Bamf! Save, quit, enjoy.
@@ -284,6 +284,92 @@ Now I can go and report the status [on GitHub](https://github.com/FreeRDP/FreeRD
 to keep interested people updated on the progress.
 
 ### Preparing the patch set
+
+> patching
+
+from
+
+```
+pick a9d40cb [debug] flush on output
+pick 3619a2c fix order reading
+pick 2d6c8d8 prepare icon cache structs
+pick 1cac1cf color conversion
+pick f3c5008 fix a bug with 16x16 icons
+pick 1dbc6dd fun bugs with color formats
+pick db30910 better explanation
+pick b8f027d alpha bitmask should actually be a *mask*
+pick 31d9bdf fix 8-bit palettes (RGBQUAD does not include alpha)
+pick 5fcf43b use functions instead of swearing about formatting
+pick 7000dbd cleanup comments, lower amount of smug in them
+pick 14ce175 simplify error handling
+pick 5e07c09 improve naming
+pick d3541cb improve naming
+pick 7803a52 dont use malloc
+pick 2d39ffc drop debug logs
+pick 4aa3638 drop more debug logs
+pick 564490a code style
+pick ff1d47d return values
+pick 0e466bd drop comment just use i in the commit message:
+pick eecba32 spec reference
+pick e7ad030 drop dead code
+pick 2dd6bd7 add xflush for icon set
+```
+
+to
+
+```
+#### a9d40cb [debug] flush on output
+
+pick 3619a2c fix order reading
+s    eecba32 spec reference
+
+pick 2d6c8d8 prepare icon cache structs
+s    5e07c09 improve naming
+s    d3541cb improve naming
+s    4aa3638 drop more debug logs
+s    564490a code style
+s    ff1d47d return values
+s    0e466bd drop comment just use i in the commit message:
+
+pick 1cac1cf color conversion
+s    f3c5008 fix a bug with 16x16 icons
+s    1dbc6dd fun bugs with color formats
+s    db30910 better explanation
+s    b8f027d alpha bitmask should actually be a *mask*
+s    31d9bdf fix 8-bit palettes (RGBQUAD does not include alpha)
+s    5fcf43b use functions instead of swearing about formatting
+s    7000dbd cleanup comments, lower amount of smug in them
+s    14ce175 simplify error handling
+s    7803a52 dont use malloc
+s    2d39ffc drop debug logs
+s    e7ad030 drop dead code
+s    2dd6bd7 add xflush for icon set
+```
+
+gitk definitely helps here,
+with its abilility to highligth commits
+that mention a string
+
+this time the rebase caused some conflits, but they were easy to solve
+patch 5e07c098f41a2d73cd047fda8802810097711ea5 did not apply cleanly:
+the rename from xf_rail_window_set_icon() to xf_rail_set_window_icon()
+caused some unrelated context change which were not there,
+so I had to resolve the conflict by redoing the renaming in the old code
+(as if the function has been named correctly from the start)
+and then fix the rippled conflicts in the newer patches which were
+made without the rename
+
+and another one when applying ff1d47d8460f5c04d28dac1c75923172458ba305
+which was caused mainly by xf_rail_convert_icon() having a new name
+
+this can always happend if you reorder patches during interactive rebase,
+when resolving conflicts always review the patch that did not apply
+and fix the code so that it does the same thing the patch intended to do
+
+so I ended up with 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba after rebase
+
+after you resolve some conflicts it's important to test your code
+and review patches as git rebase might have done something wrong
 
 ### Submitting your work
 
