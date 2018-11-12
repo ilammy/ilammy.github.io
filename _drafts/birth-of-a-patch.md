@@ -305,3 +305,11 @@ next:
 
 2018-11-11 03:50:00 - idea of a post
 2018-11-11 04:05:00 - draft of points
+2018-11-12 21:30:00 - done the patch more or less
+
+It was exceptionally hard to capture the exact process I follow
+without degenerating into a raw terminal log.
+This is because I do most of these actions automatically,
+so it feels a bit like trying to explain
+how to quickly type on a keyboard
+to an adult that sees it for the first time.
