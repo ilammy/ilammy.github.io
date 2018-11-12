@@ -1,0 +1,69 @@
+---
+layout:   post
+title:    "News digest #159"
+date:     2018-11-12 12:00:00 +0200
+tags:     digest cpp dev internet linux rust misc pol
+comments: true
+---
+
+_введение на русском_
+
+### C++
+
+[Работа со строками на этапе компиляции в современном C++](https://habr.com/post/428846/)<br/>
+Вот это грибы...
+
+[Проблемные аспекты программирования на С++](https://habr.com/post/428898/)<br/>
+Путеводитель по 3% грабель, которые вас ожидают.
+
+[hliberacki/cpp-member-accessor](https://github.com/hliberacki/cpp-member-accessor)<br/>
+Когда хочется `#define private public`, но code style запрещает.
+
+### Development
+
+[F# меня испортил, или почему я больше не хочу писать на C#](https://habr.com/post/428930/)<br/>
+Человек уверовал в функциональный подход к программированию.
+
+[Language Server Protocol for Swift and C languages](https://nshipster.com/language-server-protocol/)<br/>
+И ещё Apple тоже уверовала в LSP, что даёт надежду на улучшенные IDE.
+
+[Interactive tutorial for git branching](https://learngitbranching.js.org/)<br/>
+Неплохой тренажёр.
+
+### Internet
+
+[HTTP-over-QUIC will officially become HTTP/3](https://daniel.haxx.se/blog/2018/11/11/http-3/)<br/>
+Вдобавок к тому, что IETF недавно [объявила о «почти-готовности» QUIC](https://habr.com/company/vasexperts/blog/429380/). [Вот тут](https://ma.ttias.be/googles-quic-protocol-moving-web-tcp-udp/) можно почитать о том, что это вообще такое и зачем.
+
+### Linux
+
+[Как написать расширение для GNOME Shell: режим «Do Not Disturb»](https://habr.com/post/428187/)
+
+[На новых MacBook невозможно загрузить Linux из-за чипа T2](https://habr.com/post/429070/)<br/>
+UEFI Secure Boot working as intended.
+
+### Rust
+
+[Новости Rust #2 (октябрь 2018)](https://habr.com/post/429038/)
+
+[On dealing with owning and borrowing in public interfaces](https://phaazon.net/blog/on-owning-borrowing-pub-interface)<br/>
+Неплохо разложены по полочкам варианты передачи аргументов в функции.
+
+[Is it time to rewrite the operating system in Rust?](https://www.slideshare.net/bcantrill/is-it-time-to-rewrite-the-operating-system-in-rust)<br/>
+Брайан Кантрилл делится своими соображениями на эту тему.
+
+### Miscellaneous
+
+[Портирование Quake3](https://habr.com/company/embox/blog/428634/)<br/>
+Лёгкость, с которой это было сделано, подтверждает гениальность Кармака.
+
+[Полёт свиньи, или Оптимизация интерпретаторов байт-кода](https://habr.com/company/badoo/blog/428878/)
+
+[THIS THING DELETED 3 MONTHS OF WORK!!!!](https://github.com/Microsoft/vscode/issues/324050)<br/>
+Мне искренне жаль человека.
+
+[Against software development](http://www.rntz.net/post/against-software-development.html)
+
+### Политота
+
+[Правительство [России] запретило регистрацию в мессенджерах по чужим номерам](https://habr.com/post/428874/)
