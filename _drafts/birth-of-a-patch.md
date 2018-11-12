@@ -247,9 +247,47 @@ so it seems the final patch set will contain around this number of commits.
 
 ### Finishing up the code changes
 
+Now, there were a few bugs that I'm aware of
+and a couple that I discovered along the way.
+This post is not a guide on debugging C code
+and not a rant about hysterical raisins
+which caused the engineers of DIB format
+to make counterintuitive decisions about row order in bitmaps
+and strange rounding of stride lengths.
+Let's just leave it at that
+I had to tweak some things
+to make these icons:
+
+> [screenshots]
+
+look like actully normal ones:
+
+> [screenshots]
+
+After that the patch set is feature-complete
+and I can start cleaning up the code.
+Like, for example,
+remove all the swearing from TODOs,
+add actually useful comments,
+make some code style changes
+and remove temporary debug logs which are no longer needed.
+
+All of this results in another bunch of commits
+slapped on top of those four from the day before:
+
+> [screenshot]
+
+The content of the commits or their message do not really matter at this point.
+The one thing that matters is that I'm happy with the final state of the code.
+We'll clean up the commits later to make sure they are readable.
+Now I can go and report the status [on GitHub](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-437681547)
+to keep interested people updated on the progress.
+
+### Preparing the patch set
+
 ### Submitting your work
 
-### xxx
+### Conclusions
 
 next:
 
