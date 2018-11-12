@@ -59,7 +59,7 @@ UEFI Secure Boot working as intended.
 
 [Полёт свиньи, или Оптимизация интерпретаторов байт-кода](https://habr.com/company/badoo/blog/428878/)
 
-[THIS THING DELETED 3 MONTHS OF WORK!!!!](https://github.com/Microsoft/vscode/issues/324050)<br/>
+[THIS THING DELETED 3 MONTHS OF WORK!!!!](https://github.com/Microsoft/vscode/issues/32405)<br/>
 Мне искренне жаль человека.
 
 [Against software development](http://www.rntz.net/post/against-software-development.html)
