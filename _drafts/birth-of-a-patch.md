@@ -541,6 +541,22 @@ I absolutely love to juggle the changes between commits like this.
 
 ### Writing good commit messages
 
+you do `git rebase -i` again (yes, it's an amazing multitool)
+
+```
+reword 1eeff89 fix order reading
+reword aec29ec prepare icon cache structs
+reword 5c2a1f4 color conversion
+```
+
+and start writing
+this is what i came up with
+
+- 1
+- 2
+- 3
+
+
 ### Submitting your work
 
 ### Conclusions
