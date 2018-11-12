@@ -371,6 +371,176 @@ so I ended up with 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba after rebase
 after you resolve some conflicts it's important to test your code
 and review patches as git rebase might have done something wrong
 
+it's also a good idea to run a `git diff` before and after the rebase
+to make sure that at least the final state of the code is identical
+and you did not lose some imporant part in the midway
+
+reviewing the patches:
+- 1eeff8968a0a5c98058c2f47e355f3e0de40f845
+- 91036c6fa5c7737e01c83f69d190e3f6feeab3dc
+- 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba
+
+the first one is easy
+the second one looks good: almost all additions, self-contained,
+
+the third one is fine, but I'd move some lines in the previous commit
+because these diffs look ugly:
+
+```
+@@ -63,9 +64,8 @@ static const char* movetype_names[] =
+ 
+ struct xf_rail_icon
+ {
+-	UINT16 width;
+-	UINT16 height;
+-	BYTE* argbPixels;
++	long *data;
++	int length;
+ };
+ typedef struct xf_rail_icon xfRailIcon;
+```
+
+where `struct xf_rail_icon` is introduced in the previous commit,
+it should be defined correctly from the start
+(+ related changes, like free()ing `data` instead of `argbPixels`)
+
+```
+@@ -611,15 +611,206 @@ static xfRailIcon* RailIconCache_Lookup(xfRailIconCache* cache,
+ 	return &cache->entries[cache->numCacheEntries * cacheId + cacheEntry];
+ }
+ 
+-static void xf_rail_convert_icon(ICON_INFO* iconInfo, xfRailIcon *railIcon)
++static inline UINT32 read_color_quad(const BYTE* pixels)
++{
++	return (((UINT32) pixels[0]) << 24)
++	     | (((UINT32) pixels[1]) << 16)
++	     | (((UINT32) pixels[2]) << 8)
++	     | (((UINT32) pixels[3]) << 0);
++}
++
++/*
++ * DIB color palettes are arrays of RGBQUAD structs with colors in BGRX format.
++ * They are used only by 1, 2, 4, and 8-bit bitmaps.
++ */
++static void fill_gdi_palette_for_icon(ICON_INFO* iconInfo, gdiPalette *palette)
++{
+...
+```
+
+this weird diff is an artifact of renaming xf_rail_convert_icon()
+to convert_rail_icon(), let's use the correct name from the start
+
+```
++static inline UINT32 round_up(UINT32 a, UINT32 b)
++{
++	return b * div_ceil(a, b);
++}
++
++static void apply_icon_alpha_mask(ICON_INFO* iconInfo, BYTE* argbPixels)
+ {
+-	WLog_DBG(TAG, "convert icon: cacheEntry=%u cacheId=%u bpp=%u width=%u height=%u",
+-		iconInfo->cacheId, iconInfo->cacheEntry, iconInfo->bpp, iconInfo->width, iconInfo->height);
++	BYTE nextBit;
++	BYTE* maskByte;
++	UINT32 x, y;
++	UINT32 stride;
++
++	if (!iconInfo->cbBitsMask)
++		return;
+```
+
+this random debug log removal in the middle of a bunch of new functions,
+let's remove the log (added in previous commit)
+
+```
+ static void xf_rail_set_window_icon(xfContext* xfc,
+-                                    xfAppWindow* railWindow, xfRailIcon *icon)
++                                    xfAppWindow* railWindow, xfRailIcon *icon,
++                                    BOOL replace)
+```
+
+```
+-	xf_rail_set_window_icon(xfc, railWindow, icon);
++	replaceIcon = !!(orderInfo->fieldFlags & WINDOW_ORDER_STATE_NEW);
++	xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
+```
+
+this addition of an argument to a function stub
+that does nothing in the previous commit
+let's add it right away
+
+Always think from the standpoint of code reviewer.
+What would they think if they saw this patch?
+
+So how do I reorder these changes?
+`git rebase --interactive` again.
+We start with `git rebase -i master`
+and edit the commit list like this:
+
+```
+pick 1eeff89 fix order reading
+edit 91036c6 prepare icon cache structs
+pick 9536a2c color conversion
+```
+
+This tells git to stop at commit `91036c6` and let us edit it.
+We would not edit it right away but rather insert some changes
+between `91036c6` and `9536a2c` that follows it.
+If `9536a2c` were smaller then splitting it directly with `git reset`
+(as described in manpage for rebase) might have been easier to do,
+but in this case we won't do it.
+
+So we stop at `91036c6`
+and re-do the changes from `9536a2c`
+on top of that commit.
+We use `git commit --fixup=91036c6` to create specially named commits
+which are compatible with `--autosquash` option of `rebase`.
+
+xxx: ff5e5f43d26944318fbd2d652a5e996d3f396c16
+
+> [screenshot]
+
+Note that I like adding comments in fixup commits to note what they fix.
+
+Also,
+did I tell about the awesome `git add -p` mode
+where you can review and select the patch hunks that go into commit?
+Now you know.
+
+After we're done
+we do `git rebase --continue` to resume rebasing
+and reapply `9536a2c` on top of our work.
+As expected, the patch does not apply cleanly.
+We have to fix the conflicts, but they are rather minor.
+Fix them, `git add`, `git rebase --continue` again.
+We end up with this new commit which looks much nicer.
+
+xxx: 5a97269f95d82220ace055d2926493a6e2b83e5f
+
+Now we do a final `git rebase -i --autosquash master`,
+immediately see the correct commit list:
+
+```
+pick 1eeff89 fix order reading
+pick 91036c6 prepare icon cache structs
+fixup f36c0e8 fixup! prepare icon cache structs
+fixup a715365 fixup! prepare icon cache structs
+fixup b696670 fixup! prepare icon cache structs
+fixup ff5e5f4 fixup! prepare icon cache structs
+pick 5a97269 color conversion
+```
+
+And here we have out complete patch set.
+I usually review the patches once again to make sure that I like the diffs.
+Now it's time to do something about these awful commit messages.
+
+It's also a good moment to re-test your work,
+just in case you messed up that rebase.
+
+I absolutely love to juggle the changes between commits like this.
+
+### Writing good commit messages
+
 ### Submitting your work
 
 ### Conclusions
