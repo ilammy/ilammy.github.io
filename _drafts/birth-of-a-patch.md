@@ -569,3 +569,10 @@ This is because I do most of these actions automatically,
 so it feels a bit like trying to explain
 how to quickly type on a keyboard
 to an adult that sees it for the first time.
+I had to monitor myself very closely,
+try to not cut corners,
+remember to not get carried away hacking
+and to write down some thoughts at the same time.
+If it wasn't for this idea of a post
+I would have probably coded and submitted the pull request on the same evening.
+But now you may see from commit timestamps how much time it actually took.
