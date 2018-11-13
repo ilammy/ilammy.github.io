@@ -2,8 +2,18 @@
 layout:   post
 title:    "News digest #160"
 date:     2018-11-19 12:00:00 +0200
-tags:     digest
+tags:     digest dev misc
 comments: true
 ---
 
-_я трошки задовбався видумувати сюди розумі фрази_
+_я трошки задовбався видумувати сюди розумні фрази_
+
+### Development
+
+[Errorx — библиотека для работы с ошибками в Go](https://habr.com/company/joom/blog/429690/)<br/>
+Чудові принципи, що покладені в основу бібліотеки.
+
+### Miscellaneous
+
+[Неожиданная полнота по Тьюрингу повсюду](https://habr.com/post/429602/)<br/>
+Yo dawg, we put a computer inside your computer so you can compute while you compute.
