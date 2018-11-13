@@ -359,11 +359,11 @@ This struct can be defined correctly from the start.
 
  struct xf_rail_icon
  {
--	UINT16 width;
--	UINT16 height;
--	BYTE* argbPixels;
-+	long *data;
-+	int length;
+-        UINT16 width;
+-        UINT16 height;
+-        BYTE* argbPixels;
++        long *data;
++        int length;
  };
  typedef struct xf_rail_icon xfRailIcon;
 ```
@@ -374,16 +374,16 @@ Let's use the correct name right away.
 
 ```diff
 @@ -611,15 +611,206 @@ static xfRailIcon* RailIconCache_Lookup(xfRailIconCache* cache,
- 	return &cache->entries[cache->numCacheEntries * cacheId + cacheEntry];
+         return &cache->entries[cache->numCacheEntries * cacheId + cacheEntry];
  }
 
 -static void xf_rail_convert_icon(ICON_INFO* iconInfo, xfRailIcon *railIcon)
 +static inline UINT32 read_color_quad(const BYTE* pixels)
 +{
-+	return (((UINT32) pixels[0]) << 24)
-+	     | (((UINT32) pixels[1]) << 16)
-+	     | (((UINT32) pixels[2]) << 8)
-+	     | (((UINT32) pixels[3]) << 0);
++        return (((UINT32) pixels[0]) << 24)
++             | (((UINT32) pixels[1]) << 16)
++             | (((UINT32) pixels[2]) << 8)
++             | (((UINT32) pixels[3]) << 0);
 +}
 ...
 ```
@@ -394,20 +394,20 @@ It is introduced in the previous commit but it's not needed anymore.
 ```diff
 +static inline UINT32 round_up(UINT32 a, UINT32 b)
 +{
-+	return b * div_ceil(a, b);
++        return b * div_ceil(a, b);
 +}
 +
 +static void apply_icon_alpha_mask(ICON_INFO* iconInfo, BYTE* argbPixels)
  {
--	WLog_DBG(TAG, "convert icon: cacheEntry=%u cacheId=%u bpp=%u width=%u height=%u",
--		iconInfo->cacheId, iconInfo->cacheEntry, iconInfo->bpp, iconInfo->width, iconInfo->height);
-+	BYTE nextBit;
-+	BYTE* maskByte;
-+	UINT32 x, y;
-+	UINT32 stride;
+-        WLog_DBG(TAG, "convert icon: cacheEntry=%u cacheId=%u bpp=%u width=%u height=%u",
+-                iconInfo->cacheId, iconInfo->cacheEntry, iconInfo->bpp, iconInfo->width, iconInfo->height);
++        BYTE nextBit;
++        BYTE* maskByte;
++        UINT32 x, y;
++        UINT32 stride;
 +
-+	if (!iconInfo->cbBitsMask)
-+		return;
++        if (!iconInfo->cbBitsMask)
++                return;
 ```
 
 Finally,
@@ -423,9 +423,9 @@ We can define the stub correctly earlier.
 ```
 
 ```diff
--	xf_rail_set_window_icon(xfc, railWindow, icon);
-+	replaceIcon = !!(orderInfo->fieldFlags & WINDOW_ORDER_STATE_NEW);
-+	xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
+-        xf_rail_set_window_icon(xfc, railWindow, icon);
++        replaceIcon = !!(orderInfo->fieldFlags & WINDOW_ORDER_STATE_NEW);
++        xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
 ```
 
 All these changes rectify ‘weird’ diffs
