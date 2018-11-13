@@ -349,7 +349,12 @@ The last commit is also mostly good
 but there are some weird diff hunks in it.
 It seems that some these changes should be a part of the second commit.
 
-```
+Here we see changes in `struct xf_rail_icon`
+which is introduced in the previous commit.
+It's an artifact of a failed experiement.
+This struct can be defined correctly from the start.
+
+```diff
 @@ -63,9 +64,8 @@ static const char* movetype_names[] =
 
  struct xf_rail_icon
@@ -363,11 +368,11 @@ It seems that some these changes should be a part of the second commit.
  typedef struct xf_rail_icon xfRailIcon;
 ```
 
-where `struct xf_rail_icon` is introduced in the previous commit,
-it should be defined correctly from the start
-(+ related changes, like free()ing `data` instead of `argbPixels`)
+Then there's this weird diff
+which is actually another artifact of renaming `xf_rail_convert_icon()` to `convert_rail_icon()`.
+Let's use the correct name right away.
 
-```
+```diff
 @@ -611,15 +611,206 @@ static xfRailIcon* RailIconCache_Lookup(xfRailIconCache* cache,
  	return &cache->entries[cache->numCacheEntries * cacheId + cacheEntry];
  }
@@ -383,10 +388,10 @@ it should be defined correctly from the start
 ...
 ```
 
-this weird diff is an artifact of renaming xf_rail_convert_icon()
-to convert_rail_icon(), let's use the correct name from the start
+Here's some debug logging that was not removed in time.
+It is introduced in the previous commit but it's not needed anymore.
 
-```
+```diff
 +static inline UINT32 round_up(UINT32 a, UINT32 b)
 +{
 +	return b * div_ceil(a, b);
@@ -405,33 +410,35 @@ to convert_rail_icon(), let's use the correct name from the start
 +		return;
 ```
 
-this random debug log removal in the middle of a bunch of new functions,
-let's remove the log (added in previous commit)
+Finally,
+here we add an argument to the function
+which is first added in the previous commit.
+We can define the stub correctly earlier.
 
-```
+```diff
  static void xf_rail_set_window_icon(xfContext* xfc,
 -                                    xfAppWindow* railWindow, xfRailIcon *icon)
 +                                    xfAppWindow* railWindow, xfRailIcon *icon,
 +                                    BOOL replace)
 ```
 
-```
+```diff
 -	xf_rail_set_window_icon(xfc, railWindow, icon);
 +	replaceIcon = !!(orderInfo->fieldFlags & WINDOW_ORDER_STATE_NEW);
 +	xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
 ```
 
-this addition of an argument to a function stub
-that does nothing in the previous commit
-let's add it right away
-
+All these changes rectify ‘weird’ diffs
+which effectively revert changes made by the previous diffs.
 Always think from the standpoint of code reviewer.
-What would they think if they saw this patch?
+What would they think if they saw such patches?
+“Hm... weird...”
+That's exactly how you pinpoint bad spots in your patches.
 
-So how do I reorder these changes?
-`git rebase --interactive` again.
-We start with `git rebase -i master`
-and edit the commit list like this:
+So how do I iron out these ‘wrinkles’?
+That's a job for `git rebase --interactive` again!
+I start with `git rebase -i master`
+and edit the worklist like this:
 
 ```
 pick 1eeff89 fix order reading
@@ -440,41 +447,34 @@ pick 9536a2c color conversion
 ```
 
 This tells git to stop at commit `91036c6` and let us edit it.
-We would not edit it right away but rather insert some changes
+I won't edit it right away but rather insert some changes
 between `91036c6` and `9536a2c` that follows it.
 If `9536a2c` were smaller then splitting it directly with `git reset`
-(as described in manpage for rebase) might have been easier to do,
-but in this case we won't do it.
+(as described in manpage for rebase)
+might have been easier to do,
+but in this case I won't do it.
 
-So we stop at `91036c6`
-and re-do the changes from `9536a2c`
-on top of that commit.
-We use `git commit --fixup=91036c6` to create specially named commits
+I stop at `91036c6` and re-do the changes from `9536a2c` on top of that commit.
+I use `git commit --fixup=91036c6` to create specially named commits
 which are compatible with `--autosquash` option of `rebase`.
+(I like to add comments to fixup commits to note what the fix.
+You can do that with an `--edit` flag.)
 
-xxx: ff5e5f43d26944318fbd2d652a5e996d3f396c16
+> [screenshot](ff5e5f43d26944318fbd2d652a5e996d3f396c16)
 
-> [screenshot]
+> By the way, did I tell about the awesome `git add -p` mode
+> where you can review and select the patch hunks that go into commit?
+> Now you know.
 
-Note that I like adding comments in fixup commits to note what they fix.
+After I'm done I do `git rebase --continue` to resume rebasing
+and reapply `9536a2c` on top of split changes.
+As expected, the patch does not apply cleanly,
+there are some conflicts but they are rather minor.
+Fix them, `git add` then `git rebase --continue` again.
+I end up with [this new commit](5a97269f95d82220ace055d2926493a6e2b83e5f) which looks much nicer.
 
-Also,
-did I tell about the awesome `git add -p` mode
-where you can review and select the patch hunks that go into commit?
-Now you know.
-
-After we're done
-we do `git rebase --continue` to resume rebasing
-and reapply `9536a2c` on top of our work.
-As expected, the patch does not apply cleanly.
-We have to fix the conflicts, but they are rather minor.
-Fix them, `git add`, `git rebase --continue` again.
-We end up with this new commit which looks much nicer.
-
-xxx: 5a97269f95d82220ace055d2926493a6e2b83e5f
-
-Now we do a final `git rebase -i --autosquash master`,
-immediately see the correct commit list:
+Now I do a final `git rebase -i --autosquash master`.
+Note how `fixup!` commits are already at the right place:
 
 ```
 pick 1eeff89 fix order reading
@@ -486,14 +486,12 @@ fixup ff5e5f4 fixup! prepare icon cache structs
 pick 5a97269 color conversion
 ```
 
-And here we have out complete patch set.
+And here we have our complete patch set.
 I usually review the patches once again to make sure that I like the diffs.
-Now it's time to do something about these awful commit messages.
-
 It's also a good moment to re-test your work,
-just in case you messed up that rebase.
+just in case you messed up during all the rebases.
 
-I absolutely love to juggle the changes between commits like this.
+Now it's time to do something about these awful commit messages.
 
 ### Writing good commit messages
 
