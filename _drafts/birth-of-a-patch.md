@@ -164,33 +164,7 @@ and all relevant information about commits.
 
 > [screenshot]
 
-So I start with [this branch tip](45daf77d08c55901f02ac42c7c2218dca0410345),
-run `git rebase -i master`
-and get the following commit list:
-
-```
-pick e44a3e1 prepare icon cache structs
-pick 8696117 allocating caches
-pick 9f473d8 icon cache values, cleanup and lookup
-pick f3a0706 rename pixel field
-pick 77012ff introduce scratch icon
-pick 60fbab6 using icon caches
-pick 5a2c635 [debug] output
-pick ec352a2 cache: actually, check 0xFF first
-pick e7fdb62 [debug] output
-pick 9355a0b [debug] flush on output
-pick f2c70c7 color conversion
-pick 295fa41 setting icons
-pick 93d984a todo
-pick 444d8f3 icons are appended
-pick f5dd034 pixel formats
-pick c9c7f3f better convesions
-pick cbff68a fix comment
-pick 016ffb2 fix alpha
-pick 42a05aa fix order reading
-pick 45daf77 palette
-```
-
+So I start with [this branch tip](45daf77d08c55901f02ac42c7c2218dca0410345).
 Then I stare at these commits in gitk,
 review their contents
 and think how they can be grouped up.
@@ -201,7 +175,8 @@ The following four groups seem to emerge:
 - mainaining the icon cache and interacting with RDP stack
 - processing images and actually setting the icons
 
-Which gives us the following rebase worklist:
+To regroup the commits I run `git rebase -i master`
+and make the following rebase worklist:
 
 ```
 pick 9355a0b [debug] flush on output
@@ -285,37 +260,21 @@ to keep interested people updated on the progress.
 
 ### Preparing the patch set
 
-> patching
+Once again,
+I start the day with a bunch of commits from yesterday
+which I want to regroup and squash,
+melding the bug fixes with new code
+as if I never made those mistakes.
 
-from
+> [screenshot]
 
-```
-pick a9d40cb [debug] flush on output
-pick 3619a2c fix order reading
-pick 2d6c8d8 prepare icon cache structs
-pick 1cac1cf color conversion
-pick f3c5008 fix a bug with 16x16 icons
-pick 1dbc6dd fun bugs with color formats
-pick db30910 better explanation
-pick b8f027d alpha bitmask should actually be a *mask*
-pick 31d9bdf fix 8-bit palettes (RGBQUAD does not include alpha)
-pick 5fcf43b use functions instead of swearing about formatting
-pick 7000dbd cleanup comments, lower amount of smug in them
-pick 14ce175 simplify error handling
-pick 5e07c09 improve naming
-pick d3541cb improve naming
-pick 7803a52 dont use malloc
-pick 2d39ffc drop debug logs
-pick 4aa3638 drop more debug logs
-pick 564490a code style
-pick ff1d47d return values
-pick 0e466bd drop comment just use i in the commit message:
-pick eecba32 spec reference
-pick e7ad030 drop dead code
-pick 2dd6bd7 add xflush for icon set
-```
-
-to
+gitk can highlight commits
+that add or remove a particular string
+(like `git log -S` from the terminal).
+It helps identifying commits that can be grouped.
+I end up with the following rebase worklist.
+Note that I remove the debugging commit
+and change the order of some of the commits.
 
 ```
 #### a9d40cb [debug] flush on output
@@ -346,45 +305,49 @@ s    e7ad030 drop dead code
 s    2dd6bd7 add xflush for icon set
 ```
 
-gitk definitely helps here,
-with its abilility to highligth commits
-that mention a string
+This time the rebase did not apply cleany and caused merge conflicts.
+Commits `5e07c09 improve naming` and `ff1d47d return values`
+failed to apply because some functions were renamed.
+These kinds of conflicts are easy to resolve:
+you look at the conflicting commit,
+remember its intent,
+and try redoing the same change to the old code.
+Keep in mind that
+fixes you do can cause more conflicts in the following commits.
+Merge conflicts are bound to happen
+if you reorder patches during an interactive rebase.
+That's why you should prune commits early and often,
+lowering the possibility of conflicts in the future.
 
-this time the rebase caused some conflits, but they were easy to solve
-patch 5e07c098f41a2d73cd047fda8802810097711ea5 did not apply cleanly:
-the rename from xf_rail_window_set_icon() to xf_rail_set_window_icon()
-caused some unrelated context change which were not there,
-so I had to resolve the conflict by redoing the renaming in the old code
-(as if the function has been named correctly from the start)
-and then fix the rippled conflicts in the newer patches which were
-made without the rename
+I end up with the following [tip](9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
+after the rebase.
+It's always a good idea to retest your code after rebasing,
+especially after resolving merge conflicts.
+You can also run a `git diff` between pre- and post-rebase states
+to make sure that you did not drop something you did not intend to.
 
-and another one when applying ff1d47d8460f5c04d28dac1c75923172458ba305
-which was caused mainly by xf_rail_convert_icon() having a new name
+### Editing patches
 
-this can always happend if you reorder patches during interactive rebase,
-when resolving conflicts always review the patch that did not apply
-and fix the code so that it does the same thing the patch intended to do
+When I feel that the patch set is ready
+I focus my attention on the diffs those patches introduce.
+Each patch should be atomic and solve one specific task.
+In my case I implement a new feature
+so I'd expect the diffs to be mostly green (additions).
 
-so I ended up with 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba after rebase
+I review the commits I currently have
+and see what can be improved in them:
 
-after you resolve some conflicts it's important to test your code
-and review patches as git rebase might have done something wrong
-
-it's also a good idea to run a `git diff` before and after the rebase
-to make sure that at least the final state of the code is identical
-and you did not lose some imporant part in the midway
-
-reviewing the patches:
 - 1eeff8968a0a5c98058c2f47e355f3e0de40f845
 - 91036c6fa5c7737e01c83f69d190e3f6feeab3dc
 - 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba
 
-the first one is easy
-the second one looks good: almost all additions, self-contained,
-
-the third one is fine, but I'd move some lines in the previous commit
-because these diffs look ugly:
+The first one looks good:
+it's an easy bug fix.
+The second one also seems okay:
+nice, self-contained additions.
+The last commit is also mostly good
+but there are some weird diff hunks in it.
+It seems that some these changes should be a part of the second commit.
 
 ```
 @@ -63,9 +64,8 @@ static const char* movetype_names[] =
@@ -417,13 +380,6 @@ it should be defined correctly from the start
 +	     | (((UINT32) pixels[2]) << 8)
 +	     | (((UINT32) pixels[3]) << 0);
 +}
-+
-+/*
-+ * DIB color palettes are arrays of RGBQUAD structs with colors in BGRX format.
-+ * They are used only by 1, 2, 4, and 8-bit bitmaps.
-+ */
-+static void fill_gdi_palette_for_icon(ICON_INFO* iconInfo, gdiPalette *palette)
-+{
 ...
 ```
 
@@ -558,6 +514,8 @@ this is what i came up with
 
 
 ### Submitting your work
+
+### Working with maintainer
 
 ### Conclusions
 
