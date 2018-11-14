@@ -490,12 +490,16 @@ And here we have our complete patch set.
 I usually review the patches once again to make sure that I like the diffs.
 It's also a good moment to re-test your work,
 just in case you messed up during all the rebases.
+Another thing that I can recommend testing is _bisectability_.
+Make sure that each of your commits at least compiles and passes unit-tests.
 
 Now it's time to do something about these awful commit messages.
 
 ### Writing good commit messages
 
-you do `git rebase -i` again (yes, it's an amazing multitool)
+I use `git rebase -i` again to change commit messages
+(yes, it's an amazing multitool).
+This time the `reword` command is used in rebase worklist:
 
 ```
 reword 1eeff89 fix order reading
@@ -503,13 +507,96 @@ reword aec29ec prepare icon cache structs
 reword 5c2a1f4 color conversion
 ```
 
-and start writing
-this is what i came up with
+After which git opens text editor three times to ask for new commit messages.
 
-- 1
-- 2
-- 3
+How does a good commit message look like?
+[Chris Beams has summarized](https://chris.beams.io/posts/git-commit/) this for me
+so I won't repeat the points which are made over and over.
+To make it even shorter,
+use the following format:
 
+```
+Short (50 chars or less) summary of changes
+
+More detailed explanatory text, if necessary.  Wrap it to about 72
+characters or so.  In some contexts, the first line is treated as the
+subject of an email and the rest of the text as the body.  The blank
+line separating the summary from the body is critical (unless you omit
+the body entirely); tools like rebase can get confused if you run the
+two together.
+
+Further paragraphs come after blank lines.
+
+  - Bullet points are okay, too
+
+  - Typically a hyphen or asterisk is used for the bullet, preceded by a
+    single space, with blank lines in between, but conventions vary here
+```
+
+You can see how this advice is applied in the commit messages I came up with:
+
+- [libfreerdp-core: fix reading TS_ICON_INFO](https://github.com/ilammy/FreeRDP/commit/158ac195a343936c43a924544776fc51eb2dd478)
+- [xfreerdp: add RAIL icon cache](https://github.com/ilammy/FreeRDP/commit/d46bde785c5ea0ee32b1a0c49002b61f60b767d5)
+- [xfreerdp: set \_NET_WM_ICON to RAIL app icon](https://github.com/ilammy/FreeRDP/commit/530df917c2e534d9defff9bf0aaa068d98221b59)
+
+Each of them describes the changes,
+provides context for them,
+and explains some non-obvious quirks.
+
+The formatting and line-breaking are quite important
+so that `git log` output looks nice:
+
+```console
+$ git log --oneline --graph | head
+* 530df917c xfreerdp: set _NET_WM_ICON to RAIL app icon
+* d46bde785 xfreerdp: add RAIL icon cache
+* 158ac195a libfreerdp-core: fix reading TS_ICON_INFO
+*   c5c1bac31 Merge pull request #4960 from akallabeth/interleaved_fix
+|\
+| * fff2454ae Make VS2010 happy, reworked UNROLL defines.
+| * 6e61dd9d9 Unroll bBits loops as well.
+| * 7e932bbfa Readded loop unrolling.
+| * cf8bc72dc Fixed profiler naming in tests.
+| * 9e2c20377 Fixed various issues with freerdp_bitmap_compress and interleaved_compress
+```
+
+```console
+$ git show 158ac195a
+commit 158ac195a343936c43a924544776fc51eb2dd478
+Author: ilammy <a.lozovsky@gmail.com>
+Date:   Sat Nov 10 22:09:20 2018 +0200
+
+    libfreerdp-core: fix reading TS_ICON_INFO
+
+    The spec says that CbColorTable field is present when Bpp is 1, 4, 8.
+    Actually, bpp == 2 is not supported by TS_ICON_INFO according to the
+    spec (though, DIB definitely supports 16-color images).
+
+        MS-RDPERP 2.2.1.2.3 Icon Info (TS_ICON_INFO)
+
+        CbColorTable (2 bytes):
+            This field is ONLY present if the bits per pixel (Bpp)
+            value is 1, 4, or 8.
+
+    Omitting 8-bit value breaks 256-color icons which are incorrectly
+    read with color and alpha data mixed up.
+
+diff --git a/libfreerdp/core/window.c b/libfreerdp/core/window.c
+index a9b3c00b8..74281a6ff 100644
+--- a/libfreerdp/core/window.c
++++ b/libfreerdp/core/window.c
+@@ -86,8 +86,8 @@ BOOL update_read_icon_info(wStream* s, ICON_INFO* iconInfo)
+        Stream_Read_UINT16(s, iconInfo->width); /* width (2 bytes) */
+        Stream_Read_UINT16(s, iconInfo->height); /* height (2 bytes) */
+
+-       /* cbColorTable is only present when bpp is 1, 2 or 4 */
+-       if (iconInfo->bpp == 1 || iconInfo->bpp == 2 || iconInfo->bpp == 4)
++       /* cbColorTable is only present when bpp is 1, 4 or 8 */
++       if (iconInfo->bpp == 1 || iconInfo->bpp == 4 || iconInfo->bpp == 8)
+        {
+                if (Stream_GetRemainingLength(s) < 2)
+                        return FALSE;
+```
 
 ### Submitting your work
 
