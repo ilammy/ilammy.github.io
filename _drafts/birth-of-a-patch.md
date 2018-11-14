@@ -598,11 +598,68 @@ index a9b3c00b8..74281a6ff 100644
                         return FALSE;
 ```
 
-### Submitting your work
+### Submitting a pull request
 
-### Working with maintainer
+Finally it's time to make a pull request.
+In this case
+I'm implementing a simple feature to solve a specific issue
+so the description can be quite basic
+and just reference the issue.
+It's also a visual feature so I can add an eye-catcher image.
+
+> [screenshot]
+
+Always describe your work
+and why you think it would be a good addition to the project.
+Read and respect
+the project's contribution guidelines
+[(here are ones for FreeRDP)](https://github.com/FreeRDP/FreeRDP/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+before submitting a pull request.
+These rules are there for a reason.
+
+After creating a pull request
+I've also asked the person having an issue to test the fix,
+which they gladly did and confirmed that it works for them too.
+
+### Working with maintainers
+
+Soon the code is going to be reviewed by project's maintainers.
+It's very likely to receive feedback
+and some change requests.
+In my case these were mostly nitpicks and some clarifications
+which I gladly replied to.
+Furthermore,
+the maintainer (Armin) was exceptionally nice
+and fixed all the nitpicks himself.
+
+I'm also very glad that my humor was not wasted.
+Code comments are a vessel for oral tradition
+and they a good opportunity to occasionally have fun and make fun,
+for example,
+of stupid things we have to do for the sake of backwards compatibility.
+Don't be so serious.
 
 ### Conclusions
+
+Yay!
+Now I have (or rather, maintain) this nice [Contributor] badge on GitHub:
+
+> [screenshot]
+
+Hopefully, the world is on a way to be a better place now.
+One reason for that is the pull request discussed here
+which hopefully makes FreeRDP a bit nicer.
+The other reason is you,
+who hopefully have read until this point
+and learned yourself a trick or two about **git**.
+Please use this knowledge wisely
+to increase the quality of your submissions.
+
+Cheerio~
+
+> [parting image]
+
+<hr/>
 
 next:
 
@@ -618,9 +675,14 @@ next:
 > fix issues
 > now you have a nice [contributor] badge, yay!
 
+2018-11-10 13:00:00 - started work on a patch
 2018-11-11 03:50:00 - idea of a post
 2018-11-11 04:05:00 - draft of points
 2018-11-12 21:30:00 - done the patch more or less
+2018-11-13 00:15:00 - PR submitted
+2018-11-14 22:00:00 - almost completed draft post
+
+<hr/>
 
 It was exceptionally hard to capture the exact process I follow
 without degenerating into a raw terminal log.
