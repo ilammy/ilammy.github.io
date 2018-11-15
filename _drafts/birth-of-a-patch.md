@@ -36,7 +36,7 @@ I was shuffling through my inbox,
 stumbled upon [this person](https://github.com/FreeRDP/FreeRDP/issues/4984#issue-377672013)
 and felt sorry for them.
 
-![RAIL issue screenshot from FreeRDP's bugtracker](/images/2018-11-11/01-issue.png)
+[![RAIL issue screenshot from FreeRDP's bugtracker](/images/2018-11-11/01-issue.png)](https://github.com/FreeRDP/FreeRDP/issues/4984)
 
 For real,
 FreeRDP should have had this feature years ago
@@ -660,7 +660,7 @@ so the description can be quite basic
 and just reference the issue.
 It’s also a visual feature so I can add an eye-catcher image.
 
-![Submitted pull request #5003](/images/2018-11-11/07-pr.png)
+[![Submitted pull request #5003](/images/2018-11-11/07-pr.png)](https://github.com/FreeRDP/FreeRDP/pull/5003)
 
 Always describe your work
 and why you think it would be a good addition to the project.
