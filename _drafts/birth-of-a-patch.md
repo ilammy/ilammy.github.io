@@ -25,10 +25,11 @@ Ideally, one that affects yourself
 (aka scratch your own itch)
 but other people's issues are fine too,
 everybody likes when their problems go away.
-If you have no idea then try looking for or in the issue tracker.
-Usually the software we write is terrible,
+If you have absolutely no idea what to improve
+then try looking for or in the issue tracker.
+Usually software we write is terrible,
 it always has some issues.
-Somebody might even be annoyed enough to write these issues down
+Someone might even be annoyed enough to write these issues down
 or at least to voice their complaints.
 
 That was the case for me:
@@ -39,7 +40,7 @@ and felt sorry for them.
 [![RAIL issue screenshot from FreeRDP's bugtracker](/images/2018-11-11/01-issue.png)](https://github.com/FreeRDP/FreeRDP/issues/4984)
 
 For real,
-FreeRDP should have had this feature years ago
+FreeRDP should have had this feature ages ago
 but it doesn't.
 Displaying remote application icons is important,
 but _no one cared about it_
@@ -54,12 +55,14 @@ as solving similar problems should be easier next time you have them.
 Thankfully,
 I do have enough experience with FreeRDP and X11 under my belt
 so I knew more or less where and what to look for.
-It's just a matter of reading some specs and implementing a minor feature.
+It should be a matter of reading some specs
+and calling a few library functions
+to have those icons displayed.
 
-Initially I did not intend to fix that issue myself
-so I left [a comment](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-436786068)
+Initially I did not intend to fix that issue myself,
+so I [left a comment](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-436786068)
 with some hints for whoever is going to tackle that issue.
-It's very important to leave this sort of message trail,
+It's very important to leave this sort of a message trail,
 especially in open-source work done during you free time,
 because of the immense help such notes provide
 in case you flake and someone else has to deal with this later.
@@ -69,10 +72,10 @@ in case you flake and someone else has to deal with this later.
 Now comes the hard part (at least for me):
 starting.
 Once I've done that it's infinitely easier to continue.
-So I patiently wait for desire to get to the code.
+So I patiently wait for desire to kick in.
 This time it did not take long,
 I was kinda frustrated with another project
-and seemed to be a good idea to C some Rust off my X11 skills
+and it seemed to be a good idea to C some Rust off my X11 skills
 (pun intended).
 
 Make a fork, checkout a new branch, start hacking.
@@ -80,10 +83,10 @@ Sounds easy.
 I like to name my first-contact branches with a `wip` prefix
 so this gets called `wip/rail-icons`.
 I know I'll need an icon cache
-so [I build something like that](https://github.com/ilammy/FreeRDP/commit/e44a3e1c29cb17e08ea2cff5f5e998905454ad2f),
+so I [build something like that](https://github.com/ilammy/FreeRDP/commit/e44a3e1c29cb17e08ea2cff5f5e998905454ad2f),
 [improving it](https://github.com/ilammy/FreeRDP/commit/8696117a0c478c825892f07919b20f19cdb6b564)
 [along the way](https://github.com/ilammy/FreeRDP/commit/9f473d89cd63c7cf3a08c6155cbf3a71f3c3c5a8).
-At some point I want to test things out so [I add some debug logging](https://github.com/ilammy/FreeRDP/commit/5a2c6359da9695640d7dd9c038cfb0125724adb3),
+At some point I want to test things out so I [add some debug logging](https://github.com/ilammy/FreeRDP/commit/5a2c6359da9695640d7dd9c038cfb0125724adb3),
 marking it as such so it's easy to remove later.
 Then [more code for color conversion follows](https://github.com/ilammy/FreeRDP/commit/f2c70c7b068d8f8938cc04bacc389ddb5e54383e),
 with [experiments](https://github.com/ilammy/FreeRDP/commit/f5dd034a5dbd389ab37a20baf9cd741c87c03226),
@@ -128,6 +131,7 @@ but I find it disgustingly uncultured practice.
 That's like when you come to a restaurant
 and instead of getting your food served on a plate by a waiter
 you are invited to eat the meal straight from the oven in the kitchen.
+
 I like keeping notes in TODOs when I work on the code,
 occasionally swearing in them.
 I split the commits into very small parts
@@ -136,45 +140,45 @@ or revert to a particular state of the code.
 I use [debug] tags for commits that need to be removed later.
 You're free to do anything you want
 as long as you're comfortable with it,
-and you do it privately
+and you do it _privately_
 without involving other people into it
 (such as your code reviewers).
 
 Note, however, that while my commits seem to be incoherent
 they are not made by simply binding Ctrl-S hotkey to `git commit`.
-While I keep most of the information in my head
-the commits are still self-contained pieces of changes.
+I keep most of the information in my head
+but the commits are still self-contained pieces of changes.
 Each of them introduces some _small_ atomic improvement.
 It is important to keep them small but meaningful.
 Commit early and often,
-do not postpone it until committing at the end of the day.
+do not postpone it until the end of the day.
 
 ### Wrapping up for the day
 
 It's important to have something working at the end of your hacking session.
 This feeling of accomplishment keeps you motivated and preserves momentum.
-In my case I've managed to get the icons somewhat displayed.
+In my case I've almost managed to get the icons displayed.
 At least on my machine.
 In one environment.
 Sometimes.
-If you know where to look.
+If you know where to look for them.
 
 ![Almost-working icon of notepad.exe](/images/2018-11-11/02-notepad.png)
 
-Now all that remains is to do more testing,
-fix some bugs
-(there _will_ be bugs),
+Now all that remains is more testing,
+fix the bugs
+(like the icons not actually displaying where they should be),
 cleanup the code,
 prepare the patches
 and submit a pull request.
 
 I like to leave incomplete tasks slightly broken by the end of the day.
-This gives you a good anchor point to resume your work next day.
+It gives me a good anchor point to resume the work next day.
 In this case I left the commits and remaining bugs as-is,
 knowing that they will be the first thing I notice tomorrow.
 Just don't forget to `git push` them to some remote repository.
 
-### Keeping commits organized with `git rebase`
+### Keeping commits organized with _**git rebase**_
 
 Remember that ugly stream of incoherent commits?
 That's obviously _not pretty_.
@@ -242,18 +246,18 @@ it's good enough to just keep the commit count at bay
 and get rid of some failed experiments I made on the way.
 Plus, reviewing the commit messages reminds me what the hell did I do yesterday.
 
-Also, I'm happy to avoid having to resolve any rebase conflicts this time.
+Also, I happen to avoid having to resolve any rebase conflicts this time.
 That's usually the case if you rebase and prune commits often.
-However, if you neglect this care for too long then you're bound to encounter conflicts.
+However, if you neglect it for too long then you're bound to encounter conflicts.
 
 So I start my next coding session with [this tree](https://github.com/ilammy/FreeRDP/commits/1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
 which contains only four commits.
 I expect to do only bug fixes now
-so it seems the final patch set will contain around this number of commits.
+so it seems the final patch set will have four commits.
 
-### Finishing up the code changes
+### Resolving bugs and improving code style
 
-Now, there were a few bugs that I'm aware of
+Now, there were a few bugs that I was aware of
 and a couple that I discovered along the way.
 This post is not a guide on debugging C code
 and not a rant about hysterical raisins
@@ -265,7 +269,7 @@ to make these icons:
 
 ![Icons with color corruptions](/images/2018-11-11/04-broken-icons.png)
 
-look like actully normal ones:
+look like actually normal ones:
 
 ![Correctly displayed icons](/images/2018-11-11/05-right-icons.png)
 
@@ -278,41 +282,11 @@ add [actually useful comments](https://github.com/ilammy/FreeRDP/commit/7000dbd0
 and [remove temporary debug logs which are no longer needed](https://github.com/ilammy/FreeRDP/commit/2d39ffc5f31a835856279e4c96c7f81be32bc7c1).
 
 All of this results in another bunch of commits
-slapped on top of those four from the day before:
-
-```console
-* 2dd6bd7d6 (HEAD -> wip/rail-icons) add xflush for icon set
-* e7ad0303e drop dead code
-* eecba32bc spec reference
-* 0e466bd8b drop comment just use i in the commit message:
-* ff1d47d84 return values
-* 564490a45 code style
-* 4aa3638fa drop more debug logs
-* 2d39ffc5f drop debug logs
-* 7803a526c dont use malloc
-* d3541cba1 improve naming
-* 5e07c098f improve naming
-* 14ce1752b simplify error handling
-* 7000dbd0d cleanup comments, lower amount of smug in them
-* 5fcf43b59 use functions instead of swearing about formatting
-* 31d9bdfd8 fix 8-bit palettes (RGBQUAD does not include alpha)
-* b8f027d6f alpha bitmask should actually be a *mask*
-* db30910fb better explanation
-* 1dbc6dd55 fun bugs with color formats
-* f3c5008fe fix a bug with 16x16 icons
-* 1cac1cf5a (origin/wip/rail-icons) color conversion
-* 2d6c8d825 prepare icon cache structs
-* 3619a2c6a fix order reading
-* a9d40cb18 [debug] flush on output
-*   c5c1bac31 (upstream/master) Merge pull request #4960 from akallabeth/interleaved_fix
-|\
-| * fff2454ae Make VS2010 happy, reworked UNROLL defines.
-```
-
-The content of the commits or their message do not really matter at this point.
+slapped on top of those four from the day before.
+Their content and messages do not really matter at this point.
 The one thing that matters is that I'm happy with the final state of the code.
 We'll clean up the commits later to make sure they are readable.
-Now I can go and report the status [on GitHub](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-437681547)
+Now I can go and [report the status on GitHub](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-437681547)
 to keep interested people updated on the progress.
 
 ### Preparing the patch set
@@ -323,15 +297,15 @@ which I want to regroup and squash,
 melding the bug fixes with new code
 as if I never made those mistakes.
 
-![Example of gitk highlighting](/images/2018-11-11/06-gitk-log-s.png)
-
-gitk can highlight commits
+**gitk** can highlight commits
 that add or remove a particular string
 (like `git log -S` from the terminal),
 it helps identifying commits that can be grouped.
+
+![Example of gitk highlighting](/images/2018-11-11/06-gitk-log-s.png)
+
 I end up with the following rebase worklist.
-Note that I remove the debugging commit
-and change the relative order of some of the commits.
+(Note the removed debugging commit.)
 
 ```
 #### a9d40cb [debug] flush on output
@@ -376,14 +350,14 @@ if you reorder patches during an interactive rebase.
 That's why you should prune commits early and often,
 lowering the possibility of conflicts in the future.
 
-I end up with the following [tree](https://github.com/ilammy/FreeRDP/commits/9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
+I end up with [the following tree](https://github.com/ilammy/FreeRDP/commits/9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
 after the rebase.
 It's always a good idea to retest your code after rebasing,
 especially after resolving merge conflicts.
 You can also run a `git diff` between pre- and post-rebase states
 to make sure that you did not drop something you did not intend to.
 
-### Editing patches
+### Editing patches for clarity
 
 When I feel that the patch set is ready
 I focus my attention on the diffs those patches introduce.
@@ -392,7 +366,7 @@ In my case I implement a new feature
 so I'd expect the diffs to be mostly green (additions).
 
 I review the commits I currently have
-and see what can be improved in them:
+and look what can be improved in them:
 
 - [fix order reading](https://github.com/ilammy/FreeRDP/commit/1eeff8968a0a5c98058c2f47e355f3e0de40f845)
 - [prepare icon cache structs](https://github.com/ilammy/FreeRDP/commit/91036c6fa5c7737e01c83f69d190e3f6feeab3dc)
@@ -402,9 +376,10 @@ The first one looks good:
 it's an easy bug fix.
 The second one also seems okay:
 nice, self-contained additions.
-The last commit is also mostly good
+The last commit is mostly good
 but there are some weird diff hunks in it.
-It seems that some these changes should be a part of the second commit.
+It seems that some these changes should be a part of the second commit instead.
+Let's look at these strange spots more closely.
 
 Here we see changes in `struct xf_rail_icon`
 which is introduced in the previous commit.
@@ -485,10 +460,9 @@ We can define the stub correctly earlier.
 +        xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
 ```
 
-All these changes rectify diffs
-which effectively revert changes made by the previous diffs.
+All these changes effectively revert changes made by the previous diffs.
 What would your code reviewer think if they saw such patches?
-“Hm... weird...”
+“Hm... weird... are you a schizo?”
 That's exactly how you pinpoint bad spots in your patches.
 
 So how do I iron out these wrinkles?
@@ -503,7 +477,7 @@ pick 9536a2c color conversion
 ```
 
 This tells git to stop at commit `91036c6` and let us edit it.
-I won't edit it right away but rather insert some changes
+I won't edit it right away but rather insert some new commits
 between `91036c6` and `9536a2c` that follows it.
 If `9536a2c` were smaller then splitting it directly with `git reset`
 (as [described](https://git-scm.com/docs/git-rebase#_splitting_commits) in manpage for rebase)
@@ -513,18 +487,18 @@ but in this case I won't do it.
 I stop at `91036c6` and re-do the changes from `9536a2c` on top of that commit.
 I use `git commit --fixup=91036c6` to create specially named commits
 which are compatible with `--autosquash` option of `rebase`.
-(I like to add comments to fixup commits to note what the fix.
+(I also like to add some comments to fixup commits to note what they fix.
 You can do that with an `--edit` flag.)
 
 > By the way, did I tell about the awesome `git add -p` mode
-> where you can review and select the patch hunks that go into commit?
+> where you can review and select the patch hunks that go into your commit?
 > Now you know.
 
 After I'm done I do `git rebase --continue` to resume rebasing
 and reapply `9536a2c` on top of split changes.
 As expected, the patch does not apply cleanly,
 there are some conflicts but they are rather minor.
-Fix them, `git add` then `git rebase --continue` again.
+Fix them, `git add` them and `git rebase --continue` again.
 I end up with
 [this new commit](https://github.com/ilammy/FreeRDP/commit/5a97269f95d82220ace055d2926493a6e2b83e5f)
 which looks much nicer.
@@ -542,7 +516,7 @@ fixup ff5e5f4 fixup! prepare icon cache structs
 pick 5a97269 color conversion
 ```
 
-And here we have our complete patch set.
+And [here we have](https://github.com/ilammy/FreeRDP/commit/5c2a1f43fdbc1f921eeaacbb4f163dbc26c46b99) our complete patch set.
 I usually review the patches once again to make sure that I like the diffs.
 It's also a good moment to re-test your work,
 just in case you messed up during all the rebases.
@@ -553,9 +527,8 @@ Now it's time to do something about these awful commit messages.
 
 ### Writing good commit messages
 
-I use `git rebase -i` again to change commit messages
-(yes, it's an amazing multitool).
-This time the `reword` command is used in rebase worklist:
+I use `git rebase -i` again to `reword` commit messages
+(yes, it's an amazing multitool):
 
 ```
 reword 1eeff89 fix order reading
@@ -563,9 +536,10 @@ reword aec29ec prepare icon cache structs
 reword 5c2a1f4 color conversion
 ```
 
-After which git opens a text editor three times to ask for new commit messages.
+Then **git** opens a text editor (three times)
+where you can go wild and write new messages.
 
-How does a good commit message look like?
+How does a _good_ commit message look like?
 Chris Beams [has summarized this for me](https://chris.beams.io/posts/git-commit/)
 so I won't repeat the points which are made over and over.
 In short, use the following format:
@@ -654,8 +628,12 @@ index a9b3c00b8..74281a6ff 100644
 ### Submitting a pull request
 
 Finally it's time to make a pull request.
+I rename the branch into just `rail-icons`
+(without the `wip` prefix)
+and write up a nice description of the changes.
+
 In this case
-I'm implementing a simple feature to solve a specific issue
+I implement a simple feature to solve a specific issue
 so the description can be quite basic
 and just reference the issue.
 It's also a visual feature so I can add an eye-catcher image.
@@ -666,12 +644,12 @@ Always describe your work
 and why you think it would be a good addition to the project.
 Read and respect
 the project's contribution guidelines
-[(here are ones for FreeRDP)](https://github.com/FreeRDP/FreeRDP/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+(here are ones [for FreeRDP](https://github.com/FreeRDP/FreeRDP/blob/master/.github/PULL_REQUEST_TEMPLATE.md))
 before submitting a pull request.
 These rules are there for a reason.
 
 After creating a pull request
-I've also asked the person having an issue to test the fix,
+I also asked the reporter of the issue to test the fix,
 which they gladly did and confirmed that it works for them too.
 
 ### Working with maintainers
@@ -680,48 +658,56 @@ Soon the code is going to be reviewed by project's maintainers.
 It's very likely to receive feedback
 and some change requests.
 In my case these were mostly nitpicks and some clarifications
-which I gladly replied to.
-Furthermore,
-the maintainer (Armin) was exceptionally nice
-and fixed all the nitpicks himself.
+which I gladly replied to and accepted.
 
-I'm also very glad that my humor was not wasted.
+To my pleasant surprise,
+one of the maintainers was exceptionally nice
+and actually fixed all the nitpicks himself!
+Thank you, Armin.
+
+I was also very glad that my humor about DIB format being vertically flipped
+[was not wasted](https://github.com/FreeRDP/FreeRDP/pull/5003#discussion_r232918806):
+
+```c
+/* ɐᴉlɐɹʇsn∀ uᴉ ǝɹ,ǝʍ ʇɐɥʇ ʇǝƃɹoɟ ʇ,uop */
+maskByte = &iconInfo->bitsMask[stride * (iconInfo->height - 1 - y)];
+nextBit = 0x80;
+```
+
 Code comments are a vessel for oral tradition
-and they a good opportunity to occasionally have fun and make fun,
-for example,
+and they a good opportunity to occasionally have fun and make fun.
+For example,
 of stupid things we have to do for the sake of backwards compatibility.
-Don't be so serious.
+Don't be so serious, take your suit off sometimes.
+(But don't insult anybody, even in comments.)
 
 ### Conclusions
 
 Yay!
-Now I have (or rather, maintain) this nice [Contributor] badge on GitHub:
+Now I have (or rather, maintain) this pretty [Contributor] badge on GitHub:
 
 ![Comment with a contributor badge](/images/2018-11-11/08-thanks.png)
 
 Hopefully, the world is on a way to be a better place now.
-One reason for that is the pull request discussed here
+One reason for that is the pull request discussed here,
 which hopefully makes FreeRDP a bit nicer.
 The other reason is you,
 who hopefully have read until this point
-and learned yourself a trick or two about **git**.
+and learned a trick or two about git for yourself.
 Please use this knowledge wisely
 to increase the quality of your submissions.
 
 Cheerio~
 
-[![Yuyuko picture by @sasamorichou](/images/2018-11-11/09-yuyuko.png)](https://twitter.com/sasamorichou/status/1054729930683138050)
+<div style="text-align: center">
+<a href="https://twitter.com/sasamorichou/status/1054729930683138050">
+<img src="/images/2018-11-11/09-yuyuko.png" alt="Yuyuko picture by @sasamorichou" />
+</a>
+</div>
 
+<div style="padding: 1em 0 0.5em">
 <hr/>
-
-2018-11-10 13:00:00 - started work on a patch
-2018-11-11 03:50:00 - idea of a post
-2018-11-11 04:05:00 - draft of points
-2018-11-12 21:30:00 - done the patch more or less
-2018-11-13 00:15:00 - PR submitted
-2018-11-14 22:00:00 - almost completed draft post
-
-<hr/>
+</div>
 
 It was exceptionally hard to capture the exact process I follow
 without degenerating into a raw terminal log.
