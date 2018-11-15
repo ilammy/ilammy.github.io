@@ -36,7 +36,7 @@ I was shuffling through my inbox,
 stumbled upon [this person](https://github.com/FreeRDP/FreeRDP/issues/4984#issue-377672013)
 and felt sorry for them.
 
-> [screenshot: screenshot from GitHub with marked issue]
+![RAIL issue screenshot from FreeRDP's bugtracker](/images/2018-11-11/01-issue.png)
 
 For real,
 FreeRDP should have had this feature years ago
@@ -159,7 +159,7 @@ In one environment.
 Sometimes.
 If you know where to look.
 
-> [screenshot: screenshot of notepad with `xprop`]
+![Almost-working icon of notepad.exe](/images/2018-11-11/02-notepad.png)
 
 Now all that remains is to do more testing,
 fix some bugs
@@ -193,7 +193,7 @@ Despite its simplistic Tcl/Tk interface,
 it does a great job at displaying branch history
 and all relevant information about commits.
 
-> [screenshot: gitk view of the branch]
+![Viewing a branch history via gitk](/images/2018-11-11/03-gitk-branch.png)
 
 So I start with [this tree](https://github.com/ilammy/FreeRDP/commits/45daf77d08c55901f02ac42c7c2218dca0410345).
 Then I stare at commits in gitk,
@@ -263,11 +263,11 @@ Let’s just say that
 I had to tweak some things
 to make these icons:
 
-> [screenshot: broken icons]
+![Icons with color corruptions](/images/2018-11-11/04-broken-icons.png)
 
 look like actully normal ones:
 
-> [screenshot: normal icons]
+![Correctly displayed icons](/images/2018-11-11/05-right-icons.png)
 
 After that the patch set is feature-complete
 and I can start cleaning up the code.
@@ -323,7 +323,7 @@ which I want to regroup and squash,
 melding the bug fixes with new code
 as if I never made those mistakes.
 
-> [screenshot: gitk highlighting]
+![Example of gitk highlighting](/images/2018-11-11/06-gitk-log-s.png)
 
 gitk can highlight commits
 that add or remove a particular string
@@ -660,7 +660,7 @@ so the description can be quite basic
 and just reference the issue.
 It’s also a visual feature so I can add an eye-catcher image.
 
-> [screenshot: PR screenshot]
+![Submitted pull request #5003](/images/2018-11-11/07-pr.png)
 
 Always describe your work
 and why you think it would be a good addition to the project.
@@ -697,7 +697,7 @@ Don’t be so serious.
 Yay!
 Now I have (or rather, maintain) this nice [Contributor] badge on GitHub:
 
-> [screenshot: love]
+![Comment with a contributor badge](/images/2018-11-11/08-thanks.png)
 
 Hopefully, the world is on a way to be a better place now.
 One reason for that is the pull request discussed here
