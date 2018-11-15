@@ -28,7 +28,7 @@ everybody likes when their problems go away.
 If you have no idea then try looking for or in the issue tracker.
 Usually the software we write is terrible,
 it always has some issues.
-Somebody even might be annoyed enough to write these issues down
+Somebody might even be annoyed enough to write these issues down
 or at least to voice their complaints.
 
 That was the case for me:
@@ -36,12 +36,13 @@ I was shuffling through my inbox,
 stumbled upon [this person](https://github.com/FreeRDP/FreeRDP/issues/4984#issue-377672013)
 and felt sorry for them.
 
-> [screenshot]
+> [screenshot: screenshot from GitHub with marked issue]
 
 For real,
 FreeRDP should have had this feature years ago
 but it doesn’t.
-Because _no one cared about it_
+Displaying remote application icons is important,
+but _no one cared about it_
 aside from that person.
 Do _you_ care about it?
 Are you bad enough to rescue the President?
@@ -53,7 +54,7 @@ as solving similar problems should be easier next time you have them.
 Thankfully,
 I do have enough experience with FreeRDP and X11 under my belt
 so I knew more or less where and what to look for.
-We just need to look at some specs and implement a minor feature.
+It’s just a matter of reading some specs and implementing a minor feature.
 
 Initially I did not intend to fix that issue myself
 so I left [a comment](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-436786068)
@@ -79,35 +80,65 @@ Sounds easy.
 I like to name my first-contact branches with a `wip` prefix
 so this gets called `wip/rail-icons`.
 I know I’ll need an icon cache
-so I build something like that,
-improving it along the way.
-At some point I want to test things out so I add some debug logging,
+so [I build something like that](https://github.com/ilammy/FreeRDP/commit/e44a3e1c29cb17e08ea2cff5f5e998905454ad2f),
+[improving it](https://github.com/ilammy/FreeRDP/commit/8696117a0c478c825892f07919b20f19cdb6b564)
+[along the way](https://github.com/ilammy/FreeRDP/commit/9f473d89cd63c7cf3a08c6155cbf3a71f3c3c5a8).
+At some point I want to test things out so [I add some debug logging](https://github.com/ilammy/FreeRDP/commit/5a2c6359da9695640d7dd9c038cfb0125724adb3),
 marking it as such so it’s easy to remove later.
-Then more code for color conversion follows,
-with experiments, curses and TODOs all around it.
+Then [more code for color conversion follows](https://github.com/ilammy/FreeRDP/commit/f2c70c7b068d8f8938cc04bacc389ddb5e54383e),
+with [experiments](https://github.com/ilammy/FreeRDP/commit/f5dd034a5dbd389ab37a20baf9cd741c87c03226),
+[curses](https://github.com/ilammy/FreeRDP/commit/c9c7f3f8813c2f5b0c8a417e8faed4997a0db604#diff-88e1759a07bca843ce780d306c5ae6b5R769)
+and [TODOs](https://github.com/ilammy/FreeRDP/commit/93d984a0a231df0e423c4436a8e34c7add117f60)
+all around it.
 
 ### Hacking around
 
 I make rather crappy commits while developing and experimenting:
 
-> [screenshot]
+```console
+$ git log --oneline --decorate --graph
+* 45daf77d0 (HEAD -> wip/rail-icons) palette
+* 42a05aa67 fix order reading
+* 016ffb295 fix alpha
+* cbff68a9f fix comment
+* c9c7f3f88 better convesions
+* f5dd034a5 pixel formats
+* 444d8f301 icons are appended
+* 93d984a0a todo
+* 295fa4165 setting icons
+* f2c70c7b0 color conversion
+* 9355a0be8 [debug] flush on output
+* e7fdb6295 [debug] output
+* ec352a211 cache: actually, check 0xFF first
+* 5a2c6359d [debug] output
+* 60fbab6d2 using icon caches
+* 77012fff3 introduce scratch icon
+* f3a070680 rename pixel field
+* 9f473d89c icon cache values, cleanup and lookup
+* 8696117a0 allocating caches
+* e44a3e1c2 prepare icon cache structs
+*   c5c1bac31 (upstream/master) Merge pull request #4960 from akallabeth/interleaved_fix
+|\
+| * fff2454ae Make VS2010 happy, reworked UNROLL defines.
+```
 
 And this is fine because _they are not meant to go public_.
 Some people would submit a code like that for review as soon as it works,
 but I find it disgustingly uncultured practice.
-This is my workplace,
-I keep it comfortable to me.
-But other developers do not need to know about my habits,
-and they honestly should not care.
-(“Hey, so why are you writing this post then?”)
-
-Keeping TODOs in the code,
-occasionally swearing,
-marking commits with `[tags]`...
-All this works for me
-but maybe it won’t for you.
-You’re free to do anything you want as long as you’re comfortable with it,
-just hide the ‘sausage making’.
+That’s like when you come to a restaurant
+and instead of getting your food served on a plate by a waiter
+you are invited to eat the meal straight from the oven in the kitchen.
+I like keeping notes in TODOs when I work on the code,
+occasionally swearing in them.
+I split the commits into very small parts
+so I can get back to them later,
+or revert to a particular state of the code.
+I use [debug] tags for commits that need to be removed later.
+You’re free to do anything you want
+as long as you’re comfortable with it,
+and you do it privately
+without involving other people into it
+(such as your code reviewers).
 
 Note, however, that while my commits seem to be incoherent
 they are not made by simply binding Ctrl-S hotkey to `git commit`.
@@ -115,22 +146,23 @@ While I keep most of the information in my head
 the commits are still self-contained pieces of changes.
 Each of them introduces some _small_ atomic improvement.
 It is important to keep them small but meaningful.
-Commit early and often, do not postpone committing until the end of the day.
-If you feel that you’re not ready to commit then you won’t _ever_ be ready.
+Commit early and often,
+do not postpone it until committing at the end of the day.
 
 ### Wrapping up for the day
 
 It’s important to have something working at the end of your hacking session.
 This feeling of accomplishment keeps you motivated and preserves momentum.
-In my case I’ve managed to get the feature more or less working.
+In my case I’ve managed to get the icons somewhat displayed.
 At least on my machine.
 In one environment.
 Sometimes.
+If you know where to look.
 
-> [screenshot]
+> [screenshot: screenshot of notepad with `xprop`]
 
 Now all that remains is to do more testing,
-fix remaining known bugs
+fix some bugs
 (there _will_ be bugs),
 cleanup the code,
 prepare the patches
@@ -150,8 +182,7 @@ If you keep pumping out commits like that
 then you’re digging your own grave
 when the only remaining option will be
 to squash them all into one giant ball of mud.
-In order to avoid that I like to prune my git trees
-at least once per day.
+In order to avoid that I prune my git trees at least once per day.
 
 `git rebase --interactive` is an amazing tool for that.
 It lets you rearrange, split and squash, and meld commits
@@ -162,10 +193,10 @@ Despite its simplistic Tcl/Tk interface,
 it does a great job at displaying branch history
 and all relevant information about commits.
 
-> [screenshot]
+> [screenshot: gitk view of the branch]
 
-So I start with [this branch tip](45daf77d08c55901f02ac42c7c2218dca0410345).
-Then I stare at these commits in gitk,
+So I start with [this tree](https://github.com/ilammy/FreeRDP/commits/45daf77d08c55901f02ac42c7c2218dca0410345).
+Then I stare at commits in gitk,
 review their contents
 and think how they can be grouped up.
 The following four groups seem to emerge:
@@ -176,7 +207,8 @@ The following four groups seem to emerge:
 - processing images and actually setting the icons
 
 To regroup the commits I run `git rebase -i master`
-and make the following rebase worklist:
+and edit the rebase worklist like this,
+constructing four commits out of that mess:
 
 ```
 pick 9355a0b [debug] flush on output
@@ -204,18 +236,17 @@ s    016ffb2 fix alpha
 s    45daf77 palette
 ```
 
-Bamf! Save, quit, enjoy.
+`:wq`, enjoy.
 I don’t bother with better commit messages for now,
 it’s good enough to just keep the commit count at bay
 and get rid of some failed experiments I made on the way.
 Plus, reviewing the commit messages reminds me what the hell did I do yesterday.
 
-Also, I’m happy to avoid having to resolve any rebase conflict this time.
+Also, I’m happy to avoid having to resolve any rebase conflicts this time.
 That’s usually the case if you rebase and prune commits often.
 However, if you neglect this care for too long then you’re bound to encounter conflicts.
 
-So, at the start of the next day
-I’m at [this tip](1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
+So I start my next coding session with [this tree](https://github.com/ilammy/FreeRDP/commits/1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
 which contains only four commits.
 I expect to do only bug fixes now
 so it seems the final patch set will contain around this number of commits.
@@ -227,30 +258,56 @@ and a couple that I discovered along the way.
 This post is not a guide on debugging C code
 and not a rant about hysterical raisins
 which caused the engineers of DIB format
-to make counterintuitive decisions about row order in bitmaps
-and strange rounding of stride lengths.
-Let’s just leave it at that
+to make counterintuitive decisions.
+Let’s just say that
 I had to tweak some things
 to make these icons:
 
-> [screenshots]
+> [screenshot: broken icons]
 
 look like actully normal ones:
 
-> [screenshots]
+> [screenshot: normal icons]
 
 After that the patch set is feature-complete
 and I can start cleaning up the code.
 Like, for example,
-remove all the swearing from TODOs,
-add actually useful comments,
-make some code style changes
-and remove temporary debug logs which are no longer needed.
+[remove all the swearing from TODOs](https://github.com/ilammy/FreeRDP/commit/5fcf43b59f1effc416c738c3d57e8d3112cba011),
+add [actually useful comments](https://github.com/ilammy/FreeRDP/commit/7000dbd0d52e2bc6eae7c949161942ea2caa96d5),
+[make some code style changes](https://github.com/ilammy/FreeRDP/commit/14ce1752b7f5bbf0e95522fbd7c7b6f86739f0ed)
+and [remove temporary debug logs which are no longer needed](https://github.com/ilammy/FreeRDP/commit/2d39ffc5f31a835856279e4c96c7f81be32bc7c1).
 
 All of this results in another bunch of commits
 slapped on top of those four from the day before:
 
-> [screenshot]
+```console
+* 2dd6bd7d6 (HEAD -> wip/rail-icons) add xflush for icon set
+* e7ad0303e drop dead code
+* eecba32bc spec reference
+* 0e466bd8b drop comment just use i in the commit message:
+* ff1d47d84 return values
+* 564490a45 code style
+* 4aa3638fa drop more debug logs
+* 2d39ffc5f drop debug logs
+* 7803a526c dont use malloc
+* d3541cba1 improve naming
+* 5e07c098f improve naming
+* 14ce1752b simplify error handling
+* 7000dbd0d cleanup comments, lower amount of smug in them
+* 5fcf43b59 use functions instead of swearing about formatting
+* 31d9bdfd8 fix 8-bit palettes (RGBQUAD does not include alpha)
+* b8f027d6f alpha bitmask should actually be a *mask*
+* db30910fb better explanation
+* 1dbc6dd55 fun bugs with color formats
+* f3c5008fe fix a bug with 16x16 icons
+* 1cac1cf5a (origin/wip/rail-icons) color conversion
+* 2d6c8d825 prepare icon cache structs
+* 3619a2c6a fix order reading
+* a9d40cb18 [debug] flush on output
+*   c5c1bac31 (upstream/master) Merge pull request #4960 from akallabeth/interleaved_fix
+|\
+| * fff2454ae Make VS2010 happy, reworked UNROLL defines.
+```
 
 The content of the commits or their message do not really matter at this point.
 The one thing that matters is that I’m happy with the final state of the code.
@@ -266,7 +323,7 @@ which I want to regroup and squash,
 melding the bug fixes with new code
 as if I never made those mistakes.
 
-> [screenshot]
+> [screenshot: gitk highlighting]
 
 gitk can highlight commits
 that add or remove a particular string
