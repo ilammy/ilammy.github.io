@@ -705,20 +705,46 @@ Cheerio~
 </a>
 </div>
 
-<div style="padding: 1em 0 0.5em">
+<div style="padding: 2.25em 0 1.1em">
 <hr/>
 </div>
 
-It was exceptionally hard to capture the exact process I follow
-without degenerating into a raw terminal log.
-This is because I do most of these actions automatically,
-so it feels a bit like trying to explain
-how to quickly type on a keyboard
-to an adult that sees it for the first time.
-I had to monitor myself very closely,
-try to not cut corners,
-remember to not get carried away hacking
-and to write down some thoughts at the same time.
-If it wasn't for this idea of a post
+<h3 class="post-meta">Postscript</h3>
+
+<p class="post-meta">
+To tell you the truth,
+it was exceptionally hard to capture the exact process I follow
+without degenerating into a raw terminal session log.
+I do most of these actions automatically,
+without thinking about them too much.
+So I had to monitor myself very closely,
+log my thoughts and reasoning as I went on hacking.
+It's turned out so hard to code slowly and painstakingly.
+</p>
+
+<p class="post-meta">
+And then I had to <em>explain</em> it!
+With <em>words</em>!
+It honestly feels like I'm trying to explain touch typing techniques
+to my grandma who sees this ‘com-pu-ter key-board’ thing for the first time in her life...
+</p>
+
+<p class="post-meta">
+Whatever.
+Writing this post was a long-standing dream of mine.
+If it wasn't for this stupid idea
 I would have probably coded and submitted the pull request on the same evening.
-But now you may see from commit timestamps how much time it actually took.
+But now you may see from timestamps
+on commits, the pull request and this post
+how much time it actually took.
+</p>
+
+<p class="post-meta">
+Though believe me,
+maintainting a good commit history does not take that much time.
+Having clean git log may not be useful immediately
+(or even <i>ever</i>),
+but for me it's more of a matter of hygiene and attitude by now.
+This is how I care about quality,
+even when it's not seen by anyone.
+</p>
