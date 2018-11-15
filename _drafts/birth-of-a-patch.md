@@ -28,7 +28,7 @@ everybody likes when their problems go away.
 If you have no idea then try looking for or in the issue tracker.
 Usually the software we write is terrible,
 it always has some issues.
-Somebody eveb might be annoyed enough to write these issues down
+Somebody even might be annoyed enough to write these issues down
 or at least to voice their complaints.
 
 That was the case for me:
@@ -82,7 +82,7 @@ I know I’ll need an icon cache
 so I build something like that,
 improving it along the way.
 At some point I want to test things out so I add some debug logging,
-marking it as such so it's easy to remove later.
+marking it as such so it’s easy to remove later.
 Then more code for color conversion follows,
 with experiments, curses and TODOs all around it.
 
@@ -105,7 +105,7 @@ Keeping TODOs in the code,
 occasionally swearing,
 marking commits with `[tags]`...
 All this works for me
-but maybe it won‘t for you.
+but maybe it won’t for you.
 You’re free to do anything you want as long as you’re comfortable with it,
 just hide the ‘sausage making’.
 
@@ -116,13 +116,13 @@ the commits are still self-contained pieces of changes.
 Each of them introduces some _small_ atomic improvement.
 It is important to keep them small but meaningful.
 Commit early and often, do not postpone committing until the end of the day.
-If you feel that you‘re not ready to commit then you won’t _ever_ be ready.
+If you feel that you’re not ready to commit then you won’t _ever_ be ready.
 
 ### Wrapping up for the day
 
-It's important to have something working at the end of your hacking session.
+It’s important to have something working at the end of your hacking session.
 This feeling of accomplishment keeps you motivated and preserves momentum.
-In my case I've managed to get the feature more or less working.
+In my case I’ve managed to get the feature more or less working.
 At least on my machine.
 In one environment.
 Sometimes.
@@ -140,14 +140,14 @@ I like to leave incomplete tasks slightly broken by the end of the day.
 This gives you a good anchor point to resume your work next day.
 In this case I left the commits and remaining bugs as-is,
 knowing that they will be the first thing I notice tomorrow.
-Just don't forget to `git push` them to some remote repository.
+Just don’t forget to `git push` them to some remote repository.
 
 ### Keeping commits organized with `git rebase`
 
 Remember that ugly stream of incoherent commits?
-That's obviously _not pretty_.
+That’s obviously _not pretty_.
 If you keep pumping out commits like that
-then you're digging your own grave
+then you’re digging your own grave
 when the only remaining option will be
 to squash them all into one giant ball of mud.
 In order to avoid that I like to prune my git trees
@@ -205,31 +205,31 @@ s    45daf77 palette
 ```
 
 Bamf! Save, quit, enjoy.
-I don't bother with better commit messages for now,
-it's good enough to just keep the commit count at bay
+I don’t bother with better commit messages for now,
+it’s good enough to just keep the commit count at bay
 and get rid of some failed experiments I made on the way.
 Plus, reviewing the commit messages reminds me what the hell did I do yesterday.
 
-Also, I'm happy to avoid having to resolve any rebase conflict this time.
-That's usually the case if you rebase and prune commits often.
-However, if you neglect this care for too long then you're bound to encounter conflicts.
+Also, I’m happy to avoid having to resolve any rebase conflict this time.
+That’s usually the case if you rebase and prune commits often.
+However, if you neglect this care for too long then you’re bound to encounter conflicts.
 
 So, at the start of the next day
-I'm at [this tip](1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
+I’m at [this tip](1cac1cf5a6f6c9c1f8e256826660fa78332b30c7)
 which contains only four commits.
 I expect to do only bug fixes now
 so it seems the final patch set will contain around this number of commits.
 
 ### Finishing up the code changes
 
-Now, there were a few bugs that I'm aware of
+Now, there were a few bugs that I’m aware of
 and a couple that I discovered along the way.
 This post is not a guide on debugging C code
 and not a rant about hysterical raisins
 which caused the engineers of DIB format
 to make counterintuitive decisions about row order in bitmaps
 and strange rounding of stride lengths.
-Let's just leave it at that
+Let’s just leave it at that
 I had to tweak some things
 to make these icons:
 
@@ -253,8 +253,8 @@ slapped on top of those four from the day before:
 > [screenshot]
 
 The content of the commits or their message do not really matter at this point.
-The one thing that matters is that I'm happy with the final state of the code.
-We'll clean up the commits later to make sure they are readable.
+The one thing that matters is that I’m happy with the final state of the code.
+We’ll clean up the commits later to make sure they are readable.
 Now I can go and report the status [on GitHub](https://github.com/FreeRDP/FreeRDP/issues/4984#issuecomment-437681547)
 to keep interested people updated on the progress.
 
@@ -316,12 +316,12 @@ Keep in mind that
 fixes you do can cause more conflicts in the following commits.
 Merge conflicts are bound to happen
 if you reorder patches during an interactive rebase.
-That's why you should prune commits early and often,
+That’s why you should prune commits early and often,
 lowering the possibility of conflicts in the future.
 
 I end up with the following [tip](9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
 after the rebase.
-It's always a good idea to retest your code after rebasing,
+It’s always a good idea to retest your code after rebasing,
 especially after resolving merge conflicts.
 You can also run a `git diff` between pre- and post-rebase states
 to make sure that you did not drop something you did not intend to.
@@ -332,7 +332,7 @@ When I feel that the patch set is ready
 I focus my attention on the diffs those patches introduce.
 Each patch should be atomic and solve one specific task.
 In my case I implement a new feature
-so I'd expect the diffs to be mostly green (additions).
+so I’d expect the diffs to be mostly green (additions).
 
 I review the commits I currently have
 and see what can be improved in them:
@@ -342,7 +342,7 @@ and see what can be improved in them:
 - 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba
 
 The first one looks good:
-it's an easy bug fix.
+it’s an easy bug fix.
 The second one also seems okay:
 nice, self-contained additions.
 The last commit is also mostly good
@@ -351,7 +351,7 @@ It seems that some these changes should be a part of the second commit.
 
 Here we see changes in `struct xf_rail_icon`
 which is introduced in the previous commit.
-It's an artifact of a failed experiement.
+It’s an artifact of a failed experiement.
 This struct can be defined correctly from the start.
 
 ```diff
@@ -368,9 +368,9 @@ This struct can be defined correctly from the start.
  typedef struct xf_rail_icon xfRailIcon;
 ```
 
-Then there's this weird diff
+Then there’s this weird diff
 which is actually another artifact of renaming `xf_rail_convert_icon()` to `convert_rail_icon()`.
-Let's use the correct name right away.
+Let’s use the correct name right away.
 
 ```diff
 @@ -611,15 +611,206 @@ static xfRailIcon* RailIconCache_Lookup(xfRailIconCache* cache,
@@ -388,8 +388,8 @@ Let's use the correct name right away.
 ...
 ```
 
-Here's some debug logging that was not removed in time.
-It is introduced in the previous commit but it's not needed anymore.
+Here’s some debug logging that was not removed in time.
+It is introduced in the previous commit but it’s not needed anymore.
 
 ```diff
 +static inline UINT32 round_up(UINT32 a, UINT32 b)
@@ -433,10 +433,10 @@ which effectively revert changes made by the previous diffs.
 Always think from the standpoint of code reviewer.
 What would they think if they saw such patches?
 “Hm... weird...”
-That's exactly how you pinpoint bad spots in your patches.
+That’s exactly how you pinpoint bad spots in your patches.
 
 So how do I iron out these ‘wrinkles’?
-That's a job for `git rebase --interactive` again!
+That’s a job for `git rebase --interactive` again!
 I start with `git rebase -i master`
 and edit the worklist like this:
 
@@ -447,12 +447,12 @@ pick 9536a2c color conversion
 ```
 
 This tells git to stop at commit `91036c6` and let us edit it.
-I won't edit it right away but rather insert some changes
+I won’t edit it right away but rather insert some changes
 between `91036c6` and `9536a2c` that follows it.
 If `9536a2c` were smaller then splitting it directly with `git reset`
 (as described in manpage for rebase)
 might have been easier to do,
-but in this case I won't do it.
+but in this case I won’t do it.
 
 I stop at `91036c6` and re-do the changes from `9536a2c` on top of that commit.
 I use `git commit --fixup=91036c6` to create specially named commits
@@ -466,7 +466,7 @@ You can do that with an `--edit` flag.)
 > where you can review and select the patch hunks that go into commit?
 > Now you know.
 
-After I'm done I do `git rebase --continue` to resume rebasing
+After I’m done I do `git rebase --continue` to resume rebasing
 and reapply `9536a2c` on top of split changes.
 As expected, the patch does not apply cleanly,
 there are some conflicts but they are rather minor.
@@ -488,17 +488,17 @@ pick 5a97269 color conversion
 
 And here we have our complete patch set.
 I usually review the patches once again to make sure that I like the diffs.
-It's also a good moment to re-test your work,
+It’s also a good moment to re-test your work,
 just in case you messed up during all the rebases.
 Another thing that I can recommend testing is _bisectability_.
 Make sure that each of your commits at least compiles and passes unit-tests.
 
-Now it's time to do something about these awful commit messages.
+Now it’s time to do something about these awful commit messages.
 
 ### Writing good commit messages
 
 I use `git rebase -i` again to change commit messages
-(yes, it's an amazing multitool).
+(yes, it’s an amazing multitool).
 This time the `reword` command is used in rebase worklist:
 
 ```
@@ -511,7 +511,7 @@ After which git opens text editor three times to ask for new commit messages.
 
 How does a good commit message look like?
 [Chris Beams has summarized](https://chris.beams.io/posts/git-commit/) this for me
-so I won't repeat the points which are made over and over.
+so I won’t repeat the points which are made over and over.
 To make it even shorter,
 use the following format:
 
@@ -600,31 +600,31 @@ index a9b3c00b8..74281a6ff 100644
 
 ### Submitting a pull request
 
-Finally it's time to make a pull request.
+Finally it’s time to make a pull request.
 In this case
-I'm implementing a simple feature to solve a specific issue
+I’m implementing a simple feature to solve a specific issue
 so the description can be quite basic
 and just reference the issue.
-It's also a visual feature so I can add an eye-catcher image.
+It’s also a visual feature so I can add an eye-catcher image.
 
 > [screenshot]
 
 Always describe your work
 and why you think it would be a good addition to the project.
 Read and respect
-the project's contribution guidelines
+the project’s contribution guidelines
 [(here are ones for FreeRDP)](https://github.com/FreeRDP/FreeRDP/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
 before submitting a pull request.
 These rules are there for a reason.
 
 After creating a pull request
-I've also asked the person having an issue to test the fix,
+I’ve also asked the person having an issue to test the fix,
 which they gladly did and confirmed that it works for them too.
 
 ### Working with maintainers
 
-Soon the code is going to be reviewed by project's maintainers.
-It's very likely to receive feedback
+Soon the code is going to be reviewed by project’s maintainers.
+It’s very likely to receive feedback
 and some change requests.
 In my case these were mostly nitpicks and some clarifications
 which I gladly replied to.
@@ -632,12 +632,12 @@ Furthermore,
 the maintainer (Armin) was exceptionally nice
 and fixed all the nitpicks himself.
 
-I'm also very glad that my humor was not wasted.
+I’m also very glad that my humor was not wasted.
 Code comments are a vessel for oral tradition
 and they a good opportunity to occasionally have fun and make fun,
 for example,
 of stupid things we have to do for the sake of backwards compatibility.
-Don't be so serious.
+Don’t be so serious.
 
 ### Conclusions
 
@@ -694,6 +694,6 @@ I had to monitor myself very closely,
 try to not cut corners,
 remember to not get carried away hacking
 and to write down some thoughts at the same time.
-If it wasn't for this idea of a post
+If it wasn’t for this idea of a post
 I would have probably coded and submitted the pull request on the same evening.
 But now you may see from commit timestamps how much time it actually took.
