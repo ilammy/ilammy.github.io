@@ -327,11 +327,11 @@ as if I never made those mistakes.
 
 gitk can highlight commits
 that add or remove a particular string
-(like `git log -S` from the terminal).
-It helps identifying commits that can be grouped.
+(like `git log -S` from the terminal),
+it helps identifying commits that can be grouped.
 I end up with the following rebase worklist.
 Note that I remove the debugging commit
-and change the order of some of the commits.
+and change the relative order of some of the commits.
 
 ```
 #### a9d40cb [debug] flush on output
@@ -376,7 +376,7 @@ if you reorder patches during an interactive rebase.
 That’s why you should prune commits early and often,
 lowering the possibility of conflicts in the future.
 
-I end up with the following [tip](9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
+I end up with the following [tree](https://github.com/ilammy/FreeRDP/commits/9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
 after the rebase.
 It’s always a good idea to retest your code after rebasing,
 especially after resolving merge conflicts.
@@ -394,9 +394,9 @@ so I’d expect the diffs to be mostly green (additions).
 I review the commits I currently have
 and see what can be improved in them:
 
-- 1eeff8968a0a5c98058c2f47e355f3e0de40f845
-- 91036c6fa5c7737e01c83f69d190e3f6feeab3dc
-- 9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba
+- [fix order reading](https://github.com/ilammy/FreeRDP/commit/1eeff8968a0a5c98058c2f47e355f3e0de40f845)
+- [prepare icon cache structs](https://github.com/ilammy/FreeRDP/commit/91036c6fa5c7737e01c83f69d190e3f6feeab3dc)
+- [color conversion](https://github.com/ilammy/FreeRDP/commit/9536a2c7a96f9ef9c1293cba1203b4e8a20a7cba)
 
 The first one looks good:
 it’s an easy bug fix.
@@ -485,14 +485,13 @@ We can define the stub correctly earlier.
 +        xf_rail_set_window_icon(xfc, railWindow, icon, replaceIcon);
 ```
 
-All these changes rectify ‘weird’ diffs
+All these changes rectify diffs
 which effectively revert changes made by the previous diffs.
-Always think from the standpoint of code reviewer.
-What would they think if they saw such patches?
+What would your code reviewer think if they saw such patches?
 “Hm... weird...”
 That’s exactly how you pinpoint bad spots in your patches.
 
-So how do I iron out these ‘wrinkles’?
+So how do I iron out these wrinkles?
 That’s a job for `git rebase --interactive` again!
 I start with `git rebase -i master`
 and edit the worklist like this:
@@ -507,7 +506,7 @@ This tells git to stop at commit `91036c6` and let us edit it.
 I won’t edit it right away but rather insert some changes
 between `91036c6` and `9536a2c` that follows it.
 If `9536a2c` were smaller then splitting it directly with `git reset`
-(as described in manpage for rebase)
+(as [described](https://git-scm.com/docs/git-rebase#_splitting_commits) in manpage for rebase)
 might have been easier to do,
 but in this case I won’t do it.
 
@@ -516,8 +515,6 @@ I use `git commit --fixup=91036c6` to create specially named commits
 which are compatible with `--autosquash` option of `rebase`.
 (I like to add comments to fixup commits to note what the fix.
 You can do that with an `--edit` flag.)
-
-> [screenshot](ff5e5f43d26944318fbd2d652a5e996d3f396c16)
 
 > By the way, did I tell about the awesome `git add -p` mode
 > where you can review and select the patch hunks that go into commit?
@@ -528,10 +525,12 @@ and reapply `9536a2c` on top of split changes.
 As expected, the patch does not apply cleanly,
 there are some conflicts but they are rather minor.
 Fix them, `git add` then `git rebase --continue` again.
-I end up with [this new commit](5a97269f95d82220ace055d2926493a6e2b83e5f) which looks much nicer.
+I end up with
+[this new commit](https://github.com/ilammy/FreeRDP/commit/5a97269f95d82220ace055d2926493a6e2b83e5f)
+which looks much nicer.
 
 Now I do a final `git rebase -i --autosquash master`.
-Note how `fixup!` commits are already at the right place:
+Note how `fixup!` commits are already in the right place:
 
 ```
 pick 1eeff89 fix order reading
@@ -564,30 +563,41 @@ reword aec29ec prepare icon cache structs
 reword 5c2a1f4 color conversion
 ```
 
-After which git opens text editor three times to ask for new commit messages.
+After which git opens a text editor three times to ask for new commit messages.
 
 How does a good commit message look like?
-[Chris Beams has summarized](https://chris.beams.io/posts/git-commit/) this for me
+Chris Beams [has summarized this for me](https://chris.beams.io/posts/git-commit/)
 so I won’t repeat the points which are made over and over.
-To make it even shorter,
-use the following format:
+In short, use the following format:
 
 ```
-Short (50 chars or less) summary of changes
+Summarize changes in around 50 characters or less
 
-More detailed explanatory text, if necessary.  Wrap it to about 72
-characters or so.  In some contexts, the first line is treated as the
-subject of an email and the rest of the text as the body.  The blank
-line separating the summary from the body is critical (unless you omit
-the body entirely); tools like rebase can get confused if you run the
-two together.
+More detailed explanatory text, if necessary. Wrap it to about 72
+characters or so. In some contexts, the first line is treated as the
+subject of the commit and the rest of the text as the body. The
+blank line separating the summary from the body is critical (unless
+you omit the body entirely); various tools like `log`, `shortlog`
+and `rebase` can get confused if you run the two together.
+
+Explain the problem that this commit is solving. Focus on why you
+are making this change as opposed to how (the code explains that).
+Are there side effects or other unintuitive consequences of this
+change? Here's the place to explain them.
 
 Further paragraphs come after blank lines.
 
-  - Bullet points are okay, too
+ - Bullet points are okay, too
 
-  - Typically a hyphen or asterisk is used for the bullet, preceded by a
-    single space, with blank lines in between, but conventions vary here
+ - Typically a hyphen or asterisk is used for the bullet, preceded
+   by a single space, with blank lines in between, but conventions
+   vary here
+
+If you use an issue tracker, put references to them at the bottom,
+like this:
+
+Resolves: #123
+See also: #456, #789
 ```
 
 You can see how this advice is applied in the commit messages I came up with:
@@ -602,20 +612,6 @@ and explains some non-obvious quirks.
 
 The formatting and line-breaking are quite important
 so that `git log` output looks nice:
-
-```console
-$ git log --oneline --graph | head
-* 530df917c xfreerdp: set _NET_WM_ICON to RAIL app icon
-* d46bde785 xfreerdp: add RAIL icon cache
-* 158ac195a libfreerdp-core: fix reading TS_ICON_INFO
-*   c5c1bac31 Merge pull request #4960 from akallabeth/interleaved_fix
-|\
-| * fff2454ae Make VS2010 happy, reworked UNROLL defines.
-| * 6e61dd9d9 Unroll bBits loops as well.
-| * 7e932bbfa Readded loop unrolling.
-| * cf8bc72dc Fixed profiler naming in tests.
-| * 9e2c20377 Fixed various issues with freerdp_bitmap_compress and interleaved_compress
-```
 
 ```console
 $ git show 158ac195a
@@ -664,7 +660,7 @@ so the description can be quite basic
 and just reference the issue.
 It’s also a visual feature so I can add an eye-catcher image.
 
-> [screenshot]
+> [screenshot: PR screenshot]
 
 Always describe your work
 and why you think it would be a good addition to the project.
@@ -701,7 +697,7 @@ Don’t be so serious.
 Yay!
 Now I have (or rather, maintain) this nice [Contributor] badge on GitHub:
 
-> [screenshot]
+> [screenshot: love]
 
 Hopefully, the world is on a way to be a better place now.
 One reason for that is the pull request discussed here
@@ -717,20 +713,6 @@ Cheerio~
 > [parting image]
 
 <hr/>
-
-next:
-
-> iterate development
-> review patches, rehash changes between them
-> make good commit messages
-> what good messages are
-> test your changes
-> test bisectability
-> make a PR
-> write a good PR message
-> wait for maintainers
-> fix issues
-> now you have a nice [contributor] badge, yay!
 
 2018-11-10 13:00:00 - started work on a patch
 2018-11-11 03:50:00 - idea of a post
