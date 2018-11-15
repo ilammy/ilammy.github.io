@@ -710,7 +710,7 @@ to increase the quality of your submissions.
 
 Cheerio~
 
-> [parting image]
+[![Yuyuko picture by @sasamorichou](/images/2018-11-11/09-yuyuko.png)](https://twitter.com/sasamorichou/status/1054729930683138050)
 
 <hr/>
 
