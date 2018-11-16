@@ -2,7 +2,7 @@
 layout:   post
 title:    "Making of Patch"
 date:     2018-11-11 04:00:00 +0200
-tags:     post development git github
+tags:     post development git github freerdp
 comments: true
 ---
 
@@ -536,7 +536,7 @@ reword aec29ec prepare icon cache structs
 reword 5c2a1f4 color conversion
 ```
 
-Then **git** opens a text editor (three times)
+Then git opens a text editor (three times)
 where you can go wild and write new messages.
 
 How does a _good_ commit message look like?
