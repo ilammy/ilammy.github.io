@@ -2,16 +2,36 @@
 layout:   post
 title:    "News digest #160"
 date:     2018-11-19 12:00:00 +0200
-tags:     digest dev misc
+tags:     digest c dev plt security misc
 comments: true
 ---
 
 _я трошки задовбався видумувати сюди розумні фрази_
 
+### C
+
+[C Portability Lessons from Weird Machines](https://begriffs.com/posts/2018-11-15-c-portability.html)<br/>
+Якби популярні машини сьогодні були настільки різними, то ви б швидко навчились писати переносимий код.
+
 ### Development
 
 [Errorx — библиотека для работы с ошибками в Go](https://habr.com/company/joom/blog/429690/)<br/>
 Чудові принципи, що покладені в основу бібліотеки.
+
+[A book list for OS kernel developers and device driver writers](https://news.ycombinator.com/item?id=18448942)
+2006 року, але багато в чому все ще актуально.
+
+[Keep a changelog](https://keepachangelog.com/en/1.0.0/)<br/>
+Don't let your friends dump git logs into changelogs.
+
+### Languages
+
+[Lessons Learned Implementing Common Lisp with LLVM](https://www.youtube.com/watch?v=mbdXeRBbgDM) (відео)
+
+### Security
+
+[Researchers discover seven new Meltdown and Spectre attacks](https://www.zdnet.com/article/researchers-discover-seven-new-meltdown-and-spectre-attacks/)<br/>
+Ок, я зрозумів, час перестати користуватись комп'ютерами взагалі.
 
 ### Miscellaneous
 
