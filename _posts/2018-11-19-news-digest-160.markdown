@@ -18,7 +18,7 @@ _я трошки задовбався видумувати сюди розумн
 [Errorx — библиотека для работы с ошибками в Go](https://habr.com/company/joom/blog/429690/)<br/>
 Чудові принципи, що покладені в основу бібліотеки.
 
-[A book list for OS kernel developers and device driver writers](https://news.ycombinator.com/item?id=18448942)
+[A book list for OS kernel developers and device driver writers](https://news.ycombinator.com/item?id=18448942)<br/>
 2006 року, але багато в чому все ще актуально.
 
 [Keep a changelog](https://keepachangelog.com/en/1.0.0/)<br/>
@@ -26,7 +26,8 @@ Don't let your friends dump git logs into changelogs.
 
 ### Languages
 
-[Lessons Learned Implementing Common Lisp with LLVM](https://www.youtube.com/watch?v=mbdXeRBbgDM) (відео)
+[Lessons Learned Implementing Common Lisp with LLVM](https://www.youtube.com/watch?v=mbdXeRBbgDM) (відео)<br/>
+Оце так робота в цього мужика...
 
 ### Security
 
