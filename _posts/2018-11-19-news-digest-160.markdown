@@ -32,6 +32,11 @@ Don't let your friends dump git logs into changelogs.
 [Lessons Learned Implementing Common Lisp with LLVM](https://www.youtube.com/watch?v=mbdXeRBbgDM) (відео)<br/>
 Оце так робота в цього мужика...
 
+### Rust
+
+[Неочевидные преимущества использования Rust](https://habr.com/post/430294/)<br/>
+Якщо ви все ще не увіровали.
+
 ### Security
 
 [Researchers discover seven new Meltdown and Spectre attacks](https://www.zdnet.com/article/researchers-discover-seven-new-meltdown-and-spectre-attacks/)<br/>
