@@ -6,7 +6,7 @@ tags:     digest c dev plt security misc
 comments: true
 ---
 
-_я трошки задовбався видумувати сюди розумні фрази_
+_Я трошки задовбався видумувати сюди розумні фрази. З днем народження Мег Райан._
 
 ### C
 
@@ -23,6 +23,9 @@ _я трошки задовбався видумувати сюди розумн
 
 [Keep a changelog](https://keepachangelog.com/en/1.0.0/)<br/>
 Don't let your friends dump git logs into changelogs.
+
+[On Rigorous Error Handling](http://250bpm.com/blog:140) ([HackerNews](https://news.ycombinator.com/item?id=18474709))<br/>
+Про те, що ніхто не вміє та не хоче оброблювати помилки. Коментарі теж цікаво почитати.
 
 ### Languages
 
@@ -48,3 +51,7 @@ Yo dawg, we put a computer inside your computer so you can compute while you com
 
 [On the revision of the International System of Units (SI)](https://www.bipm.org/utils/en/pdf/CGPM/Draft-Resolution-A-EN.pdf)<br/>
 Історичний момент: тепері _всі_ системні одиниці визначені через фундаментальні фізичні константи.
+
+[If I were to invent a programming language
+for the 21st century](https://wordsandbuttons.online/if_i_were_to_invent_a_programming_language_for_the_21st_century.html)<br/>
+Вгадаєте без підказок, про яку мову йдеться?
