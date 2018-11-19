@@ -1,0 +1,62 @@
+---
+layout:   post
+title:    "News digest #160"
+date:     2018-11-19 12:00:00 +0200
+tags:     digest c dev plt security misc
+comments: true
+---
+
+_Я трошки задовбався видумувати сюди розумні фрази. З днем народження Мег Райан._
+
+### C
+
+[C Portability Lessons from Weird Machines](https://begriffs.com/posts/2018-11-15-c-portability.html)<br/>
+Якби популярні машини сьогодні були настільки різними, то ви б швидко навчились писати переносимий код.
+
+### Development
+
+[Errorx — библиотека для работы с ошибками в Go](https://habr.com/company/joom/blog/429690/)<br/>
+Чудові принципи, що покладені в основу бібліотеки.
+
+[A book list for OS kernel developers and device driver writers](https://news.ycombinator.com/item?id=18448942)<br/>
+2006 року, але багато в чому все ще актуально.
+
+[Keep a changelog](https://keepachangelog.com/en/1.0.0/)<br/>
+Don't let your friends dump git logs into changelogs.
+
+[On Rigorous Error Handling](http://250bpm.com/blog:140) ([HackerNews](https://news.ycombinator.com/item?id=18474709))<br/>
+Про те, що ніхто не вміє та не хоче оброблювати помилки. Коментарі теж цікаво почитати.
+
+### Languages
+
+[Lessons Learned Implementing Common Lisp with LLVM](https://www.youtube.com/watch?v=mbdXeRBbgDM) (відео)<br/>
+Оце так робота в цього мужика...
+
+### Rust
+
+[Неочевидные преимущества использования Rust](https://habr.com/post/430294/)<br/>
+Якщо ви все ще не увіровали.
+
+### Security
+
+[Researchers discover seven new Meltdown and Spectre attacks](https://www.zdnet.com/article/researchers-discover-seven-new-meltdown-and-spectre-attacks/)<br/>
+Ок, я зрозумів, час перестати користуватись комп'ютерами взагалі.
+
+### Miscellaneous
+
+[Неожиданная полнота по Тьюрингу повсюду](https://habr.com/post/429602/)<br/>
+Yo dawg, we put a computer inside your computer so you can compute while you compute.
+
+[Why Militaries Must Destroy Cities to Save Them](https://mwi.usma.edu/militaries-must-destroy-cities-save/)<br/>
+Неочікувано раціональний огляд того, чому військові так люблять ламати вашу хату з краю та не хотять йти зі своєю війною кудись деінде.
+
+[The Mundanity of Excellence](https://fermatslibrary.com/s/the-mundanity-of-excellence-an-ethnographic-report-on-stratification-and-olympic-swimmers)<br/>
+[Why Are Young People Having So Little Sex?](https://www.theatlantic.com/magazine/archive/2018/12/the-sex-recession/573949/)<br/>
+Декілька інтересних есе з соціології.
+
+[On the revision of the International System of Units (SI)](https://www.bipm.org/utils/en/pdf/CGPM/Draft-Resolution-A-EN.pdf)<br/>
+Історичний момент: тепері _всі_ системні одиниці визначені через фундаментальні фізичні константи.
+
+[If I were to invent a programming language
+for the 21st century](https://wordsandbuttons.online/if_i_were_to_invent_a_programming_language_for_the_21st_century.html)<br/>
+Вгадаєте без підказок, про яку мову йдеться?
