@@ -2,8 +2,13 @@
 layout:   post
 title:    "News digest #161"
 date:     2018-11-26 12:00:00 +0200
-tags:     digest
+tags:     digest dev
 comments: true
 ---
 
 _English time, I guess_
+
+### Development
+
+[Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)<br/>
+Even Atlassian admits that Confluence search is crap.
