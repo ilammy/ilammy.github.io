@@ -10,5 +10,4 @@ _English time, I guess_
 
 ### Development
 
-[Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)<br/>
-Even Atlassian admits that Confluence search is crap.
+[Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)
