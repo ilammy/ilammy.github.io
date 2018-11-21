@@ -11,3 +11,9 @@ _English time, I guess_
 ### Development
 
 [Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)
+
+[Linus: I don't do github pull requests](https://github.com/torvalds/linux/pull/17)<br/>
+> And the fact that other projects apparently have so low expectations
+> of commit messages that these things get used is just sad. People
+> should try to compare the quality of the kernel git logs with some
+> other projects, and cry themselves to sleep.
