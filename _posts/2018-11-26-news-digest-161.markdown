@@ -2,11 +2,16 @@
 layout:   post
 title:    "News digest #161"
 date:     2018-11-26 12:00:00 +0200
-tags:     digest dev
+tags:     digest dlang dev rust
 comments: true
 ---
 
 _English time, I guess_
+
+### D
+
+[D compilation is too slow and I am forking the compiler](https://blog.thecybershadow.net/2018/11/18/d-compilation-is-too-slow-and-i-am-forking-the-compiler/)<br/>
+Clickbait :D
 
 ### Development
 
@@ -17,3 +22,18 @@ _English time, I guess_
 > of commit messages that these things get used is just sad. People
 > should try to compare the quality of the kernel git logs with some
 > other projects, and cry themselves to sleep.
+
+[The code I’m still ashamed of](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e)<br/>
+Remember that your moral choices are always _yours_.
+
+[Unit testing? Do as I say, don't do as I do](https://atilanevesoncode.wordpress.com/2018/11/20/unit-testing-do-as-i-say-dont-do-as-i-do/)<br/>
+Why integration tests are so tempting.
+
+### Rust
+
+[Still in love with Rust](https://dpc.pw/still-in-love-with-rust)
+
+### Miscellaneous
+
+[Slow Software](https://www.inkandswitch.com/slow-software.html)<br/>
+Why exactly it _feels_ so slow.
