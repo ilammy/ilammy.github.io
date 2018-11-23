@@ -2,20 +2,26 @@
 layout:   post
 title:    "News digest #161"
 date:     2018-11-26 12:00:00 +0200
-tags:     digest dlang dev rust
+tags:     digest cpp dlang dev rust misc
 comments: true
 ---
 
 _English time, I guess_
 
+### C++
+
+[C++ Annotations](http://www.icce.rug.nl/documents/cplusplus/)<br/>
+No, it's not about `[[nothrow]]`. It's a _tiny_ guide to some C++ basics. A good one, though.
+
 ### D
 
-[D compilation is too slow and I am forking the compiler](https://blog.thecybershadow.net/2018/11/18/d-compilation-is-too-slow-and-i-am-forking-the-compiler/)<br/>
-Clickbait :D
+[D compilation is too slow and I am forking the compiler](https://blog.thecybershadow.net/2018/11/18/d-compilation-is-too-slow-and-i-am-forking-the-compiler/) (Clickbait :D)
 
 ### Development
 
 [Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)
+
+[Checkin with reviewers in mind: how to speed up code reviews](http://blog.plasticscm.com/2018/10/checkin-with-reviewers-in-mind-how-to-fix-pull-requests.html)
 
 [Linus: I don't do github pull requests](https://github.com/torvalds/linux/pull/17)<br/>
 > And the fact that other projects apparently have so low expectations
@@ -29,6 +35,9 @@ Remember that your moral choices are always _yours_.
 [Unit testing? Do as I say, don't do as I do](https://atilanevesoncode.wordpress.com/2018/11/20/unit-testing-do-as-i-say-dont-do-as-i-do/)<br/>
 Why integration tests are so tempting.
 
+[Breakpoints: Debugging like a Pro](https://cheesecakelabs.com/blog/breakpoints-debugging-like-pro/)<br/>
+That feeling when you discover this wizardry.
+
 ### Rust
 
 [Still in love with Rust](https://dpc.pw/still-in-love-with-rust)
@@ -37,3 +46,11 @@ Why integration tests are so tempting.
 
 [Slow Software](https://www.inkandswitch.com/slow-software.html)<br/>
 Why exactly it _feels_ so slow.
+
+[Every 7.8μs your computer’s memory has a hiccup](https://blog.cloudflare.com/every-7-8us-your-computers-memory-has-a-hiccup/)<br/>
+Good read about dynamic memory refreshing.
+
+[Lisp Machine Inc. K-machine](http://fare.tunes.org/tmp/emergent/kmachine.htm)<br/>
+About the last commercial CPU executing Lisp directly.
+
+[What I’ve learned in 10 years as an SDE](https://medium.com/expedia-engineering/what-ive-learned-in-10-years-as-an-sde-9cea19aac0ce)
