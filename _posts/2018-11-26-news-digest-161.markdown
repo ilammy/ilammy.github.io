@@ -13,6 +13,9 @@ _English time, I guess_
 [C++ Annotations](http://www.icce.rug.nl/documents/cplusplus/)<br/>
 No, it's not about `[[nothrow]]`. It's a _tiny_ guide to some C++ basics. A good one, though.
 
+[Детерминированные исключения и обработка ошибок в «C++ будущего»](https://habr.com/post/430690/)<br/>
+A cute idea with repurposing the carry flag.
+
 ### D
 
 [D compilation is too slow and I am forking the compiler](https://blog.thecybershadow.net/2018/11/18/d-compilation-is-too-slow-and-i-am-forking-the-compiler/) (Clickbait :D)
