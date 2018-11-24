@@ -45,6 +45,9 @@ That feeling when you discover this wizardry.
 
 [Still in love with Rust](https://dpc.pw/still-in-love-with-rust)
 
+[ERC Project "RustBelt"](http://plv.mpi-sws.org/rustbelt/)<br/>
+_Of course_ there are people working on formally verified (subset of) Rust.
+
 ### Miscellaneous
 
 [Slow Software](https://www.inkandswitch.com/slow-software.html)<br/>
