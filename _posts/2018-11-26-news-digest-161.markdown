@@ -6,7 +6,9 @@ tags:     digest cpp dlang dev git rust misc
 comments: true
 ---
 
-_English time, I guess_
+ALL HAIL BRITANNIA!!!
+
+(_Yes, today's his birthday._)
 
 ### C++
 
