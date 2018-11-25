@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #161"
 date:     2018-11-26 12:00:00 +0200
-tags:     digest cpp dlang dev rust misc
+tags:     digest cpp dlang dev git rust misc
 comments: true
 ---
 
@@ -14,7 +14,7 @@ _English time, I guess_
 No, it's not about `[[nothrow]]`. It's a _tiny_ guide to some C++ basics. A good one, though.
 
 [Детерминированные исключения и обработка ошибок в «C++ будущего»](https://habr.com/post/430690/)<br/>
-A cute idea with repurposing the carry flag.
+Cute idea with repurposing the carry flag (Rust already does this ;)
 
 ### D
 
@@ -24,14 +24,6 @@ A cute idea with repurposing the carry flag.
 
 [Как не превратить корпоративную базу знаний в хаос: наш опыт борьбы с Confluence](https://habr.com/post/430500/)
 
-[Checkin with reviewers in mind: how to speed up code reviews](http://blog.plasticscm.com/2018/10/checkin-with-reviewers-in-mind-how-to-fix-pull-requests.html)
-
-[Linus: I don't do github pull requests](https://github.com/torvalds/linux/pull/17)<br/>
-> And the fact that other projects apparently have so low expectations
-> of commit messages that these things get used is just sad. People
-> should try to compare the quality of the kernel git logs with some
-> other projects, and cry themselves to sleep.
-
 [The code I’m still ashamed of](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e)<br/>
 Remember that your moral choices are always _yours_.
 
@@ -40,6 +32,18 @@ Why integration tests are so tempting.
 
 [Breakpoints: Debugging like a Pro](https://cheesecakelabs.com/blog/breakpoints-debugging-like-pro/)<br/>
 That feeling when you discover this wizardry.
+
+### Git
+
+[Linus: I don't do github pull requests](https://github.com/torvalds/linux/pull/17)<br/>
+> And the fact that other projects apparently have so low expectations
+> of commit messages that these things get used is just sad. People
+> should try to compare the quality of the kernel git logs with some
+> other projects, and cry themselves to sleep.
+
+[Checkin with reviewers in mind: how to speed up code reviews](http://blog.plasticscm.com/2018/10/checkin-with-reviewers-in-mind-how-to-fix-pull-requests.html)
+
+[Your day doesn't need more hours, you need Great Pull Requests](https://fabianuribe.com/blog/Great-Pull-Requests.html)
 
 ### Rust
 
