@@ -7,4 +7,15 @@ comments: true
 ---
 
 _умные слова по-русски_
-k
+
+### Miscellaneous
+
+https://github.com/dominictarr/event-stream/issues/116
+https://www.reddit.com/r/programming/comments/a0kxmw/i_dont_know_what_to_say_backdoor_in_popular/
+https://www.reddit.com/r/programming/comments/a0t67h/widely_used_npm_module_eventstream_contained/
+https://www.reddit.com/r/programming/comments/a0qp8i/open_source_is_not_about_you_by_rich_hickey/
+https://news.ycombinator.com/item?id=18538123
+https://www.reddit.com/r/programming/comments/a0s88m/if_its_not_fun_anymore_you_get_nothing_from/
+https://felixge.de/2013/03/11/the-pull-request-hack.html
+https://gist.github.com/dominictarr/9fd9c1024c94592bc7268d36b8d83b3a
+В JavaScript-мире опять трагедия.
