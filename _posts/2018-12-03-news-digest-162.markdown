@@ -30,3 +30,6 @@ https://habr.com/post/431250/
 
 https://habr.com/company/joom/blog/431236/
 Интересно смотреть, как Obj-C умирает. А ведь достаточно было Apple принять волевое решение — и вжух! вся экосистема переехала.
+
+https://people.neilon.software/
+лейблочки
