@@ -2,16 +2,25 @@
 layout:   post
 title:    "News digest #162"
 date:     2018-12-03 12:00:00 +0200
-tags:     digest
+tags:     digest linux misc
 comments: true
 ---
 
 _умные слова по-русски_
 
+### Linux
+
+[How we spent two weeks hunting an NFS bug in the Linux kernel](https://about.gitlab.com/2018/11/14/how-we-spent-two-weeks-hunting-an-nfs-bug/)<br/>
+My Little Linux: NFS is magic. Всегда интересно читать такие истории о подкапотной чёрной магии.
+
 ### Miscellaneous
+
+[A Collection of O'Rly book Covers](https://boyter.org/2016/04/collection-orly-book-covers/)
 
 https://habr.com/company/yandex/blog/430406/
 Свежак в мире C++
+
+----
 
 https://github.com/dominictarr/event-stream/issues/116
 https://www.reddit.com/r/programming/comments/a0kxmw/i_dont_know_what_to_say_backdoor_in_popular/
@@ -39,7 +48,3 @@ survey
 
 https://news.ycombinator.com/item?id=18544547
 some interesting websites there from this person: https://news.ycombinator.com/item?id=18545382
-
-https://news.ycombinator.com/item?id=18551655
-https://news.ycombinator.com/item?id=18546966
-some /soc/ reads
