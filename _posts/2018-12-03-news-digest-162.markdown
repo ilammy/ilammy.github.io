@@ -8,17 +8,32 @@ comments: true
 
 _умные слова по-русски_
 
+### C++
+
+[С++20 и Modules, Networking, Coroutines, Ranges, Graphics](https://habr.com/company/yandex/blog/430406/)
+Свежак в мире C++. Можно делать ставки, протащат ли модули или ждать C++23.
+
+[How to optimize C and C++ code in 2018](https://medium.com/@aka.rider/how-to-optimize-c-and-c-code-in-2018-bd4f90a72c2b)<br/>
+(Не)много о том, какую магию творит компилятор.
+
+### Development
+
+[Advent of Code 2018](https://adventofcode.com/2018)<br/>
+Ну конечно же он здесь. [Перловому](http://www.perladvent.org/2018/), например, в этом году будет девятнадцать.
+
 ### Linux
 
 [How we spent two weeks hunting an NFS bug in the Linux kernel](https://about.gitlab.com/2018/11/14/how-we-spent-two-weeks-hunting-an-nfs-bug/)<br/>
 My Little Linux: NFS is magic. Всегда интересно читать такие истории о подкапотной чёрной магии.
 
+[Makefiles, Best Practices](https://danyspin97.org/blog/makefiles-best-practices/)<br/>
+Слегка забытое искусство написания мейкфайлов.
+
 ### Miscellaneous
 
 [A Collection of O'Rly book Covers](https://boyter.org/2016/04/collection-orly-book-covers/)
 
-https://habr.com/company/yandex/blog/430406/
-Свежак в мире C++
+[I Put Words on this Webpage so You Have to Listen to Me Now](https://christine.website/blog/experimental-rilkef-2018-11-30)
 
 ----
 
