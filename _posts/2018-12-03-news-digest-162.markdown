@@ -58,8 +58,3 @@ My Little Linux: NFS is magic. Всегда интересно читать та
 
 [Как писать на Objective-C в 2018 году](https://habr.com/company/joom/blog/431236/)<br/>
 Интересно смотреть, как Obj-C умирает. А ведь достаточно было Apple принять волевое решение — и вжух! вся экосистема переехала, теперь все хвалят только Swift-Swift-Swift.
-
-----
-
-https://news.ycombinator.com/item?id=18544547
-some interesting websites there from this person: https://news.ycombinator.com/item?id=18545382
