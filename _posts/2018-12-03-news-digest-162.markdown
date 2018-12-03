@@ -6,11 +6,11 @@ tags:     digest linux misc
 comments: true
 ---
 
-_умные слова по-русски_
+130 лет назад умер Карл Цейс. А сегодня — днепровский планетарий. **F**
 
 ### C++
 
-[С++20 и Modules, Networking, Coroutines, Ranges, Graphics](https://habr.com/company/yandex/blog/430406/)
+[С++20 и Modules, Networking, Coroutines, Ranges, Graphics](https://habr.com/company/yandex/blog/430406/)<br/>
 Свежак в мире C++. Можно делать ставки, протащат ли модули или ждать C++23.
 
 [How to optimize C and C++ code in 2018](https://medium.com/@aka.rider/how-to-optimize-c-and-c-code-in-2018-bd4f90a72c2b)<br/>
@@ -21,6 +21,9 @@ _умные слова по-русски_
 [Advent of Code 2018](https://adventofcode.com/2018)<br/>
 Ну конечно же он здесь. [Перловому](http://www.perladvent.org/2018/), например, в этом году будет девятнадцать.
 
+[Приверженцы статической и динамической типизаций никогда не поймут друг друга](https://habr.com/post/431250/)<br/>
+Огромный срач в комментариях показывает, что тема далека от исчерпания.
+
 ### Linux
 
 [How we spent two weeks hunting an NFS bug in the Linux kernel](https://about.gitlab.com/2018/11/14/how-we-spent-two-weeks-hunting-an-nfs-bug/)<br/>
@@ -29,37 +32,34 @@ My Little Linux: NFS is magic. Всегда интересно читать та
 [Makefiles, Best Practices](https://danyspin97.org/blog/makefiles-best-practices/)<br/>
 Слегка забытое искусство написания мейкфайлов.
 
+### Open Source
+
+[Widely used open source software contained bitcoin-stealing backdoor](https://arstechnica.com/information-technology/2018/11/hacker-backdoors-widely-used-open-source-software-to-steal-bitcoin/) — новость<br/>
+[Бэкдор в одной из зависимостей библиотеки EventStream](https://habr.com/company/globalsign/blog/431204/) — то же на русском<br/>
+[Объясняем бэкдор в event-stream](https://habr.com/post/431360/)<br/>
+[I don't know what to say](https://github.com/dominictarr/event-stream/issues/116) — баг на GitHub<br/>
+[statement on event-stream compromise](https://gist.github.com/dominictarr/9fd9c1024c94592bc7268d36b8d83b3a) — ответ от автора библиотеки<br/>
+[Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9) [(HN)](https://news.ycombinator.com/item?id=18538123)<br/>
+[The Pull Request Hack](https://felixge.de/2013/03/11/the-pull-request-hack.html)<br/>
+В JavaScript-мире опять трагедия: в зависимостях зависимостей зависимостей зависимостей зависимостей половины интернета прокрался бекдор. Возможно, это мало кого касается напрямую, но этот случай поднял достаточно много вопросов в open source сообществе. И по поводу безопасности, и по поводу доверия к open source в целом.
+
+### Rust
+
+[Rust Survey 2018 Results](https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html)
+
+[Rust Language Cheat Sheet](https://cheats.rs/)<br/>
+Как читать эти иероглифы.
+
 ### Miscellaneous
 
 [A Collection of O'Rly book Covers](https://boyter.org/2016/04/collection-orly-book-covers/)
 
 [I Put Words on this Webpage so You Have to Listen to Me Now](https://christine.website/blog/experimental-rilkef-2018-11-30)
 
+[Как писать на Objective-C в 2018 году](https://habr.com/company/joom/blog/431236/)<br/>
+Интересно смотреть, как Obj-C умирает. А ведь достаточно было Apple принять волевое решение — и вжух! вся экосистема переехала, теперь все хвалят только Swift-Swift-Swift.
+
 ----
-
-https://github.com/dominictarr/event-stream/issues/116
-https://www.reddit.com/r/programming/comments/a0kxmw/i_dont_know_what_to_say_backdoor_in_popular/
-https://www.reddit.com/r/programming/comments/a0t67h/widely_used_npm_module_eventstream_contained/
-https://www.reddit.com/r/programming/comments/a0qp8i/open_source_is_not_about_you_by_rich_hickey/
-https://news.ycombinator.com/item?id=18538123
-https://www.reddit.com/r/programming/comments/a0s88m/if_its_not_fun_anymore_you_get_nothing_from/
-https://felixge.de/2013/03/11/the-pull-request-hack.html
-https://gist.github.com/dominictarr/9fd9c1024c94592bc7268d36b8d83b3a
-https://habr.com/post/431360/
-https://habr.com/company/globalsign/blog/431204/
-В JavaScript-мире опять трагедия.
-
-https://habr.com/post/431250/
-Срач про статическую типизацию против динамической.
-
-https://habr.com/company/joom/blog/431236/
-Интересно смотреть, как Obj-C умирает. А ведь достаточно было Apple принять волевое решение — и вжух! вся экосистема переехала.
-
-https://people.neilon.software/
-лейблочки
-
-https://blog.rust-lang.org/2018/11/27/Rust-survey-2018.html
-survey
 
 https://news.ycombinator.com/item?id=18544547
 some interesting websites there from this person: https://news.ycombinator.com/item?id=18545382
