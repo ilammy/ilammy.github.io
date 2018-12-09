@@ -15,7 +15,7 @@ comments: true
 [Standard Ranges](http://ericniebler.com/2018/12/05/standard-ranges/)<br/>
 Трошки довбанутий інтерфейс, але вже щось. Згадується, що в _Dylan_ протоколи ітерування були вже в 1994 році.
 
-[У Интернета могут быть серьёзные проблемы из-за языков, подобных C и C++, которые способствуют появлению уязвимостей](https://habr.com/post/432502/)<br/>
+[У Интернета могут быть серьёзные проблемы из-за языков, подобных C и C++](https://habr.com/post/432502/)<br/>
 Коментарі відображають спектр ставлення до C та C++.
 
 ### Development
@@ -51,7 +51,7 @@ _Оце_ так метапрограмування. Відразу ж нагад
 [Announcing Rust 1.31 and Rust 2018](https://blog.rust-lang.org/2018/12/06/Rust-1.31-and-rust-2018.html)<br/>
 Фінальна версія цього року та друга «редакція». Зокрема, нова редакція референсу _The Rust Programming Language_, стабілізовані clippy (статичний аналізатор коду) та rustfmt (канонічне форматування коду). І новий вигляд [сайту](https://www.rust-lang.org/). (Особисто мені старий подобається більше, бо він був від програмістів для програмістів. А тут — красивий лендінг для менеджементу. Хоча з точки зору екосистеми це може бути важливішим.)
 
-[Rust 2018 is here… but what is it?](https://hacks.mozilla.org/2018/12/rust-2018-is-here/) [(російською)](https://habr.com/post/432564/)<br/>
+[Rust 2018 is here… but what is it?](https://hacks.mozilla.org/2018/12/rust-2018-is-here/) [(на русском)](https://habr.com/post/432564/)<br/>
 Детальніше про новий підхід до високорівневого версіонування мови.
 
 [Inside Rust's Async Transform](https://blag.nemo157.com/2018/12/09/inside-rusts-async-transform.html)<br/>
