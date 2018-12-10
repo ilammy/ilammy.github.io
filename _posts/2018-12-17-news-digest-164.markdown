@@ -7,3 +7,8 @@ comments: true
 ---
 
 _It's English time!_
+
+----
+
+[Любая [австралийская] интернет-компания обязана тайно изменить программный код по требованию властей](https://habr.com/company/globalsign/blog/432680/)<br/>
+Free speech and confidentialy on the Internet is in pretty bad shape in Her Majesty's dominions.
