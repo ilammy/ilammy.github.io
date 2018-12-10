@@ -12,3 +12,6 @@ _It's English time!_
 
 [Любая [австралийская] интернет-компания обязана тайно изменить программный код по требованию властей](https://habr.com/company/globalsign/blog/432680/)<br/>
 Free speech and confidentialy on the Internet is in pretty bad shape in Her Majesty's dominions.
+
+[Operating System Development for Dummies](https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac)<br/>
+A cute introduction and tribute to TempleOS.
