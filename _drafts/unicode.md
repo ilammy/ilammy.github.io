@@ -10,9 +10,30 @@ title: "Unicode 101"
   * Modern Unicode
 - Basic concepts
   * Glyphs
+    + conceptual thing
+    + writing systems
+      o latin, cyrillic
+      o arabic
+      o hebrew
+      o hindu
+      o korean
+      o Han
+      o thai
+      o more (mongol, Klingon, etc.)
+    + lessons learned
   * Composition (and normalization)
+    + precomposed glyphs, ligatures
+    + normalization tricks, fun with case conversions
+    + emoji
   * Encoding
-  * Collation
+    + UTF-8, 16, 32
+    + quick rundown
+  * Important algorithms
+    + Collation
+      o sorting
+      o case-independent comparison
+    + Word splitting
+    + Bidirectional support
 - Knowledge sources
   * Standards are quite readable
   * Important UAXes
