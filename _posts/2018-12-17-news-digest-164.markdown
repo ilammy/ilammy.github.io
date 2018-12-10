@@ -15,3 +15,9 @@ Free speech and confidentialy on the Internet is in pretty bad shape in Her Maje
 
 [Operating System Development for Dummies](https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac)<br/>
 A cute introduction and tribute to TempleOS.
+
+[Type-Based Alias Analysis in C](https://stefansf.de/post/type-based-alias-analysis/)<br/>
+Nice illustration of dangers of type punning and possible optimizations.
+
+[Трехмерный движок на формулах Excel для чайников](https://habr.com/post/353422/)<br/>
+Straight outta asylum. It also reminds you about the physics of imaging with light.
