@@ -21,3 +21,6 @@ Nice illustration of dangers of type punning and possible optimizations.
 
 [Трехмерный движок на формулах Excel для чайников](https://habr.com/post/353422/)<br/>
 Straight outta asylum. It also reminds you about the physics of imaging with light.
+
+[Я порчу разрабам жизни своими код ревью и больше так не хочу](https://habr.com/post/432822/)<br/>
+On toxicity in code review.
