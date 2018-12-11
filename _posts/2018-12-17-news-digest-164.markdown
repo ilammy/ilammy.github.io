@@ -24,3 +24,11 @@ Straight outta asylum. It also reminds you about the physics of imaging with lig
 
 [Я порчу разрабам жизни своими код ревью и больше так не хочу](https://habr.com/post/432822/)<br/>
 On toxicity in code review.
+
+[Непривилегированные пользователи Linux с UID > INT_MAX могут выполнить любую команду](https://habr.com/post/432610/)<br/>
+Yes, it's totally fine to make integer overflow an undefined behavior.
+
+[Why Do Women Earn Less Than Men? Evidence from Bus and Train Operators](https://scholar.harvard.edu/files/bolotnyy/files/be_gendergap.pdf)
+
+[«CMS» на базе Google Spreadsheets для статических сайтов](https://habr.com/post/432740/)<br/>
+More weird stuff.
