@@ -32,3 +32,6 @@ Yes, it's totally fine to make integer overflow an undefined behavior.
 
 [«CMS» на базе Google Spreadsheets для статических сайтов](https://habr.com/post/432740/)<br/>
 More weird stuff.
+
+[Can we drop upstream Linux x32 support?](https://lkml.org/lkml/2018/12/10/1151)
+Weird x32 ABI on x86_64 may go away.
