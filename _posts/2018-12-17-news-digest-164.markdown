@@ -42,3 +42,6 @@ A new LLVM-based static analyzer for C and C++ (by NASA).
 [How the Dreamcast Copy Protection Was Defeated](http://fabiensanglard.net/dreamcast_hacking)
 
 [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)
+
+[An open letter to Facebook, Twitter, Instagram and Experian regarding algorithms and my son's birth](https://twitter.com/gbrockell/status/1072589687489998848)<br/>
+I usually don't repost things like this due to ethics, but _this_ is _the_ reason to despise user tracking on the Internet.
