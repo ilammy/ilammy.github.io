@@ -47,9 +47,10 @@ A new LLVM-based static analyzer for C and C++ (by NASA).
 I usually don't repost things like this due to ethics, but _this_ is _the_ reason to despise user tracking on the Internet.
 
 [A tale of 132 e's](https://linuxwit.ch/blog/2018/12/e98e/)<br/>
-An interesting prank. [Here's the repo](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee). (Also, nice favicon.)<br/>
+[This is art](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/pull/330). (Also, nice favicon.)<br/>
 (You want to add that loop from Nichijou.)
 
 [`with-c-syntax`: C language syntax in Common Lisp](https://github.com/y2q-actionman/with-c-syntax)<br/>
-[jRust: Rust macro that parses Java-like syntax and runs it as a Rust program](https://gitlab.com/jD91mZM2/jrust/blob/master/examples/control-flow.rs)
+[**jRust**: Rust macro that parses Java-like syntax and runs it as a Rust program]<br/>
+(https://gitlab.com/jD91mZM2/jrust/blob/master/examples/control-flow.rs)
 I find it cute.
