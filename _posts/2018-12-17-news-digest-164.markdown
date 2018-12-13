@@ -45,3 +45,10 @@ A new LLVM-based static analyzer for C and C++ (by NASA).
 
 [An open letter to Facebook, Twitter, Instagram and Experian regarding algorithms and my son's birth](https://twitter.com/gbrockell/status/1072589687489998848)<br/>
 I usually don't repost things like this due to ethics, but _this_ is _the_ reason to despise user tracking on the Internet.
+
+[A tale of 132 e's](https://linuxwit.ch/blog/2018/12/e98e/)<br/>
+An interesting prank. [Here's the repo](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee). (Also, nice favicon.)<br/>
+(You want to add that loop from Nichijou.)
+
+[`with-c-syntax`: C language syntax in Common Lisp](https://github.com/y2q-actionman/with-c-syntax)<br/>
+I find it cute.
