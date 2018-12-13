@@ -54,3 +54,6 @@ I usually don't repost things like this due to ethics, but _this_ is _the_ reaso
 [**jRust**: Rust macro that parses Java-like syntax and runs it as a Rust program]<br/>
 (https://gitlab.com/jD91mZM2/jrust/blob/master/examples/control-flow.rs)
 I find it cute.
+
+[Linux: easy keylogger with eBPF](https://arighi.blogspot.com/2018/12/linux-easy-keylogger-with-ebpf.html)<br/>
+How to write kernel code without writing kernel code.
