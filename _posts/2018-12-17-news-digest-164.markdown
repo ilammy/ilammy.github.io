@@ -16,6 +16,9 @@ Nice illustration of dangers of type punning and possible optimizations that it 
 [IKOS Analyzer](https://github.com/NASA-SW-VnV/ikos/blob/master/analyzer/README.md)<br/>
 A new LLVM-based static analyzer for C and C++ (by NASA).
 
+[Named Arguments in C++](https://www.fluentcpp.com/2018/12/14/named-arguments-cpp/)<br/>
+Cute trick.
+
 ### Development
 
 [Я порчу разрабам жизни своими код ревью и больше так не хочу](https://habr.com/post/432822/)<br/>
