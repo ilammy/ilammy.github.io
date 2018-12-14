@@ -67,5 +67,10 @@ Free speech and confidentialy on the Internet is in pretty bad shape in Her Maje
 [A tale of 132 e's](https://linuxwit.ch/blog/2018/12/e98e/)<br/>
 [This is art](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/pull/330). ([Also, nice favicon](https://www.youtube.com/watch?v=MzEPGPWQ3bU).)
 
+[FROG TIPS](https://github.com/FROG-TIPS)
+
 [Иди-ка ты на !@# со своей «токсичностью»](https://habr.com/post/432700/)<br/>
 Gr8 b8 m8. (Well, in all honesty, the comments _are_ mildly interesting read on sociology, if you have time.)
+
+[Async in Rust, circa 2018](https://rust-lang-nursery.github.io/wg-net/2018/12/13/async-update.html)<br/>
+I hope we'll see `async` in 2019.
