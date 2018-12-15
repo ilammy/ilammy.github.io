@@ -27,6 +27,9 @@ Gr8 b8 m8. (Well, in all honesty, the comments _are_ mildly interesting read on 
 [Я порчу разрабам жизни своими код ревью и больше так не хочу](https://habr.com/post/432822/)<br/>
 On toxicity in code review.
 
+[The Best Programming Advice I Ever Got](http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html)<br/>
+WWYD?
+
 ### Git
 
 [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)<br/>
@@ -83,4 +86,4 @@ I usually don't repost things like this due to ethics, but _this_ is _the_ reaso
 
 [FROG TIPS](https://github.com/FROG-TIPS)
 
-[The Best Programming Advice I Ever Got](http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html)
+[9cc C compiler](https://github.com/rui314/9cc) [(author)](https://www.sigbus.info/)
