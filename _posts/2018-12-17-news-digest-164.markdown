@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #164"
 date:     2018-12-17 12:00:00 +0200
-tags:     digest cpp dev linux misc
+tags:     digest cpp dev linux rust misc
 comments: true
 ---
 
@@ -40,6 +40,14 @@ How to write kernel code without writing kernel code.
 [Непривилегированные пользователи Linux с UID > INT_MAX могут выполнить любую команду](https://habr.com/post/432610/)<br/>
 Yes, it's totally fine to make integer overflow an undefined behavior, no one ever does it.
 
+### Rust
+
+[Async in Rust, circa 2018](https://rust-lang-nursery.github.io/wg-net/2018/12/13/async-update.html)<br/>
+I hope we'll see `async` in 2019.
+
+[So @Kyrenite was showing me a cool new idea she had with GC in Rust...](https://twitter.com/ManishEarth/status/1073651552768819200)<br/>
+Another unforseen consequence.
+
 ### Miscellaneous
 
 [Трехмерный движок на формулах Excel для чайников](https://habr.com/post/353422/)<br/>
@@ -74,6 +82,3 @@ Free speech and confidentialy on the Internet is in pretty bad shape in Her Maje
 
 [Иди-ка ты на !@# со своей «токсичностью»](https://habr.com/post/432700/)<br/>
 Gr8 b8 m8. (Well, in all honesty, the comments _are_ mildly interesting read on sociology, if you have time.)
-
-[Async in Rust, circa 2018](https://rust-lang-nursery.github.io/wg-net/2018/12/13/async-update.html)<br/>
-I hope we'll see `async` in 2019.
