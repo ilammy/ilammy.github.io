@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #164"
 date:     2018-12-17 12:00:00 +0200
-tags:     digest cpp dev linux rust misc
+tags:     digest cpp dev git internet linux rust misc
 comments: true
 ---
 
@@ -21,6 +21,9 @@ Cute trick.
 
 ### Development
 
+[Иди-ка ты на !@# со своей «токсичностью»](https://habr.com/post/432700/)<br/>
+Gr8 b8 m8. (Well, in all honesty, the comments _are_ mildly interesting read on sociology, if you have time.)
+
 [Я порчу разрабам жизни своими код ревью и больше так не хочу](https://habr.com/post/432822/)<br/>
 On toxicity in code review.
 
@@ -28,6 +31,11 @@ On toxicity in code review.
 
 [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)<br/>
 It's helpful to reread an overview like this once in a while.
+
+### Internet
+
+[Любая [австралийская] интернет-компания обязана тайно изменить программный код по требованию властей](https://habr.com/company/globalsign/blog/432680/)<br/>
+Free speech and confidentialy on the Internet is in pretty bad shape in Her Majesty's dominions.
 
 ### Linux
 
@@ -70,15 +78,9 @@ I usually don't repost things like this due to ethics, but _this_ is _the_ reaso
 
 [How the Dreamcast Copy Protection Was Defeated](http://fabiensanglard.net/dreamcast_hacking)
 
-----
-
-[Любая [австралийская] интернет-компания обязана тайно изменить программный код по требованию властей](https://habr.com/company/globalsign/blog/432680/)<br/>
-Free speech and confidentialy on the Internet is in pretty bad shape in Her Majesty's dominions.
-
 [A tale of 132 e's](https://linuxwit.ch/blog/2018/12/e98e/)<br/>
 [This is art](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/pull/330). ([Also, nice favicon](https://www.youtube.com/watch?v=MzEPGPWQ3bU).)
 
 [FROG TIPS](https://github.com/FROG-TIPS)
 
-[Иди-ка ты на !@# со своей «токсичностью»](https://habr.com/post/432700/)<br/>
-Gr8 b8 m8. (Well, in all honesty, the comments _are_ mildly interesting read on sociology, if you have time.)
+[The Best Programming Advice I Ever Got](http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html)
