@@ -17,7 +17,7 @@ Nice illustration of dangers of type punning and possible optimizations that it 
 A new LLVM-based static analyzer for C and C++ (by NASA).
 
 [Named Arguments in C++](https://www.fluentcpp.com/2018/12/14/named-arguments-cpp/)<br/>
-Cute trick.
+Neat trick.
 
 ### Development
 
@@ -68,7 +68,7 @@ Straight outta asylum. It also reminds you about the physics of imaging with lig
 More weird stuff.
 
 [Operating System Development for Dummies](https://medium.com/@lduck11007/operating-systems-development-for-dummies-3d4d786e8ac)<br/>
-A cute introduction and tribute to TempleOS.
+Nice introduction and tribute to TempleOS.
 
 [`with-c-syntax`: C language syntax in Common Lisp](https://github.com/y2q-actionman/with-c-syntax)<br/>
 [**jRust**: Rust macro that parses Java-like syntax and runs it as a Rust program](https://gitlab.com/jD91mZM2/jrust/blob/master/examples/control-flow.rs)<br/>
@@ -82,7 +82,7 @@ I usually don't repost things like this due to ethics, but _this_ is _the_ reaso
 [How the Dreamcast Copy Protection Was Defeated](http://fabiensanglard.net/dreamcast_hacking)
 
 [A tale of 132 e's](https://linuxwit.ch/blog/2018/12/e98e/)<br/>
-[This is art](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/pull/330). ([Also, nice favicon](https://www.youtube.com/watch?v=MzEPGPWQ3bU).)
+[This is art](https://github.com/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/pull/330). [(Also, nice favicon.)](https://www.youtube.com/watch?v=MzEPGPWQ3bU)
 
 [FROG TIPS](https://github.com/FROG-TIPS)
 
