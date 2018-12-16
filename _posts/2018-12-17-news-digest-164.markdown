@@ -6,7 +6,7 @@ tags:     digest cpp dev git internet linux rust misc
 comments: true
 ---
 
-_It's English time!_
+I have no news for today. Let's keep a minute of silence for Kim Jong Il.
 
 ### C++
 
