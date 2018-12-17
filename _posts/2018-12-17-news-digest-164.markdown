@@ -30,6 +30,9 @@ On toxicity in code review.
 [The Best Programming Advice I Ever Got](http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html)<br/>
 WWYD?
 
+[Organizational Debt](https://boats.gitlab.io/blog/post/rust-2019/)<br/>
+It's about Rust Language working groups and managing open project development.
+
 ### Git
 
 [The Architecture and History of Git: A Distributed Version Control System](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)<br/>
