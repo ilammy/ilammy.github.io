@@ -20,3 +20,8 @@ _на русском языке_
 
 [Ад своими руками](https://habr.com/post/433514/)<br/>
 О геймификации.
+
+[Interactive Beginner's Guide to ROP](https://bordplate.no/blog/en/post/interactive-rop-tutorial/index.html)
+
+[](https://habr.com/company/joom/blog/433554/)<br/>
+Классические алгоритмы.
