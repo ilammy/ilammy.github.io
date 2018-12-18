@@ -6,7 +6,14 @@ tags:     digest
 comments: true
 ---
 
-_Ñ~Ñp ÑÇÑÖÑÉÑÉÑ{ÑÄÑ} ÑëÑxÑçÑ{Ñu_
+_–Ω–∞ —Ä—É—Å—Å–∫–æ–º —è–∑—ã–∫–µ_
 
 ----
 
+[The Most Important Software Innovations](https://dwheeler.com/innovation/innovation.html)
+
+[miniKanren: an embedded Domain Specific Language for logic programming](http://minikanren.org/)
+
+[BloomRPC: GUI Client for gRPC Services](https://github.com/uw-labs/bloomrpc)
+
+[Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)
