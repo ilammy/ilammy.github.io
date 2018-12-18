@@ -17,3 +17,6 @@ _на русском языке_
 [BloomRPC: GUI Client for gRPC Services](https://github.com/uw-labs/bloomrpc)
 
 [Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)
+
+[Ад своими руками](https://habr.com/post/433514/)<br/>
+О геймификации.
