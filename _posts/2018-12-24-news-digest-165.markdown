@@ -19,9 +19,19 @@ _на русском языке_
 [Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)
 
 [Ад своими руками](https://habr.com/post/433514/)<br/>
-О геймификации.
+Об ужасах геймификации делопроизводства.
 
 [Interactive Beginner's Guide to ROP](https://bordplate.no/blog/en/post/interactive-rop-tutorial/index.html)
 
-[](https://habr.com/company/joom/blog/433554/)<br/>
+[Исправляем опечатки в поисковых запросах](https://habr.com/company/joom/blog/433554/)<br/>
 Классические алгоритмы.
+
+[Nvidia learned to make realistic faces](https://www.youtube.com/watch?v=bIVU8UuHPKI)<br/>
+Кажется, через десяток лет фотографии и видеозаписи больше не будут котироваться как доказательства в суде, как только наберётся достаточное количество прецедентов подделки.
+
+[How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)
+
+----
+
+[MakeGirlsMoe](https://make.girls.moe/#/)<br/>
+Oldie but goodie. (Наверное, не надо постить...)
