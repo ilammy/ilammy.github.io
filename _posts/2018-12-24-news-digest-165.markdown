@@ -31,6 +31,9 @@ _на русском языке_
 
 [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)
 
+[Группа по антихарассменту из Debian удалила пакет Weboob за неполиткорректное имя](https://www.linux.org.ru/news/opensource/14685419)<br/>
+Мерзость.
+
 ----
 
 [MakeGirlsMoe](https://make.girls.moe/#/)<br/>
