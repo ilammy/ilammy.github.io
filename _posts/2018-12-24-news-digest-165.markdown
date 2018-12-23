@@ -34,6 +34,11 @@ _на русском языке_
 [Группа по антихарассменту из Debian удалила пакет Weboob за неполиткорректное имя](https://www.linux.org.ru/news/opensource/14685419)<br/>
 Мерзость.
 
+[Разрушительные исключения](https://habr.com/post/433944/)<br/>
+Немного приёмов обработки исключений в _исключительных_ ситуациях (pun intended).
+
+[Everything I've Learned in Ten Years of Blogging](https://ferrucc.io/posts/starting-a-blog/)
+
 ----
 
 [MakeGirlsMoe](https://make.girls.moe/#/)<br/>
