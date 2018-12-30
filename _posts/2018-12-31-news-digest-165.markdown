@@ -2,11 +2,11 @@
 layout:   post
 title:    "News digest #165"
 date:     2018-12-31 12:00:00 +0200
-tags:     digest cpp dev oss rust misc
+tags:     digest cpp curious dev internet linux oss rust misc
 comments: true
 ---
 
-🎄 З Новим роком 🎄
+🎄 Вітаю з Новим роком 🎄
 
 А ви думали дайджеста не буде?
 
@@ -24,6 +24,7 @@ comments: true
 ### Curious
 
 [How DOOM Fire was Done](http://fabiensanglard.net/doom_fire_psx/)<br/>
+[Coding the Art: как мы генерируем графику и анимацию в дизайн-проектах](https://habr.com/company/JetBrains/blog/434796/)<br/>
 Красиві картинки. Якщо інтересують такі штуки, то гугліть “демосцена”.
 
 [Исправляем опечатки в поисковых запросах](https://habr.com/company/joom/blog/433554/)<br/>
@@ -33,6 +34,9 @@ comments: true
 Про одну з базових технік експлоїтів.
 
 [How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)
+
+[Обратная сторона zero knowledge: бэкдор в zk-SNARK, который невозможно обнаружить](https://habr.com/company/solarsecurity/blog/434720/)<br/>
+Вброс, може кого заінтересує ця тематика.
 
 ### Development
 
@@ -51,6 +55,23 @@ comments: true
 [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)<br/>
 І ще корисні поради щодо розробки. «Найкраща деталь — та, якої немає, але її функція виконується».
 
+[Паттерны и антипаттерны обоснования задач](https://habr.com/post/434522/)<br/>
+Милота.
+
+[Безликий код убьет программирование, и ничего мы с этим не сделаем](https://habr.com/post/434478/)<br/>
+Він знову виходить на зв’язок.
+
+### Internet
+
+[ВКонтакте вычисляет ваше местоположение по IP](https://habr.com/post/434776/)<br/>
+[Тёмная сторона поискового маркетинга: как и зачем Google собирает нашу личную информацию](https://habr.com/company/everydaytools/blog/434508/)<br/>
+Ну хто би міг таке передбачити, га? Насолоджуйтесь трекінгом, все задля вашого комфорту.
+
+### Linux
+
+[snap & flatpack — трагедия общин](https://habr.com/post/433052/)<br/>
+Трошки срачу через пакетні менеджери.
+
 ### Open Source
 
 [Группа по антихарассменту из Debian удалила пакет Weboob за неполиткорректное имя](https://www.linux.org.ru/news/opensource/14685419)<br/>
@@ -62,11 +83,14 @@ comments: true
 ### Rust
 
 [Thoughts on Rust in 2019](https://words.steveklabnik.com/thoughts-on-rust-in-2019)<br/>
-[Rust 2019 and beyond: limits to (some) growth](https://graydon2.dreamwidth.org/263429.html)<br/>
+[Rust 2019 and beyond: limits to (some) growth](https://graydon2.dreamwidth.org/263429.html) [(хабр)](https://habr.com/post/434684/)<br/>
 Деякі з традиційних побажань для розвитку мови у наступному році.
 
 [Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)<br/>
 Як просувається робота над класними IDE.
+
+[Так ли страшен Rust, как его малюют](https://habr.com/post/434200/)<br/>
+Враження новачка. Заради ~~срачу~~ дискусії в коментарях.
 
 ### Miscellaneous
 
@@ -83,3 +107,7 @@ comments: true
 [The Most Important Software Innovations](https://dwheeler.com/innovation/innovation.html)
 
 [Everything I've Learned in Ten Years of Blogging](https://ferrucc.io/posts/starting-a-blog/)
+
+[Операционная система Haiku: портирование приложений и создание пакетов](https://habr.com/post/434690/)
+
+[Как я нашёл баг в GNU Tar](https://habr.com/post/434624/)
