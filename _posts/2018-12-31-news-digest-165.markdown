@@ -19,7 +19,7 @@ comments: true
 І ще трішки про складність Сі++. «Є два види мов: на які всі постійно скаржаться та які ніхто не використовує».
 
 [Разрушительные исключения](https://habr.com/post/433944/)<br/>
-Немного приёмов обработки исключений в _исключительных_ ситуациях (pun intended).
+Декілька прийомів обробки виключень у _виключних_ ситуаціях (pun intended).
 
 ### Curious
 
@@ -56,7 +56,7 @@ comments: true
 [Группа по антихарассменту из Debian удалила пакет Weboob за неполиткорректное имя](https://www.linux.org.ru/news/opensource/14685419)<br/>
 Мерзота.
 
-[](https://arp242.net/weblog/diy.html)<br/>
+[Open source DIY ethics](https://arp242.net/weblog/diy.html)<br/>
 І ще трошки на нещодавню тему відповідальності за відкриті проекти.
 
 ### Rust
@@ -65,7 +65,8 @@ comments: true
 [Rust 2019 and beyond: limits to (some) growth](https://graydon2.dreamwidth.org/263429.html)<br/>
 Деякі з традиційних побажань для розвитку мови у наступному році.
 
-[Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)
+[Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)<br/>
+Як просувається робота над класними IDE.
 
 ### Miscellaneous
 
