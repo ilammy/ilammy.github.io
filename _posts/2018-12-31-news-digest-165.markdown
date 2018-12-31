@@ -1,0 +1,113 @@
+---
+layout:   post
+title:    "News digest #165"
+date:     2018-12-31 12:00:00 +0200
+tags:     digest cpp curious dev internet linux oss rust misc
+comments: true
+---
+
+🎄 Вітаю з Новим роком 🎄
+
+А ви думали дайджеста не буде?
+
+### C++
+
+[A Perspective on C++ Standardization in 2018](https://thephd.github.io/perspective-standardization-in-2018)<br/>
+Про те, наскільки складно все ж щось стандартизовувати.
+
+["Modern" C++ Lamentations](http://aras-p.info/blog/2018/12/28/Modern-C-Lamentations/)<br/>
+І ще трішки про складність Сі++. «Є два види мов: на які всі постійно скаржаться та які ніхто не використовує».
+
+[Разрушительные исключения](https://habr.com/post/433944/)<br/>
+Декілька прийомів обробки виключень у _виключних_ ситуаціях (pun intended).
+
+### Curious
+
+[How DOOM Fire was Done](http://fabiensanglard.net/doom_fire_psx/)<br/>
+[Coding the Art: как мы генерируем графику и анимацию в дизайн-проектах](https://habr.com/company/JetBrains/blog/434796/)<br/>
+Красиві картинки. Якщо інтересують такі штуки, то гугліть “демосцена”.
+
+[Исправляем опечатки в поисковых запросах](https://habr.com/company/joom/blog/433554/)<br/>
+Класичні алгоритми.
+
+[Interactive Beginner's Guide to ROP](https://bordplate.no/blog/en/post/interactive-rop-tutorial/index.html)<br/>
+Про одну з базових технік експлоїтів.
+
+[How to Start Learning Computer Graphics Programming](https://erkaman.github.io/posts/beginner_computer_graphics.html)
+
+[Обратная сторона zero knowledge: бэкдор в zk-SNARK, который невозможно обнаружить](https://habr.com/company/solarsecurity/blog/434720/)<br/>
+Вброс, може кого заінтересує ця тематика.
+
+### Development
+
+[Ад своими руками](https://habr.com/post/433514/)<br/>
+Про жахи гейміфікації діловодства.
+
+[miniKanren: an embedded Domain Specific Language for logic programming](http://minikanren.org/)<br/>
+Корисняшка: іноді Пролог — це найбільш зручна мова.
+
+[BloomRPC: GUI Client for gRPC Services](https://github.com/uw-labs/bloomrpc)<br/>
+І ще корисняшка.
+
+[The Myth Of 100% Code Coverage](https://itnext.io/the-myth-of-100-code-coverage-c7d4c789700d)<br/>
+Очевидно, але щоб до вас точно дійшло. Метрика, що стає метою, перестає бути доброю метрикою.
+
+[Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)<br/>
+І ще корисні поради щодо розробки. «Найкраща деталь — та, якої немає, але її функція виконується».
+
+[Паттерны и антипаттерны обоснования задач](https://habr.com/post/434522/)<br/>
+Милота.
+
+[Безликий код убьет программирование, и ничего мы с этим не сделаем](https://habr.com/post/434478/)<br/>
+Він знову виходить на зв’язок.
+
+### Internet
+
+[ВКонтакте вычисляет ваше местоположение по IP](https://habr.com/post/434776/)<br/>
+[Тёмная сторона поискового маркетинга: как и зачем Google собирает нашу личную информацию](https://habr.com/company/everydaytools/blog/434508/)<br/>
+Ну хто би міг таке передбачити, га? Насолоджуйтесь трекінгом, все задля вашого комфорту.
+
+### Linux
+
+[snap & flatpack — трагедия общин](https://habr.com/post/433052/)<br/>
+Трошки срачу через пакетні менеджери.
+
+### Open Source
+
+[Группа по антихарассменту из Debian удалила пакет Weboob за неполиткорректное имя](https://www.linux.org.ru/news/opensource/14685419)<br/>
+Мерзота.
+
+[Open source DIY ethics](https://arp242.net/weblog/diy.html)<br/>
+І ще трошки на нещодавню тему відповідальності за відкриті проекти.
+
+### Rust
+
+[Thoughts on Rust in 2019](https://words.steveklabnik.com/thoughts-on-rust-in-2019)<br/>
+[Rust 2019 and beyond: limits to (some) growth](https://graydon2.dreamwidth.org/263429.html) [(хабр)](https://habr.com/post/434684/)<br/>
+Деякі з традиційних побажань для розвитку мови у наступному році.
+
+[Rust Analyzer in 2018 and 2019](https://ferrous-systems.com/blog/rust-analyzer-2019/)<br/>
+Як просувається робота над класними IDE.
+
+[Так ли страшен Rust, как его малюют](https://habr.com/post/434200/)<br/>
+Враження новачка. Заради ~~срачу~~ дискусії в коментарях.
+
+### Miscellaneous
+
+[Conway's Game Of Life in APL](https://www.youtube.com/watch?v=a9xAKttWgP4)<br/>
+Новий рік, як-ніяк, тож потрібно додати ще трошки магії.
+
+[What Happens to Kid Culture When You Close the Streets to Cars](https://www.citylab.com/design/2018/11/car-free-pedestrianization-made-pontevedra-spain-kid-friendly/576268/)
+
+[People often ask me why I’m so “against” Ethereum. Why do I go out of my way to point out flaws or make analogies that put it in a bad light?](https://threadreaderapp.com/thread/1078682801954799617.html)
+
+[Nvidia learned to make realistic faces](https://www.youtube.com/watch?v=bIVU8UuHPKI)<br/>
+Здається мені, років так через десять фотографії та відеозаписи не будуть вважатися за докази в суді навіть з опломбованих девайсів.
+
+[The Most Important Software Innovations](https://dwheeler.com/innovation/innovation.html)
+
+[Everything I've Learned in Ten Years of Blogging](https://ferrucc.io/posts/starting-a-blog/)
+
+[Операционная система Haiku: портирование приложений и создание пакетов](https://habr.com/post/434690/)
+
+[Как я нашёл баг в GNU Tar](https://habr.com/post/434624/)
