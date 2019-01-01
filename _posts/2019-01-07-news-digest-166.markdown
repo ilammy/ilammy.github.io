@@ -2,8 +2,18 @@
 layout:   post
 title:    "News digest #166"
 date:     2019-01-07 12:00:00 +0200
-tags:     digest
+tags:     digest cpp linux
 comments: true
 ---
 
 _let's start with English this year_
+
+### C++
+
+[Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
+Interesting thing to explore. I always liked to look at unit testing frameworks for C, like XXX.
+
+### Linux
+
+[Learning KVM - implement your own Linux kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)<br/>
+Writing a basic hypervisor with KVM is not _that_ scary (though certainly not easy as well).
