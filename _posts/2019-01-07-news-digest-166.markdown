@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #166"
 date:     2019-01-07 12:00:00 +0200
-tags:     digest cpp linux
+tags:     digest cpp dev linux curious misc
 comments: true
 ---
 
@@ -11,9 +11,32 @@ _let's start with English this year_
 ### C++
 
 [Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
-Interesting thing to explore. I always liked to look at unit testing frameworks for C, like XXX.
+Interesting thing to explore. I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
+
+### Development
+
+[Good Engineering Practices while Working Solo](https://blog.bitsrc.io/good-engineering-practices-while-working-solo-ad872e727af4)
 
 ### Linux
 
 [Learning KVM - implement your own Linux kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)<br/>
 Writing a basic hypervisor with KVM is not _that_ scary (though certainly not easy as well).
+
+### Curious
+
+[Модернизация IDA Pro. Отладчик для Sega Mega Drive (часть 1)](https://habr.com/post/434992/) [(часть 2)](https://habr.com/post/435002/)<br/>
+How to write IDA Pro extensions.
+
+[Перспектива: MultiClet S1](https://habr.com/post/434982/)<br/>
+An interesting approach to CPU architecture. I remember posting about it some time ago, glad they're still alive.
+
+[Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8&feature=youtu.be) [(GitHub)](https://github.com/HackerPoet/NonEuclidean)<br/>
+**Amazing** hack. I imagine tons of creative applications for VR. [Mathematics _are_ beautiful](https://www.youtube.com/watch?v=slT4yb8mEac), Alice Liddell sends her regards.
+
+### Miscellaneous
+
+[English notes #1: Заканчивай с этим «very»](https://habr.com/company/flant/blog/434648/)<br/>
+May turn out an interesting series for some.
+
+[Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
+A summary of IEEE 754 if you need a refresher.
