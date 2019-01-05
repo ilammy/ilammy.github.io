@@ -13,14 +13,14 @@ Well, obviously happy birthday cheers go to Mr. Jesus (if you observe the Julian
 ### C++
 
 [Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
-Interesting thing to explore. I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
+I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
 
 ### Development
 
 [Good Engineering Practices while Working Solo](https://blog.bitsrc.io/good-engineering-practices-while-working-solo-ad872e727af4)
 
 [GNU Recutils](https://www.gnu.org/software/recutils/)<br/>
-I've never heard about this data format before, but it may be an interesting alternative to JSON.
+I've never heard about this data format before, but it may be an attractive alternative to ubiquitious JSON.
 
 [Как писать юнит-тесты, если совсем не хочется](https://habr.com/post/434972/)<br/>
 Exploring basic antipatterns in writing automated tests. 
@@ -36,7 +36,7 @@ Writing a basic hypervisor with KVM is not _that_ scary (though certainly not ea
 How to write IDA Pro extensions.
 
 [Перспектива: MultiClet S1](https://habr.com/post/434982/)<br/>
-An interesting approach to CPU architecture. I remember posting about it some time ago, glad they're still alive.
+A lovely approach to CPU architecture. I remember posting about it some time ago, glad they're still alive.
 
 [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8&feature=youtu.be) [(GitHub)](https://github.com/HackerPoet/NonEuclidean)<br/>
 **Amazing** hack. I imagine tons of creative applications for VR. [Mathematics _are_ beautiful](https://www.youtube.com/watch?v=slT4yb8mEac), Alice Liddell sends her regards.
@@ -45,12 +45,12 @@ An interesting approach to CPU architecture. I remember posting about it some ti
 I'm not up to date on intricacies of state of the art AI, but his argument on the current state of affairs in AI is compelling.
 
 [Trust model of Bitcoin — part I](https://hackernoon.com/trust-model-of-bitcoin-part-i-34aacf47d444), [part II](https://hackernoon.com/trust-model-of-bitcoin-part-ii-bfcfa15b8f09)<br/>
-May interest you if you know close to nothing on the topic. An okayish explain-like-I'm-twelve writeup.
+May be useful if you know close to nothing on the topic. An okayish explain-like-I'm-twelve writeup.
 
 ### Miscellaneous
 
 [English notes #1: Заканчивай с этим «very»](https://habr.com/company/flant/blog/434648/)<br/>
-May turn out an interesting series for some.
+May turn out an ~~interesting~~ _thought-provoking_ series for some.
 
 [Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
 A summary of IEEE 754 if you need a refresher.
