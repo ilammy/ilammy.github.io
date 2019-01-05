@@ -8,6 +8,8 @@ comments: true
 
 _let's start with English this year_
 
+Well, obviously happy birthday cheers go to Mr. Jesus (if you observe the Julian calendar).
+
 ### C++
 
 [Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
@@ -16,6 +18,12 @@ Interesting thing to explore. I always liked to look at minimal unit testing fra
 ### Development
 
 [Good Engineering Practices while Working Solo](https://blog.bitsrc.io/good-engineering-practices-while-working-solo-ad872e727af4)
+
+[GNU Recutils](https://www.gnu.org/software/recutils/)<br/>
+I've never heard about this data format before, but it may be an interesting alternative to JSON.
+
+[Как писать юнит-тесты, если совсем не хочется](https://habr.com/post/434972/)<br/>
+Exploring basic antipatterns in writing automated tests. 
 
 ### Linux
 
@@ -32,6 +40,12 @@ An interesting approach to CPU architecture. I remember posting about it some ti
 
 [Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8&feature=youtu.be) [(GitHub)](https://github.com/HackerPoet/NonEuclidean)<br/>
 **Amazing** hack. I imagine tons of creative applications for VR. [Mathematics _are_ beautiful](https://www.youtube.com/watch?v=slT4yb8mEac), Alice Liddell sends her regards.
+
+[AI Winter - Update](https://blog.piekniewski.info/2018/10/29/ai-winter-update/)<br/>
+I'm not up to date on intricacies of state of the art AI, but his argument on the current state of affairs in AI is compelling.
+
+[Trust model of Bitcoin — part I](https://hackernoon.com/trust-model-of-bitcoin-part-i-34aacf47d444), [part II](https://hackernoon.com/trust-model-of-bitcoin-part-ii-bfcfa15b8f09)<br/>
+May interest you if you know close to nothing on the topic. An okayish explain-like-I'm-twelve writeup.
 
 ### Miscellaneous
 
