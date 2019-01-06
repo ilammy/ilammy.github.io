@@ -8,7 +8,7 @@ comments: true
 
 _let's start with English this year_
 
-Well, obviously happy birthday cheers go to Mr. Jesus (if you observe the Julian calendar).
+Well, obviously happy birthday cheers go to Mr. Jesus this time (if you observe the Julian calendar).
 
 ### C++
 
@@ -29,6 +29,9 @@ Exploring basic antipatterns in writing automated tests.
 
 [Learning KVM - implement your own Linux kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)<br/>
 Writing a basic hypervisor with KVM is not _that_ scary (though certainly not easy as well).
+
+[Изучаем трассировку с помощью eBPF: Руководство и примеры](https://habr.com/post/435142/)<br/>
+Some projects may not really need a kernel module. (And I may have posted this already some time ago.)
 
 ### Curious
 
@@ -54,3 +57,8 @@ May turn out an ~~interesting~~ _thought-provoking_ series for some.
 
 [Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
 A summary of IEEE 754 if you need a refresher.
+
+[Заметки фитохимика. Банановая шкурка наносит ответный удар](https://habr.com/post/434944/)
+
+[Бизнес, я люблю тебя](https://habr.com/post/434940/)<br/>
+She rarely posts, but there's some right attitude in there.
