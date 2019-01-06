@@ -15,15 +15,27 @@ Well, obviously happy birthday cheers go to Mr. Jesus this time (if you observe 
 [Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
 I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
 
+[orangeduck/mpc - A Parser Combinator library for C](https://github.com/orangeduck/mpc)<br/>
+Just in case you ever need one.
+
+[Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
+A summary of IEEE 754 if you would like a refresher.
+
+[AVX512VBMI — remove spaces from text](http://0x80.pl/notesen/2019-01-05-avx512vbmi-remove-spaces.html)<br/>
+Remember that sometimes SSE/AVX can really speed up things.
+
 ### Development
 
 [Good Engineering Practices while Working Solo](https://blog.bitsrc.io/good-engineering-practices-while-working-solo-ad872e727af4)
 
 [GNU Recutils](https://www.gnu.org/software/recutils/)<br/>
-I've never heard about this data format before, but it may be an attractive alternative to ubiquitious JSON.
+I've never heard about this data format before, but it may be an attractive alternative to ubiquitious JSON/SQLite.
 
 [Как писать юнит-тесты, если совсем не хочется](https://habr.com/post/434972/)<br/>
-Exploring basic antipatterns in writing automated tests. 
+Exploring basic antipatterns in writing automated tests.
+
+[Software Engineering at Google](https://arxiv.org/pdf/1702.01715.pdf)
+“The aim of this paper is to catalogue and briefly describe Google’s key software engineering practices. Other organizations and individuals can then compare and contrast these with their own software engineering practices, and consider whether to apply some of these practices themselves.”
 
 ### Linux
 
@@ -31,7 +43,7 @@ Exploring basic antipatterns in writing automated tests.
 Writing a basic hypervisor with KVM is not _that_ scary (though certainly not easy as well).
 
 [Изучаем трассировку с помощью eBPF: Руководство и примеры](https://habr.com/post/435142/)<br/>
-Some projects may not really need a kernel module. (And I may have posted this already some time ago.)
+Some projects may not really need a kernel module.
 
 ### Curious
 
@@ -55,10 +67,10 @@ May be useful if you know close to nothing on the topic. An okayish explain-like
 [English notes #1: Заканчивай с этим «very»](https://habr.com/company/flant/blog/434648/)<br/>
 May turn out an ~~interesting~~ _thought-provoking_ series for some.
 
-[Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
-A summary of IEEE 754 if you need a refresher.
-
 [Заметки фитохимика. Банановая шкурка наносит ответный удар](https://habr.com/post/434944/)
 
 [Бизнес, я люблю тебя](https://habr.com/post/434940/)<br/>
-She rarely posts, but there's some right attitude in there.
+Veronica rarely posts, but there's some right attitude for a job in there.
+
+[The Process of Mastering a Skill](https://azeria-labs.com/the-process-of-mastering-a-skill/)<br/>
+The same goes for Azeria, only she's more keen on approaches to learning stuff.
