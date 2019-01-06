@@ -34,7 +34,7 @@ I've never heard about this data format before, but it may be an attractive alte
 [Как писать юнит-тесты, если совсем не хочется](https://habr.com/post/434972/)<br/>
 Exploring basic antipatterns in writing automated tests.
 
-[Software Engineering at Google](https://arxiv.org/pdf/1702.01715.pdf)
+[Software Engineering at Google](https://arxiv.org/pdf/1702.01715.pdf)<br/>
 “The aim of this paper is to catalogue and briefly describe Google’s key software engineering practices. Other organizations and individuals can then compare and contrast these with their own software engineering practices, and consider whether to apply some of these practices themselves.”
 
 ### Linux
