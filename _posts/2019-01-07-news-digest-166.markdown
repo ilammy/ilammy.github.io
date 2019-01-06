@@ -66,7 +66,8 @@ I'm not really up to date on state of the art AI, but his argument on the curren
 [Trust model of Bitcoin — part I](https://hackernoon.com/trust-model-of-bitcoin-part-i-34aacf47d444), [part II](https://hackernoon.com/trust-model-of-bitcoin-part-ii-bfcfa15b8f09)<br/>
 May be useful if you know close to nothing on the topic. An okayish explain-like-I'm-twelve writeup.
 
-[How do you organise your hard drive?](https://news.ycombinator.com/item?id=18836472)
+[How do you organise your hard drive?](https://news.ycombinator.com/item?id=18836472)<br/>
+[How do you keep track of your creative thoughts?](https://news.ycombinator.com/item?id=18837345)
 
 ### Miscellaneous
 
