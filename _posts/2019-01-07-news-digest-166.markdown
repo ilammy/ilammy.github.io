@@ -6,11 +6,12 @@ tags:     digest cpp dev linux curious misc
 comments: true
 ---
 
-_let's start with English this year_
-
 Well, obviously happy birthday cheers go to Mr. Jesus this time (if you observe the Julian calendar).
 
 ### C++
+
+[Fundamentals of C++ Programming](http://python.cs.southern.edu/cppbook/progcpp.pdf)<br/>
+I have found my favorite newbie-friendly entry-level book to recommend on C++. Thank you; you know who you are.
 
 [Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
 I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
