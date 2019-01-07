@@ -1,0 +1,83 @@
+---
+layout:   post
+title:    "News digest #166"
+date:     2019-01-07 12:00:00 +0200
+tags:     digest cpp dev linux curious misc
+comments: true
+---
+
+Well, obviously happy birthday cheers go to Mr. Jesus this time (if you observe the Julian calendar).
+
+### C++
+
+[Fundamentals of C++ Programming](http://python.cs.southern.edu/cppbook/progcpp.pdf)<br/>
+I have found my favorite newbie-friendly entry-level book to recommend on C++. Thank you; you know who you are.
+
+[Тесты на C++ без макросов и динамической памяти](https://habr.com/post/434906/)<br/>
+I always liked to look at minimal unit testing frameworks for C, like [Cutter](http://cutter.sourceforge.net).
+
+[orangeduck/mpc - A Parser Combinator library for C](https://github.com/orangeduck/mpc)<br/>
+Just in case you ever need one.
+
+[Exposing Floating Point](https://ciechanow.ski/exposing-floating-point/)<br/>
+A summary of IEEE 754 if you would like a refresher.
+
+[AVX512VBMI — remove spaces from text](http://0x80.pl/notesen/2019-01-05-avx512vbmi-remove-spaces.html)<br/>
+Remember that sometimes SSE/AVX can really speed things up.
+
+### Development
+
+[Good Engineering Practices while Working Solo](https://blog.bitsrc.io/good-engineering-practices-while-working-solo-ad872e727af4)
+
+[GNU Recutils](https://www.gnu.org/software/recutils/)<br/>
+I've never heard about this data format before, but it may be an attractive alternative to ubiquitious JSON/SQLite.
+
+[Как писать юнит-тесты, если совсем не хочется](https://habr.com/post/434972/)<br/>
+Exploring basic antipatterns in writing automated tests.
+
+[Software Engineering at Google](https://arxiv.org/pdf/1702.01715.pdf)<br/>
+“The aim of this paper is to catalogue and briefly describe Google’s key software engineering practices.”
+
+[Hints for Computer System Design (1983)](http://bwlampson.site/33-Hints/Acrobat.pdf)<br/>
+“Such a collection of good advice and anecdotes is rather tiresome to read; perhaps it is best taken in small doses at bedtime.”
+
+### Linux
+
+[Learning KVM - implement your own Linux kernel](https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html)<br/>
+Writing a basic hypervisor with KVM is not _that_ scary (though certainly not easy as well).
+
+[Изучаем трассировку с помощью eBPF: Руководство и примеры](https://habr.com/post/435142/)<br/>
+Some projects may not really need a kernel module.
+
+### Curious
+
+[Модернизация IDA Pro. Отладчик для Sega Mega Drive (часть 1)](https://habr.com/post/434992/) [(часть 2)](https://habr.com/post/435002/)<br/>
+How to write IDA Pro extensions.
+
+[Перспектива: MultiClet S1](https://habr.com/post/434982/)<br/>
+A lovely approach to CPU architecture. I remember posting about it some time ago, glad they're still alive.
+
+[Non-Euclidean Worlds Engine](https://www.youtube.com/watch?v=kEB11PQ9Eo8&feature=youtu.be) [(GitHub)](https://github.com/HackerPoet/NonEuclidean)<br/>
+**Amazing** hack. I imagine tons of creative applications for VR. [Mathematics _are_ beautiful](https://www.youtube.com/watch?v=slT4yb8mEac), Alice Liddell sends her regards.
+
+[AI Winter - Update](https://blog.piekniewski.info/2018/10/29/ai-winter-update/)<br/>
+I'm not really up to date on state of the art AI, but his argument on the current affairs is compelling.
+
+[Trust model of Bitcoin — part I](https://hackernoon.com/trust-model-of-bitcoin-part-i-34aacf47d444), [part II](https://hackernoon.com/trust-model-of-bitcoin-part-ii-bfcfa15b8f09)<br/>
+May be useful if you know close to nothing on the topic. An okayish explain-like-I'm-twelve writeup.
+
+[How do you organise your hard drive?](https://news.ycombinator.com/item?id=18836472)<br/>
+[How do you keep track of your creative thoughts?](https://news.ycombinator.com/item?id=18837345)
+
+### Miscellaneous
+
+[English notes #1: Заканчивай с этим «very»](https://habr.com/company/flant/blog/434648/)<br/>
+May turn out an ~~interesting~~ _thought-provoking_ series for some.
+
+[Заметки фитохимика. Банановая шкурка наносит ответный удар](https://habr.com/post/434944/)
+
+[Бизнес, я люблю тебя](https://habr.com/post/434940/)<br/>
+Veronica rarely posts, but there's some right attitude for a job in there.
+
+[The Process of Mastering a Skill](https://azeria-labs.com/the-process-of-mastering-a-skill/)<br/>
+The same goes for Azeria, only she's more keen on approaches to learning stuff.
