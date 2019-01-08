@@ -2,8 +2,31 @@
 layout:   post
 title:    "News digest #167"
 date:     2019-01-14 12:00:00 +0200
-tags:     digest
+tags:     digest cpp dev linux misc
 comments: true
 ---
 
 _Еее, я гадаю, тепер українська_
+
+### C++
+
+[Crash course in Qt for C++ developers](https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-1)<br/>
+Як щодо старих фреймворків для GUI? (Так, я знаю, що Qt — це _не тільки_ GUI, але все ж...)
+
+### Development
+
+[New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/) [(HN)](https://news.ycombinator.com/item?id=18847043) [(хабр)](https://habr.com/company/jugru/blog/435380/)<br/>
+Тепер можна мати необмежену кількість секретних репозиторіїв для власного користування. Інтересно, чи вплине це на динаміку відкритого коду, бо люди зможуть не викладати свої експерименти в публічний доступ.
+
+### Linux
+
+[Реализация горячей перезагрузки С++ кода в Linux](https://habr.com/post/435260/)<br/>
+Нічого супер-нового, але я завжди радий таким низькорівневим оглядам та корисним коменатарям.
+
+### Miscellaneous
+
+[11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive](http://www.openculture.com/2019/01/11000-digitized-books-from-1923-are-now-available-online-at-the-internet-archive.html)<br/>
+Крутота. Обожнюю, коли старі книги сканують та віддають людям. [Життєписи](https://archive.org/details/historyofsacrame00reed/page/n3), [старі підручники з гідродинаміки](https://archive.org/details/mechanicalproper004276mbp/page/n5), [наїзди на Кока-Колу](https://archive.org/details/cocacolaopinions00cocauoft/page/n15), [посібник з діаграм Ґантта](https://archive.org/details/ganttchartworkin00claruoft/page/24), [огляд англійських щоденників XVI століття](https://archive.org/details/englishdiariesre00ponsuoft/page/n15), тощо. Боже, бережи archive.org!
+
+[Warning Signs in Experimental Design and Interpretation](http://norvig.com/experiment-design.html)<br/>
+Трошки лікбезу в науковому методі.
