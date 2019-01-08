@@ -18,6 +18,9 @@ _Еее, я гадаю, тепер українська_
 [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/) [(HN)](https://news.ycombinator.com/item?id=18847043) [(хабр)](https://habr.com/company/jugru/blog/435380/)<br/>
 Тепер можна мати необмежену кількість секретних репозиторіїв для власного користування. Інтересно, чи вплине це на динаміку відкритого коду, бо люди зможуть не викладати свої експерименти в публічний доступ.
 
+[Велосипедофобия](https://habr.com/post/435272/)<br/>
+Цікаві спостереження щодо створення та підтримки бібліотек.
+
 ### Linux
 
 [Реализация горячей перезагрузки С++ кода в Linux](https://habr.com/post/435260/)<br/>
