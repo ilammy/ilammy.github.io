@@ -13,6 +13,9 @@ _Еее, я гадаю, тепер українська_
 [Crash course in Qt for C++ developers](https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-1)<br/>
 Як щодо старих фреймворків для GUI? (Так, я знаю, що Qt — це _не тільки_ GUI, але все ж...)
 
+[Как писать unit-тесты для акторов? Подход SObjectizer-а](https://habr.com/post/435606/)<br/>
+Іноді цікаво подивитись на внутрішні інструменти для тестування складних систем (фреймворки, компілятори, все таке).
+
 ### Development
 
 [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/) [(HN)](https://news.ycombinator.com/item?id=18847043) [(хабр)](https://habr.com/company/jugru/blog/435380/)<br/>
