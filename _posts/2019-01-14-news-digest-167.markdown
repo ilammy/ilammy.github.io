@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #167"
 date:     2019-01-14 12:00:00 +0200
-tags:     digest cpp dev linux misc
+tags:     digest cpp dev linux rust misc
 comments: true
 ---
 
@@ -25,6 +25,13 @@ _Еее, я гадаю, тепер українська_
 
 [Реализация горячей перезагрузки С++ кода в Linux](https://habr.com/post/435260/)<br/>
 Нічого супер-нового, але я завжди радий таким низькорівневим оглядам та корисним коменатарям.
+
+[Практические советы, примеры и туннели SSH](https://habr.com/post/435546/)<br/>
+Класний грімуар з різноманітими закляттями.
+
+### Rust
+
+[Rust новости #4 (декабрь 2018)](https://habr.com/post/435614/)
 
 ### Miscellaneous
 
