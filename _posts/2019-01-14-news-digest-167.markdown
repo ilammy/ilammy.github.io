@@ -45,11 +45,6 @@ Yes, it can. ABI — це серйозна справа.
 
 [Rust новости #4 (декабрь 2018)](https://habr.com/post/435614/)
 
-### Security
-
-[For Owners of Amazon's **Ring** Security Cameras: Strangers May Have Been Watching Too](https://theintercept.com/2019/01/10/amazon-ring-security-camera/) [(хабр)]()<br/>
-
-
 ### Miscellaneous
 
 [11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive](http://www.openculture.com/2019/01/11000-digitized-books-from-1923-are-now-available-online-at-the-internet-archive.html)<br/>
