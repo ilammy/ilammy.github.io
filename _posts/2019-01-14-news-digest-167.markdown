@@ -16,6 +16,9 @@ _Еее, я гадаю, тепер українська_
 [Как писать unit-тесты для акторов? Подход SObjectizer-а](https://habr.com/post/435606/)<br/>
 Іноді цікаво подивитись на внутрішні інструменти для тестування складних систем (фреймворки, компілятори, все таке).
 
+[Can an uninitialized bool crash a program?](https://stackoverflow.com/questions/54120862/can-an-uninitialized-bool-crash-a-program/54125820#54125820)<br/>
+Yes, it can. ABI — це серйозна справа.
+
 ### Development
 
 [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/) [(HN)](https://news.ycombinator.com/item?id=18847043) [(хабр)](https://habr.com/company/jugru/blog/435380/)<br/>
@@ -23,6 +26,12 @@ _Еее, я гадаю, тепер українська_
 
 [Велосипедофобия](https://habr.com/post/435272/)<br/>
 Цікаві спостереження щодо створення та підтримки бібліотек.
+
+[Why review code?](https://sophiebits.com/2018/12/25/why-review-code.html)<br/>
+Час пригадати, навіщо взагалі читати чужий код. Тут наведено декілька причин.
+
+[Preemption Is GC for Memory Reordering](https://pvk.ca/Blog/2019/01/09/preemption-is-gc-for-memory-reordering/)<br/>
+Важкий текст про lock-free та бар'єри пам'яті. Там в блозі є ще пости на цю тематику.
 
 ### Linux
 
@@ -43,3 +52,10 @@ _Еее, я гадаю, тепер українська_
 
 [Warning Signs in Experimental Design and Interpretation](http://norvig.com/experiment-design.html)<br/>
 Трошки лікбезу в науковому методі.
+
+[User profile status](https://blog.github.com/changelog/2019-01-09-set-your-status/)<br/>
+[Star topics that interest you](https://blog.github.com/2019-01-08-topic-starring/)<br/>
+_Важливі_ новини на Ґітхабі: тепер ближче до Фейсхабу та Ґітограму.
+
+[Language Server Protocol implementation for Swift and C-based languages](https://github.com/apple/sourcekit-lsp)<br/>
+Свіжий відкритий код від Apple.
