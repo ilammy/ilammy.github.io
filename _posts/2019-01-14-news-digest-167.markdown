@@ -45,6 +45,11 @@ Yes, it can. ABI — це серйозна справа.
 
 [Rust новости #4 (декабрь 2018)](https://habr.com/post/435614/)
 
+### Security
+
+[For Owners of Amazon's **Ring** Security Cameras: Strangers May Have Been Watching Too](https://theintercept.com/2019/01/10/amazon-ring-security-camera/) [(хабр)]()<br/>
+
+
 ### Miscellaneous
 
 [11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive](http://www.openculture.com/2019/01/11000-digitized-books-from-1923-are-now-available-online-at-the-internet-archive.html)<br/>
@@ -59,3 +64,6 @@ _Важливі_ новини на Ґітхабі: тепер ближче до 
 
 [Language Server Protocol implementation for Swift and C-based languages](https://github.com/apple/sourcekit-lsp)<br/>
 Свіжий відкритий код від Apple.
+
+[A Year-Long, Undercover Plot To Blow Up EVE Online's Most Notorious Space Station](https://kotaku.com/the-year-long-undercover-plot-to-blow-up-eve-onlines-m-1831574442)<br/>
+Єва дуже добре показує, на що схожа війна: 99% нудьги, 1% абсолютного жаху (чи захвату, якщо ви вже трошки того), і ще 1900% пропаганди.
