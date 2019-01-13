@@ -33,6 +33,9 @@ Yes, it can. ABI — це серйозна справа.
 [Preemption Is GC for Memory Reordering](https://pvk.ca/Blog/2019/01/09/preemption-is-gc-for-memory-reordering/)<br/>
 Важкий текст про lock-free та бар'єри пам'яті. Там в блозі є ще пости на цю тематику.
 
+[Creating a rudimentary private certificate authority using OpenSSL](https://blog.behrang.org/articles/creating-a-ca-with-openssl.html)<br/>
+Невеличка превьюшка того, що треба зробити, щоб випускати X.509 сертифікати.
+
 ### Linux
 
 [Реализация горячей перезагрузки С++ кода в Linux](https://habr.com/post/435260/)<br/>
