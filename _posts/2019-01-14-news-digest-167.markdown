@@ -6,7 +6,7 @@ tags:     digest cpp dev linux rust misc
 comments: true
 ---
 
-_Еее, я гадаю, тепер українська_
+Не знаю, з чим привітати. З річницею першого (і поки що єдиного) прититанення, гадаю.
 
 ### C++
 
@@ -65,3 +65,12 @@ _Важливі_ новини на Ґітхабі: тепер ближче до 
 
 [A Year-Long, Undercover Plot To Blow Up EVE Online's Most Notorious Space Station](https://kotaku.com/the-year-long-undercover-plot-to-blow-up-eve-onlines-m-1831574442)<br/>
 Єва дуже добре показує, на що схожа війна: 99% нудьги, 1% абсолютного жаху (чи захвату, якщо ви вже трошки того), і ще 1900% романтичної пропаганди.
+
+[Approaching the kernel year-2038 end game](https://lwn.net/SubscriberLink/776435/664f2f0b0b6fc9f5/)<br/>
+Вітаю, тепер проблема 2038 ближча до нас в часі, ніж проблема 2000. Linux майже готовий, але ще купа роботи.
+
+[The GPS Week Number Rollover problem](https://www.spirent.com/blogs/positioning/2018/january/gps-rollover-week)<br/>
+Ще от, наприклад, я не знав, що в GPS використовують десятибітні величини для часу, через що шостого квітня деякі девайси можуть збіситися.
+
+[NASA is currently CLOSED due to a lapse in Government funding](https://nasapeople.nasa.gov/shutdown/shutdown.htm)<br/>
+Все ж тимчасово частково зачиняються; це планувалось ще з середини грудня.
