@@ -1,0 +1,76 @@
+---
+layout:   post
+title:    "News digest #167"
+date:     2019-01-14 12:00:00 +0200
+tags:     digest cpp dev linux rust misc
+comments: true
+---
+
+Не знаю, з чим привітати. З річницею першого (і поки що єдиного) прититанення, гадаю.
+
+### C++
+
+[Crash course in Qt for C++ developers](https://www.cleanqt.io/blog/crash-course-in-qt-for-c%2B%2B-developers,-part-1)<br/>
+Як щодо старих фреймворків для GUI? (Так, я знаю, що Qt — це _не тільки_ GUI, але все ж...)
+
+[Как писать unit-тесты для акторов? Подход SObjectizer-а](https://habr.com/post/435606/)<br/>
+Іноді цікаво подивитись на внутрішні інструменти для тестування складних систем (фреймворки, компілятори, все таке).
+
+[Can an uninitialized bool crash a program?](https://stackoverflow.com/questions/54120862/can-an-uninitialized-bool-crash-a-program/54125820#54125820)<br/>
+Yes, it can. ABI — це серйозна справа.
+
+### Development
+
+[New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://blog.github.com/2019-01-07-new-year-new-github/) [(HN)](https://news.ycombinator.com/item?id=18847043) [(хабр)](https://habr.com/company/jugru/blog/435380/)<br/>
+Тепер можна мати необмежену кількість секретних репозиторіїв для власного користування. Інтересно, чи вплине це на динаміку відкритого коду, бо люди зможуть не викладати свої експерименти в публічний доступ.
+
+[Велосипедофобия](https://habr.com/post/435272/)<br/>
+Цікаві спостереження щодо створення та підтримки бібліотек.
+
+[Why review code?](https://sophiebits.com/2018/12/25/why-review-code.html)<br/>
+Час пригадати, навіщо взагалі читати чужий код. Тут наведено декілька причин.
+
+[Preemption Is GC for Memory Reordering](https://pvk.ca/Blog/2019/01/09/preemption-is-gc-for-memory-reordering/)<br/>
+Важкий текст про lock-free та бар'єри пам'яті. Там в блозі є ще пости на цю тематику.
+
+[Creating a rudimentary private certificate authority using OpenSSL](https://blog.behrang.org/articles/creating-a-ca-with-openssl.html)<br/>
+Невеличка превьюшка того, що треба зробити, щоб випускати X.509 сертифікати.
+
+### Linux
+
+[Реализация горячей перезагрузки С++ кода в Linux](https://habr.com/post/435260/)<br/>
+Нічого супер-нового, але я завжди радий таким низькорівневим оглядам та корисним коменатарям.
+
+[Практические советы, примеры и туннели SSH](https://habr.com/post/435546/)<br/>
+Класний грімуар з різноманітими закляттями.
+
+### Rust
+
+[Rust новости #4 (декабрь 2018)](https://habr.com/post/435614/)
+
+### Miscellaneous
+
+[11,000 Digitized Books From 1923 Are Now Available Online at the Internet Archive](http://www.openculture.com/2019/01/11000-digitized-books-from-1923-are-now-available-online-at-the-internet-archive.html)<br/>
+Крутота. Обожнюю, коли старі книги сканують та віддають людям. [Життєписи](https://archive.org/details/historyofsacrame00reed/page/n3), [старі підручники з гідродинаміки](https://archive.org/details/mechanicalproper004276mbp/page/n5), [наїзди на Кока-Колу](https://archive.org/details/cocacolaopinions00cocauoft/page/n15), [посібник з діаграм Ґантта](https://archive.org/details/ganttchartworkin00claruoft/page/24), [огляд англійських щоденників XVI століття](https://archive.org/details/englishdiariesre00ponsuoft/page/n15), тощо. Боже, бережи archive.org!
+
+[Warning Signs in Experimental Design and Interpretation](http://norvig.com/experiment-design.html)<br/>
+Трошки лікбезу в науковому методі.
+
+[User profile status](https://blog.github.com/changelog/2019-01-09-set-your-status/)<br/>
+[Star topics that interest you](https://blog.github.com/2019-01-08-topic-starring/)<br/>
+_Важливі_ новини на Ґітхабі: тепер ближче до Фейсхабу та Ґітограму.
+
+[Language Server Protocol implementation for Swift and C-based languages](https://github.com/apple/sourcekit-lsp)<br/>
+Свіжий відкритий код від Apple.
+
+[A Year-Long, Undercover Plot To Blow Up EVE Online's Most Notorious Space Station](https://kotaku.com/the-year-long-undercover-plot-to-blow-up-eve-onlines-m-1831574442)<br/>
+Єва дуже добре показує, на що схожа війна: 99% нудьги, 1% абсолютного жаху (чи захвату, якщо ви вже трошки того), і ще 1900% романтичної пропаганди.
+
+[Approaching the kernel year-2038 end game](https://lwn.net/SubscriberLink/776435/664f2f0b0b6fc9f5/)<br/>
+Вітаю, тепер проблема 2038 ближча до нас в часі, ніж проблема 2000. Linux майже готовий, але ще купа роботи.
+
+[The GPS Week Number Rollover problem](https://www.spirent.com/blogs/positioning/2018/january/gps-rollover-week)<br/>
+Ще от, наприклад, я не знав, що в GPS використовують десятибітні величини для часу, через що шостого квітня деякі девайси можуть збіситися.
+
+[NASA is currently CLOSED due to a lapse in Government funding](https://nasapeople.nasa.gov/shutdown/shutdown.htm)<br/>
+Рекордне призупинення роботи федерального уряду США продовжується. Он вже навіть НАСА зачинилось. Світ продовжує жерти попкорн, з нетерпінням чекаючи рішення щодо тієї самої стіни.
