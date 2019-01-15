@@ -2,11 +2,37 @@
 layout:   post
 title:    "News digest #168"
 date:     2019-01-21 12:00:00 +0200
-tags:     digest cpp dev linux rust misc
+tags:     digest dev security curious misc
 comments: true
 ---
 
 _Русский язык_
+
+### Development
+
+[Detecting Agile Bullshit](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF)<br/>
+Инструкция от Министерства обороны США по идентификации лжеаджайла.
+
+[SQLite in 2018: A state of the art SQL dialect](https://modern-sql.com/blog/2019-01/sqlite-in-2018)<br/>
+Обзор новинок в SQLIte за 2018 год. На случай, если вы всё ещё считаете его игрушечной СУБД.
+
+### Security
+
+[`scp` client multiple vulnerabilities](https://sintonen.fi/advisories/scp-client-multiple-vulnerabilities.txt)<br>
+Забавные уязвимости в популярной утилите.
+
+[Security Checklist: Be Safe on the Internet](https://securitycheckli.st)<br/>
+Немножко паранойи. Но большинству ведь «нечего скрывать» и все мы только рады продать свои персональные данные.
+
+### Curious
+
+[Introduction to Paging](https://os.phil-opp.com/paging-introduction/)<br/>
+О виртуальной памяти на x86_64 на примере учебной операционной системы. (Кроме этого ещё немного есть.)
+
+### Miscellaneous
+
+[Rethinking the Language Runtime System for the Cloud 3.0 Era](https://people.eecs.berkeley.edu/~maas/papers/maas-hotos17-cloud30.pdf)<br/>
+Несколько интересных идей по организации языковых сред исполнения.
 
 ---
 
