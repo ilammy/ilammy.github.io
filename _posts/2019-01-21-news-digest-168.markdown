@@ -1,0 +1,14 @@
+---
+layout:   post
+title:    "News digest #168"
+date:     2019-01-21 12:00:00 +0200
+tags:     digest cpp dev linux rust misc
+comments: true
+---
+
+_Русский язык_
+
+---
+
+Habr is now available in English. Questionable choice, but whatever.
+It is very weird to read it now.
