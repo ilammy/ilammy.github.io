@@ -18,6 +18,9 @@ _Русский язык_
 
 ### Security
 
+[ld -z separate-code](https://habr.com/ru/company/dsec/blog/433108/)<br/>
+Когда-нибудь я научусь писать скрипты для линкера...
+
 [`scp` client multiple vulnerabilities](https://sintonen.fi/advisories/scp-client-multiple-vulnerabilities.txt)<br>
 Забавные уязвимости в популярной утилите.
 
