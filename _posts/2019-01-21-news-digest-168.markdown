@@ -18,6 +18,9 @@ _Русский язык_
 
 ### Security
 
+[The 773 Million Record "Collection #1" Data Breach](https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/)<br>
+Известная база слитых креденшлов [Have I Been Pwned](https://haveibeenpwned.com) получила транш на 2,7 миллиарда имейлов и паролей. Смените свои, на всякий случай.
+
 [ld -z separate-code](https://habr.com/ru/company/dsec/blog/433108/)<br/>
 Когда-нибудь я научусь писать скрипты для линкера...
 
@@ -32,12 +35,17 @@ _Русский язык_
 [Introduction to Paging](https://os.phil-opp.com/paging-introduction/)<br/>
 О виртуальной памяти на x86_64 на примере учебной операционной системы. (Кроме этого ещё немного есть.)
 
+[Генератор подземелий на основе узлов графа](https://habr.com/ru/post/436198/)<br/>
+Если вы вдруг позабыли, зачем _на самом деле_ учили дискретку.
+
+[Стратегия игры в телепатию](https://habr.com/ru/company/mosigra/blog/436232/)
+
 ### Miscellaneous
 
 [Rethinking the Language Runtime System for the Cloud 3.0 Era](https://people.eecs.berkeley.edu/~maas/papers/maas-hotos17-cloud30.pdf)<br/>
 Несколько интересных идей по организации языковых сред исполнения.
 
----
+[Hello world! Or Habr in English, v1.0](https://habr.com/ru/company/tm/blog/435764/)<br/>
+They start their bilingual journey. A questionable choice, if you ask me, but whatever.
 
-Habr is now available in English. Questionable choice, but whatever.
-It is very weird to read it now.
+[AWS Backup – Automate and Centrally Manage Your Backups](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
