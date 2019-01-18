@@ -16,6 +16,11 @@ _Русский язык_
 [SQLite in 2018: A state of the art SQL dialect](https://modern-sql.com/blog/2019-01/sqlite-in-2018)<br/>
 Обзор новинок в SQLIte за 2018 год. На случай, если вы всё ещё считаете его игрушечной СУБД.
 
+### Rust
+
+[Announcing Rust 1.32.0](https://blog.rust-lang.org/2019/01/17/Rust-1.32.0.html)<br/>
+`dbg!` и `?` в макросах <3
+
 ### Security
 
 [The 773 Million Record "Collection #1" Data Breach](https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/)<br>
@@ -24,7 +29,7 @@ _Русский язык_
 [ld -z separate-code](https://habr.com/ru/company/dsec/blog/433108/)<br/>
 Когда-нибудь я научусь писать скрипты для линкера...
 
-[`scp` client multiple vulnerabilities](https://sintonen.fi/advisories/scp-client-multiple-vulnerabilities.txt)<br>
+[scp client multiple vulnerabilities](https://sintonen.fi/advisories/scp-client-multiple-vulnerabilities.txt)<br>
 Забавные уязвимости в популярной утилите.
 
 [Security Checklist: Be Safe on the Internet](https://securitycheckli.st)<br/>
@@ -49,3 +54,5 @@ _Русский язык_
 They start their bilingual journey. A questionable choice, if you ask me, but whatever.
 
 [AWS Backup – Automate and Centrally Manage Your Backups](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
+
+[The Evolution of a Rust Programmer](http://antoyo.ml/evolution-rust-programmer) 🤣 [(такой мем, ага)](http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html)
