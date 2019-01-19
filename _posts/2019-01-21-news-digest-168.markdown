@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #168"
 date:     2019-01-21 12:00:00 +0200
-tags:     digest dev security curious misc
+tags:     digest dev rust security curious misc
 comments: true
 ---
 
@@ -23,8 +23,8 @@ _Русский язык_
 
 ### Security
 
-[The 773 Million Record "Collection #1" Data Breach](https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/)<br>
-Известная база слитых креденшлов [Have I Been Pwned](https://haveibeenpwned.com) получила транш на 2,7 миллиарда имейлов и паролей. Смените свои, на всякий случай.
+[The 773 Million Record "Collection #1" Data Breach](https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/)<br/>
+Известная база слитых креденшлов [Have I Been Pwned](https://haveibeenpwned.com) получила транш на 2,7 миллиарда имейлов и паролей. Смените свои, на всякий случай. [Пароли старые, говорят,](https://krebsonsecurity.com/2019/01/773m-password-megabreach-is-years-old/) но все всё понимают, правда?
 
 [ld -z separate-code](https://habr.com/ru/company/dsec/blog/433108/)<br/>
 Когда-нибудь я научусь писать скрипты для линкера...
@@ -44,6 +44,8 @@ _Русский язык_
 Если вы вдруг позабыли, зачем _на самом деле_ учили дискретку.
 
 [Стратегия игры в телепатию](https://habr.com/ru/company/mosigra/blog/436232/)
+
+[Why we built CockroachDB on top of RocksDB](https://www.cockroachlabs.com/blog/cockroachdb-on-rocksd/)
 
 ### Miscellaneous
 
