@@ -6,7 +6,7 @@ tags:     digest dev rust security curious misc
 comments: true
 ---
 
-_Русский язык_
+Сегодня день обнимашек 🤗
 
 ### Development
 
@@ -46,6 +46,9 @@ _Русский язык_
 [Стратегия игры в телепатию](https://habr.com/ru/company/mosigra/blog/436232/)
 
 [Why we built CockroachDB on top of RocksDB](https://www.cockroachlabs.com/blog/cockroachdb-on-rocksd/)
+
+[256 строчек голого C++: пишем трассировщик лучей с нуля за несколько часов](https://habr.com/ru/post/436790/)<br/>
+Условно читабельно и познавательно.
 
 ### Miscellaneous
 
