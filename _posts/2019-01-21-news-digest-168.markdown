@@ -1,0 +1,63 @@
+---
+layout:   post
+title:    "News digest #168"
+date:     2019-01-21 12:00:00 +0200
+tags:     digest dev rust security curious misc
+comments: true
+---
+
+Сегодня день обнимашек 🤗
+
+### Development
+
+[Detecting Agile Bullshit](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF)<br/>
+Инструкция от Министерства обороны США по идентификации лжеаджайла.
+
+[SQLite in 2018: A state of the art SQL dialect](https://modern-sql.com/blog/2019-01/sqlite-in-2018)<br/>
+Обзор новинок в SQLIte за 2018 год. На случай, если вы всё ещё считаете его игрушечной СУБД.
+
+### Rust
+
+[Announcing Rust 1.32.0](https://blog.rust-lang.org/2019/01/17/Rust-1.32.0.html)<br/>
+`dbg!` и `?` в макросах <3
+
+### Security
+
+[The 773 Million Record "Collection #1" Data Breach](https://www.troyhunt.com/the-773-million-record-collection-1-data-reach/)<br/>
+Известная база слитых креденшлов [Have I Been Pwned](https://haveibeenpwned.com) получила транш на 2,7 миллиарда имейлов и паролей. Смените свои, на всякий случай. [Пароли старые, говорят,](https://krebsonsecurity.com/2019/01/773m-password-megabreach-is-years-old/) но все всё понимают, правда?
+
+[ld -z separate-code](https://habr.com/ru/company/dsec/blog/433108/)<br/>
+Когда-нибудь я научусь писать скрипты для линкера...
+
+[scp client multiple vulnerabilities](https://sintonen.fi/advisories/scp-client-multiple-vulnerabilities.txt)<br>
+Забавные уязвимости в популярной утилите.
+
+[Security Checklist: Be Safe on the Internet](https://securitycheckli.st)<br/>
+Немножко паранойи. Советы такие себе, конечно. Но большинству ведь «нечего скрывать» и все мы только рады продать свои персональные данные.
+
+### Curious
+
+[Introduction to Paging](https://os.phil-opp.com/paging-introduction/)<br/>
+О виртуальной памяти на x86_64 на примере учебной операционной системы. (Кроме этого ещё немного есть.)
+
+[Генератор подземелий на основе узлов графа](https://habr.com/ru/post/436198/)<br/>
+Если вы вдруг позабыли, зачем _на самом деле_ учили дискретку.
+
+[Стратегия игры в телепатию](https://habr.com/ru/company/mosigra/blog/436232/)
+
+[Why we built CockroachDB on top of RocksDB](https://www.cockroachlabs.com/blog/cockroachdb-on-rocksd/)
+
+[256 строчек голого C++: пишем трассировщик лучей с нуля за несколько часов](https://habr.com/ru/post/436790/)<br/>
+Условно читабельно и познавательно.
+
+### Miscellaneous
+
+[Rethinking the Language Runtime System for the Cloud 3.0 Era](https://people.eecs.berkeley.edu/~maas/papers/maas-hotos17-cloud30.pdf)<br/>
+Несколько интересных идей по организации языковых сред исполнения.
+
+[Hello world! Or Habr in English, v1.0](https://habr.com/ru/company/tm/blog/435764/)<br/>
+They start their bilingual journey. A questionable choice, if you ask me, but whatever.
+
+[AWS Backup – Automate and Centrally Manage Your Backups](https://aws.amazon.com/blogs/aws/aws-backup-automate-and-centrally-manage-your-backups/)
+
+[The Evolution of a Rust Programmer](http://antoyo.ml/evolution-rust-programmer) 🤣 [(такой мем, ага)](http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html)
