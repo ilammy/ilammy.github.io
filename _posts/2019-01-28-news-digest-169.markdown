@@ -2,8 +2,22 @@
 layout:   post
 title:    "News digest #169"
 date:     2019-01-28 12:00:00 +0200
-tags:     digest
+tags:     digest misc
 comments: true
 ---
 
 Please remember _Challenger_ and her crew of seven.
+
+### Miscellaneous
+
+[objective-smalltalk](http://www.objective.st)<br/>
+Objective-C gets back to its roots.
+
+[Guix — самая продвинутая операционная система](https://habr.com/ru/post/436938/)<br/>
+NixOS seems to be an interesting thing.
+
+[Advanced Mac Substitute](https://www.v68k.org/advanced-mac-substitute/)<br/>
+Reviving the old tech, eh.
+
+[Genode OS Framework](https://genode.org/about/index)<br/>
+It's the first time I hear about this security framework but it may come useful to someone.
