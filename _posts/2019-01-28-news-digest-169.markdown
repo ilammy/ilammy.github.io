@@ -2,11 +2,24 @@
 layout:   post
 title:    "News digest #169"
 date:     2019-01-28 12:00:00 +0200
-tags:     digest misc
+tags:     digest curious misc
 comments: true
 ---
 
 Please remember _Challenger_ and her crew of seven.
+
+### Curious
+
+[Deciphering the Postcard-Sized Raytracer](http://fabiensanglard.net/postcard_pathtracer/index.html)<br/>
+More raytracers, now in only 2K bytes.
+
+[A Mind Is Born](https://linusakesson.net/scene/a-mind-is-born/)<br/>
+And here's a demo in only 256 bytes.
+
+[Colonies by Conspiracy](https://www.youtube.com/watch?v=40H4OD6ZTvA)<br/>
+And 64K, to have something more for comparison.
+
+[Yo internet nerds, tell me all the ways you've done dirty things with LD_PRELOAD](https://twitter.com/jessfraz/status/1087468414707343362)
 
 ### Miscellaneous
 
