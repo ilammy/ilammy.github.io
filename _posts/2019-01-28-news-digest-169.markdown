@@ -2,11 +2,24 @@
 layout:   post
 title:    "News digest #169"
 date:     2019-01-28 12:00:00 +0200
-tags:     digest curious misc
+tags:     digest linux web curious misc
 comments: true
 ---
 
 Please remember _Challenger_ and her crew of seven.
+
+### Linux
+
+[The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide)<br/>
+A good one-stop summary of useful practices.
+
+[Evolution of the x86 context switch in Linux](http://www.maizure.org/projects/evolution_x86_context_switch_linux/)<br/>
+Very detailed technical writeup on a single implementation detail.
+
+### Web
+
+[Google proposes changes to Chromium which would disable uBlock Origin](https://bugs.chromium.org/p/chromium/issues/detail?id=896897&desc=2#c23) — [(HN)](https://news.ycombinator.com/item?id=18973477) [(Habr)](https://habr.com/ru/post/437218/)<br/>
+It's absolutely okay to have only one popular browser developed by an ad company /s
 
 ### Curious
 
@@ -34,3 +47,6 @@ Reviving the old tech, eh.
 
 [Genode OS Framework](https://genode.org/about/index)<br/>
 It's the first time I hear about this security framework but it may come useful to someone.
+
+[Travis CI joins the Idera family](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc)<br/>
+Oh well... That's _the_ Idera which currently owns Delphi (previously Embarcadero (previously CodeGear (previously Borland))). I guess I'll start using CircleCI for my personal projects from now on.
