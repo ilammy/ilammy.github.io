@@ -50,3 +50,5 @@ It's the first time I hear about this security framework but it may come useful 
 
 [Travis CI joins the Idera family](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc)<br/>
 Oh well... That's _the_ Idera which currently owns Delphi (previously Embarcadero (previously CodeGear (previously Borland))). I guess I'll start using CircleCI for my personal projects from now on.
+
+[Нейросеть AlphaStar обыграла профессионалов StarCraft II со счётом 10−1](https://habr.com/ru/post/437538/)
