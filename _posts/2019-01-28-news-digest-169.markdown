@@ -2,11 +2,16 @@
 layout:   post
 title:    "News digest #169"
 date:     2019-01-28 12:00:00 +0200
-tags:     digest linux web curious misc
+tags:     digest dev linux web curious misc
 comments: true
 ---
 
 Please remember _Challenger_ and her crew of seven.
+
+### Development
+
+[Professional Software Development](https://mixmastamyk.bitbucket.io/pro_soft_dev/index.html)<br/>
+This book can be a substitute if you skipped your university courses.
 
 ### Linux
 
