@@ -2,11 +2,16 @@
 layout:   post
 title:    "News digest #169"
 date:     2019-01-28 12:00:00 +0200
-tags:     digest dev linux web curious misc
+tags:     digest cpp dev linux web curious misc
 comments: true
 ---
 
 Please remember _Challenger_ and her crew of seven.
+
+### C++
+
+[Реализация горячей перезагрузки С++ кода в Linux и macOS: копаем глубже](https://habr.com/ru/post/437312/)<br/>
+This part is about manual resolution of data relocations.
 
 ### Development
 
@@ -39,13 +44,16 @@ And 64K, to have something more for comparison.
 
 [Yo internet nerds, tell me all the ways you've done dirty things with LD_PRELOAD](https://twitter.com/jessfraz/status/1087468414707343362)
 
+[Рисуем мультяшный взрыв за 180 строчек голого C++](https://habr.com/ru/post/437714/)<br/>
+Astrologists have declared a week of raytracers, it seems.
+
+[Guix — самая продвинутая операционная система](https://habr.com/ru/post/436938/)<br/>
+NixOS seems to be an interesting thing.
+
 ### Miscellaneous
 
 [objective-smalltalk](http://www.objective.st)<br/>
 Objective-C gets back to its roots.
-
-[Guix — самая продвинутая операционная система](https://habr.com/ru/post/436938/)<br/>
-NixOS seems to be an interesting thing.
 
 [Advanced Mac Substitute](https://www.v68k.org/advanced-mac-substitute/)<br/>
 Reviving the old tech, eh.
