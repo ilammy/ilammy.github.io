@@ -1,0 +1,67 @@
+---
+layout:   post
+title:    "News digest #169"
+date:     2019-01-28 12:00:00 +0200
+tags:     digest cpp dev linux web curious misc
+comments: true
+---
+
+Please remember _Challenger_ and her crew of seven.
+
+### C++
+
+[Реализация горячей перезагрузки С++ кода в Linux и macOS: копаем глубже](https://habr.com/ru/post/437312/)<br/>
+This part is about manual resolution of data relocations.
+
+### Development
+
+[Professional Software Development](https://mixmastamyk.bitbucket.io/pro_soft_dev/index.html)<br/>
+This book can be a substitute if you skipped your university courses.
+
+### Linux
+
+[The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide)<br/>
+A good one-stop summary of useful practices.
+
+[Evolution of the x86 context switch in Linux](http://www.maizure.org/projects/evolution_x86_context_switch_linux/)<br/>
+Very detailed technical writeup on a single implementation detail.
+
+### Web
+
+[Google proposes changes to Chromium which would disable uBlock Origin](https://bugs.chromium.org/p/chromium/issues/detail?id=896897&desc=2#c23) — [(HN)](https://news.ycombinator.com/item?id=18973477) [(Habr)](https://habr.com/ru/post/437218/)<br/>
+It's absolutely okay to have only one popular browser developed by an ad company /s
+
+### Curious
+
+[Deciphering the Postcard-Sized Raytracer](http://fabiensanglard.net/postcard_pathtracer/index.html)<br/>
+More raytracers, now in only 2K bytes.
+
+[A Mind Is Born](https://linusakesson.net/scene/a-mind-is-born/)<br/>
+And here's a demo in only 256 bytes.
+
+[Colonies by Conspiracy](https://www.youtube.com/watch?v=40H4OD6ZTvA)<br/>
+And 64K, to have something more for comparison.
+
+[Yo internet nerds, tell me all the ways you've done dirty things with LD_PRELOAD](https://twitter.com/jessfraz/status/1087468414707343362)
+
+[Рисуем мультяшный взрыв за 180 строчек голого C++](https://habr.com/ru/post/437714/)<br/>
+Astrologists have declared a week of raytracers, it seems.
+
+[Guix — самая продвинутая операционная система](https://habr.com/ru/post/436938/)<br/>
+NixOS seems to be an interesting thing.
+
+### Miscellaneous
+
+[objective-smalltalk](http://www.objective.st)<br/>
+Objective-C gets back to its roots.
+
+[Advanced Mac Substitute](https://www.v68k.org/advanced-mac-substitute/)<br/>
+Reviving the old tech, eh.
+
+[Genode OS Framework](https://genode.org/about/index)<br/>
+It's the first time I hear about this security framework but it may come useful to someone.
+
+[Travis CI joins the Idera family](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc)<br/>
+Oh well... That's _the_ Idera which currently owns Delphi (previously Embarcadero (previously CodeGear (previously Borland))). I guess I'll start using CircleCI for my personal projects from now on.
+
+[Нейросеть AlphaStar обыграла профессионалов StarCraft II со счётом 10−1](https://habr.com/ru/post/437538/)
