@@ -2,8 +2,23 @@
 layout:   post
 title:    "News digest #170"
 date:     2019-02-04 12:00:00 +0200
-tags:     digest
+tags:     digest cpp dev misc
 comments: true
 ---
 
 _Українська, еге?_
+
+### C++
+
+[Initialization in C++ is Seriously Bonkers](https://mikelui.io/2019/01/03/seriously-bonkers.html)<br/>
+І що лякає: _іноді_ всі ці варіанти ініціалізації дійсно потрібні.
+
+### Development
+
+[The Day I Fell in Love with Fuzzing](https://nullprogram.com/blog/2019/01/25/)<br/>
+[Зоопарк AFL фазеров](https://habr.com/ru/company/dsec/blog/435644/)<br/>
+Ну все, тепер я точно спробую цю штуку в проекті.
+
+### Miscellaneous
+
+[Коллапс волновой функции: алгоритм, вдохновлённый квантовой механикой](https://habr.com/ru/post/437604/)
