@@ -19,6 +19,12 @@ _Українська, еге?_
 [Зоопарк AFL фазеров](https://habr.com/ru/company/dsec/blog/435644/)<br/>
 Ну все, тепер я точно спробую цю штуку в проекті.
 
+### Web
+
+[Facebook pays teens to install VPN that spies on them](https://techcrunch.com/2019/01/29/facebook-project-atlas/)<br/>
+[Apple blocks Facebook from running its internal iOS apps](https://www.theverge.com/2019/1/30/18203551/apple-facebook-blocked-internal-ios-apps)<br/>
+Вибачте за жовтий заголовок, але люди повинні знати своїх героїв.
+
 ### Miscellaneous
 
 [Коллапс волновой функции: алгоритм, вдохновлённый квантовой механикой](https://habr.com/ru/post/437604/)
