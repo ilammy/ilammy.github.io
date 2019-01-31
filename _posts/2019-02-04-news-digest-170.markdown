@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #170"
 date:     2019-02-04 12:00:00 +0200
-tags:     digest cpp dev misc
+tags:     digest cpp dev web misc
 comments: true
 ---
 
@@ -23,7 +23,7 @@ _Українська, еге?_
 
 [Facebook pays teens to install VPN that spies on them](https://techcrunch.com/2019/01/29/facebook-project-atlas/)<br/>
 [Apple blocks Facebook from running its internal iOS apps](https://www.theverge.com/2019/1/30/18203551/apple-facebook-blocked-internal-ios-apps)<br/>
-Вибачте за жовтий заголовок, але люди повинні знати своїх героїв.
+Вибачте за жовтий заголовок, але люди повинні знати своїх героїв. Доречі, сьогодні Цукербуку виповнилося 15 років.
 
 ### Miscellaneous
 
