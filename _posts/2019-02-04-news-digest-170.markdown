@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #170"
 date:     2019-02-04 12:00:00 +0200
-tags:     digest cpp dev security web misc
+tags:     digest cpp dev linux security web misc
 comments: true
 ---
 
@@ -10,7 +10,7 @@ comments: true
 
 ### C++
 
-[Initialization in C++ is Seriously Bonkers](https://mikelui.io/2019/01/03/seriously-bonkers.html)<br/>
+[Initialization in C++ is Seriously Bonkers](https://mikelui.io/2019/01/03/seriously-bonkers.html) [(хабр)](https://habr.com/ru/post/438492/)<br/>
 І що лякає: _іноді_ всі ці варіанти ініціалізації дійсно потрібні.
 
 [«Современный» C++: сеанс плача с причитаниями](https://habr.com/ru/company/jugru/blog/438260/)<br/>
@@ -21,6 +21,19 @@ comments: true
 [The Day I Fell in Love with Fuzzing](https://nullprogram.com/blog/2019/01/25/)<br/>
 [Зоопарк AFL фазеров](https://habr.com/ru/company/dsec/blog/435644/)<br/>
 Ну все, тепер я точно спробую цю штуку в проекті. [(Спробував.)](https://github.com/cossacklabs/themis/pull/364)
+
+### Linux
+
+[Dotfile madness](https://0x46.net/thoughts/2019/02/01/dotfile-madness/)<br/>
+Прочитайте це та згадуйте про XDG кожен раз, коли вам треба кудись зберегти конфіг.
+```console
+$ ls -A ~ | grep '^\.' | wc -l
+38
+```
+[Ось тут](https://www.reddit.com/r/linux/comments/971m0z/im_tired_of_folders_littering_my_home_directory/) люди ведуть «розстрільний список».
+
+[Homebrew 2.0.0](https://brew.sh/2019/02/02/homebrew-2.0.0/)<br/>
+Нова версія тепер офіційно підтримує Linux 🍻
 
 ### Security
 
@@ -45,3 +58,6 @@ comments: true
 Добре написано про управління ризиками та загальну адекватність. Градус параної обирайте за смаком.
 
 [Why isn't the internet more fun and weird?](https://jarredsumner.com/codeblog/) [(HN)](https://news.ycombinator.com/item?id=19038327)
+
+[RustPython – A Python Interpreter written in Rust](https://github.com/RustPython/RustPython)<br/>
+Сирий та експериментальний.
