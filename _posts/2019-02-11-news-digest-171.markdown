@@ -2,8 +2,14 @@
 layout:   post
 title:    "News digest #171"
 date:     2019-02-11 12:00:00 +0200
-tags:     digest
+tags:     digest security
 comments: true
 ---
 
 _Время говорить по-русски_
+
+### Security
+
+[Auditing Rust Crypto: The First Hours](https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/)<br/>
+[Auditing code for crypto flaws: the first 30 minutes](https://research.kudelskisecurity.com/2017/04/24/auditing-code-for-crypto-flaws-the-first-30-minutes/)<br/>
+И знаете, что самое страшное? «These are all beginner mistakes, but generally many developers don’t know anything about crypto and will just do their best with the help of Google and Stack Overflow.»
