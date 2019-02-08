@@ -2,14 +2,31 @@
 layout:   post
 title:    "News digest #171"
 date:     2019-02-11 12:00:00 +0200
-tags:     digest security
+tags:     digest dev security swift misc
 comments: true
 ---
 
 _Время говорить по-русски_
+
+### Development
+
+[Apple tells app developers to disclose or remove screen recording code](https://techcrunch.com/2019/02/07/apple-glassbox-apps/)<br/>
+Яббл понемногу становится светочем разума в мире мониторинга.
 
 ### Security
 
 [Auditing Rust Crypto: The First Hours](https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/)<br/>
 [Auditing code for crypto flaws: the first 30 minutes](https://research.kudelskisecurity.com/2017/04/24/auditing-code-for-crypto-flaws-the-first-30-minutes/)<br/>
 И знаете, что самое страшное? «These are all beginner mistakes, but generally many developers don’t know anything about crypto and will just do their best with the help of Google and Stack Overflow.»
+
+### Swift
+
+[Swift 5 Exclusivity Enforcement](https://swift.org/blog/swift-5-exclusivity/)<br/>
+Проверки на безопасную работу с памятью теперь включены в релизных сборках по умолчанию.
+
+### Miscellaneous
+
+[The Art of PNG Glitch](http://ucnv.github.io/pnglitch/)
+
+[The Problem with “The Seven Keys”](https://www.icann.org/news/blog/the-problem-with-the-seven-keys)<br/>
+Как хранятся ключи от DNSSEC.
