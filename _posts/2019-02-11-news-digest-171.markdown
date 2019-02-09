@@ -21,7 +21,11 @@ _Время говорить по-русски_
 
 [Auditing Rust Crypto: The First Hours](https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/)<br/>
 [Auditing code for crypto flaws: the first 30 minutes](https://research.kudelskisecurity.com/2017/04/24/auditing-code-for-crypto-flaws-the-first-30-minutes/)<br/>
+[A short horror story about web app data leaks and how to prevent them](https://hackernoon.com/database-security-vs-web-app-leaks-26cd35d9ce5a)<br/>
 И знаете, что самое страшное? «These are all beginner mistakes, but generally many developers don’t know anything about crypto and will just do their best with the help of Google and Stack Overflow.»
+
+[Red Hat Enterprise Linux 7 Hardening Checklist](https://wikis.utexas.edu/display/ISO/Red+Hat+Enterprise+Linux+7+Hardening+Checklist)<br/>
+У каждого админа должен быть чеклист, подобный этому.
 
 ### Swift
 
