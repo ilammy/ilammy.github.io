@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #171"
 date:     2019-02-11 12:00:00 +0200
-tags:     digest dev security swift misc
+tags:     digest dev rust security swift misc
 comments: true
 ---
 
@@ -12,6 +12,10 @@ _Время говорить по-русски_
 
 [Apple tells app developers to disclose or remove screen recording code](https://techcrunch.com/2019/02/07/apple-glassbox-apps/)<br/>
 Яббл понемногу становится светочем разума в мире мониторинга.
+
+### Rust
+
+[Rust новости #5 (январь 2019)](https://habr.com/ru/post/439354/)
 
 ### Security
 
@@ -30,3 +34,5 @@ _Время говорить по-русски_
 
 [The Problem with “The Seven Keys”](https://www.icann.org/news/blog/the-problem-with-the-seven-keys)<br/>
 Как хранятся ключи от DNSSEC.
+
+[Финляндия подвела предварительные итоги эксперимента с гарантированным базовым доходом](https://habr.com/ru/post/439600/)
