@@ -89,7 +89,44 @@ Full speed ahead!
 
 ### Subvert control over a process
 
+To get things started we'll need to spellbind the target process
+and make it do our bidding.
+Normal processes execute only their own code,
+or some of the libraries they load,
+or some JIT-compiled code.
+Definitely _not_ the unrelated code that we want to inject.
+
+One way would be to find and exploit a vulnerability in the process
+that allows to redirect control flow.
+A classical example involves some buffer overflow
+used to overwrite function return address on the stack.
+It works and it's fun but it is not a general solution.
+
+We will use a different, honest way to assume control over the process:
+debugging system calls.
+Interactive debuggers are designed to stop remote processes,
+inspect and modify their memory,
+and do many other interesting things with them.
+So that's definitely possible for us as well.
+
+**ptrace()** is the principal debugging system call on Linux.
+It allows to attach to a process,
+inspect and modify its state and control flow.
+The documentation for this system call is fairly comprehensive
+but there are quite a few not-so-obvious practical aspects in its usage.
+
 ### Load executable code into memory
+
+In case of buffer overflows the payload (_shellcode_) is usually included
+into the data used to produce an overflow.
+Since we're using a debugger it is possible for us
+to write the code directly into the memory of the target process.
+WinAPI even has a special `WriteProcessMemory` function for that.
+Linux, on the other hand, adheres to UNIX way:
+every process on the system has a special file `/proc/<PID>/mem`
+which maps the process memory.
+You can use standard input-output functions
+to read and write remote process memory.
 
 ### Prepare the code for execution
 
