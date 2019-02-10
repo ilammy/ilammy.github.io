@@ -2,11 +2,19 @@
 layout:   post
 title:    "News digest #171"
 date:     2019-02-11 12:00:00 +0200
-tags:     digest dev linux rust security swift misc
+tags:     digest cpp dev linux rust security swift misc
 comments: true
 ---
 
 Сегодня [международный день женщин и девочек в науке](https://www.un.org/ru/events/women-and-girls-in-science-day/).
+
+### C++
+
+[Debian: Hardening](https://wiki.debian.org/Hardening)<br/>
+[Gentoo: Hardened](https://wiki.gentoo.org/wiki/Project:Hardened)<br/>
+[RHEL: Recommended compiler and linker flags for GCC](https://developers.redhat.com/blog/2018/03/21/compiler-and-linker-flags-gcc/)<br/>
+[Ubuntu: Userspace Hardening](https://wiki.ubuntu.com/Security/Features#Userspace_Hardening)<br/>
+Подборочка инструкций по расстановке флагов компилятора. Большинство дистрибутивов Linux включают их по умолчанию для всех пакетов. Если вы не мейнтейнер такого пакета, то стоить включить интересные флажки у себя самостоятельно.
 
 ### Development
 
@@ -14,7 +22,7 @@ comments: true
 Яббл понемногу становится светочем разума в мире мониторинга.
 
 [StranglerApplication](https://www.martinfowler.com/bliki/StranglerApplication.html)<br/>
-«Не переписывай всё с нуля» — звучит самоочевидно в 2019 году, но 15 лет назад было в новинку.
+«Не переписывай всё с нуля при рефакторинге» — звучит самоочевидно в 2019 году, но 15 лет назад было в новинку.
 
 ### Linux
 
@@ -45,7 +53,7 @@ comments: true
 ### Swift
 
 [Swift 5 Exclusivity Enforcement](https://swift.org/blog/swift-5-exclusivity/)<br/>
-Проверки на безопасную работу с памятью теперь включены в релизных сборках по умолчанию.
+Проверки на безопасную работу с памятью (как в Rust) теперь включены в релизных сборках по умолчанию.
 
 ### Miscellaneous
 
