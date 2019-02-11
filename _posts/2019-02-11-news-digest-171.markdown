@@ -1,0 +1,65 @@
+---
+layout:   post
+title:    "News digest #171"
+date:     2019-02-11 12:00:00 +0200
+tags:     digest cpp dev linux rust security swift misc
+comments: true
+---
+
+Сегодня [международный день женщин и девочек в науке](https://www.un.org/ru/events/women-and-girls-in-science-day/).
+
+### C++
+
+[Debian: Hardening](https://wiki.debian.org/Hardening)<br/>
+[Gentoo: Hardened](https://wiki.gentoo.org/wiki/Project:Hardened)<br/>
+[RHEL: Recommended compiler and linker flags for GCC](https://developers.redhat.com/blog/2018/03/21/compiler-and-linker-flags-gcc/)<br/>
+[Ubuntu: Userspace Hardening](https://wiki.ubuntu.com/Security/Features#Userspace_Hardening)<br/>
+Подборочка инструкций по расстановке флагов компилятора. Большинство дистрибутивов Linux включают их по умолчанию для всех пакетов. Если вы не мейнтейнер такого пакета, то стоить включить интересные флажки у себя самостоятельно.
+
+### Development
+
+[Apple tells app developers to disclose or remove screen recording code](https://techcrunch.com/2019/02/07/apple-glassbox-apps/)<br/>
+Яббл понемногу становится светочем разума в мире мониторинга.
+
+[StranglerApplication](https://www.martinfowler.com/bliki/StranglerApplication.html)<br/>
+«Не переписывай всё с нуля при рефакторинге» — звучит самоочевидно в 2019 году, но 15 лет назад было в новинку.
+
+### Linux
+
+[The 5-year journey to bring restartable sequences to Linux](https://www.efficios.com/blog/2019/02/08/linux-restartable-sequences/)<br/>
+Забавный механизм синхронизации в юзерспейсе.
+
+### Rust
+
+[Rust новости #5 (январь 2019)](https://habr.com/ru/post/439354/)
+
+[John Carmack: “writing Rust code feels very wholesome”](https://twitter.com/ID_AA_Carmack/status/1094419108781789184)
+
+### Security
+
+[Auditing Rust Crypto: The First Hours](https://research.kudelskisecurity.com/2019/02/07/auditing-rust-crypto-the-first-hours/)<br/>
+[Auditing code for crypto flaws: the first 30 minutes](https://research.kudelskisecurity.com/2017/04/24/auditing-code-for-crypto-flaws-the-first-30-minutes/)<br/>
+И знаете, что самое страшное? «These are all beginner mistakes, but generally many developers don’t know anything about crypto and will just do their best with the help of Google and Stack Overflow.»
+
+[A short horror story about web app data leaks and how to prevent them](https://hackernoon.com/database-security-vs-web-app-leaks-26cd35d9ce5a)<br/>
+Ещё чуть-чуть былин о том, как протерять пользовательские данные.
+
+[Fixing Random, part 1,](https://ericlippert.com/2019/01/31/fixing-random-part-1/) [part 2,](https://ericlippert.com/2019/02/04/fixing-random-part-2/) [part 3](https://ericlippert.com/2019/02/07/fixing-random-part-3/)<br/>
+Или вот вам нужен случайный пароль. `System.Random` из стандартной библиотеки спешит на помощь! Или нет?
+
+[Red Hat Enterprise Linux 7 Hardening Checklist](https://wikis.utexas.edu/display/ISO/Red+Hat+Enterprise+Linux+7+Hardening+Checklist)<br/>
+У каждого админа должен быть _чеклист_, подобный этому.
+
+### Swift
+
+[Swift 5 Exclusivity Enforcement](https://swift.org/blog/swift-5-exclusivity/)<br/>
+Проверки на безопасную работу с памятью (как в Rust) теперь включены в релизных сборках по умолчанию.
+
+### Miscellaneous
+
+[The Art of PNG Glitch](http://ucnv.github.io/pnglitch/)
+
+[The Problem with “The Seven Keys”](https://www.icann.org/news/blog/the-problem-with-the-seven-keys)<br/>
+Как хранятся ключи от DNSSEC.
+
+[Финляндия подвела предварительные итоги эксперимента с гарантированным базовым доходом](https://habr.com/ru/post/439600/)
