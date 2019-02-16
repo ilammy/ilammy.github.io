@@ -7,3 +7,11 @@ comments: true
 ---
 
 _English?_
+
+### Development
+
+[Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]
+
+### Miscellaneous
+
+[A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
