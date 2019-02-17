@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #172"
 date:     2019-02-18 12:00:00 +0200
-tags:     digest
+tags:     digest dev misc
 comments: true
 ---
 
@@ -15,3 +15,9 @@ _English?_
 ### Miscellaneous
 
 [A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
+
+[The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)<br/>
+An interesting approach to using `kmsg`.
+
+[Graceful Shutdown](http://250bpm.com/blog:146)<br/>
+On handling SIGTERM properly.
