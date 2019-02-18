@@ -1,0 +1,31 @@
+---
+layout:   post
+title:    "News digest #172"
+date:     2019-02-25 12:00:00 +0200
+tags:     digest dev linux misc
+comments: true
+---
+
+_English?_
+
+### Development
+
+[Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]
+
+### Linux
+
+[Graceful Shutdown](http://250bpm.com/blog:146)<br/>
+On handling SIGTERM properly.
+
+[SOCKMAP - TCP splicing of the future](https://blog.cloudflare.com/sockmap-tcp-splicing-of-the-future/)<br/>
+If you don't know about `splice(2)`—now you know. It's pretty interesting.
+
+### Miscellaneous
+
+[A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
+
+[The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)<br/>
+An interesting approach to using `kmsg`.
+
+[Explaining Code using ASCII Art](https://blog.regehr.org/archives/1653)<br/>
+I try doing so when possible.
