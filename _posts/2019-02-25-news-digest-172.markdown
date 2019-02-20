@@ -10,7 +10,8 @@ _English?_
 
 ### Development
 
-[Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]
+[Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]<br/>
+Does not seem to work for my repos, but whatever...
 
 ### Linux
 
