@@ -16,6 +16,9 @@ Yay! No more ad-hoc _wip_ labels.
 [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)<br/>
 Well _this_ is what I'd call a knowledgebase on random subjects!
 
+[Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)<br/>
+Advice applicable not only to Golang.
+
 ### Linux
 
 [Graceful Shutdown](http://250bpm.com/blog:146)<br/>
@@ -48,3 +51,6 @@ Our Google Overlords decided that they can give away some of the cake.
 
 [Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
 [Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
+
+[A bunch of talented, amazing people from Travis will be looking for jobs soon](https://twitter.com/carmatrocity/status/1098538649908666368)<br/>
+Remember when Travis CI was acquired by Ibera? That's what usually follows.
