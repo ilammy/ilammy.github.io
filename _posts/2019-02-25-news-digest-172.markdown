@@ -11,7 +11,10 @@ _English?_
 ### Development
 
 [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]<br/>
-Does not seem to work for my repos, but whatever...
+Yay! No more ad-hoc _wip_ labels.
+
+[The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)<br/>
+Well _this_ is what I'd call a knowledgebase on random subjects!
 
 ### Linux
 
@@ -21,15 +24,27 @@ On handling SIGTERM properly.
 [SOCKMAP - TCP splicing of the future](https://blog.cloudflare.com/sockmap-tcp-splicing-of-the-future/)<br/>
 If you don't know about `splice(2)`—now you know. It's pretty interesting.
 
-### Miscellaneous
-
-[A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
-
 [The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)<br/>
 An interesting approach to using `kmsg`.
+
+[How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+
+### Miscellaneous
+
+[The Ultimate Guide To Memorable Tech Talks](https://medium.com/@nnja/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b)
+
+[A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
 
 [Explaining Code using ASCII Art](https://blog.regehr.org/archives/1653)<br/>
 I try doing so when possible.
 
 [Overwatch randomized trial on gender](http://danluu.com/overwatch-gender/)<br/>
 "[W]e stopped at 163 [games] as this is a substantial time effort".
+
+[get.dev](https://get.dev)<br/>
+Our Google Overlords decided that they can give away some of the cake.
+
+[proc-caesar: a proc-macro to apply Caesar cipher to Rust source code](https://github.com/matklad/proc-caesar)
+
+[Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
+[Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
