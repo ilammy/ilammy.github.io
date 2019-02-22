@@ -19,6 +19,12 @@ Well _this_ is what I'd call a knowledgebase on random subjects!
 [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)<br/>
 Advice applicable not only to Golang.
 
+[How to Make Other Developers Hate to Work with You](https://anaxi.com/blog/2019/02/20/how-to-make-other-developers-hate-to-work-with-you/)<br/>
+Can be summarized as: don't be a lazy asshole who does not care.
+
+[Awesome Falsehood](https://github.com/kdeldycke/awesome-falsehood)<br/>
+A curated list of awesome falsehoods programmers believe in.
+
 ### Linux
 
 [Graceful Shutdown](http://250bpm.com/blog:146)<br/>
@@ -31,6 +37,9 @@ If you don't know about `splice(2)`—now you know. It's pretty interesting.
 An interesting approach to using `kmsg`.
 
 [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+
+[A Heavily Commented Linux Source Code](http://www.oldlinux.org/download/ECLK-5.0-WithCover.pdf)<br/>
+Actually a book.
 
 ### Miscellaneous
 
@@ -54,3 +63,6 @@ Our Google Overlords decided that they can give away some of the cake.
 
 [A bunch of talented, amazing people from Travis will be looking for jobs soon](https://twitter.com/carmatrocity/status/1098538649908666368)<br/>
 Remember when Travis CI was acquired by Ibera? That's what usually follows.
+
+[HeapHero User Manual](https://blog.heaphero.io/2018/04/13/heaphero-user-manual-2/#HeapStat)<br/>
+I love Java for all the available tooling. Other ecosystems are years behind sometimes.
