@@ -66,3 +66,5 @@ Remember when Travis CI was acquired by Ibera? That's what usually follows.
 
 [HeapHero User Manual](https://blog.heaphero.io/2018/04/13/heaphero-user-manual-2/#HeapStat)<br/>
 I love Java for all the available tooling. Other ecosystems are years behind sometimes.
+
+[Programming Books You Wish You Read Earlier](https://zeroequalsfalse.press/posts/programming-books-you-wish-you-read-earlier/)
