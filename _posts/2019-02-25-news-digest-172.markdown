@@ -1,0 +1,76 @@
+---
+layout:   post
+title:    "News digest #172"
+date:     2019-02-25 12:00:00 +0200
+tags:     digest cpp dev internet linux misc
+comments: true
+---
+
+No other events on this day, happy birthday to Hanazawa Kana.
+
+### C++
+
+[Historic Handshake! Modules accepted to C++20](https://twitter.com/gornishanov/status/1099490738402783232?s=12)<br/>It took us 35 years, but we did it!
+
+### Development
+
+[Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]<br/>
+Yay! No more ad-hoc _wip_ labels.
+
+[The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)<br/>
+Well _this_ is what I'd call a knowledgebase on random subjects!
+
+[Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html)<br/>
+Advice applicable not only to Golang.
+
+[How to Make Other Developers Hate to Work with You](https://anaxi.com/blog/2019/02/20/how-to-make-other-developers-hate-to-work-with-you/)<br/>
+Can be summarized as: don't be a lazy asshole who does not care.
+
+[Awesome Falsehood](https://github.com/kdeldycke/awesome-falsehood)<br/>
+A curated list of awesome falsehoods programmers believe in.
+
+### Internet
+
+[get.dev](https://get.dev)<br/>
+Our Google Overlords decided that they can give away some of the cake.
+
+### Linux
+
+[Graceful Shutdown](http://250bpm.com/blog:146)<br/>
+On handling SIGTERM properly.
+
+[SOCKMAP - TCP splicing of the future](https://blog.cloudflare.com/sockmap-tcp-splicing-of-the-future/)<br/>
+If you don't know about `splice(2)`—now you know. It's pretty interesting.
+
+[The log/event processing pipeline you can't have](https://apenwarr.ca/log/20190216)<br/>
+An interesting approach to using `kmsg`.
+
+[How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+
+[A Heavily Commented Linux Source Code](http://www.oldlinux.org/download/ECLK-5.0-WithCover.pdf)<br/>
+Actually a book.
+
+### Miscellaneous
+
+[The Ultimate Guide To Memorable Tech Talks](https://medium.com/@nnja/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b)
+
+[Programming Books You Wish You Read Earlier](https://zeroequalsfalse.press/posts/programming-books-you-wish-you-read-earlier/)
+
+[A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
+
+[proc-caesar: a proc-macro to apply Caesar cipher to Rust source code](https://github.com/matklad/proc-caesar)
+
+[Explaining Code using ASCII Art](https://blog.regehr.org/archives/1653)<br/>
+I try doing so when possible.
+
+[HeapHero User Manual](https://blog.heaphero.io/2018/04/13/heaphero-user-manual-2/#HeapStat)<br/>
+I love Java for all the available tooling. Other ecosystems are years behind sometimes.
+
+[3D Engine Build with HTML and CSS](https://keithclark.co.uk/labs/css-fps/)<br/>
+HTML is a programming language, fight me. (Here's [an explanation](https://keithclark.co.uk/articles/creating-3d-worlds-with-html-and-css/) of how this works.)
+
+[Overwatch randomized trial on gender](http://danluu.com/overwatch-gender/)<br/>
+"[W]e stopped at 163 [games] as this is a substantial time effort".
+
+[Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
+[Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
