@@ -8,6 +8,10 @@ comments: true
 
 _English?_
 
+### C++
+
+[Historic Handshake! Modules accepted to C++20](https://twitter.com/gornishanov/status/1099490738402783232?s=12)<br/>It took us 35 years, but we did it!
+
 ### Development
 
 [Introducing draft pull requests](https://github.blog/2019-02-14-introducing-draft-pull-requests/) [on GitHub]<br/>
@@ -61,10 +65,10 @@ Our Google Overlords decided that they can give away some of the cake.
 [Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
 [Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
 
-[A bunch of talented, amazing people from Travis will be looking for jobs soon](https://twitter.com/carmatrocity/status/1098538649908666368)<br/>
-Remember when Travis CI was acquired by Ibera? That's what usually follows.
-
 [HeapHero User Manual](https://blog.heaphero.io/2018/04/13/heaphero-user-manual-2/#HeapStat)<br/>
 I love Java for all the available tooling. Other ecosystems are years behind sometimes.
 
 [Programming Books You Wish You Read Earlier](https://zeroequalsfalse.press/posts/programming-books-you-wish-you-read-earlier/)
+
+[3D Engine Build with HTML and CSS](https://keithclark.co.uk/labs/css-fps/)<br/>
+HTML is a programming language, fight me. (Here's [an explanation](https://keithclark.co.uk/articles/creating-3d-worlds-with-html-and-css/) of how this works.)
