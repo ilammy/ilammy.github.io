@@ -2,11 +2,11 @@
 layout:   post
 title:    "News digest #172"
 date:     2019-02-25 12:00:00 +0200
-tags:     digest dev linux misc
+tags:     digest cpp dev internet linux misc
 comments: true
 ---
 
-_English?_
+No other events on this day, happy birthday to Hanazawa Kana.
 
 ### C++
 
@@ -29,6 +29,11 @@ Can be summarized as: don't be a lazy asshole who does not care.
 [Awesome Falsehood](https://github.com/kdeldycke/awesome-falsehood)<br/>
 A curated list of awesome falsehoods programmers believe in.
 
+### Internet
+
+[get.dev](https://get.dev)<br/>
+Our Google Overlords decided that they can give away some of the cake.
+
 ### Linux
 
 [Graceful Shutdown](http://250bpm.com/blog:146)<br/>
@@ -49,26 +54,23 @@ Actually a book.
 
 [The Ultimate Guide To Memorable Tech Talks](https://medium.com/@nnja/the-ultimate-guide-to-memorable-tech-talks-e7c350778d4b)
 
+[Programming Books You Wish You Read Earlier](https://zeroequalsfalse.press/posts/programming-books-you-wish-you-read-earlier/)
+
 [A Common Lisp Interpreter Built in COBOL](https://github.com/lauryndbrown/Cisp)
+
+[proc-caesar: a proc-macro to apply Caesar cipher to Rust source code](https://github.com/matklad/proc-caesar)
 
 [Explaining Code using ASCII Art](https://blog.regehr.org/archives/1653)<br/>
 I try doing so when possible.
 
-[Overwatch randomized trial on gender](http://danluu.com/overwatch-gender/)<br/>
-"[W]e stopped at 163 [games] as this is a substantial time effort".
-
-[get.dev](https://get.dev)<br/>
-Our Google Overlords decided that they can give away some of the cake.
-
-[proc-caesar: a proc-macro to apply Caesar cipher to Rust source code](https://github.com/matklad/proc-caesar)
-
-[Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
-[Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
-
 [HeapHero User Manual](https://blog.heaphero.io/2018/04/13/heaphero-user-manual-2/#HeapStat)<br/>
 I love Java for all the available tooling. Other ecosystems are years behind sometimes.
 
-[Programming Books You Wish You Read Earlier](https://zeroequalsfalse.press/posts/programming-books-you-wish-you-read-earlier/)
-
 [3D Engine Build with HTML and CSS](https://keithclark.co.uk/labs/css-fps/)<br/>
 HTML is a programming language, fight me. (Here's [an explanation](https://keithclark.co.uk/articles/creating-3d-worlds-with-html-and-css/) of how this works.)
+
+[Overwatch randomized trial on gender](http://danluu.com/overwatch-gender/)<br/>
+"[W]e stopped at 163 [games] as this is a substantial time effort".
+
+[Pruitt–Igoe](https://en.wikipedia.org/wiki/Pruitt–Igoe)<br/>
+[Kowloon Walled City](https://en.wikipedia.org/wiki/Kowloon_Walled_City)
