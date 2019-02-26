@@ -2,8 +2,13 @@
 layout:   post
 title:    "News digest #173"
 date:     2019-03-04 12:00:00 +0200
-tags:     digest
+tags:     digest cpp
 comments: true
 ---
 
 Е-е-е...
+
+### C++
+
+[Категории выражений в C++](https://habr.com/ru/post/441742/)<br/>
+Раптом ви забули чим відрізняється _glvalue_ від _prvalue_.
