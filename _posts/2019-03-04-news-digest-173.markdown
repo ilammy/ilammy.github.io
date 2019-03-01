@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #173"
 date:     2019-03-04 12:00:00 +0200
-tags:     digest cpp
+tags:     digest cpp misc
 comments: true
 ---
 
@@ -12,3 +12,8 @@ comments: true
 
 [Категории выражений в C++](https://habr.com/ru/post/441742/)<br/>
 Раптом ви забули чим відрізняється _glvalue_ від _prvalue_.
+
+### Miscellaneous
+
+[Что даёт научный подход к этическим вопросам: исходный код политкорректности](https://habr.com/ru/post/441518/)<br/>
+Нечасто на Хабрі побачиш зв'зний постинг російською на соціологічну тему, і щоб це не було перекладом.
