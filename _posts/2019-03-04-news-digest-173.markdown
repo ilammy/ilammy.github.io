@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #173"
 date:     2019-03-04 12:00:00 +0200
-tags:     digest cpp misc
+tags:     digest cpp dev misc
 comments: true
 ---
 
@@ -12,6 +12,12 @@ comments: true
 
 [Категории выражений в C++](https://habr.com/ru/post/441742/)<br/>
 Раптом ви забули чим відрізняється _glvalue_ від _prvalue_.
+
+### Development
+
+[OpenSSL Strategic Architecture](https://www.openssl.org/docs/OpenSSLStrategicArchitecture.html)<br/>
+[OpenSSL 3.0.0 Design](https://www.openssl.org/docs/OpenSSL300Design.html)<br/>
+Прев'ю нової архітектури.
 
 ### Miscellaneous
 
