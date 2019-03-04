@@ -25,6 +25,11 @@ comments: true
 [The Power of Prolog](https://www.metalevel.at/prolog)<br/>
 Пролог входить в освітню програму кожного програміста.
 
+### Linux
+
+[Linux 5.0](https://lore.kernel.org/lkml/CAHk-=wjuG6HiGbD7DCGfvDvhr_1WZUR-eYF2qWGbYyn9k6unvg@mail.gmail.com/T/#u)<br/>
+Нічого особливого, просто в Лінуса в черговий раз закінчились пальці.
+
 ### Rust
 
 [Announcing Rust 1.33.0](https://blog.rust-lang.org/2019/02/28/Rust-1.33.0.html)<br/>
