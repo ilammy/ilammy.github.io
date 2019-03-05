@@ -1,0 +1,41 @@
+---
+layout:   post
+title:    "News digest #173"
+date:     2019-03-04 12:00:00 +0200
+tags:     digest cpp dev rust misc
+comments: true
+---
+
+Е-е-е...
+
+### C++
+
+[Категории выражений в C++](https://habr.com/ru/post/441742/)<br/>
+Раптом ви забули чим відрізняється _glvalue_ від _prvalue_.
+
+[The std::map subscript operator is a convenience, but a potentially dangerous one](https://blogs.msdn.microsoft.com/oldnewthing/20190227-00/?p=101045)<br/>
+От нащо в `operator[]` взагалі виділяє новий елемент? Структури даних же читають частіше ніж пишуть.
+
+### Development
+
+[OpenSSL Strategic Architecture](https://www.openssl.org/docs/OpenSSLStrategicArchitecture.html)<br/>
+[OpenSSL 3.0.0 Design](https://www.openssl.org/docs/OpenSSL300Design.html)<br/>
+Прев'ю нової архітектури.
+
+[The Power of Prolog](https://www.metalevel.at/prolog)<br/>
+Пролог входить в освітню програму кожного програміста.
+
+### Linux
+
+[Linux 5.0](https://lore.kernel.org/lkml/CAHk-=wjuG6HiGbD7DCGfvDvhr_1WZUR-eYF2qWGbYyn9k6unvg@mail.gmail.com/T/#u)<br/>
+Нічого особливого, просто в Лінуса в черговий раз закінчились пальці.
+
+### Rust
+
+[Announcing Rust 1.33.0](https://blog.rust-lang.org/2019/02/28/Rust-1.33.0.html)<br/>
+Особисто для мене головне — це стабілізований `Pin`.
+
+### Miscellaneous
+
+[Что даёт научный подход к этическим вопросам: исходный код политкорректности](https://habr.com/ru/post/441518/)<br/>
+Нечасто на Хабрі побачиш зв'зний постинг російською на соціологічну тему, і щоб це не було перекладом.
