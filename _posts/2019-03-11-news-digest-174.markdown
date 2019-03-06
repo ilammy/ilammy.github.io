@@ -5,3 +5,26 @@ date:     2019-03-01 12:00:00 +0200
 tags:     digest
 comments: true
 ---
+
+### Development
+
+[Ghidra](https://www.nsa.gov/resources/everyone/ghidra/)<br/>
+Software reverse engineering (SRE) framework developed by NSA's Research Directorate for NSA's cybersecurity mission.
+
+[Announcing the Open Sourcing of Windows Calculator](https://blogs.windows.com/buildingapps/2019/03/06/announcing-the-open-sourcing-of-windows-calculator/#EU3JU7lh75oW8J4X.97) [(GitHub)](https://github.com/Microsoft/calculator)<br/>
+
+> This project collects usage data and sends it to Microsoft to help improve our products and services.
+
+Even a damn calculator spies on me!
+
+[How not to design a wire protocol](http://esr.ibiblio.org/?p=8254)
+
+### Miscellaneous
+
+[Announcing The Unicode® Standard, Version 12.0](http://blog.unicode.org/2019/03/announcing-unicode-standard-version-120.html)
+
+[Introduction to x86_64 assembly](https://gitlab.com/mcmfb/intro_x86-64)
+
+[Bits of Advice for the VM Writer](https://ia601208.us.archive.org/16/items/vmss16/click.pdf)
+
+[Understanding glibc Heap Implementation](https://azeria-labs.com/heap-exploitation-part-1-understanding-the-glibc-heap-implementation/)
