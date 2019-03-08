@@ -6,6 +6,11 @@ tags:     digest
 comments: true
 ---
 
+### C++
+
+[Usability improvements in GCC 9](https://developers.redhat.com/blog/2019/03/08/usability-improvements-in-gcc-9/)<br/>
+gcc's output looks increasingly like rustc. I proclaim this an ideological win.
+
 ### Development
 
 [Ghidra](https://www.nsa.gov/resources/everyone/ghidra/)<br/>
