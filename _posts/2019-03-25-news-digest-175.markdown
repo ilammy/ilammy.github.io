@@ -2,11 +2,16 @@
 layout:   post
 title:    "News digest #175"
 date:     2019-03-25 12:00:00 +0200
-tags:     digest rust misc
+tags:     digest cpp rust misc
 comments: true
 ---
 
 Інших дат нема, тож з днем народження Володю Кличка.
+
+### C++
+
+[Топ 10 ошибок в C++ проектах за 2018 год](https://habr.com/ru/company/pvs-studio/blog/444570/) (по версии PVS-Studio)<br/>
+Не тупіть так.
 
 ### Rust
 
@@ -17,3 +22,6 @@ comments: true
 
 [What are some niche features you'd like to see in more languages?](https://www.reddit.com/r/ProgrammingLanguages/comments/b2a61l/what_are_some_niche_features_youd_like_to_see_in/)<br/>
 Інтересно читати больові точки людей.
+
+[Делаем современное веб-приложение с нуля](https://habr.com/ru/post/444446/)<br/>
+Hello world, my ass.
