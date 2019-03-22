@@ -25,3 +25,12 @@ comments: true
 
 [Делаем современное веб-приложение с нуля](https://habr.com/ru/post/444446/)<br/>
 Hello world, my ass.
+
+[Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html)<br/>
+Це треба включати до Human Interface Guidelines.
+
+[UTF-8 String](https://swift.org/blog/utf8-string/)<br/>
+Swift переходить на UTF-8 за замовчуванням. Загалом мені дуже подобається читати такі от пости.
+
+[The Internet Is Enabling a New Kind of Poorly Paid Hell](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/)<br/>
+Я щось якось пропустив такий чудесний продукт Amazon як [Mechanical Turk](https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk). Матриця існує.
