@@ -34,3 +34,6 @@ Swift переходить на UTF-8 за замовчуванням. Зага�
 
 [The Internet Is Enabling a New Kind of Poorly Paid Hell](https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/)<br/>
 Я щось якось пропустив такий чудесний продукт Amazon як [Mechanical Turk](https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk). Матриця існує.
+
+[DTrace on Windows](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/DTrace-on-Windows/ba-p/362902)<br/>
+Круто, що ця штука дійшла до Windows.`
