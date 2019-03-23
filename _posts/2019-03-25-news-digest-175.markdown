@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #175"
 date:     2019-03-25 12:00:00 +0200
-tags:     digest cpp rust misc
+tags:     digest cpp dev rust misc
 comments: true
 ---
 
@@ -12,6 +12,11 @@ comments: true
 
 [Топ 10 ошибок в C++ проектах за 2018 год](https://habr.com/ru/company/pvs-studio/blog/444570/) (по версии PVS-Studio)<br/>
 Не тупіть так.
+
+### Development
+
+[How to get your code reviewed faster](https://blog.sapegin.me/all/faster-code-reviews)<br/>
+Страждаєте від ревью десяти рядків, що тривають три дні?
 
 ### Rust
 
