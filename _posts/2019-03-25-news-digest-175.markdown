@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #175"
 date:     2019-03-25 12:00:00 +0200
-tags:     digest cpp dev rust misc
+tags:     digest cpp dev linux rust security misc
 comments: true
 ---
 
@@ -13,15 +13,32 @@ comments: true
 [Топ 10 ошибок в C++ проектах за 2018 год](https://habr.com/ru/company/pvs-studio/blog/444570/) (по версии PVS-Studio)<br/>
 Не тупіть так.
 
+["Interesting"-but-valid C++ code contest](https://zygoloid.github.io/cppcontest2018.html)<br/>
+Welcome to the freak show.
+
 ### Development
 
 [How to get your code reviewed faster](https://blog.sapegin.me/all/faster-code-reviews)<br/>
 Страждаєте від ревью десяти рядків, що тривають три дні?
 
+### Linux
+
+[Миллионы бинарников спустя. Как укреплялся Linux](https://habr.com/ru/post/444418/)<br/>
+І ще про hardening.
+
 ### Rust
 
 [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)<br/>
 Можна копіпастити.
+
+### Security
+
+[Keeping Passwords Secure](https://newsroom.fb.com/news/2019/03/keeping-passwords-secure/)<br/>
+```
+database.store(encrypt(password));
+log_info!("stored: {password}");
+```
+Не треба так.
 
 ### Miscellaneous
 
@@ -42,3 +59,6 @@ Swift переходить на UTF-8 за замовчуванням. Зага�
 
 [DTrace on Windows](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/DTrace-on-Windows/ba-p/362902)<br/>
 Круто, що ця штука дійшла до Windows.`
+
+[Как мы в IntelliJ IDEA ищем лямбда-выражения](https://habr.com/ru/company/JetBrains/blog/444052/)<br/>
+IDE — це складно, еге?
