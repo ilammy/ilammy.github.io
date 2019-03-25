@@ -1,0 +1,12 @@
+---
+layout:   post
+title:    "News digest #176"
+date:     2019-04-01 12:00:00 +0200
+tags:     digest
+comments: true
+---
+
+Це останній дайджест.<br/>
+Это последний дайджест.<br/>
+This is the last news digest.<br/>
+これはさいごのダイジェストですよ。
