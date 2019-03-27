@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #176"
 date:     2019-04-01 12:00:00 +0300
-tags:     digest misc
+tags:     digest java rust misc
 comments: true
 ---
 
@@ -15,6 +15,11 @@ This is the last news digest.<br/>
 
 [Add detailed message to NullPointerException describing what is null](https://openjdk.java.net/jeps/8220715)<br/>
 Інтересна пропозиція для JVM.
+
+### Rust
+
+[LLVM tutorial in Rust language](https://github.com/jauhien/iron-kaleidoscope)<br/>
+Гарна вправа.
 
 ### Miscellaneous
 
