@@ -1,8 +1,8 @@
 ---
 layout:   post
 title:    "News digest #176"
-date:     2019-04-01 12:00:00 +0200
-tags:     digest
+date:     2019-04-01 12:00:00 +0300
+tags:     digest misc
 comments: true
 ---
 
@@ -10,3 +10,13 @@ comments: true
 Это последний дайджест.<br/>
 This is the last news digest.<br/>
 これはさいごのダイジェストですよ。
+
+### Java
+
+[Add detailed message to NullPointerException describing what is null](https://openjdk.java.net/jeps/8220715)<br/>
+Інтересна пропозиція для JVM.
+
+### Miscellaneous
+
+[Sum-of-Three-Cubes Problem Solved for ‘Stubborn’ Number 33](https://www.quantamagazine.org/sum-of-three-cubes-problem-solved-for-stubborn-number-33-20190326/)<br/>
+Забавно, наскільки тривіальними бувають математичні проблеми.
