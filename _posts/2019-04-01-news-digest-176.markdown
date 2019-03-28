@@ -29,3 +29,8 @@ Yet another... Загалом, читання [osdev.org](https://wiki.osdev.org
 
 [Sum-of-Three-Cubes Problem Solved for ‘Stubborn’ Number 33](https://www.quantamagazine.org/sum-of-three-cubes-problem-solved-for-stubborn-number-33-20190326/)<br/>
 Забавно, наскільки тривіальними бувають математичні проблеми.
+
+facebook: [Standing Against Hate](https://newsroom.fb.com/news/2019/03/standing-against-hate/)<br/>
+«_Мы сделаем вас счастливыми_» (c)
+
+[I Built a Lisp Compiler](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
