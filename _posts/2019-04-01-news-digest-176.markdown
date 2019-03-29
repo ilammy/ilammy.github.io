@@ -11,6 +11,10 @@ comments: true
 This is the last news digest.<br/>
 これはさいごのダイジェストですよ。
 
+### C++
+
+[CLion 2019.1: ClangFormat, подсветка кода через Clangd, memory view, начальная поддержка микроконтроллеров](https://habr.com/ru/company/JetBrains/blog/445646/)
+
 ### Java
 
 [Add detailed message to NullPointerException describing what is null](https://openjdk.java.net/jeps/8220715)<br/>
@@ -25,6 +29,11 @@ This is the last news digest.<br/>
 [OS1: примитивное ядро на Rust для x86. Часть 2. VGA, GDT, IDT](https://habr.com/ru/post/445584/)<br/>
 Yet another... Загалом, читання [osdev.org](https://wiki.osdev.org/Main_Page) ставить руки куди треба.
 
+### Swift
+
+[Swift 5 Released!](https://swift.org/blog/swift-5-released/)<br/>
+Стабільний ABI! 🎉
+
 ### Miscellaneous
 
 [Sum-of-Three-Cubes Problem Solved for ‘Stubborn’ Number 33](https://www.quantamagazine.org/sum-of-three-cubes-problem-solved-for-stubborn-number-33-20190326/)<br/>
@@ -34,3 +43,12 @@ facebook: [Standing Against Hate](https://newsroom.fb.com/news/2019/03/standing-
 «_Мы сделаем вас счастливыми_» (c)
 
 [I Built a Lisp Compiler](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
+
+[Ловушка (тарпит) для входящих SSH-соединений](https://habr.com/ru/company/globalsign/blog/445318/)<br/>
+З практичної точки зору — марнотратство, але милий прикол.
+
+[Исключения в Python теперь считаются анти-паттерном](https://habr.com/ru/company/oleg-bunin/blog/445234/) [по мнению Никиты Соболёва]<br/>
+Дуже весело читати шитпостінг пітоністів у коментарях, який звинувачує автора в оскверненні Божественного Пітона.
+
+[Зачем ЯОП? Зачем Racket?](https://habr.com/ru/post/445822/)<br/>
+На жаль, саме через ці можливості Ліспи ніколи не перейдуть з категорії мов програмування до категорії мов програмної інженерії.
