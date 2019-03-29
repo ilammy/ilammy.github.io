@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #176"
 date:     2019-04-01 12:00:00 +0300
-tags:     digest java rust misc
+tags:     digest cpp java rust python swift misc
 comments: true
 ---
 
@@ -29,6 +29,11 @@ This is the last news digest.<br/>
 [OS1: примитивное ядро на Rust для x86. Часть 2. VGA, GDT, IDT](https://habr.com/ru/post/445584/)<br/>
 Yet another... Загалом, читання [osdev.org](https://wiki.osdev.org/Main_Page) ставить руки куди треба.
 
+### Python
+
+[Исключения в Python теперь считаются анти-паттерном](https://habr.com/ru/company/oleg-bunin/blog/445234/) [по мнению Никиты Соболёва]<br/>
+Забіг на тему обробки помилок оголошено відкритим. Дуже весело читати шитпостінг пітоністів у коментарях, який звинувачує автора в оскверненні Божественного Пітона.
+
 ### Swift
 
 [Swift 5 Released!](https://swift.org/blog/swift-5-released/)<br/>
@@ -42,13 +47,10 @@ Yet another... Загалом, читання [osdev.org](https://wiki.osdev.org
 facebook: [Standing Against Hate](https://newsroom.fb.com/news/2019/03/standing-against-hate/)<br/>
 «_Мы сделаем вас счастливыми_» (c)
 
-[I Built a Lisp Compiler](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
-
 [Ловушка (тарпит) для входящих SSH-соединений](https://habr.com/ru/company/globalsign/blog/445318/)<br/>
 З практичної точки зору — марнотратство, але милий прикол.
 
-[Исключения в Python теперь считаются анти-паттерном](https://habr.com/ru/company/oleg-bunin/blog/445234/) [по мнению Никиты Соболёва]<br/>
-Дуже весело читати шитпостінг пітоністів у коментарях, який звинувачує автора в оскверненні Божественного Пітона.
+[I Built a Lisp Compiler](https://mpov.timmorgan.org/i-built-a-lisp-compiler/)
 
 [Зачем ЯОП? Зачем Racket?](https://habr.com/ru/post/445822/)<br/>
 На жаль, саме через ці можливості Ліспи ніколи не перейдуть з категорії мов програмування до категорії мов програмної інженерії.
