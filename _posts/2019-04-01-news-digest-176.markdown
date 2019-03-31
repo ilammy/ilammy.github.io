@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #176"
 date:     2019-04-01 12:00:00 +0300
-tags:     digest cpp java rust python swift misc
+tags:     digest cpp git java rust python swift misc
 comments: true
 ---
 
@@ -14,6 +14,11 @@ This is the last news digest.<br/>
 ### C++
 
 [CLion 2019.1: ClangFormat, подсветка кода через Clangd, memory view, начальная поддержка микроконтроллеров](https://habr.com/ru/company/JetBrains/blog/445646/)
+
+### Git
+
+[8 Manoeuvres to Make You the Perfect Git Citizen](https://devbrett.com/2019/03/git-citizen.html)<br/>
+Рекомендую навчитись використовувати ці закляття.
 
 ### Java
 
