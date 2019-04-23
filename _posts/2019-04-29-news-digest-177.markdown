@@ -2,8 +2,22 @@
 layout:   post
 title:    "News digest #177"
 date:     2019-04-29 12:00:00 +0300
-tags:     digest
+tags:     digest rust
 comments: true
 ---
 
 Happy Golden Week. New era incoming in two days...
+
+### Rust
+
+[Compile Time Memory Safety](https://kkimdev.github.io/posts/2019/04/22/Rust-Compile-Time-Memory-Safety.html)<br/>
+[Programming in Rust: the good, the bad, the ugly](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)<br/>
+Some posts about programming experience.
+
+### Miscellaneous
+
+[O(n<sup>2</sup>) in CreateProcess](https://randomascii.wordpress.com/2019/04/21/on2-in-createprocess/)<br/>
+Chromium developers discover loads of weird behaviors like this one.
+
+[Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
+In case you're curious but not into type theory.
