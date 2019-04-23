@@ -28,4 +28,4 @@ In case you're curious but not into type theory.
 A nice read on time/task management.
 
 [Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
-I've seen this idea resurface from time to time. I wonder why mainstream I
+I've seen this idea resurface from time to time. I wonder why mainstream IDEs don't do it often.
