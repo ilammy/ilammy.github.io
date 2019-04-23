@@ -14,6 +14,8 @@ Happy Golden Week. New era incoming in two days...
 [Programming in Rust: the good, the bad, the ugly](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)<br/>
 Some posts about programming experience.
 
+[Rust's 2019 roadmap](https://blog.rust-lang.org/2019/04/23/roadmap.html)
+
 ### Miscellaneous
 
 [O(n<sup>2</sup>) in CreateProcess](https://randomascii.wordpress.com/2019/04/21/on2-in-createprocess/)<br/>
@@ -24,3 +26,6 @@ In case you're curious but not into type theory.
 
 [Busy Person Patterns](https://hillside.net/plop/2006/Papers/Library/PLoP%20Busy%20Person%20Pattern%20v8.pdf)<br/>
 A nice read on time/task management.
+
+[Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
+I've seen this idea resurface from time to time. I wonder why mainstream I
