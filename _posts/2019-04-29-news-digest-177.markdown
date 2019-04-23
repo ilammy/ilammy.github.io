@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #177"
 date:     2019-04-29 12:00:00 +0300
-tags:     digest rust
+tags:     digest rust misc
 comments: true
 ---
 
@@ -21,3 +21,6 @@ Chromium developers discover loads of weird behaviors like this one.
 
 [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
 In case you're curious but not into type theory.
+
+[Busy Person Patterns](https://hillside.net/plop/2006/Papers/Library/PLoP%20Busy%20Person%20Pattern%20v8.pdf)<br/>
+A nice read on time/task management.
