@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #177"
 date:     2019-04-29 12:00:00 +0300
-tags:     digest rust misc
+tags:     digest rust security misc
 comments: true
 ---
 
@@ -15,6 +15,11 @@ Happy Golden Week. New era incoming in two days...
 Some posts about programming experience.
 
 [Rust's 2019 roadmap](https://blog.rust-lang.org/2019/04/23/roadmap.html)
+
+### Security
+
+[Keybase is not softer than TOFU](https://keybase.io/blog/chat-apps-softer-than-tofu) [(на русском)](https://habr.com/ru/post/449350/)<br/>
+On proper implementation of _Trust On First Use_.
 
 ### Miscellaneous
 
