@@ -8,6 +8,20 @@ comments: true
 
 Happy Golden Week. New era incoming in two days...
 
+### C++
+
+[Top 25 C++ API design mistakes and how to avoid them](https://www.acodersjourney.com/top-25-cplusplus-api-design-mistakes-and-how-to-avoid-them/)<br/>
+Obvious in the hindsight, but nevertheless important.
+
+### Development
+
+[Implementing reader-writer locks](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/)
+
+[Implementing tile encoding in rav1e](https://blog.rom1v.com/2019/04/implementing-tile-encoding-in-rav1e/)
+
+[Make is (probably) fine](https://blog.yossarian.net/2019/04/23/Make-is-probably-fine)<br/>
+I came to really like _make_ recently. It's a beautiful Prolog for filesystem.
+
 ### Rust
 
 [Compile Time Memory Safety](https://kkimdev.github.io/posts/2019/04/22/Rust-Compile-Time-Memory-Safety.html)<br/>
@@ -34,3 +48,9 @@ A nice read on time/task management.
 
 [Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
 I've seen this idea resurface from time to time. I wonder why mainstream IDEs don't do it often.
+
+[A Crash Course in Everything Cryptographic](https://medium.com/@lduck11007/a-crash-course-in-everything-cryptographic-50daa0fda482)<br/>
+For newbies.
+
+[Maybe we could tone down the JavaScript](https://eev.ee/blog/2016/03/06/maybe-we-could-tone-down-the-javascript/)<br/>
+Stating the obvious.
