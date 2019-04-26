@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #177"
 date:     2019-04-29 12:00:00 +0300
-tags:     digest rust security misc
+tags:     digest cpp dev rust plt security misc
 comments: true
 ---
 
@@ -30,33 +30,35 @@ Some posts about programming experience.
 
 [Rust's 2019 roadmap](https://blog.rust-lang.org/2019/04/23/roadmap.html)
 
+### PLT
+
+[Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
+In case you're curious but not into type theory.
+
+[Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
+I've seen this idea resurface from time to time. I wonder why mainstream IDEs don't do it often.
+
+[A Brief And Brisk Overview of Compiler Architecture](https://blog.felixangell.com/compilers-brief-and-brisk)<br/>
+Yet another one, never too late to understand how your tools work.
+
 ### Security
 
 [Keybase is not softer than TOFU](https://keybase.io/blog/chat-apps-softer-than-tofu) [(на русском)](https://habr.com/ru/post/449350/)<br/>
 On proper implementation of _Trust On First Use_.
+
+[A Crash Course in Everything Cryptographic](https://medium.com/@lduck11007/a-crash-course-in-everything-cryptographic-50daa0fda482)<br/>
+For newbies.
 
 ### Miscellaneous
 
 [O(n<sup>2</sup>) in CreateProcess](https://randomascii.wordpress.com/2019/04/21/on2-in-createprocess/)<br/>
 Chromium developers discover loads of weird behaviors like this one.
 
-[Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
-In case you're curious but not into type theory.
-
 [Busy Person Patterns](https://hillside.net/plop/2006/Papers/Library/PLoP%20Busy%20Person%20Pattern%20v8.pdf)<br/>
 A nice read on time/task management.
-
-[Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
-I've seen this idea resurface from time to time. I wonder why mainstream IDEs don't do it often.
-
-[A Crash Course in Everything Cryptographic](https://medium.com/@lduck11007/a-crash-course-in-everything-cryptographic-50daa0fda482)<br/>
-For newbies.
 
 [Maybe we could tone down the JavaScript](https://eev.ee/blog/2016/03/06/maybe-we-could-tone-down-the-javascript/)<br/>
 Stating the obvious.
 
 [Pepsi's Nonsensical Logo Redesign Document: $1 Million for This?](https://www.cbsnews.com/news/pepsis-nonsensical-logo-redesign-document-1-million-for-this/)<br/>
 Read [the linked PDF](https://jimedwardsnrx.files.wordpress.com/2009/02/pepsi_gravitational_field.pdf) too, it's hilarious.
-
-[A Brief And Brisk Overview of Compiler Architecture](https://blog.felixangell.com/compilers-brief-and-brisk)<br/>
-Yet another one, never too late to understand how your tools work.
