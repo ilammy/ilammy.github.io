@@ -70,4 +70,5 @@ Stating the obvious.
 Read [the linked PDF](https://jimedwardsnrx.files.wordpress.com/2009/02/pepsi_gravitational_field.pdf) too, it's hilarious.
 
 [Synchronous Text](http://exple.tive.org/blarg/2019/04/26/synchronous-text/) [Mozilla decommissioning irc.mozilla.org]<br/>
-It seems we're left with Freenode being the last well-known bastion of IRC.
+It seems we're left with Freenode being the last well-known bastion of IRC.<br/>
+[Rust teams are moving to Discord](https://blog.rust-lang.org/2019/04/26/Mozilla-IRC-Sunset-and-the-Rust-Channel.html), for example, because of that. lol
