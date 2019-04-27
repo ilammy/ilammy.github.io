@@ -52,6 +52,9 @@ On proper implementation of _Trust On First Use_.
 [A Crash Course in Everything Cryptographic](https://medium.com/@lduck11007/a-crash-course-in-everything-cryptographic-50daa0fda482)<br/>
 For newbies.
 
+[Docker Hub Hacked – 190k accounts, GitHub tokens revoked, builds disabled](https://news.ycombinator.com/item?id=19763413) [(habr)](https://habr.com/ru/company/itsumma/blog/449746/)<br/>
+Rotate your passwords and tokens, just in case.
+
 ### Miscellaneous
 
 [O(n<sup>2</sup>) in CreateProcess](https://randomascii.wordpress.com/2019/04/21/on2-in-createprocess/)<br/>
@@ -65,3 +68,6 @@ Stating the obvious.
 
 [Pepsi's Nonsensical Logo Redesign Document: $1 Million for This?](https://www.cbsnews.com/news/pepsis-nonsensical-logo-redesign-document-1-million-for-this/)<br/>
 Read [the linked PDF](https://jimedwardsnrx.files.wordpress.com/2009/02/pepsi_gravitational_field.pdf) too, it's hilarious.
+
+[Synchronous Text](http://exple.tive.org/blarg/2019/04/26/synchronous-text/) [Mozilla decommissioning irc.mozilla.org]<br/>
+It seems we're left with Freenode being the last well-known bastion of IRC.
