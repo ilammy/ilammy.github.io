@@ -13,6 +13,9 @@ Happy Golden Week. New era incoming in two days...
 [Top 25 C++ API design mistakes and how to avoid them](https://www.acodersjourney.com/top-25-cplusplus-api-design-mistakes-and-how-to-avoid-them/)<br/>
 Obvious in the hindsight, but nevertheless important.
 
+[The Use Of assert() In SQLite](https://www.sqlite.org/assert.html)<br/>
+Cool approach. SQLite is one of those libraries with more tests than code.
+
 ### Development
 
 [Implementing reader-writer locks](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/)
