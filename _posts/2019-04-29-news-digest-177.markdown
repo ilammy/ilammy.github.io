@@ -33,6 +33,9 @@ Some posts about programming experience.
 
 [Rust's 2019 roadmap](https://blog.rust-lang.org/2019/04/23/roadmap.html)
 
+[Writing an OS in Rust: Testing](https://os.phil-opp.com/testing/)<br/>
+Nice guide on how to introduce abstractions at a proper level.
+
 ### PLT
 
 [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
