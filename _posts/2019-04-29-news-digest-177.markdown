@@ -16,6 +16,10 @@ Obvious in the hindsight, but nevertheless important.
 [The Use Of assert() In SQLite](https://www.sqlite.org/assert.html)<br/>
 Cool approach. SQLite is one of those libraries with more tests than code.
 
+[Stop Memsetting Structures](https://www.anmolsarma.in/post/stop-struct-memset/)<br/>
+I don't agree that memset() useless, but designated initializers are good.<br/>
+More generally: stop using C structures where you need specific layout.<br/>(No, `__attribute__((packed))` is _not_ a solution.)
+
 ### Development
 
 [Implementing reader-writer locks](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/)
@@ -35,6 +39,9 @@ Some posts about programming experience.
 
 [Writing an OS in Rust: Testing](https://os.phil-opp.com/testing/)<br/>
 Nice guide on how to introduce abstractions at a proper level.
+
+[The Embedded Rust Book](https://rust-embedded.github.io/book/)<br/>
+An introductory book about using the Rust Programming Language on "bare metal" embedded systems, such as _microcontrollers_.
 
 ### PLT
 
@@ -56,7 +63,10 @@ On proper implementation of _Trust On First Use_.
 For newbies.
 
 [Docker Hub Hacked – 190k accounts, GitHub tokens revoked, builds disabled](https://news.ycombinator.com/item?id=19763413) [(habr)](https://habr.com/ru/company/itsumma/blog/449746/)<br/>
-Rotate your passwords and tokens, just in case.
+Rotate your passwords and tokens, just in case. Here's [a report](https://success.docker.com/article/docker-hub-user-notification).
+
+[The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/) [(на русском)](https://habr.com/ru/post/449840/)<br/>
+Definitely not a _new_ method, but it's still pretty interesting. Modern web _does_ allow you to emulate a browser inside a browser, after all. [This writeup](https://textslashplain.com/2017/01/14/the-line-of-death/) also explains why the browsers show you all these 'entering full-screen mode' notifications.
 
 ### Miscellaneous
 
