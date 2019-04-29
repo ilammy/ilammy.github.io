@@ -5,3 +5,9 @@ date:     2019-05-06 12:00:00 +0300
 tags:     digest
 comments: true
 ---
+
+З днем народження Зигмунда Фройда.
+
+[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)
+
+[Graydon Hoare on 21 compilers](http://venge.net/graydon/talks/CompilerTalk-2019.pdf)
