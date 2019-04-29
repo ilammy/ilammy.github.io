@@ -1,0 +1,90 @@
+---
+layout:   post
+title:    "News digest #177"
+date:     2019-04-29 12:00:00 +0300
+tags:     digest cpp dev rust plt security misc
+comments: true
+---
+
+Happy Golden Week. New era incoming in two days...
+
+### C++
+
+[Top 25 C++ API design mistakes and how to avoid them](https://www.acodersjourney.com/top-25-cplusplus-api-design-mistakes-and-how-to-avoid-them/)<br/>
+Obvious in the hindsight, but nevertheless important.
+
+[The Use Of assert() In SQLite](https://www.sqlite.org/assert.html)<br/>
+Cool approach. SQLite is one of those libraries with more tests than code.
+
+[Stop Memsetting Structures](https://www.anmolsarma.in/post/stop-struct-memset/)<br/>
+I don't agree that memset() useless, but designated initializers are good.<br/>
+More generally: stop using C structures where you need specific layout.<br/>(No, `__attribute__((packed))` is _not_ a solution.)
+
+### Development
+
+[Implementing reader-writer locks](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/)
+
+[Implementing tile encoding in rav1e](https://blog.rom1v.com/2019/04/implementing-tile-encoding-in-rav1e/)
+
+[Make is (probably) fine](https://blog.yossarian.net/2019/04/23/Make-is-probably-fine)<br/>
+I came to really like _make_ recently. It's a beautiful Prolog for filesystem.
+
+### Rust
+
+[Compile Time Memory Safety](https://kkimdev.github.io/posts/2019/04/22/Rust-Compile-Time-Memory-Safety.html)<br/>
+[Programming in Rust: the good, the bad, the ugly](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)<br/>
+Some posts about programming experience.
+
+[Rust's 2019 roadmap](https://blog.rust-lang.org/2019/04/23/roadmap.html)
+
+[Writing an OS in Rust: Testing](https://os.phil-opp.com/testing/)<br/>
+Nice guide on how to introduce abstractions at a proper level.
+
+[The Embedded Rust Book](https://rust-embedded.github.io/book/)<br/>
+An introductory book about using the Rust Programming Language on "bare metal" embedded systems, such as _microcontrollers_.
+
+### PLT
+
+[Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)<br/>
+In case you're curious but not into type theory.
+
+[Lexical differential highlighting instead of syntax highlighting](https://wordsandbuttons.online/lexical_differential_highlighting_instead_of_syntax_highlighting.html)<br/>
+I've seen this idea resurface from time to time. I wonder why mainstream IDEs don't do it often.
+
+[A Brief And Brisk Overview of Compiler Architecture](https://blog.felixangell.com/compilers-brief-and-brisk)<br/>
+Yet another one, never too late to understand how your tools work.
+
+### Security
+
+[Keybase is not softer than TOFU](https://keybase.io/blog/chat-apps-softer-than-tofu) [(на русском)](https://habr.com/ru/post/449350/)<br/>
+On proper implementation of _Trust On First Use_.
+
+[A Crash Course in Everything Cryptographic](https://medium.com/@lduck11007/a-crash-course-in-everything-cryptographic-50daa0fda482)<br/>
+For newbies.
+
+[Docker Hub Hacked – 190k accounts, GitHub tokens revoked, builds disabled](https://news.ycombinator.com/item?id=19763413) [(habr)](https://habr.com/ru/company/itsumma/blog/449746/)<br/>
+Rotate your passwords and tokens, just in case. Here's [a report](https://success.docker.com/article/docker-hub-user-notification).
+
+[The inception bar: a new phishing method](https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/) [(на русском)](https://habr.com/ru/post/449840/)<br/>
+Definitely not a _new_ method, but it's still pretty interesting. Modern web _does_ allow you to emulate a browser inside a browser, after all. [This writeup](https://textslashplain.com/2017/01/14/the-line-of-death/) also explains why the browsers show you all these 'entering full-screen mode' notifications.
+
+### Miscellaneous
+
+[O(n<sup>2</sup>) in CreateProcess](https://randomascii.wordpress.com/2019/04/21/on2-in-createprocess/)<br/>
+Chromium developers discover loads of weird behaviors like this one.
+
+[Busy Person Patterns](https://hillside.net/plop/2006/Papers/Library/PLoP%20Busy%20Person%20Pattern%20v8.pdf)<br/>
+A nice read on time/task management.
+
+[Maybe we could tone down the JavaScript](https://eev.ee/blog/2016/03/06/maybe-we-could-tone-down-the-javascript/)<br/>
+Stating the obvious.
+
+[Pepsi's Nonsensical Logo Redesign Document: $1 Million for This?](https://www.cbsnews.com/news/pepsis-nonsensical-logo-redesign-document-1-million-for-this/)<br/>
+Read [the linked PDF](https://jimedwardsnrx.files.wordpress.com/2009/02/pepsi_gravitational_field.pdf) too, it's hilarious.
+
+[Synchronous Text](http://exple.tive.org/blarg/2019/04/26/synchronous-text/) [Mozilla decommissioning irc.mozilla.org]<br/>
+It seems we're left with Freenode being the last well-known bastion of IRC.<br/>
+[Rust teams are moving to Discord](https://blog.rust-lang.org/2019/04/26/Mozilla-IRC-Sunset-and-the-Rust-Channel.html), for example, because of that. lol
+
+[quinesnake – A quine that plays snake over its own source!](https://github.com/taylorconor/quinesnake)<br/>
+Fascinating sight.
