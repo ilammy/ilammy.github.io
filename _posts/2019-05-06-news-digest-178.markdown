@@ -30,3 +30,11 @@ comments: true
 [(Справа налево (Зазеркалье](https://habr.com/ru/post/450000/)
 
 [История интернета: опорная сеть](https://habr.com/ru/post/450168/)
+
+[GNU Guix 1.0.0 released](https://www.gnu.org/software/guix/blog/2019/gnu-guix-1.0.0-released/)
+
+[World of Goo Update, 10 Years Later](https://tomorrowcorporation.com/posts/world-of-goo-update-10-years-later)<br/>
+Remastered.
+
+[Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
+Деякі тонкощі використання mmap.
