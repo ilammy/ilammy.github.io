@@ -19,3 +19,14 @@ comments: true
 
 [Про авторизацію sudo та SSH через Active Directory](https://habr.com/ru/post/449702/)<br/>
 Я, наприклад, не знав, що <abbr title="Name Service Switch">NSS<abbr> відповідає в тому числі й за sudoers.
+
+[gopls – Language Server Protocol server for Go](https://github.com/golang/go/wiki/gopls)
+
+[Topics in Advanced Data Structures](http://web.stanford.edu/class/cs166/handouts/100%20Suggested%20Final%20Project%20Topics.pdf)<br/>
+Приклади тем кваліфікаційних проектів в Стенфорді [на курсі зі структур даних](https://web.stanford.edu/class/cs166/).
+
+[Многопоточные ассоциативные контейнеры в C++](https://habr.com/ru/company/yandex/blog/449976/)
+
+[(Справа налево (Зазеркалье](https://habr.com/ru/post/450000/)
+
+[История интернета: опорная сеть](https://habr.com/ru/post/450168/)
