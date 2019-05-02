@@ -8,6 +8,14 @@ comments: true
 
 З днем народження Зигмунда Фройда.
 
-[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)
+[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)<br/>
+Можна пускати на чеклісти.
 
-[Graydon Hoare on 21 compilers](http://venge.net/graydon/talks/CompilerTalk-2019.pdf)
+[Graydon Hoare on 21 compilers](http://venge.net/graydon/talks/CompilerTalk-2019.pdf)<br/>
+Про те, що інтересного є в сучасних компіляторах. (Спойлер: LLVM працює.)
+
+[Life of a binary](https://kishuagarwal.github.io/life-of-a-binary.html)<br/>
+Гарний опис ELF.
+
+[Про авторизацію sudo та SSH через Active Directory](https://habr.com/ru/post/449702/)<br/>
+Я, наприклад, не знав, що <abbr title="Name Service Switch">NSS<abbr> відповідає в тому числі й за sudoers.
