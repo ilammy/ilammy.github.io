@@ -37,4 +37,7 @@ comments: true
 Remastered.
 
 [Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
-Деякі тонкощі використання mmap.
+Деякі тонкощі використання mmap. [На HackerNews](https://news.ycombinator.com/item?id=19805675) дуже класно розповідають, чому саме не варто використовувати mmap() для читання звичайних файлів: бо люди зазвичай не розуміють, як працює віртуальна пам'ять.
+
+[Ten Commandments of Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF0
+Рекомендації міноборони США щодо безпечної експлуатаціі та розробки програм.
