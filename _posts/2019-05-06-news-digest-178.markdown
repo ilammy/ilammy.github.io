@@ -2,56 +2,81 @@
 layout:   post
 title:    "News digest #178"
 date:     2019-05-06 12:00:00 +0300
-tags:     digest
+tags:     digest cpp compilers go security rust unix misc
 comments: true
 ---
 
 З днем народження Зигмунда Фройда.
 
-[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)<br/>
-Можна пускати на чеклісти.
+### C++
+
+[Многопоточные ассоциативные контейнеры в C++](https://habr.com/ru/company/yandex/blog/449976/)<br/>
+Спроба Яндексу зробити `java.util.cocurrent.ConcurrentHashMap`.
+
+[Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
+Деякі тонкощі використання mmap. [На HackerNews](https://news.ycombinator.com/item?id=19805675) дуже класно розповідають, чому саме не варто використовувати mmap() для звичайних файлів: бо люди зазвичай не розуміють, як працює віртуальна пам'ять.
+
+### Compiler Construction
 
 [Graydon Hoare on 21 compilers](http://venge.net/graydon/talks/CompilerTalk-2019.pdf)<br/>
 Про те, що інтересного є в сучасних компіляторах. (Спойлер: LLVM працює.)
 
-[Life of a binary](https://kishuagarwal.github.io/life-of-a-binary.html)<br/>
-Гарний опис ELF.
+[legit: Git commits as an esoteric programming language](https://morr.cc/legit/)<br/>
+Коли пишеш «git» в резюме.
+
+[Risp (in (Rust) (Lisp))](https://m.stopa.io/risp-lisp-in-rust-90a0dad5b116)<br/>
+Ліспи порівняно легко реалізувати, але навіть тут — це не зовсім «справжній» Лісп.
+
+### Go
+
+[gopls – Language Server Protocol server for Go](https://github.com/golang/go/wiki/gopls)
+
+### Rust
+
+[A Guide to Rust Graphical Libraries](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019)<br/>
+Не стільки про Rust, скільки як огляд графічних бекендів.
+
+### Security
+
+[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)
+
+[Ten Commandments of Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF0)<br/>
+Рекомендації міноборони США щодо безпечної експлуатаціі та розробки програм.<br/>
+«Data should always be encrypted unless it is part of an active computation».
+
+[Certificate issue causing add-ons to be disabled or fail to install](https://discourse.mozilla.org/t/certificate-issue-causing-add-ons-to-be-disabled-or-fail-to-install/39047)<br/>
+[All extensions disabled due to expiration of intermediate signing cert](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973)<br/>
+Навіть Мозілла іноді факапить зі вчасним оновленням сертифікатів. Не забувайте, будь ласка, що у сертифікатів є строк дії.
+
+### UNIX
+
+[GNU Guix 1.0.0 released](https://www.gnu.org/software/guix/blog/2019/gnu-guix-1.0.0-released/)
+
+[Life of [an ELF] binary](https://kishuagarwal.github.io/life-of-a-binary.html)
 
 [Про авторизацію sudo та SSH через Active Directory](https://habr.com/ru/post/449702/)<br/>
 Я, наприклад, не знав, що <abbr title="Name Service Switch">NSS<abbr> відповідає в тому числі й за sudoers.
 
-[gopls – Language Server Protocol server for Go](https://github.com/golang/go/wiki/gopls)
+### Miscellaneous
+
+[PostgreSQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 
 [Topics in Advanced Data Structures](http://web.stanford.edu/class/cs166/handouts/100%20Suggested%20Final%20Project%20Topics.pdf)<br/>
 Приклади тем кваліфікаційних проектів в Стенфорді [на курсі зі структур даних](https://web.stanford.edu/class/cs166/).
 
-[Многопоточные ассоциативные контейнеры в C++](https://habr.com/ru/company/yandex/blog/449976/)
-
-[(Справа налево (Зазеркалье](https://habr.com/ru/post/450000/)
+[(Справа налево (Зазеркалье](https://habr.com/ru/post/450000/)<br/>
+Як робити RTL-інтерфейс для арабської мови.
 
 [История интернета: опорная сеть](https://habr.com/ru/post/450168/)
 
-[GNU Guix 1.0.0 released](https://www.gnu.org/software/guix/blog/2019/gnu-guix-1.0.0-released/)
+[World of Goo Update, 10 Years Later](https://tomorrowcorporation.com/posts/world-of-goo-update-10-years-later)
 
-[World of Goo Update, 10 Years Later](https://tomorrowcorporation.com/posts/world-of-goo-update-10-years-later)<br/>
-Remastered.
+[Hubert B. Wolfe + 988, Sr.](https://en.wikipedia.org/wiki/Hubert_Blaine_Wolfeschlegelsteinhausenbergerdorff_Sr.)
 
-[Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
-Деякі тонкощі використання mmap. [На HackerNews](https://news.ycombinator.com/item?id=19805675) дуже класно розповідають, чому саме не варто використовувати mmap() для читання звичайних файлів: бо люди зазвичай не розуміють, як працює віртуальна пам'ять.
-
-[Ten Commandments of Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF0)
-Рекомендації міноборони США щодо безпечної експлуатаціі та розробки програм.
-
-[All extensions disabled due to expiration of intermediate signing cert](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973)<br/>
-Навіть Мозілла не може оновлювати сертифікати вчасно.
-
+[The Sound of iPod](http://www.ipodlinux.org/stories/piezo/)<br/>
 [Optical Exfiltration of Data via Keyboard LED
 Status Indicators to IP Cameras](http://staff.ustc.edu.cn/~zhangwm/Paper/2018_10.pdf)<br/>
-serious science going on here
+Some serious science going on here...
 
-[The Sound of iPod](http://www.ipodlinux.org/stories/piezo/)
-
-[PostgreSQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
-
-[legit: Git commits as an esoteric programming language](https://morr.cc/legit/)
-When you list "git" in "Skills" on your CV.
+[The Battle of Midway 1942: Told from the Japanese Perspective](https://www.youtube.com/watch?v=Bd8_vO5zrjo)<br/>
+(Finally! He remembered his password!)
