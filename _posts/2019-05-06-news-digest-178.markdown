@@ -11,7 +11,7 @@ comments: true
 ### C++
 
 [Многопоточные ассоциативные контейнеры в C++](https://habr.com/ru/company/yandex/blog/449976/)<br/>
-Спроба Яндексу зробити `java.util.cocurrent.ConcurrentHashMap`.
+Спроба Яндексу зробити `java.util.concurrent.ConcurrentHashMap`.
 
 [Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
 Деякі тонкощі використання mmap. [На HackerNews](https://news.ycombinator.com/item?id=19805675) дуже класно розповідають, чому саме не варто використовувати mmap() для звичайних файлів: бо люди зазвичай не розуміють, як працює віртуальна пам'ять.
