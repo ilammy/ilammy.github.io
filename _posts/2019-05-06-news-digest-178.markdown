@@ -50,3 +50,8 @@ Status Indicators to IP Cameras](http://staff.ustc.edu.cn/~zhangwm/Paper/2018_10
 serious science going on here
 
 [The Sound of iPod](http://www.ipodlinux.org/stories/piezo/)
+
+[PostgreSQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+
+[legit: Git commits as an esoteric programming language](https://morr.cc/legit/)
+When you list "git" in "Skills" on your CV.
