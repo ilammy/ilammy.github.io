@@ -44,3 +44,9 @@ Remastered.
 
 [All extensions disabled due to expiration of intermediate signing cert](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973)<br/>
 Навіть Мозілла не може оновлювати сертифікати вчасно.
+
+[Optical Exfiltration of Data via Keyboard LED
+Status Indicators to IP Cameras](http://staff.ustc.edu.cn/~zhangwm/Paper/2018_10.pdf)<br/>
+serious science going on here
+
+[The Sound of iPod](http://www.ipodlinux.org/stories/piezo/)
