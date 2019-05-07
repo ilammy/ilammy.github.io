@@ -1,0 +1,97 @@
+---
+layout:   post
+title:    "News digest #178"
+date:     2019-05-07 12:00:00 +0300
+tags:     digest cpp compilers go security rust unix misc
+comments: true
+---
+
+Сьомого травня нічого інтересного не відбулось.
+
+### C++
+
+[Многопоточные ассоциативные контейнеры в C++](https://habr.com/ru/company/yandex/blog/449976/)<br/>
+Спроба Яндексу зробити `java.util.concurrent.ConcurrentHashMap`.
+
+[Use mmap() with care](https://www.sublimetext.com/blog/articles/use-mmap-with-care)<br/>
+Деякі тонкощі використання mmap. [На HackerNews](https://news.ycombinator.com/item?id=19805675) дуже класно розповідають, чому саме не варто використовувати mmap() для звичайних файлів: бо люди зазвичай не розуміють, як працює віртуальна пам'ять.
+
+### Compiler Construction
+
+[Graydon Hoare on 21 compilers](http://venge.net/graydon/talks/CompilerTalk-2019.pdf)<br/>
+Про те, що інтересного є в сучасних компіляторах. (Спойлер: LLVM працює.)
+
+[legit: Git commits as an esoteric programming language](https://morr.cc/legit/)<br/>
+Коли пишеш «git» в резюме.
+
+[Risp (in (Rust) (Lisp))](https://m.stopa.io/risp-lisp-in-rust-90a0dad5b116)<br/>
+Ліспи порівняно легко реалізувати, але навіть тут — це не зовсім «справжній» Лісп.
+
+### Go
+
+[gopls – Language Server Protocol server for Go](https://github.com/golang/go/wiki/gopls)
+
+[Best practices for writing high-performance Go code](https://github.com/dgryski/go-perfbook)<br/>
+Насправді актуально не тільки для Go.
+
+### Rust
+
+[A Guide to Rust Graphical Libraries](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019)<br/>
+Не стільки про Rust, скільки як огляд графічних бекендів.
+
+[A final proposal for await syntax](https://boats.gitlab.io/blog/post/await-decision/)<br/>
+Мене трохи насторожує легкість, з якою вводиться новий синтаксис. Особливо схожий на існуючий...
+
+### Security
+
+[Шпаргалки по безопасности: Docker](https://habr.com/ru/company/acribia/blog/448704/)
+
+[Ten Commandments of Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF0)<br/>
+Рекомендації міноборони США щодо безпечної експлуатаціі та розробки програм.<br/>
+«Data should always be encrypted unless it is part of an active computation».
+
+[Certificate issue causing add-ons to be disabled or fail to install](https://discourse.mozilla.org/t/certificate-issue-causing-add-ons-to-be-disabled-or-fail-to-install/39047)<br/>
+[All extensions disabled due to expiration of intermediate signing cert](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973)<br/>
+Навіть Мозілла іноді факапить зі вчасним оновленням сертифікатів. Не забувайте, будь ласка, що у сертифікатів є строк дії.
+
+[Writing Exploit-Resistant Code With OpenBSD](https://lteo.net/blog/2019/04/27/carolinacon-15-writing-exploit-resistant-code-with-openbsd/)<br/>
+Корисно не тільки для тих, хто пише під OpenBSD.
+
+### UNIX
+
+[GNU Guix 1.0.0 released](https://www.gnu.org/software/guix/blog/2019/gnu-guix-1.0.0-released/)
+
+[Life of [an ELF] binary](https://kishuagarwal.github.io/life-of-a-binary.html)
+
+[Про авторизацію sudo та SSH через Active Directory](https://habr.com/ru/post/449702/)<br/>
+Я, наприклад, не знав, що <abbr title="Name Service Switch">NSS<abbr> відповідає в тому числі й за sudoers.
+
+### Miscellaneous
+
+[PostgreSQL: Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+
+[Topics in Advanced Data Structures](http://web.stanford.edu/class/cs166/handouts/100%20Suggested%20Final%20Project%20Topics.pdf)<br/>
+Приклади тем кваліфікаційних проектів в Стенфорді [на курсі зі структур даних](https://web.stanford.edu/class/cs166/).
+
+[(Справа налево (Зазеркалье](https://habr.com/ru/post/450000/)<br/>
+Як робити RTL-інтерфейс для арабської мови.
+
+[История интернета: опорная сеть](https://habr.com/ru/post/450168/)
+
+[World of Goo Update, 10 Years Later](https://tomorrowcorporation.com/posts/world-of-goo-update-10-years-later)
+
+[Hubert B. Wolfe + 988, Sr.](https://en.wikipedia.org/wiki/Hubert_Blaine_Wolfeschlegelsteinhausenbergerdorff_Sr.)
+
+[The Sound of iPod](http://www.ipodlinux.org/stories/piezo/)<br/>
+[Optical Exfiltration of Data via Keyboard LED
+Status Indicators to IP Cameras](http://staff.ustc.edu.cn/~zhangwm/Paper/2018_10.pdf)<br/>
+Some serious science going on here...
+
+[The Battle of Midway 1942: Told from the Japanese Perspective](https://www.youtube.com/watch?v=Bd8_vO5zrjo)<br/>
+(Finally! He remembered his password! A related Battle of the Coral Sea was exactly 77 years ago, btw.)
+
+[True surprise](http://www.docbastard.net/2019/05/true-surprise.html)<br/>
+Милий блог лікаря з травматології.
+
+[Introducing Windows Terminal](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)<br/>
+Круто виглядає! Make Windows development great again.
