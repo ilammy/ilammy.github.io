@@ -1,12 +1,12 @@
 ---
 layout:   post
 title:    "News digest #178"
-date:     2019-05-06 12:00:00 +0300
+date:     2019-05-07 12:00:00 +0300
 tags:     digest cpp compilers go security rust unix misc
 comments: true
 ---
 
-З днем народження Зигмунда Фройда.
+Сьомого травня нічого інтересного не відбулось.
 
 ### C++
 
@@ -31,10 +31,16 @@ comments: true
 
 [gopls – Language Server Protocol server for Go](https://github.com/golang/go/wiki/gopls)
 
+[Best practices for writing high-performance Go code](https://github.com/dgryski/go-perfbook)<br/>
+Насправді актуально не тільки для Go.
+
 ### Rust
 
 [A Guide to Rust Graphical Libraries](https://wiki.alopex.li/AGuideToRustGraphicsLibraries2019)<br/>
 Не стільки про Rust, скільки як огляд графічних бекендів.
+
+[A final proposal for await syntax](https://boats.gitlab.io/blog/post/await-decision/)<br/>
+Мене трохи насторожує легкість, з якою вводиться новий синтаксис. Особливо схожий на існуючий...
 
 ### Security
 
@@ -47,6 +53,9 @@ comments: true
 [Certificate issue causing add-ons to be disabled or fail to install](https://discourse.mozilla.org/t/certificate-issue-causing-add-ons-to-be-disabled-or-fail-to-install/39047)<br/>
 [All extensions disabled due to expiration of intermediate signing cert](https://bugzilla.mozilla.org/show_bug.cgi?id=1548973)<br/>
 Навіть Мозілла іноді факапить зі вчасним оновленням сертифікатів. Не забувайте, будь ласка, що у сертифікатів є строк дії.
+
+[Writing Exploit-Resistant Code With OpenBSD](https://lteo.net/blog/2019/04/27/carolinacon-15-writing-exploit-resistant-code-with-openbsd/)<br/>
+Корисно не тільки для тих, хто пише під OpenBSD.
 
 ### UNIX
 
@@ -79,4 +88,10 @@ Status Indicators to IP Cameras](http://staff.ustc.edu.cn/~zhangwm/Paper/2018_10
 Some serious science going on here...
 
 [The Battle of Midway 1942: Told from the Japanese Perspective](https://www.youtube.com/watch?v=Bd8_vO5zrjo)<br/>
-(Finally! He remembered his password!)
+(Finally! He remembered his password! A related Battle of the Coral Sea was exactly 77 years ago, btw.)
+
+[True surprise](http://www.docbastard.net/2019/05/true-surprise.html)<br/>
+Милий блог лікаря з травматології.
+
+[Introducing Windows Terminal](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)<br/>
+Круто виглядає! Make Windows development great again.
