@@ -9,3 +9,12 @@ comments: true
 [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
 
 [svgbob](https://ivanceras.github.io/svgbob-editor/)
+
+[fusuma: make slides with Markdown easily](https://github.com/hiroppy/fusuma)<br/>
+[This naming](https://en.wikipedia.org/wiki/Fusuma)...
+
+[CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
+Docker images of Alpine Linux use (literally) "NULL" as root password.
+
+[Shipping a Linux Kernel with Windows](https://devblogs.microsoft.com/commandline/shipping-a-linux-kernel-with-windows/)<br/>
+Oh well, now Linux is going to conquer desktop systems. Hooray!
