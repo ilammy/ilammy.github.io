@@ -8,10 +8,11 @@ comments: true
 
 [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
 
-[svgbob](https://ivanceras.github.io/svgbob-editor/)
+[svgbob: ASCII → SVG converter](https://github.com/ivanceras/svgbob) — [[demo]](https://ivanceras.github.io/svgbob-editor/)<br/>
+Now you can freely use RFC-style ASCII art for docs.
 
-[fusuma: make slides with Markdown easily](https://github.com/hiroppy/fusuma)<br/>
-[This naming](https://en.wikipedia.org/wiki/Fusuma)...
+[fusuma: make slides with Markdown easily](https://github.com/hiroppy/fusuma) — [[demo]](https://hiroppy.github.io/fusuma/intro/)<br/>
+An alternative to using MS PowerPower, Google Slices, and Beamer.
 
 [CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
 Docker images of Alpine Linux use (literally) "NULL" as root password.
