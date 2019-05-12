@@ -2,11 +2,42 @@
 layout:   post
 title:    "News digest #179"
 date:     2019-05-13 12:00:00 +0300
-tags:     digest
+tags:     digest cpp dev linux security misc
 comments: true
 ---
 
+This post. That's your event for today.
+
+### C++
+
+[libmill: Go-style concurrency in C](http://libmill.org)
+
+[C++ UI Libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)<br/>
+I did not know there were _so many_ of them around...
+
+### Development
+
 [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
+
+[Introducing GitHub Package Registry](https://github.blog/2019-05-10-introducing-github-package-registry/) [(HN)](https://news.ycombinator.com/item?id=19881709)<br/>
+I wonder whether this marks the beginning of the _extend_ phase in Microsoft's conquest of open-source software?
+
+### Linux
+
+[Shipping a Linux Kernel with Windows](https://devblogs.microsoft.com/commandline/shipping-a-linux-kernel-with-windows/)<br/>
+Oh well, now Linux is going to conquer desktop systems. Hooray!
+
+### Security
+
+[CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
+Docker images of Alpine Linux use (literally) "NULL" as root password.
+
+### Miscellaneous
+
+[git rebase in depth](https://git-rebase.io)
+
+[Let's build a compiler](https://xmonader.github.io/letsbuildacompiler-pretty/tutor01_introduction.html)<br/>
+Hey, it's Turbo Pascal 4.0!
 
 [svgbob: ASCII → SVG converter](https://github.com/ivanceras/svgbob) — [[demo]](https://ivanceras.github.io/svgbob-editor/)<br/>
 Now you can freely use RFC-style ASCII art for docs.
@@ -14,24 +45,7 @@ Now you can freely use RFC-style ASCII art for docs.
 [fusuma: make slides with Markdown easily](https://github.com/hiroppy/fusuma) — [[demo]](https://hiroppy.github.io/fusuma/intro/)<br/>
 An alternative to using MS PowerPower, Google Slices, and Beamer.
 
-[CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
-Docker images of Alpine Linux use (literally) "NULL" as root password.
-
-[Shipping a Linux Kernel with Windows](https://devblogs.microsoft.com/commandline/shipping-a-linux-kernel-with-windows/)<br/>
-Oh well, now Linux is going to conquer desktop systems. Hooray!
-
-[libmill: Go-style concurrency in C](http://libmill.org)
-
-[Introducing GitHub Package Registry](https://github.blog/2019-05-10-introducing-github-package-registry/) [(HN)](https://news.ycombinator.com/item?id=19881709)<br/>
-I wonder whether this marks the beginning of the _extend_ phase in Microsoft's conquest of open-source software?
-
-[git rebase in depth](https://git-rebase.io)
-
-[C++ UI Libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)<br/>
-I did not know there were _so many_ of them around...
-
 [Google launches Portals](https://www.zdnet.com/article/google-launches-portals-a-new-web-page-navigation-system-for-chrome/) [(reddit)](https://www.reddit.com/r/BrowserWar/comments/bmh0v6/google_launches_portal_to_replace_iframe_making_a/) [(habr)](https://habr.com/ru/news/t/451328/)<br/>
 It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 
-[Let's build a compiler](https://xmonader.github.io/letsbuildacompiler-pretty/tutor01_introduction.html)<br/>
-Hey, it's Turbo Pascal 4.0!
+[MIT Scientists prove adults learn language to fluency nearly as well as children](https://medium.com/@chacon/mit-scientists-prove-adults-learn-language-to-fluency-nearly-as-well-as-children-1de888d1d45f)
