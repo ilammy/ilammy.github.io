@@ -54,4 +54,4 @@ It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 [MIT Scientists prove adults learn language to fluency nearly as well as children](https://medium.com/@chacon/mit-scientists-prove-adults-learn-language-to-fluency-nearly-as-well-as-children-1de888d1d45f)
 
 [Neko Programming Language](https://nekovm.org)<br/>
-I guess I'll track this for a while...
+That's a backend of _Haxe_ language. It's planned to be replaced with [HashLink](https://haxe.org/blog/hashlink-indepth/).
