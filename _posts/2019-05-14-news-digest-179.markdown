@@ -1,12 +1,12 @@
 ---
 layout:   post
 title:    "News digest #179"
-date:     2019-05-13 12:00:00 +0300
+date:     2019-05-14 12:00:00 +0300
 tags:     digest cpp dev linux security misc
 comments: true
 ---
 
-This post. That's your event for today.
+Happy birthday to George Lucas and Mark Zuckerberg.
 
 ### C++
 
@@ -32,6 +32,9 @@ Oh well, now Linux is going to conquer desktop systems. Hooray!
 [CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
 Docker images of Alpine Linux use (literally) "NULL" as root password.
 
+[A Mechanised Cryptographic Proof of the WireGuard Virtual Private Network Protocol](https://hal.inria.fr/hal-02100345)<br/>
+I'm glad that formal proofs are still a thing. Oh well, this _is_ Inria after all.
+
 ### Miscellaneous
 
 [git rebase in depth](https://git-rebase.io)
@@ -49,3 +52,6 @@ An alternative to using MS PowerPower, Google Slices, and Beamer.
 It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 
 [MIT Scientists prove adults learn language to fluency nearly as well as children](https://medium.com/@chacon/mit-scientists-prove-adults-learn-language-to-fluency-nearly-as-well-as-children-1de888d1d45f)
+
+[Neko Programming Language](https://nekovm.org)<br/>
+I guess I'll track this for a while...
