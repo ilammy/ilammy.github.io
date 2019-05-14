@@ -40,6 +40,9 @@ Docker images of Alpine Linux use (literally) "NULL" as root password.
 [A Mechanised Cryptographic Proof of the WireGuard Virtual Private Network Protocol](https://hal.inria.fr/hal-02100345)<br/>
 I'm glad that formal proofs are still a thing. Oh well, this _is_ Inria after all.
 
+[ZombieLoad: Cross Privilege-Boundary Data Leakage](https://www.cyberus-technology.de/posts/2019-05-14-zombieload.html)<br/>
+Invention of task switching was a mistake /s
+
 ### Miscellaneous
 
 [git rebase in depth](https://git-rebase.io)
