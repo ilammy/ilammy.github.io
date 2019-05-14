@@ -6,7 +6,7 @@ tags:     digest cpp dev linux security misc
 comments: true
 ---
 
-Happy birthday to George Lucas and Mark Zuckerberg.
+Happy official birthday to HIV and cosmic microwave background.
 
 ### C++
 
