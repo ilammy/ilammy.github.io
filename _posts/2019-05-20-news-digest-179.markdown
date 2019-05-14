@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "News digest #179"
-date:     2019-05-14 12:00:00 +0300
+date:     2019-05-20 12:00:00 +0300
 tags:     digest cpp dev linux security misc
 comments: true
 ---
@@ -21,6 +21,11 @@ I did not know there were _so many_ of them around...
 
 [Introducing GitHub Package Registry](https://github.blog/2019-05-10-introducing-github-package-registry/) [(HN)](https://news.ycombinator.com/item?id=19881709)<br/>
 I wonder whether this marks the beginning of the _extend_ phase in Microsoft's conquest of open-source software?
+
+[Laws, Theories, Principles and Patterns that developers will find useful](https://github.com/dwmkerr/hacker-laws)
+
+[Classic Mistakes in Software Engineering](https://stevemcconnell.com/articles/classic-mistakes/)<br/>
+Don't look at the year of publication, it's more than accurate nowadays as well.
 
 ### Linux
 
