@@ -41,7 +41,7 @@ Docker images of Alpine Linux use (literally) "NULL" as root password.
 I'm glad that formal proofs are still a thing. Oh well, this _is_ Inria after all.
 
 [ZombieLoad: Cross Privilege-Boundary Data Leakage](https://www.cyberus-technology.de/posts/2019-05-14-zombieload.html)<br/>
-Invention of task switching was a mistake /s
+Invention of task switching was a mistake /s And here's more description of [_MDS_ attacks](https://mdsattacks.com/).
 
 ### Miscellaneous
 
