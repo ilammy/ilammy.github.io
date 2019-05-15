@@ -43,7 +43,8 @@ I'm glad that formal proofs are still a thing. Oh well, this _is_ Inria after al
 [ZombieLoad: Cross Privilege-Boundary Data Leakage](https://www.cyberus-technology.de/posts/2019-05-14-zombieload.html)<br/>
 Invention of task switching was a mistake /s<br/>
 Here's more on [_MDS_ attacks](https://mdsattacks.com/), which is ZombieLoad is a particular variation of.
-Yes, you should have [nightmares](https://cpu.fail/).
+Yes, you should have [nightmares](https://cpu.fail/).<br/>
+[In Russian](http://www.opennet.ru/opennews/art.shtml?num=50684). [PoC exploit](https://github.com/IAIK/ZombieLoad).
 
 ### Miscellaneous
 
