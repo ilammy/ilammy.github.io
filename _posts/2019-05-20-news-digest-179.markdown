@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #179"
 date:     2019-05-20 12:00:00 +0300
-tags:     digest cpp dev linux security misc
+tags:     digest cpp dev linux security web misc
 comments: true
 ---
 
@@ -45,6 +45,10 @@ Invention of task switching was a mistake /s<br/>
 Here's more on [_MDS_ attacks](https://mdsattacks.com/), which is ZombieLoad is a particular variation of.
 Yes, you should have [nightmares](https://cpu.fail/).<br/>
 [In Russian](http://www.opennet.ru/opennews/art.shtml?num=50684). [PoC exploit](https://github.com/IAIK/ZombieLoad).
+
+### Web
+
+[Oak: Free and Open Certificate Transparency Log](https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html)
 
 ### Miscellaneous
 
