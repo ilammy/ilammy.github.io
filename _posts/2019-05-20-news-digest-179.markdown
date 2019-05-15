@@ -70,3 +70,8 @@ It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 
 [Neko Programming Language](https://nekovm.org)<br/>
 That's a backend of _Haxe_ language. It's planned to be replaced with [HashLink](https://haxe.org/blog/hashlink-indepth/).
+
+[4 years of Rust](https://blog.rust-lang.org/2019/05/15/4-Years-Of-Rust.html)
+
+[Falsehoods programmers believe about Unix time](https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/)<br/>
+Time is hard, mkay?
