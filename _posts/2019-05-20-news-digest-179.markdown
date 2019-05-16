@@ -15,6 +15,9 @@ Happy official birthday to HIV and cosmic microwave background.
 [C++ UI Libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)<br/>
 I did not know there were _so many_ of them around...
 
+[Protothreads](http://dunkels.com/adam/pt/index.html)<br/>
+May be useful if you need coroutines for your embedded stuff.
+
 ### Development
 
 [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
@@ -75,3 +78,5 @@ That's a backend of _Haxe_ language. It's planned to be replaced with [HashLink]
 
 [Falsehoods programmers believe about Unix time](https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/)<br/>
 Time is hard, mkay?
+
+[Высоконагруженная распределенная система управления современной АЭС](https://habr.com/ru/company/oleg-bunin/blog/439510/)
