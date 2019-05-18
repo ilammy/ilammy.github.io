@@ -30,6 +30,9 @@ I wonder whether this marks the beginning of the _extend_ phase in Microsoft's c
 [Classic Mistakes in Software Engineering](https://stevemcconnell.com/articles/classic-mistakes/)<br/>
 Don't look at the year of publication, it's more than accurate nowadays as well.
 
+[OPP (Other People's Problems)](http://www.elidedbranches.com/2019/05/opp-other-peoples-problems.html)<br/>
+Nice piece of advice on fixing people.
+
 ### Linux
 
 [Shipping a Linux Kernel with Windows](https://devblogs.microsoft.com/commandline/shipping-a-linux-kernel-with-windows/)<br/>
