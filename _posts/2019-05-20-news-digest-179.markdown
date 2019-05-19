@@ -6,7 +6,7 @@ tags:     digest cpp dev linux security web misc
 comments: true
 ---
 
-Happy official birthday to HIV and cosmic microwave background.
+Happy official birthday to HIV, cosmic microwave background, and our new president.
 
 ### C++
 
