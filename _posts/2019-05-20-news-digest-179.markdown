@@ -13,7 +13,7 @@ Happy official birthday to HIV and cosmic microwave background.
 [libmill: Go-style concurrency in C](http://libmill.org)
 
 [C++ UI Libraries](https://philippegroarke.com/posts/2018/c++_ui_solutions/)<br/>
-I did not know there were _so many_ of them around...
+I was not aware that there were _so many_ of them around...
 
 [Protothreads](http://dunkels.com/adam/pt/index.html)<br/>
 May be useful if you need coroutines for your embedded stuff.
@@ -38,6 +38,9 @@ Nice piece of advice on fixing people.
 [Shipping a Linux Kernel with Windows](https://devblogs.microsoft.com/commandline/shipping-a-linux-kernel-with-windows/)<br/>
 Oh well, now Linux is going to conquer desktop systems. Hooray!
 
+[Nokia memory profiler](https://github.com/nokia/memory-profiler)<br/>
+An interesting project that can grow into alternative to Valgrind.
+
 ### Security
 
 [CVE-2019-5021](https://nvd.nist.gov/vuln/detail/CVE-2019-5021)<br/>
@@ -54,7 +57,11 @@ Yes, you should have [nightmares](https://cpu.fail/).<br/>
 
 ### Web
 
-[Oak: Free and Open Certificate Transparency Log](https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html)
+[Oak: Free and Open Certificate Transparency Log](https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html)<br/>
+Let's Encrypt continues doing good to the Internet.
+
+[Google launches Portals](https://www.zdnet.com/article/google-launches-portals-a-new-web-page-navigation-system-for-chrome/) [(reddit)](https://www.reddit.com/r/BrowserWar/comments/bmh0v6/google_launches_portal_to_replace_iframe_making_a/) [(habr)](https://habr.com/ru/news/t/451328/)<br/>
+It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 
 ### Miscellaneous
 
@@ -68,9 +75,6 @@ Now you can freely use RFC-style ASCII art for docs.
 
 [fusuma: make slides with Markdown easily](https://github.com/hiroppy/fusuma) — [[demo]](https://hiroppy.github.io/fusuma/intro/)<br/>
 An alternative to using MS PowerPower, Google Slices, and Beamer.
-
-[Google launches Portals](https://www.zdnet.com/article/google-launches-portals-a-new-web-page-navigation-system-for-chrome/) [(reddit)](https://www.reddit.com/r/BrowserWar/comments/bmh0v6/google_launches_portal_to_replace_iframe_making_a/) [(habr)](https://habr.com/ru/news/t/451328/)<br/>
-It's nice to be Google: bamf! and you've made an HTML tag for yourself.
 
 [MIT Scientists prove adults learn language to fluency nearly as well as children](https://medium.com/@chacon/mit-scientists-prove-adults-learn-language-to-fluency-nearly-as-well-as-children-1de888d1d45f)
 
