@@ -11,3 +11,7 @@ comments: true
 ### Development
 
 [How to do hard things](https://www.drmaciver.com/2019/05/how-to-do-hard-things/)
+
+### Miscellaneous
+
+[Key Management Interoperability Protocol](https://en.wikipedia.org/wiki/Key_Management_Interoperability_Protocol_(KMIP))
