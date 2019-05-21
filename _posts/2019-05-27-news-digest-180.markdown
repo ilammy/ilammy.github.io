@@ -2,8 +2,12 @@
 layout:   post
 title:    "News digest #180"
 date:     2019-05-27 12:00:00 +0300
-tags:     digest
+tags:     digest dev
 comments: true
 ---
 
 何とかなるよ
+
+### Development
+
+[How to do hard things](https://www.drmaciver.com/2019/05/how-to-do-hard-things/)
