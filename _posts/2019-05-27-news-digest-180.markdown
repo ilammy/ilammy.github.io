@@ -1,0 +1,9 @@
+---
+layout:   post
+title:    "News digest #180"
+date:     2019-05-27 12:00:00 +0300
+tags:     digest
+comments: true
+---
+
+何とかなるよ
