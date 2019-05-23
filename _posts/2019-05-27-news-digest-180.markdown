@@ -6,12 +6,23 @@ tags:     digest dev
 comments: true
 ---
 
-何とかなるよ
+<abbr title="якось воно буде">何とかなるよ</abbr>
 
 ### Development
 
 [How to do hard things](https://www.drmaciver.com/2019/05/how-to-do-hard-things/)
 
+[The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+
+[The State of Apple’s Developer Documentation](https://mjtsai.com/blog/2019/05/20/the-state-of-apples-developer-documentation/) [(HN)](https://news.ycombinator.com/item?id=19966135)
+
 ### Miscellaneous
 
 [Key Management Interoperability Protocol](https://en.wikipedia.org/wiki/Key_Management_Interoperability_Protocol_(KMIP))
+
+[Metacode](https://metacode.app)<br/>
+StackOverflow-driven development.
+
+[Serenity Operating System](https://github.com/SerenityOS/serenity)
+
+[Dependabot acquired by GitHub](https://dependabot.com/blog/hello-github/)
