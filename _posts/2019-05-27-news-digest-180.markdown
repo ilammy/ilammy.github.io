@@ -26,3 +26,7 @@ StackOverflow-driven development.
 [Serenity Operating System](https://github.com/SerenityOS/serenity)
 
 [Dependabot acquired by GitHub](https://dependabot.com/blog/hello-github/)
+
+[Асинхронное программирование (полный курс)](https://habr.com/ru/post/452974/)
+
+[Announcing GitHub Sponsors](https://github.blog/2019-05-23-announcing-github-sponsors-a-new-way-to-contribute-to-open-source/)
