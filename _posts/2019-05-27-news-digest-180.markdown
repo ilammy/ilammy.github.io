@@ -41,3 +41,5 @@ StackOverflow-driven development.
 [How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits](https://scirate.com/arxiv/1905.09749)
 
 [Near-duplicate features of C++](https://www.nayuki.io/page/near-duplicate-features-of-cplusplus)
+
+[Beating up on qsort](https://travisdowns.github.io/blog/2019/05/22/sorting.html)
