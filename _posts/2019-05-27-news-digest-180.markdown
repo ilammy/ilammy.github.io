@@ -30,3 +30,14 @@ StackOverflow-driven development.
 [Асинхронное программирование (полный курс)](https://habr.com/ru/post/452974/)
 
 [Announcing GitHub Sponsors](https://github.blog/2019-05-23-announcing-github-sponsors-a-new-way-to-contribute-to-open-source/)
+
+[Introducing new ways to keep your code secure](https://github.blog/2019-05-23-introducing-new-ways-to-keep-your-code-secure/)<br/>
+[About maintainer security advisories](https://help.github.com/en/articles/about-maintainer-security-advisories)
+
+[Tanker](https://tanker.io)
+
+[When we say “Everest is crowded,” this is what we mean](https://www.outsideonline.com/2397164/everest-summit-traffic-jam)
+
+[How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits](https://scirate.com/arxiv/1905.09749)
+
+[Near-duplicate features of C++](https://www.nayuki.io/page/near-duplicate-features-of-cplusplus)
