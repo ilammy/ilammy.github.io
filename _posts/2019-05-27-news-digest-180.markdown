@@ -22,10 +22,11 @@ Nice optimization story.
 
 [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
-[The State of Apple’s Developer Documentation](https://mjtsai.com/blog/2019/05/20/the-state-of-apples-developer-documentation/) [(HN)](https://news.ycombinator.com/item?id=19966135)
+[The State of Apple’s Developer Documentation](https://mjtsai.com/blog/2019/05/20/the-state-of-apples-developer-documentation/) [(HN)](https://news.ycombinator.com/item?id=19966135)<br/>
+I totally felt this when I tried writing Scripting Additions, or doing anything with Cocoa, or Mach-O binaries.
 
 [Асинхронное программирование (полный курс)](https://habr.com/ru/post/452974/)<br/>
-In JavaScript.
+In JavaScript. Videos.
 
 ### GitHub
 
