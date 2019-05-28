@@ -4,3 +4,8 @@ title:    "News digest #181"
 date:     2019-06-03 12:00:00 +0300
 tags:     digest
 ---
+
+[Exploring Elliptic Curve Pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)<br/>
+[Quadratic Arithmetic Programs](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)<br/>
+[zk-SNARKs: Under the Hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)<br/>
+Більш-менш доступно про verifiable computing від Віталіка.
