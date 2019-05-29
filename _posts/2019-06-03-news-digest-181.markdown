@@ -9,3 +9,7 @@ tags:     digest
 [Quadratic Arithmetic Programs](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)<br/>
 [zk-SNARKs: Under the Hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)<br/>
 Більш-менш доступно про verifiable computing від Віталіка.
+
+[CVos: Bootable PDF CV](https://github.com/devplayer0/cvos)
+
+[Update on await syntax](https://boats.gitlab.io/blog/post/await-decision-ii/)
