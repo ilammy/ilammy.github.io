@@ -13,3 +13,5 @@ tags:     digest
 [CVos: Bootable PDF CV](https://github.com/devplayer0/cvos)
 
 [Update on await syntax](https://boats.gitlab.io/blog/post/await-decision-ii/)
+
+[The WTF-8 encoding](https://simonsapin.github.io/wtf-8/)
