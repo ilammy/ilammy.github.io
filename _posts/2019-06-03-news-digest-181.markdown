@@ -14,4 +14,24 @@ tags:     digest
 
 [Update on await syntax](https://boats.gitlab.io/blog/post/await-decision-ii/)
 
+[UTF-8 String Indexing Strategies](https://nullprogram.com/blog/2019/05/29/)<br/>
+Swift, Perl 6, та деякі діалекти Scheme — єдині мови, які я знаю, де символи — це графемні кластери.
+
 [The WTF-8 encoding](https://simonsapin.github.io/wtf-8/)
+
+[When is a backslash not a backslash?](http://archives.miloush.net/michkap/archive/2005/09/17/469941.html)<br/>
+Це один з перших приколів, які помічаєш в японській локалі: \ = ￥.
+
+[Switch from Chrome to Firefox in just a few minutes](https://www.mozilla.org/en-US/firefox/switch/)<br/>
+Do it for the sake of free Web.
+
+[LISP System Implementation](https://www.t3x.org/lsi/index.html)
+
+[Fallout: Reading Kernel Writes From User Space](https://arxiv.org/abs/1905.12701)<br/>
+It just keeps on giving. [Here's a good overview](https://arxiv.org/abs/1811.05441) of this family of attacks.
+
+[Generating the Mandelbrot Set](https://scionofbytes.me/misc/generating-mandelbrot-fractals/)<br/>
+Мило. Рендер цього фрактала — це такий собі hello world.
+
+[How DigitalOcean just killed our company](https://twitter.com/w3Nicolas/status/1134529316904153089) [(HackerNews)](https://news.ycombinator.com/item?id=20064169)<br/>
+Окей, це тупо з їхнього боку — класти бекапи туди ж, де й сервери — але реакція підтримки DO теж класна.
