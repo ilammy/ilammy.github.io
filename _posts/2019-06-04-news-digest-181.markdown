@@ -7,6 +7,12 @@ tags:     digest dev security web unicode misc
 
 Рівно 30 років тому в 🅢🅣🅐🅣🅔 відбувались 🅴🆅🅴🅽🆃🆂. Не дозволяйте такого в себе 🙏🏻
 
+### Apple
+
+[Use zsh as the default shell on your Mac](https://support.apple.com/en-ca/HT208050)<br/>
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>
+WWDC is in progress. Look for news elsewhere.
+
 ### Development
 
 [How DigitalOcean just killed our company](https://twitter.com/w3Nicolas/status/1134529316904153089) — [(HackerNews)](https://news.ycombinator.com/item?id=20064169)<br/>
@@ -53,3 +59,5 @@ Swift, Perl 6, та деякі діалекти Scheme — єдині мови, 
 
 [Что не нужно делать, если у вас украли телефон](https://habr.com/ru/post/454190/)<br/>
 Забавно читати коментарі про те, що автор міг би й перо в бік отримати. Ось тому закони й не працюють.
+
+[aerc: the world's best email client](https://aerc-mail.org)
