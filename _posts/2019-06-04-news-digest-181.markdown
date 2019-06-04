@@ -1,0 +1,63 @@
+---
+layout:   post
+title:    "News digest #181"
+date:     2019-06-04 12:00:00 +0300
+tags:     digest dev security web unicode misc
+---
+
+Рівно 30 років тому в 🅢🅣🅐🅣🅔 відбувались 🅴🆅🅴🅽🆃🆂. Не дозволяйте такого в себе 🙏🏻
+
+### Apple
+
+[Use zsh as the default shell on your Mac](https://support.apple.com/en-ca/HT208050)<br/>
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>
+WWDC is in progress. Look for news elsewhere.
+
+### Development
+
+[How DigitalOcean just killed our company](https://twitter.com/w3Nicolas/status/1134529316904153089) — [(HackerNews)](https://news.ycombinator.com/item?id=20064169)<br/>
+Окей, це тупо з їхнього боку — класти бекапи туди ж, де й сервери — але реакція підтримки DO теж класна.
+
+[Пять ошибок, которые я допустил как ведущий разработчик](https://habr.com/ru/post/454306/)<br/>
+Традиційні, я б сказав.
+
+### Security
+
+[Exploring Elliptic Curve Pairings](https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627)<br/>
+[Quadratic Arithmetic Programs](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)<br/>
+[zk-SNARKs: Under the Hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)<br/>
+Більш-менш доступно про verifiable computing від Віталіка.
+
+[Fallout: Reading Kernel Writes From User Space](https://arxiv.org/abs/1905.12701)<br/>
+It just keeps on giving. [Here's a good overview](https://arxiv.org/abs/1811.05441) of this family of attacks.
+
+### Web
+
+[Switch from Chrome to Firefox in just a few minutes](https://www.mozilla.org/en-US/firefox/switch/)<br/>
+Do it for the sake of free Web. Not tomorrow, not sometime. Today. Right now.
+
+### Unicode
+
+[UTF-8 String Indexing Strategies](https://nullprogram.com/blog/2019/05/29/)<br/>
+Swift, Perl 6, та деякі діалекти Scheme — єдині мови, які я знаю, де символи — це графемні кластери.
+
+[The WTF-8 encoding](https://simonsapin.github.io/wtf-8/)
+
+[When is a backslash not a backslash?](http://archives.miloush.net/michkap/archive/2005/09/17/469941.html)<br/>
+Це один з перших приколів, які помічаєш в японській локалі: \ = ￥.
+
+### Miscellaneous
+
+[CVos: Bootable PDF CV](https://github.com/devplayer0/cvos)
+
+[Update on await syntax](https://boats.gitlab.io/blog/post/await-decision-ii/)
+
+[LISP System Implementation](https://www.t3x.org/lsi/index.html)
+
+[Generating the Mandelbrot Set](https://scionofbytes.me/misc/generating-mandelbrot-fractals/)<br/>
+Мило. Рендер цього фрактала — це такий собі hello world.
+
+[Что не нужно делать, если у вас украли телефон](https://habr.com/ru/post/454190/)<br/>
+Забавно читати коментарі про те, що автор міг би й перо в бік отримати. Ось тому закони й не працюють.
+
+[aerc: the world's best email client](https://aerc-mail.org)
