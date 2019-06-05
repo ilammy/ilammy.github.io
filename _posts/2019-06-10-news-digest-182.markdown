@@ -2,5 +2,16 @@
 layout:   post
 title:    "News digest #182"
 date:     2019-06-10 12:00:00 +0300
-tags:     digest
+tags:     digest dev misc
 ---
+
+### Development
+
+[Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)<br/>
+Nice to revisit this once in a while.
+
+### Miscellaneous
+
+[&lt;a href="https://secretgeek.github.io/html_wysiwyg/html.html"&gt;HTML Quine&lt;/a&gt;](https://secretgeek.github.io/html_wysiwyg/html.html)
+
+[Invaders game in 512 bytes](https://github.com/nanochess/Invaders)
