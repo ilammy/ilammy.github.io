@@ -10,6 +10,20 @@ tags:     digest dev misc
 [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)<br/>
 Nice to revisit this once in a while.
 
+### Security
+
+&lt;!--
+
+I don't know whether it is appropriate to post these.
+
+[shameless plug](https://wwdcbysundell.com/2019/anastasiia-voitova-on-security/)
+
+[tip of the day](https://twitter.com/nemesis09/status/1136263868177616896?s=21)
+
+[wwdc crypto booth](https://twitter.com/vixentael/status/1136393225168666626)
+
+--&gt;
+
 ### Miscellaneous
 
 [&lt;a href="https://secretgeek.github.io/html_wysiwyg/html.html"&gt;HTML Quine&lt;/a&gt;](https://secretgeek.github.io/html_wysiwyg/html.html)
