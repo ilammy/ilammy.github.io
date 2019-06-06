@@ -29,3 +29,7 @@ I don't know whether it is appropriate to post these.
 [&lt;a href="https://secretgeek.github.io/html_wysiwyg/html.html"&gt;HTML Quine&lt;/a&gt;](https://secretgeek.github.io/html_wysiwyg/html.html)
 
 [Invaders game in 512 bytes](https://github.com/nanochess/Invaders)
+
+---
+
+[Как устроен формат JPEG](https://habr.com/ru/post/454944/)
