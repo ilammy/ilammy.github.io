@@ -33,3 +33,11 @@ I don't know whether it is appropriate to post these.
 ---
 
 [Как устроен формат JPEG](https://habr.com/ru/post/454944/)
+
+[Abusing SHA-1 collisions for Chromium updates](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/update.nix#L96)<br/>
+See [description](https://twitter.com/stdlib/status/1136629930060636162) of the hack.
+
+[Introduction to Genetic Algorithms](https://blog.floydhub.com/introduction-to-genetic-algorithms/)
+
+[Marshall McLuhan’s _Understanding Media_](http://2012diaries.blogspot.com/2012/05/man-becomes-sex-organs-of-machine-world.html)<br/>
+Some cyberpunk here...
