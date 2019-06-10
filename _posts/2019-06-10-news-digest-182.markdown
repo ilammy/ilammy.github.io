@@ -5,6 +5,10 @@ date:     2019-06-10 12:00:00 +0300
 tags:     digest apple dev security misc
 ---
 
+_Cacophony of red green and blue_
+
+<!-- I really don't have a suitable smart quote for today. So let me speak whatever is on my mind right now. -->
+
 ### Apple
 
 [Breakdown of the major security and privacy announcements from WWDC](https://wwdcbysundell.com/2019/anastasiia-voitova-on-security/)
