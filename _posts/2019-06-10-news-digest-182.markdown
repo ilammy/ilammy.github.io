@@ -2,27 +2,30 @@
 layout:   post
 title:    "News digest #182"
 date:     2019-06-10 12:00:00 +0300
-tags:     digest dev misc
+tags:     digest apple dev security misc
 ---
+
+### Apple
+
+[Breakdown of the major security and privacy announcements from WWDC](https://wwdcbysundell.com/2019/anastasiia-voitova-on-security/)
+
+[macOS Deprecates Scripting Language Runtimes](https://developer.apple.com/documentation/macos_release_notes/macos_10_15_beta_release_notes#3318257)<br/>
+Walking the path of Android and iOS: UNIX on the inside, but not accessible to unwashed masses.
 
 ### Development
 
 [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)<br/>
 Nice to revisit this once in a while.
 
+[Abusing SHA-1 collisions for Chromium updates](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/update.nix#L96)<br/>
+See [description](https://twitter.com/stdlib/status/1136629930060636162) of the hack.
+
 ### Security
 
-&lt;!--
+[OpenBSD: recent security innovations](https://undeadly.org/cgi?action=article;sid=20190605110020)<br/>
+Interesting restriction on system calls from writeable memory.
 
-I don't know whether it is appropriate to post these.
-
-[shameless plug](https://wwdcbysundell.com/2019/anastasiia-voitova-on-security/)
-
-[tip of the day](https://twitter.com/nemesis09/status/1136263868177616896?s=21)
-
-[wwdc crypto booth](https://twitter.com/vixentael/status/1136393225168666626)
-
---&gt;
+[pass: the standard unix password manager](https://www.passwordstore.org/)
 
 ### Miscellaneous
 
@@ -30,29 +33,16 @@ I don't know whether it is appropriate to post these.
 
 [Invaders game in 512 bytes](https://github.com/nanochess/Invaders)
 
----
-
 [Как устроен формат JPEG](https://habr.com/ru/post/454944/)
-
-[Abusing SHA-1 collisions for Chromium updates](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/chromium/update.nix#L96)<br/>
-See [description](https://twitter.com/stdlib/status/1136629930060636162) of the hack.
 
 [Introduction to Genetic Algorithms](https://blog.floydhub.com/introduction-to-genetic-algorithms/)
 
 [Marshall McLuhan’s _Understanding Media_](http://2012diaries.blogspot.com/2012/05/man-becomes-sex-organs-of-machine-world.html)<br/>
-Some cyberpunk here...
+Some cyberpunk going on here...
 
 [Burning Man](https://en.wikipedia.org/wiki/Burning_Man)
 
 [Why Haskell for GitHub's _Semantic_](https://github.com/github/semantic/blob/master/docs/why-haskell.md)
 
-[macOS Deprecates Scripting Language Runtimes](https://developer.apple.com/documentation/macos_release_notes/macos_10_15_beta_release_notes#3318257)<br/>
-Walking the path of Android and iOS: UNIX on the inside, but not accessible to unwashed masses.
-
 [Introducing Inkdrop 4](https://blog.inkdrop.info/introducing-inkdrop-4-9d0c63de16d2) [(HN)](https://news.ycombinator.com/item?id=20103589)<br/>
 Maybe you'll find it useful. Discussion threads are also somewhat interesting.
-
-[OpenBSD: recent security innovations](https://undeadly.org/cgi?action=article;sid=20190605110020)<br/>
-Interesting restriction on system calls from writeable memory.
-
-[pass: the standard unix password manager](https://www.passwordstore.org/)
