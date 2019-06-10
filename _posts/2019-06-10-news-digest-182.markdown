@@ -43,3 +43,16 @@ See [description](https://twitter.com/stdlib/status/1136629930060636162) of the 
 Some cyberpunk here...
 
 [Burning Man](https://en.wikipedia.org/wiki/Burning_Man)
+
+[Why Haskell for GitHub's _Semantic_](https://github.com/github/semantic/blob/master/docs/why-haskell.md)
+
+[macOS Deprecates Scripting Language Runtimes](https://developer.apple.com/documentation/macos_release_notes/macos_10_15_beta_release_notes#3318257)<br/>
+Walking the path of Android and iOS: UNIX on the inside, but not accessible to unwashed masses.
+
+[Introducing Inkdrop 4](https://blog.inkdrop.info/introducing-inkdrop-4-9d0c63de16d2) [(HN)](https://news.ycombinator.com/item?id=20103589)<br/>
+Maybe you'll find it useful. Discussion threads are also somewhat interesting.
+
+[OpenBSD: recent security innovations](https://undeadly.org/cgi?action=article;sid=20190605110020)<br/>
+Interesting restriction on system calls from writeable memory.
+
+[pass: the standard unix password manager](https://www.passwordstore.org/)
