@@ -18,3 +18,8 @@ Big data is still an alien concept to me, but this post is okay. Though beware: 
 
 [Nannou: an open-source creative-coding framework for Rust](https://nannou.cc/)<br/>
 何のトゥールキットですか😅
+
+### Miscellaneous
+
+[Desktop Neo: rethinking the desktop interface for productivity](https://desktopneo.com/)<br/>
+Idea of tiling WM for macOS. Only a design idea from 2016, though.
