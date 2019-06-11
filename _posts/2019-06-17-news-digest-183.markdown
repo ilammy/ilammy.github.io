@@ -2,13 +2,17 @@
 layout:   post
 title:    "News digest #183"
 date:     2019-06-17 12:00:00 +0300
-tags:     digest rust
+tags:     digest dev rust
 ---
 
 <!--
-It seems that 17th day on month slowly becomes more and more significant
-for me.
+It seems that 17th day of month slowly becomes more and more significant for me.
 -->
+
+### Development
+
+[The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)<br/>
+Big data is still an alien concept to me, but this post is okay. Though beware: that's a long read.
 
 ### Rust
 
