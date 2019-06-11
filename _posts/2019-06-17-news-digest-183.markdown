@@ -2,10 +2,15 @@
 layout:   post
 title:    "News digest #183"
 date:     2019-06-17 12:00:00 +0300
-tags:     digest
+tags:     digest rust
 ---
 
 <!--
 It seems that 17th day on month slowly becomes more and more significant
 for me.
 -->
+
+### Rust
+
+[Nannou: an open-source creative-coding framework for Rust](https://nannou.cc/)<br/>
+何のトゥールキットですか😅
