@@ -9,6 +9,14 @@ tags:     digest dev rust
 It seems that 17th day of month slowly becomes more and more significant for me.
 -->
 
+### C++
+
+[Who ordered memory fences on an x86?](https://bartoszmilewski.com/2008/11/05/who-ordered-memory-fences-on-an-x86/)<br/>
+A bit on memory load-store reoredring on the most popular server architecture.
+
+[_Badge_ pattern](https://awesomekling.github.io/Serenity-C++-patterns-The-Badge/)<br/>
+I'm constantly amazed at the amout on unintended features of C++ template system.
+
 ### Development
 
 [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)<br/>
@@ -18,6 +26,12 @@ Big data is still an alien concept to me, but this post is okay. Though beware: 
 
 [Nannou: an open-source creative-coding framework for Rust](https://nannou.cc/)<br/>
 何のトゥールキットですか😅
+
+### Security
+
+[RAMBleed attack](https://rambleed.com/)<br/>
+Rowhammer exploits are not theoretical now (though, extremely slow at the moment).
+If you did not get the memo: the most secure computer is a turned-off one.
 
 ### Miscellaneous
 
