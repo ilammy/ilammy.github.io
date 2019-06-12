@@ -14,7 +14,7 @@ It seems that 17th day of month slowly becomes more and more significant for me.
 [Who ordered memory fences on an x86?](https://bartoszmilewski.com/2008/11/05/who-ordered-memory-fences-on-an-x86/)<br/>
 A bit on memory load-store reoredring on the most popular server architecture.
 
-[_Badge_ pattern](https://awesomekling.github.io/Serenity-C++-patterns-The-Badge/)<br/>
+[The _Badge_ pattern](https://awesomekling.github.io/Serenity-C++-patterns-The-Badge/)<br/>
 I'm constantly amazed at the amout on unintended features of C++ template system.
 
 ### Development
