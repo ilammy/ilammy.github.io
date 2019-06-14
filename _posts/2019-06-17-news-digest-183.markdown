@@ -17,6 +17,9 @@ A bit on memory load-store reoredring on the most popular server architecture.
 [The _Badge_ pattern](https://awesomekling.github.io/Serenity-C++-patterns-The-Badge/)<br/>
 I'm constantly amazed at the amout on unintended features of C++ template system.
 
+[Formatting floating point numbers](http://www.zverovich.net/2019/02/11/formatting-floating-point-numbers.html)<br/>
+Just a nice story of bit-twiddling.
+
 ### Development
 
 [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)<br/>
@@ -32,6 +35,14 @@ Big data is still an alien concept to me, but this post is okay. Though beware: 
 [RAMBleed attack](https://rambleed.com/)<br/>
 Rowhammer exploits are not theoretical now (though, extremely slow at the moment).
 If you did not get the memo: the most secure computer is a turned-off one.
+
+[Про ГОСТовский шифр Кузнечик, его SBox и потерянные сиды](https://habr.com/ru/company/virgilsecurity/blog/453254/)<br/>
+Бекдор Шрьодінгера.
+
+### Web
+
+[Encryption for gopher](https://gopher.floodgap.com/gopher/gw.lite?gopher://tilde.team:70/0/~rain1/phlog/20190608-encrypting-gopher.txt)<br/>
+Я взагалі тільки нещодавно дізнався, що Gopher is still alive and kicking. Пам'ятаю, як читав про нього в підручнику з HTML4. Цей пост відображається за допомогою [цього проксі](https://gopher.floodgap.com/gopher/), бтв.
 
 ### Miscellaneous
 
