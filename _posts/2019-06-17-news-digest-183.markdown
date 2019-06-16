@@ -30,7 +30,7 @@ Big data is still an alien concept to me, but this post is okay. Though beware: 
 ### Rust
 
 [Nannou: an open-source creative-coding framework for Rust](https://nannou.cc/)<br/>
-何のフレイムワクですか😅 (In all seriousness, it looks cool.)
+何のフレームワークですか😅 (In all seriousness, it looks cool.)
 
 ### Security
 
