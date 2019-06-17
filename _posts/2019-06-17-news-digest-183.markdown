@@ -1,0 +1,58 @@
+---
+layout:   post
+title:    "News digest #183"
+date:     2019-06-17 12:00:00 +0300
+tags:     digest dev rust
+---
+
+Okay, everyone!
+
+<!--
+It seems that 17th day of month slowly becomes more and more significant for me.
+-->
+
+### C++
+
+[Who ordered memory fences on an x86?](https://bartoszmilewski.com/2008/11/05/who-ordered-memory-fences-on-an-x86/)<br/>
+A bit on memory load-store reorerding in the most popular server architecture.
+
+[The _Badge_ pattern](https://awesomekling.github.io/Serenity-C++-patterns-The-Badge/)<br/>
+I'm constantly amazed at the amount of totally unintended features of C++ template system.
+
+[Formatting floating point numbers](http://www.zverovich.net/2019/02/11/formatting-floating-point-numbers.html)<br/>
+Just a nice story of bit-twiddling.
+
+### Development
+
+[The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)<br/>
+Big data is still an alien concept to me, but this post is okay. Though beware: that's a long read.
+
+### Rust
+
+[Nannou: an open-source creative-coding framework for Rust](https://nannou.cc/)<br/>
+何のフレームワークですか😅 (In all seriousness, it looks cool.)
+
+### Security
+
+[RAMBleed attack](https://rambleed.com/)<br/>
+Rowhammer exploits are not theoretical now (though, extremely slow at the moment).<br/>
+If you did not get the memo: the most secure computer is a turned-off one.
+
+[Про ГОСТовский шифр Кузнечик, его SBox и потерянные сиды](https://habr.com/ru/company/virgilsecurity/blog/453254/)<br/>
+Бекдор Шрьодінгера.
+
+### Web
+
+[Encryption for gopher](https://gopher.floodgap.com/gopher/gw.lite?gopher://tilde.team:70/0/~rain1/phlog/20190608-encrypting-gopher.txt)<br/>
+Я взагалі тільки нещодавно дізнався, що Gopher is still alive and kicking. Пам'ятаю, як читав про нього в підручнику з HTML4. Цей пост відображається за допомогою [цього проксі](https://gopher.floodgap.com/gopher/), бтв.
+
+### Miscellaneous
+
+[Desktop Neo: rethinking the desktop interface for productivity](https://desktopneo.com/)<br/>
+Idea of tiling WM for macOS. Only a design idea from 2016, though.
+
+[MrBeast channel](https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA)<br/>
+Okay, this is one twisted performance art form going on here. Pure capitalism.
+
+[List of names in English with counterintuitive pronunciations](https://en.wikipedia.org/wiki/List_of_names_in_English_with_counterintuitive_pronunciations)<br/>
+Sponsored by Cuyjet and Featherstonhaugh. You'll _never_ guess how to say these.
