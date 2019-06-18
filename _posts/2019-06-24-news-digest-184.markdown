@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #184"
 date:     2019-06-24 12:00:00 +0300
-tags:     digest
+tags:     digest web misc
 ---
 
 <!--
@@ -16,3 +16,8 @@ for feedback explicitly so I don't have any right to complain really.
 
 [League of Entropy: Decentralized Randomness Beacon](https://www.cloudflare.com/leagueofentropy/)<br/>
 Оце так неймінг. Підхід потрошку популяризується.
+
+### Miscellaneous
+
+[Some tips for learning Org Mode for Emacs](https://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)<br/>
+В неї ще багато всякого інтересного про Emacs.
