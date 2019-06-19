@@ -26,4 +26,4 @@ for feedback explicitly so I don't have any right to complain really.
 В неї ще багато всякого інтересного про Emacs.
 
 [Google to reimplement cURL in libcrurl](https://daniel.haxx.se/blog/2019/06/19/google-to-reimplement-curl-in-libcrurl/)<br/>
-That's some cure typosquatting here.
+That's some cute typosquatting.
