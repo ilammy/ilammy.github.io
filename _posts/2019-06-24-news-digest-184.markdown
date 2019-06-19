@@ -18,9 +18,12 @@ for feedback explicitly so I don't have any right to complain really.
 Оце так неймінг. Підхід потрошку популяризується.
 
 [Libra global currency](https://libra.org)<br/>
-Цукербакси для Фейсчейну, ще й на proof-of-stake. Але знаєте що? Це дійсно може взлетіти, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові.
+Цукербакси для Фейсчейну, ще й на proof-of-stake. Але знаєте що? Це дійсно може взлетіти, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові. Це лякає. <!-- Бо потім: "Ваше користування Libra було призупинено через порушення наших стандартів поведінки. Гарного вам дня". Чи: "Вибачте, мені економічно не вигідно підтримувати всі ці ваші банки та мастеркарди. Я приймаю тількі Libra. Реєструйся в Фейсбуці або йди, в нас вільна країна". -->
 
 ### Miscellaneous
 
 [Some tips for learning Org Mode for Emacs](https://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)<br/>
 В неї ще багато всякого інтересного про Emacs.
+
+[Google to reimplement cURL in libcrurl](https://daniel.haxx.se/blog/2019/06/19/google-to-reimplement-curl-in-libcrurl/)<br/>
+That's some cure typosquatting here.
