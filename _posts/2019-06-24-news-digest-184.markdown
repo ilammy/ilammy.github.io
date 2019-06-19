@@ -17,6 +17,9 @@ for feedback explicitly so I don't have any right to complain really.
 [League of Entropy: Decentralized Randomness Beacon](https://www.cloudflare.com/leagueofentropy/)<br/>
 Оце так неймінг. Підхід потрошку популяризується.
 
+[Libra global currency](https://libra.org)<br/>
+Цукербакси для Фейсчейну. І знаєте що? Це дійсно може взлетіти, на відміну від Біткоїну, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові. ~Слава~ Лайк нашим хазяїнам!
+
 ### Miscellaneous
 
 [Some tips for learning Org Mode for Emacs](https://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)<br/>
