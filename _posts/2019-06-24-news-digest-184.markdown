@@ -32,3 +32,5 @@ Nice little story. Daily reminder that time and date computations are hard.
 
 [Google to reimplement cURL in libcrurl](https://daniel.haxx.se/blog/2019/06/19/google-to-reimplement-curl-in-libcrurl/)<br/>
 That's some cute typosquatting.
+
+[Mezzano: An operating system written in Common Lisp](https://github.com/froggey/Mezzano/)
