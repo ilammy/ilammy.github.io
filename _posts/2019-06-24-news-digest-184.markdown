@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #184"
 date:     2019-06-24 12:00:00 +0300
-tags:     digest blockchain oss misc
+tags:     digest blockchain dev oss misc
 ---
 
 <!--
@@ -20,6 +20,11 @@ for feedback explicitly so I don't have any right to complain really.
 [Libra global currency](https://libra.org)<br/>
 Цукербакси для Фейсчейну, ще й на proof-of-stake. Але знаєте що? Воно дійсно може злетіти, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові. І це лякає. <!-- Бо потім: "Ваше користування Libra було призупинено через порушення наших стандартів поведінки. Гарного вам дня". Чи: "Вибачте, мені економічно не вигідно підтримувати всі ці ваші банки та мастеркарди. Я приймаю тількі Libra. Реєструйся в Фейсбуці або йди, в нас вільна країна". -->
 
+### Development
+
+[Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)<br/>
+Patently obvious most of the time, but hey, most common issues do have obvious solutions.
+
 ### Open source
 
 [Fixing a small calc.exe bug](https://www.petertissen.de/?p=77)<br/>
@@ -34,3 +39,5 @@ Nice little story. Daily reminder that time and date computations are hard.
 That's some cute typosquatting.
 
 [Mezzano: An operating system written in Common Lisp](https://github.com/froggey/Mezzano/)
+
+[a smol tcp/ip stack](https://github.com/m-labs/smoltcp)
