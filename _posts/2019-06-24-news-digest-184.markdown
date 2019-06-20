@@ -33,7 +33,7 @@ Nice little story. Daily reminder that time and date computations are hard.
 ### Security
 
 [Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/)<br/>
-Nice summary of the current practices.
+Sound summary of the current practices.
 
 ### Miscellaneous
 
