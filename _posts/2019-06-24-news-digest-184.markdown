@@ -30,6 +30,11 @@ Patently obvious most of the time, but hey, most common issues do have obvious s
 [Fixing a small calc.exe bug](https://www.petertissen.de/?p=77)<br/>
 Nice little story. Daily reminder that time and date computations are hard.
 
+### Security
+
+[Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/)<br/>
+Nice summary of the current practices.
+
 ### Miscellaneous
 
 [Some tips for learning Org Mode for Emacs](https://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)<br/>
