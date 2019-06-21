@@ -17,13 +17,18 @@ for feedback explicitly so I don't have any right to complain really.
 [League of Entropy: Decentralized Randomness Beacon](https://www.cloudflare.com/leagueofentropy/)<br/>
 Оце так неймінг. Підхід потрошку популяризується.
 
-[Libra global currency](https://libra.org)<br/>
+[Libra global currency](https://libra.org) — [(хабр)](https://habr.com/ru/post/457050/)<br/>
 Цукербакси для Фейсчейну, ще й на proof-of-stake 😂 Але знаєте що? Воно дійсно може злетіти, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові. І це лякає. <!-- Бо потім: "Ваше користування Libra було призупинено через порушення наших стандартів поведінки. Гарного вам дня". Чи: "Вибачте, мені економічно не вигідно підтримувати всі ці ваші банки та мастеркарди. Я приймаю тількі Libra. Реєструйся в Фейсбуці або йди, в нас вільна країна". -->
 
 ### Development
 
 [Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)<br/>
 Patently obvious most of the time, but hey, most common issues do have obvious solutions.
+
+### Linux
+
+[tcpdump little book](https://nanxiao.github.io/tcpdump-little-book/)<br/>
+Спелбук для сніффера з прикладами.
 
 ### Open source
 
@@ -46,3 +51,6 @@ That's some cute typosquatting.
 [Mezzano: An operating system written in Common Lisp](https://github.com/froggey/Mezzano/)
 
 [a smol tcp/ip stack](https://github.com/m-labs/smoltcp)
+
+[Sorbet: a fast, powerful type checker for Ruby](https://sorbet.org/blog/2019/06/20/open-sourcing-sorbet)<br/>
+Бгг... Ще одна динамічно типізована мова впала під неспинним статичним натиском. Там [на HN](https://news.ycombinator.com/item?id=20235527) піднялась цікава дискусія на цю тему.
