@@ -1,0 +1,64 @@
+---
+layout:   post
+title:    "News digest #184"
+date:     2019-06-24 12:00:00 +0300
+tags:     digest blockchain dev linux oss security misc
+---
+
+Do because it pretends not to know because it does so.
+
+<!--
+No idea why am I still doing this. "Sometimes I wonder why even bother."
+I used to say that it's for the greater good but it honestly feels like
+screaming into the void more than anything. Well, it's not that I asked
+for feedback explicitly so I don't have any right to complain really.
+-->
+
+### Blockchain
+
+[League of Entropy: Decentralized Randomness Beacon](https://www.cloudflare.com/leagueofentropy/)<br/>
+Оце так неймінг. Але ініціатива інтересна.
+
+[Libra global currency](https://libra.org) — [(хабр)](https://habr.com/ru/post/457050/)<br/>
+Цукербакси для Фейсчейну, ще й на proof-of-stake 😂 Але знаєте що? Воно дійсно може злетіти, враховуючи ступінь проникнення Цукербуку в життя пересічних громадян по всьому світові. Кіберпанк, на який ми заслуговуємо. <!-- Бо потім: "Ваше користування Libra було призупинено через порушення наших стандартів поведінки. Гарного вам дня". Чи: "Вибачте, мені економічно не вигідно підтримувати всі ці ваші банки та мастеркарди. Я приймаю тількі Libra. Реєструйся в Фейсбуці або живи в лісі, в нас вільна країна". -->
+
+### Development
+
+[Things I Learnt The Hard Way (in 30 Years of Software Development)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)<br/>
+Patently obvious most of the time, but hey, most common issues do have obvious solutions.
+
+[What does debugging a program look like?](https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/)<br/>
+Джулія трошки розповідає про відладку програм. 
+
+### Linux
+
+[tcpdump little book](https://nanxiao.github.io/tcpdump-little-book/)<br/>
+Спелбук для сніффера з прикладами.
+
+### Open source
+
+[Fixing a small calc.exe bug](https://www.petertissen.de/?p=77)<br/>
+Nice little story. Daily reminder that time and date computations are hard.
+
+### Security
+
+[Getting 2FA Right in 2019](https://blog.trailofbits.com/2019/06/20/getting-2fa-right-in-2019/)<br/>
+Sound summary of the current practices.
+
+### Miscellaneous
+
+[Some tips for learning Org Mode for Emacs](https://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/)<br/>
+В неї ще багато всякого інтересного про Emacs.
+
+[Google to reimplement cURL in libcrurl](https://daniel.haxx.se/blog/2019/06/19/google-to-reimplement-curl-in-libcrurl/)<br/>
+That's some cute typosquatting.
+
+[Mezzano: An operating system written in Common Lisp](https://github.com/froggey/Mezzano/)
+
+[a smol tcp/ip stack](https://github.com/m-labs/smoltcp)
+
+[Sorbet: a fast, powerful type checker for Ruby](https://sorbet.org/blog/2019/06/20/open-sourcing-sorbet)<br/>
+Бгг... Ще одна динамічно типізована мова впала під неспинним статичним натиском. [Там на HN](https://news.ycombinator.com/item?id=20235527) піднялась цікава дискусія на цю тему.
+
+[mimalloc: compact general purpose allocator with excellent performance](https://github.com/microsoft/mimalloc)<br/>
+Увага на те, _чий_ код.
