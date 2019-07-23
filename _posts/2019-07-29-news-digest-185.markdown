@@ -1,0 +1,14 @@
+---
+layout:   post
+title:    "News digest #184"
+date:     2019-07-29 12:00:00 +0300
+tags:     digest
+---
+
+Happy birthday to NASA.
+
+<!--
+Well, this is just a frantic attempt at restoring postings.
+I'm not really sure that I still want to do this, but one
+month of hiatus may be enough.
+-->
