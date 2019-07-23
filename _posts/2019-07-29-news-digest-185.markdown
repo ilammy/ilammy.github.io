@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "News digest #184"
+title:    "News digest #185"
 date:     2019-07-29 12:00:00 +0300
 tags:     digest
 ---
@@ -12,3 +12,12 @@ Well, this is just a frantic attempt at restoring postings.
 I'm not really sure that I still want to do this, but one
 month of hiatus may be enough.
 -->
+
+### Miscellaneous
+
+[Astronaut](http://astronaut.io)<br/>
+Slice of life on this tiny blue marble.
+
+[The Australians making music with computer code](https://www.abc.net.au/news/2019-07-21/live-coding-australia-music-computer-code/11301114)<br/>
+Live music sampling always fascinated me, just like any live performance.<br/>
+And there's more: they do it in Scheme!
