@@ -13,6 +13,20 @@ I'm not really sure that I still want to do this, but one
 month of hiatus may be enough.
 -->
 
+### Rust
+
+[Why Rust for safe systems programming](https://msrc-blog.microsoft.com/2019/07/22/why-rust-for-safe-systems-programming/)<br/>
+People have been posting things like this from 2015 and will continue doing to until you like it.
+
+### Security
+
+[Plot to steal cryptocurrency foiled by the npm security team](https://blog.npmjs.org/post/185397814280/plot-to-steal-cryptocurrency-foiled-by-the-npm)<br/>
+Well, 'foiled'... Over a million of tokens have been stolen in two months. Nevertheless, it's a good reminder that this post:
+
+> [I’m harvesting credit card numbers and passwords from your site. Here’s how.](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5)
+
+is hardly a joke. Not in the world where people casually `npm install` whatever they pick up on the street.
+
 ### Miscellaneous
 
 [Astronaut](http://astronaut.io)<br/>
