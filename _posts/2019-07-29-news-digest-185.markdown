@@ -13,10 +13,25 @@ I'm not really sure that I still want to do this, but one
 month of hiatus may be enough.
 -->
 
+### Development
+
+[Some items from my "reliability list"](https://rachelbythebay.com/w/2019/07/21/reliability/)
+
+### Linux
+
+[Extending the Kernel with Built-in Kernel Headers](https://www.linuxjournal.com/content/extending-kernel-built-kernel-headers)<br/>
+It should get easier to build kernel headers on the fly.
+
 ### Rust
 
 [Why Rust for safe systems programming](https://msrc-blog.microsoft.com/2019/07/22/why-rust-for-safe-systems-programming/)<br/>
 People have been posting things like this from 2015 and will continue doing to until you like it.
+
+[Things Rust shipped without](https://graydon2.dreamwidth.org/218040.html)<br/>
+Yes, you can combat historically bad decisions.
+
+[The Rust compiler is still getting faster](https://blog.mozilla.org/nnethercote/2019/07/25/the-rust-compiler-is-still-getting-faster/) [(HN)](https://news.ycombinator.com/item?id=20522434)<br/>
+That's how refactoring enables optimization.
 
 ### Security
 
@@ -35,3 +50,14 @@ Slice of life on this tiny blue marble.
 [The Australians making music with computer code](https://www.abc.net.au/news/2019-07-21/live-coding-australia-music-computer-code/11301114)<br/>
 Live music sampling always fascinated me, just like any live performance.<br/>
 And there's more: they do it in Scheme!
+
+[A grimoire of functions](http://fredrikj.net/blog/2019/05/a-grimoire-of-functions/)
+
+[How we built the Waifu Vending Machine](https://waifulabs.com/blog/ax)<br/>
+State of the art AI in action.
+
+[Algebraic Effects for the rest of us](https://overreacted.io/algebraic-effects-for-the-rest-of-us/)<br/>
+TIL that condition system from Common Lisp now has a proper formalism.
+
+[Day 5: The VM-exit Handler, Event Injection, Context Modifications, and CPUID Emulation](https://revers.engineering/day-5-vmexits-interrupts-cpuid-emulation/)<br/>
+An overview of virtualization on hardware.
