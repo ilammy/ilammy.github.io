@@ -60,4 +60,7 @@ State of the art AI in action.
 TIL that condition system from Common Lisp now has a proper formalism.
 
 [Day 5: The VM-exit Handler, Event Injection, Context Modifications, and CPUID Emulation](https://revers.engineering/day-5-vmexits-interrupts-cpuid-emulation/)<br/>
-An overview of virtualization on hardware.
+Some information on CPU virtualization.
+
+[Part I: History of Visa](http://minesafetydisclosures.com/blog/2019/5/29/part-l-a-history-of-visa)<br/>
+[Part II: An Overview of Visa](http://minesafetydisclosures.com/blog/2019/7/23/part-ll-an-overview-of-visa)
