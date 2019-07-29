@@ -2,15 +2,15 @@
 layout:   post
 title:    "News digest #185"
 date:     2019-07-29 12:00:00 +0300
-tags:     digest
+tags:     digest dev linux rust security misc
 ---
 
 Happy birthday to NASA.
 
 <!--
 Well, this is just a frantic attempt at restoring postings.
-I'm not really sure that I still want to do this, but one
-month of hiatus may be enough.
+I'm not really sure that I still want to do this, but one month of hiatus may be enough.
+Though, I'm not really sure that I'll be able to collect anything for the next month.
 -->
 
 ### Development
