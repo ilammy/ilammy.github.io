@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #186"
 date:     2019-08-05 12:00:00 +0900
-tags:     digest
+tags:     digest dev linux
 ---
 
 Абсолютно нічим не примітна дата.
@@ -15,3 +15,11 @@ tags:     digest
 
 [What are the “best” codebases that you've encountered?](https://news.ycombinator.com/item?id=20556336)<br/>
 Традиційні лідери: [PostreSQL](https://github.com/postgres/postgres), [Redis](https://github.com/antirez/redis/), [ripgrep](https://github.com/BurntSushi/ripgrep).
+
+[Writing Boot Sector Code](https://susam.in/blog/writing-boot-sector-code/)<br/>
+Як написати hello world.
+
+### Linux
+
+[vDSO, 32-bit time, and seccomp](https://lwn.net/SubscriberLink/795128/6b8ce4fe54123148/)<br/>
+Веселуха з проблемою 2038.
