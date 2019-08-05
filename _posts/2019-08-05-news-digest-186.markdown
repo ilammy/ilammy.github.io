@@ -1,0 +1,26 @@
+---
+layout:   post
+title:    "News digest #186"
+date:     2019-08-05 17:00:00 +0900
+tags:     digest dev linux
+---
+
+Абсолютно нічим не примітна дата.
+
+<!--
+Подивимось, чи зможу я назбирати чогось і чи не буде мені ліньки.
+2018-05-05: Виявилось, що таки ліньки.
+-->
+
+### Development
+
+[What are the “best” codebases that you've encountered?](https://news.ycombinator.com/item?id=20556336)<br/>
+Традиційні лідери: [PostreSQL](https://github.com/postgres/postgres), [Redis](https://github.com/antirez/redis/), [ripgrep](https://github.com/BurntSushi/ripgrep).
+
+[Writing Boot Sector Code](https://susam.in/blog/writing-boot-sector-code/)<br/>
+Як написати hello world.
+
+### Linux
+
+[vDSO, 32-bit time, and seccomp](https://lwn.net/SubscriberLink/795128/6b8ce4fe54123148/)<br/>
+Веселуха з проблемою 2038.
