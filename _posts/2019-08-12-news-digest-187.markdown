@@ -2,16 +2,34 @@
 layout:   post
 title:    "News digest #187"
 date:     2019-08-12 17:00:00 +0900
-tags:     digest dev
+tags:     digest dev misc
 ---
 
-Сьогодні прямо день катастроф.
+Нуянінаю, з річницею першого польоту _USS Enterprise_.
 
 <!--
 2019-08-09: Почав збирати нарешті, бгг.
+2019-08-11: Не дуж просунувся.
 -->
 
 ### Development
 
 [Lessons from 3 years of crypto and blockchain security audits](https://aumasson.jp/data/talks/BH19.pdf)<br/>
-Добра підборочка грабель.
+Добра підборочка грабель від автора BLAKE2.
+
+[Lock-free multithreading with atomic operations](https://www.internalpointers.com/post/lock-free-multithreading-atomic-operations) [(HN)](https://news.ycombinator.com/item?id=20562403)<br/>
+Про атомарні операції для новачків.
+
+[The lat/lon floating point delusion](http://datafix.com.au/BASHing/2019-08-09.html)<br/>
+Нагадує про _значущі цифри_. Хоча ні, просто використовуйте `long double`, це ж м-м-максимум точності! (Та ніколи не читайте четверту главу TAOCP.)
+
+### Miscellaneous
+
+[What are some old books every new programmer should read?](https://www.quora.com/Experienced-programmers-and-computer-scientists-what-are-some-really-old-or-even-nearly-forgotten-books-you-think-every-new-programmer-should-read)<br/>
+На думку автора Smalltalk.
+
+[A Mathematician's Way of Converting Miles to Kilometers](https://twitter.com/TamasGorbe/status/1158348261683605504)<br/>
+В нього там повний твітер фактоїдів.
+
+[What Does a Coder Do If They Can't Type?](https://nsaphra.github.io/post/hands/)<br/>
+Бережіть свої руки.
