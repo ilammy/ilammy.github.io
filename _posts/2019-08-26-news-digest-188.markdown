@@ -40,3 +40,5 @@ Microsoft знову береться за праве діло: сформулю
 
 [Germany for First Time Sells 30-Year Bonds Offering Negative Yields](https://www.wsj.com/articles/germany-for-first-time-sells-30-year-bonds-offering-negative-yields-11566385847)<br/>
 Питання з курсу «Вступ до економіки»: коли може бути вигідно купувати облігації з _від'ємною_ відсотковою ставкою?
+
+[Why did MS-DOS applications built using Turbo Pascal fail to start with a division by zero error on faster systems?](https://retrocomputing.stackexchange.com/questions/12111/why-did-ms-dos-applications-built-using-turbo-pascal-fail-to-start-with-a-divisi)
