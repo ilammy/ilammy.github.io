@@ -1,0 +1,44 @@
+---
+layout:   post
+title:    "News digest #188"
+date:     2019-08-26 17:00:00 +0900
+tags:     digest cpp dev rust security web
+---
+
+До кінця року лишається 127 днів 👻
+
+<!--
+2019-08-23: Нарешті знайшов хоч щось варте постінгу.
+-->
+
+### C++
+
+[Some obscure C features](https://multun.net/obscure-c-features.html)<br/>
+Особисто я не знав, що `sizeof` _не завжди_ є константним виразом.
+
+### Development
+
+[Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/)<br/>
+Microsoft знову береться за праве діло: сформулювати загальний протокол для відладчиків.
+
+### Rust
+
+[Thoughts on Rust bloat](https://raphlinus.github.io/rust/2019/08/21/rust-bloat.html)<br/>
+Я вже давно не брав Раст до рук, але час компіляції дійсно є проблемою, in a way.
+
+### Security
+
+[The Many Possibilities of CVE-2019-8646](https://googleprojectzero.blogspot.com/2019/08/the-many-possibilities-of-cve-2019-8646.html)<br/>
+Згадуйте про цей баг в iMessage кожного разу, коли бачите пропозицію перенести щось до ядра ОС, бо так буде швидше/зручніше.
+
+### Web
+
+[Mozilla takes action to protect users in Kazakhstan](https://blog.mozilla.org/blog/2019/08/21/mozilla-takes-action-to-protect-users-in-kazakhstan/)<br/>
+Я радий, що Мозілла все ж зважилась на блокування цього вашого «сертифікату безпеки».
+
+### Miscellaneous
+
+[Germany for First Time Sells 30-Year Bonds Offering Negative Yields](https://www.wsj.com/articles/germany-for-first-time-sells-30-year-bonds-offering-negative-yields-11566385847)<br/>
+Питання з курсу «Вступ до економіки»: коли може бути вигідно купувати облігації з _від'ємною_ відсотковою ставкою?
+
+[Why did MS-DOS applications built using Turbo Pascal fail to start with a division by zero error on faster systems?](https://retrocomputing.stackexchange.com/questions/12111/why-did-ms-dos-applications-built-using-turbo-pascal-fail-to-start-with-a-divisi)
