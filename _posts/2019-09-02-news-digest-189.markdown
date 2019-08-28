@@ -8,3 +8,7 @@ tags:     digest
 <!--
 2019-08-28: Час починати збирати!
 -->
+
+### Miscellaneous
+
+[Running Lisp in Production](https://tech.grammarly.com/blog/running-lisp-in-production)
