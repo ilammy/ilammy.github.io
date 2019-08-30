@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #189"
 date:     2019-09-02 12:00:00 +0300
-tags:     digest cpp misc
+tags:     digest cpp linux misc
 ---
 
 Вітаю з річницею офіційного кінця Другої світової.
@@ -20,9 +20,17 @@ tags:     digest cpp misc
 [Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/post/455848/)<br/>
 UB — радість для всієї сім'ї.
 
+### Linux
+
+[A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/), [part 2](http://ifeanyi.co/posts/linux-namespaces-part-2/), [part 3](http://ifeanyi.co/posts/linux-namespaces-part-3/), [part 4](http://ifeanyi.co/posts/linux-namespaces-part-4/)<br/>
+Непоганий огляд неймспейсів.
+
 ### Miscellaneous
 
 [Running Lisp in Production](https://tech.grammarly.com/blog/running-lisp-in-production)
 
 [Google just deleted my nearly 10-year-old free & open-source Android app](https://medium.com/@mmathieum/google-just-deleted-my-nearly-10-year-old-free-open-source-android-app-7fbc52edc50a)<br/>
 Google Borg забанив чергове жалюгідне людисько. Кафка перегорнувся в труні.
+
+[The Baseline Interpreter: a faster JS interpreter in Firefox 70](https://hacks.mozilla.org/2019/08/the-baseline-interpreter-a-faster-js-interpreter-in-firefox-70/)<br/>
+В Мозілли годні техноблоги виходять.
