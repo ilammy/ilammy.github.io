@@ -34,3 +34,6 @@ Google Borg забанив чергове жалюгідне людисько. �
 
 [The Baseline Interpreter: a faster JS interpreter in Firefox 70](https://hacks.mozilla.org/2019/08/the-baseline-interpreter-a-faster-js-interpreter-in-firefox-70/)<br/>
 В Мозілли годні техноблоги виходять.
+
+[Escher-like Spiral Tilings](http://isohedral.ca/escher-like-spiral-tilings/)<br/>
+“Mathematics, rightly viewed, possesses not only truth, but supreme beauty – a beauty cold and austere, like that of sculpture, without appeal to any part of our weaker nature, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show.”
