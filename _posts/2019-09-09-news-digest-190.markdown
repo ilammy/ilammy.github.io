@@ -1,0 +1,13 @@
+---
+layout:   post
+title:    "News digest #1⑨0"
+date:     2019-09-09 12:00:00 +0300
+tags:     digest cpp linux misc
+---
+
+Happy Cirno Day!
+
+<!--
+TODO: сирна картинка
+2019-09-02: Почав збирати
+-->
