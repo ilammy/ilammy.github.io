@@ -1,0 +1,39 @@
+---
+layout:   post
+title:    "News digest #189"
+date:     2019-09-02 12:00:00 +0300
+tags:     digest cpp linux misc
+---
+
+Вітаю з річницею офіційного кінця Другої світової.
+
+<!--
+2019-08-28: Час починати збирати!
+2019-08-29: Вау, невже я щось знайшов?
+-->
+
+### C++
+
+[«Скользкие» места C++17](https://habr.com/ru/company/playrix/blog/465181/)<br/>
+Боже, наскільки ж складний цей монстр. @alkenso колись розповідав про ці моменти.
+
+[Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/post/455848/)<br/>
+UB — радість для всієї сім'ї.
+
+### Linux
+
+[A deep dive into Linux namespaces](http://ifeanyi.co/posts/linux-namespaces-part-1/), [part 2](http://ifeanyi.co/posts/linux-namespaces-part-2/), [part 3](http://ifeanyi.co/posts/linux-namespaces-part-3/), [part 4](http://ifeanyi.co/posts/linux-namespaces-part-4/)<br/>
+Непоганий огляд неймспейсів.
+
+### Miscellaneous
+
+[Running Lisp in Production](https://tech.grammarly.com/blog/running-lisp-in-production)
+
+[Google just deleted my nearly 10-year-old free & open-source Android app](https://medium.com/@mmathieum/google-just-deleted-my-nearly-10-year-old-free-open-source-android-app-7fbc52edc50a)<br/>
+Google Borg забанив чергове жалюгідне людисько. Кафка перегорнувся в труні.
+
+[The Baseline Interpreter: a faster JS interpreter in Firefox 70](https://hacks.mozilla.org/2019/08/the-baseline-interpreter-a-faster-js-interpreter-in-firefox-70/)<br/>
+В Мозілли годні техноблоги виходять.
+
+[Escher-like Spiral Tilings](http://isohedral.ca/escher-like-spiral-tilings/)<br/>
+“Mathematics, rightly viewed, possesses not only truth, but supreme beauty – a beauty cold and austere, like that of sculpture, without appeal to any part of our weaker nature, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show.”
