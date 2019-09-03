@@ -2,12 +2,17 @@
 layout:   post
 title:    "News digest #1⑨0"
 date:     2019-09-09 12:00:00 +0300
-tags:     digest cpp linux misc
+tags:     digest cpp
 ---
 
-Happy Cirno Day!
+Щасливого Сирного дня!
 
 <!--
 TODO: сирна картинка
 2019-09-02: Почав збирати
 -->
+
+### C++
+
+[Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)<br/>
+Огляд бібліотек, символів, і всього такого (переважно для GNU/Linux).
