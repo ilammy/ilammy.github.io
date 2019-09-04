@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #1⑨0"
 date:     2019-09-09 12:00:00 +0300
-tags:     digest cpp
+tags:     digest cpp security misc
 ---
 
 Щасливого Сирного дня!
@@ -16,3 +16,15 @@ TODO: сирна картинка
 
 [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)<br/>
 Огляд бібліотек, символів, і всього такого (переважно для GNU/Linux).
+
+### Security
+
+[RSA: Theory and Implementation](https://eli.thegreenplace.net/2019/rsa-theory-and-implementation/)<br/>
+Класний приклад, але цю реалізацію можна використвовуати лише в аудиторії.
+
+[Heap Exploit Development – Case study from an in-the-wild iOS 0-day](https://azeria-labs.com/heap-exploit-development-part-1/)
+
+### Miscellaneous
+
+[Regex Crossword](https://regexcrossword.com)<br/>
+Ще один тренажер для регулярок.
