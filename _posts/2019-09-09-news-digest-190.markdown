@@ -62,4 +62,4 @@ Google документує свої процеси. Поки що тільки 
 [Human speech may have a universal transmission rate: 39 bits per second](https://news.ycombinator.com/item?id=20880789)
 
 [Fancy Zones](https://github.com/microsoft/PowerToys/blob/master/src/modules/fancyzones/README.md)<br/>
-Тайлінговий віконний менеджер для Windows. Моя перша думка: «Щйорт, знову сімлесс зламається!»
+Тайловий менеджер вікон для Windows. Моя реакція: «Щйорт, знову сімлесс зламається!»
