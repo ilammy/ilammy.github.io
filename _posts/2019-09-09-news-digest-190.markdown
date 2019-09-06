@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #1⑨0"
 date:     2019-09-09 12:00:00 +0300
-tags:     digest cpp dev security misc
+tags:     digest cpp dev go rust security misc
 ---
 
 Щасливого Сирного дня!
@@ -17,10 +17,29 @@ TODO: сирна картинка
 [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)<br/>
 Огляд бібліотек, символів, і всього такого (переважно для GNU/Linux).
 
+[C++ is not a superset of C](https://mcla.ug/blog/cpp-is-not-a-superset-of-c.html)<br/>
+Хочу нормальні _designated initializers_ в C++.
+
 ### Development
 
-[Google Engineering Practices ](https://google.github.io/eng-practices/)<br/>
+[Google Engineering Practices](https://google.github.io/eng-practices/)<br/>
 Google документує свої процеси. Поки що тільки про огляд коду.
+
+[Shenanigans with Hash Tables](http://thume.ca/2019/07/29/shenanigans-with-hash-tables/)<br/>
+[Array with Constant Time Access and Fast Insertion and Deletion](https://github.com/igushev/IgushArray)<br/>
+Інтересні алгоритмічні прийоми.
+
+### Golang
+
+[Go 1.13 Release Notes](https://golang.org/doc/go1.13)
+
+[Don’t force allocations on the callers of your API](https://dave.cheney.net/2019/09/05/dont-force-allocations-on-the-callers-of-your-api)<br/>
+Про дизайн повернення результатів в API.
+
+### Rust
+
+[Rust in Large Organizations Meeting](https://users.rust-lang.org/t/rust-in-large-organizations-meeting/32059) [(meeting notes)](https://gist.github.com/rylev/0e3c3895dcb40b6a1c1cf8c427c01b5e)<br/>
+Підсумок можна підвести такий: білд-системи — це складно.
 
 ### Security
 
@@ -29,7 +48,15 @@ Google документує свої процеси. Поки що тільки 
 
 [Heap Exploit Development – Case study from an in-the-wild iOS 0-day](https://azeria-labs.com/heap-exploit-development-part-1/)
 
+[ImperialViolet](https://www.imperialviolet.org/)<br/>
+Блог мейнтейнера BoringSSL у Chromium. В основному про сісуріті.
+
+[A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)<br/>
+Дуже багато матеріалу про те, як працюють деякі експлоїти.
+
 ### Miscellaneous
 
 [Regex Crossword](https://regexcrossword.com)<br/>
 Ще один тренажер для регулярок.
+
+[Human speech may have a universal transmission rate: 39 bits per second](https://news.ycombinator.com/item?id=20880789)
