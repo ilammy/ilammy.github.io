@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #1⑨0"
 date:     2019-09-09 12:00:00 +0300
-tags:     digest cpp security misc
+tags:     digest cpp dev security misc
 ---
 
 Щасливого Сирного дня!
@@ -16,6 +16,11 @@ TODO: сирна картинка
 
 [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)<br/>
 Огляд бібліотек, символів, і всього такого (переважно для GNU/Linux).
+
+### Development
+
+[Google Engineering Practices ](https://google.github.io/eng-practices/)<br/>
+Google документує свої процеси. Поки що тільки про огляд коду.
 
 ### Security
 
