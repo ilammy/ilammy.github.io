@@ -7,11 +7,6 @@ tags:     digest cpp dev go rust security misc
 
 Щасливого Сирного дня!
 
-<!--
-TODO: сирна картинка
-2019-09-02: Почав збирати
--->
-
 ### C++
 
 [Beginner's Guide to Linkers](http://www.lurklurk.org/linkers/linkers.html)<br/>
@@ -63,3 +58,12 @@ Google документує свої процеси. Поки що тільки 
 
 [Fancy Zones](https://github.com/microsoft/PowerToys/blob/master/src/modules/fancyzones/README.md)<br/>
 Тайловий менеджер вікон для Windows. Моя реакція: «Щйорт, знову сімлесс зламається!»
+
+<!--
+  TODO:
+  - host the image on this site
+  - use transparent background
+-->
+<div style="width: 250px; position: fixed; left: 0; bottom: 0;">
+  <a href="https://danbooru.donmai.us/posts/3095644"><img src="https://danbooru.donmai.us/data/__cirno_touhou_drawn_by_moyazou_kitaguni_moyashi_seizoujo__1192f6a39e046637ab87784b1f4ce302.png"></a>
+</div>
