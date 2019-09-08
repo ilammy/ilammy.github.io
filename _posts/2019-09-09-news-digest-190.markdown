@@ -5,7 +5,7 @@ date:     2019-09-09 12:00:00 +0300
 tags:     digest cpp dev go rust security misc
 ---
 
-Щасливого Сирного дня!
+Гарного Сирного дня!
 
 ### C++
 
