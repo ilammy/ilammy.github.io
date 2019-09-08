@@ -24,6 +24,9 @@ Google документує свої процеси. Поки що тільки 
 [Array with Constant Time Access and Fast Insertion and Deletion](https://github.com/igushev/IgushArray)<br/>
 Інтересні алгоритмічні прийоми.
 
+[So you want to write a package manager](https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527)<br/>
+Чому все так погано з npm, cargo, go get, etc.
+
 ### Golang
 
 [Go 1.13 Release Notes](https://golang.org/doc/go1.13)
@@ -58,6 +61,9 @@ Google документує свої процеси. Поки що тільки 
 
 [Fancy Zones](https://github.com/microsoft/PowerToys/blob/master/src/modules/fancyzones/README.md)<br/>
 Тайловий менеджер вікон для Windows. Моя реакція: «Щйорт, знову сімлесс зламається!»
+
+[A Simple Unix-like operating system](https://github.com/ozkl/soso)<br/>
+Автор відразу говорить: «Так, Doom тут запускається» 😂
 
 <!--
   TODO:
