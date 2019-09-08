@@ -65,11 +65,6 @@ Google документує свої процеси. Поки що тільки 
 [A Simple Unix-like operating system](https://github.com/ozkl/soso)<br/>
 Автор відразу говорить: «Так, Doom тут запускається» 😂
 
-<!--
-  TODO:
-  - host the image on this site
-  - use transparent background
--->
-<div style="width: 250px; position: fixed; left: 0; bottom: 0;">
-  <a href="https://danbooru.donmai.us/posts/3095644"><img src="https://danbooru.donmai.us/data/__cirno_touhou_drawn_by_moyazou_kitaguni_moyashi_seizoujo__1192f6a39e046637ab87784b1f4ce302.png"></a>
+<div style="width: 250px; position: fixed; left: 25px; bottom: 0;">
+  <a href="https://danbooru.donmai.us/posts/3095644"><img src="/images/2019-09-09/cirno.png"></a>
 </div>
