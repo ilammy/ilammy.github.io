@@ -10,3 +10,9 @@ tags:     digest
 <!--
 2019-09-09: preparations started
 -->
+
+https://v1-0.ballerina.io
+
+https://github.com/TheDan64/inkwell
+
+https://github.com/dekuNukem/daytripper
