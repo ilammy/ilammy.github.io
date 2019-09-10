@@ -16,3 +16,7 @@ https://v1-0.ballerina.io
 https://github.com/TheDan64/inkwell
 
 https://github.com/dekuNukem/daytripper
+
+https://habr.com/ru/post/466941/
+
+https://habr.com/ru/company/otus/blog/466915/
