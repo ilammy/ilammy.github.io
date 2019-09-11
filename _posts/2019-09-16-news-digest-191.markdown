@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #191"
 date:     2019-09-16 12:00:00 +0300
-tags:     digest
+tags:     digest cpp misc
 ---
 
 <!--このダイジェストはん日本語で書きました。-->
@@ -11,12 +11,24 @@ tags:     digest
 2019-09-09: preparations started
 -->
 
-https://v1-0.ballerina.io
+### C++
 
-https://github.com/TheDan64/inkwell
+[Как сделать SFINAE изящным и надежным](https://habr.com/ru/company/otus/blog/466915/)<br/>
+Концепти, придіть вже! Бо цей код для іншопланетян.
+<!-- コンセプトが欲しい。このコードが分かりませんから。-->
 
-https://github.com/dekuNukem/daytripper
+### Miscellaneous
 
-https://habr.com/ru/post/466941/
+[Ballerina programming language](https://v1-0.ballerina.io)<br/>
+Ви тільки подивіться на те, скільки сил витрачено на маркетинг нової мови!
+<!-- 仕事量はすごいです、この言語のために。-->
 
-https://habr.com/ru/company/otus/blog/466915/
+[Inkwell](https://github.com/TheDan64/inkwell)<br/>
+LLVM bindings for Rust.
+
+[Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
+<!--「インド人」ですから。-->
+
+[Daytripper: Hide-My-Windows Laser Tripwire](https://github.com/dekuNukem/daytripper)<br/>
+Що ви можете робити, якщо важе хобі це електроніка.
+<!-- しゅみが電子こうがくのばあい、この物ができます。-->
