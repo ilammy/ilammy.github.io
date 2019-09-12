@@ -23,8 +23,7 @@ tags:     digest cpp misc
 Ви тільки подивіться на те, скільки сил витрачено на маркетинг нової мови!
 <!-- 仕事量はすごいです、この言語のために。-->
 
-[Inkwell](https://github.com/TheDan64/inkwell)<br/>
-LLVM bindings for Rust.
+[Inkwell: LLVM bindings for Rust](https://github.com/TheDan64/inkwell)
 
 [Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
 <!--「インド人」ですから。-->
@@ -32,3 +31,7 @@ LLVM bindings for Rust.
 [Daytripper: Hide-My-Windows Laser Tripwire](https://github.com/dekuNukem/daytripper)<br/>
 Що ви можете робити, якщо важе хобі це електроніка.
 <!-- しゅみが電子こうがくのばあい、この物ができます。-->
+
+["What Remains" Technical Breakdown](http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/)<br/>
+Гра під NES написана на Ліспі.
+<!-- LISPでNESのゲームを作りせるでした。-->
