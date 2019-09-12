@@ -35,3 +35,5 @@ tags:     digest cpp misc
 
 [Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
 <!--「インド人」ですから。-->
+
+[WebGL Fluid Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
