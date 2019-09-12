@@ -25,13 +25,13 @@ tags:     digest cpp misc
 
 [Inkwell: LLVM bindings for Rust](https://github.com/TheDan64/inkwell)
 
-[Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
-<!--「インド人」ですから。-->
-
 [Daytripper: Hide-My-Windows Laser Tripwire](https://github.com/dekuNukem/daytripper)<br/>
-Що ви можете робити, якщо важе хобі це електроніка.
+Що ви можете робити, якщо ваше хобі — електроніка.
 <!-- しゅみが電子こうがくのばあい、この物ができます。-->
 
 ["What Remains" Technical Breakdown](http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/)<br/>
 Гра під NES написана на Ліспі.
 <!-- LISPでNESのゲームを作りせるでした。-->
+
+[Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
+<!--「インド人」ですから。-->
