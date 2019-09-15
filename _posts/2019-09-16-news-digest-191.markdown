@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #191"
 date:     2019-09-16 12:00:00 +0300
-tags:     digest cpp misc
+tags:     digest cpp dev go misc
 ---
 
 <!--このダイジェストはん日本語で書きました。-->
@@ -15,25 +15,45 @@ tags:     digest cpp misc
 
 [Как сделать SFINAE изящным и надежным](https://habr.com/ru/company/otus/blog/466915/)<br/>
 Концепти, придіть вже! Бо цей код для іншопланетян.
-<!-- コンセプトが欲しい。このコードが分かりませんから。-->
+<!--コンセプトが欲しい。このコードが分かりませんから。-->
+
+[Efficient string copying and concatenation in C](https://developers.redhat.com/blog/2019/08/12/efficient-string-copying-and-concatenation-in-c/)<br/>
+Працювати з легасі — тяжка праця.
+<!--レガシコードは大変です。-->
+
+### Development
+
+[BLUF: The Military Standard That Can Make Your Writing More Powerful](https://www.animalz.co/blog/bottom-line-up-front/)<br/>
+До теми написання імейлів. Ну й звісно ж [в Армії США є посібник](https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/r25_50.pdf).
+<!--メールに関する面白い小説です。そして、米国の軍はこの方の教科書がありますよ。-->
+
+### Golang
+
+[Building a better Go linker](https://golang.org/s/better-linker)
 
 ### Miscellaneous
 
 [Ballerina programming language](https://v1-0.ballerina.io)<br/>
 Ви тільки подивіться на те, скільки сил витрачено на маркетинг нової мови!
-<!-- 仕事量はすごいです、この言語のために。-->
+<!--仕事量はすごいです、この言語のために。-->
 
 [Inkwell: LLVM bindings for Rust](https://github.com/TheDan64/inkwell)
 
 [Daytripper: Hide-My-Windows Laser Tripwire](https://github.com/dekuNukem/daytripper)<br/>
 Що ви можете робити, якщо ваше хобі — електроніка.
-<!-- しゅみが電子こうがくのばあい、この物ができます。-->
+<!--しゅみが電子こうがくのばあい、この物ができます。-->
 
 ["What Remains" Technical Breakdown](http://www.dustmop.io/blog/2019/09/10/what-remains-technical-breakdown/)<br/>
 Гра під NES написана на Ліспі.
-<!-- LISPでNESのゲームを作りせるでした。-->
+<!--LISPでNESのゲームを作りせるでした。-->
 
 [Почему для открытия меню Windows читает один файл сто тысяч раз?](https://habr.com/ru/post/466941/)
 <!--「インド人」ですから。-->
 
+[An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)<br/>
+Цифрова обробка сигналів — одна з моїх улюблених дисциплін в вузі. Я знаю, ви читаєте це, вчителю! Дякую.
+<!--大学に、DSPが一番好きな専門でした。先生、これを読んでいますと思います。どうもありがとうございました。-->
+
 [WebGL Fluid Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)
+
+[Color Emulation](https://byuu.net/video/color-emulation) [in retrogaming systems]
