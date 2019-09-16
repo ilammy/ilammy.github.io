@@ -13,6 +13,16 @@ tags:     digest
 
 [Posit-арифметика: победа над floating point на его собственном поле](https://habr.com/ru/post/465723/)
 
+### Linux
+
+[Linux 5.3](https://lkml.org/lkml/2019/9/15/241)
+[Revert "ext4: make __ext4_get_inode_loc plug"](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?h=v5.3&id=72dbcf72156641fde4d8ea401e977341bfd35a05)
+<!--/dev/urandom vs /dev/random vs getrandom() is interesting thing.-->
+
+### Web
+
+[The boring technology behind a one-person Internet company](https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b)
+
 ### Miscellaneous
 
 [Schism: a self-hosting Scheme to WebAssembly compiler](https://github.com/google/schism)
