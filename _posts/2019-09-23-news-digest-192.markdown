@@ -8,3 +8,11 @@ tags:     digest
 <!--
 2019-09-16: initial
 -->
+
+### Development
+
+[Posit-арифметика: победа над floating point на его собственном поле](https://habr.com/ru/post/465723/)
+
+### Miscellaneous
+
+[Schism: a self-hosting Scheme to WebAssembly compiler](https://github.com/google/schism)
