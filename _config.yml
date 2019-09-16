@@ -32,10 +32,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Disqus comments configuration
-disqus:
-  shortname: blog-ilammy-net
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
