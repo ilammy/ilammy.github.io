@@ -13,6 +13,8 @@ tags:     digest
 
 [Posit-арифметика: победа над floating point на его собственном поле](https://habr.com/ru/post/465723/)
 
+[Исповедь docker хейтера](https://habr.com/ru/post/467607/)
+
 ### Linux
 
 [Linux 5.3](https://lkml.org/lkml/2019/9/15/241)
