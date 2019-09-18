@@ -9,6 +9,11 @@ tags:     digest
 2019-09-16: initial
 -->
 
+### Open Source
+
+[Richard M. Stallman resigns](https://www.fsf.org/news/richard-m-stallman-resigns)<br/>
+<kbd>F</kbd>
+
 ### Development
 
 [Posit-арифметика: победа над floating point на его собственном поле](https://habr.com/ru/post/465723/)
