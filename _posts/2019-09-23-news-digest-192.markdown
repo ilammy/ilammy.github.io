@@ -2,12 +2,19 @@
 layout:   post
 title:    "News digest #192"
 date:     2019-09-23 12:00:00 +0300
-tags:     digest dev linux oss web misc
+tags:     digest cpp dev linux oss web misc
 ---
 
 <!--
 2019-09-16: initial
 -->
+
+### C++
+
+[Open Sourcing MSVC’s STL](https://devblogs.microsoft.com/cppblog/open-sourcing-msvcs-stl/)
+[repo](https://github.com/microsoft/STL)
+
+[Modern C](http://modernc.gforge.inria.fr)
 
 ### Development
 
@@ -15,20 +22,32 @@ tags:     digest dev linux oss web misc
 
 [Исповедь docker хейтера](https://habr.com/ru/post/467607/)
 
+[Going fast slowly](https://varnish-cache.org/docs/6.2/phk/thatslow.html)
+
 ### Linux
 
 [Linux 5.3](https://lkml.org/lkml/2019/9/15/241)
 [Revert "ext4: make __ext4_get_inode_loc plug"](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?h=v5.3&id=72dbcf72156641fde4d8ea401e977341bfd35a05)
 <!--/dev/urandom vs /dev/random vs getrandom() is interesting thing.-->
 
+[pure bash bible: a collection of pure bash alternatives to external processes](https://github.com/dylanaraps/pure-bash-bible)
+spellbook
+
 ### Open Source
 
 [Richard M. Stallman resigns](https://www.fsf.org/news/richard-m-stallman-resigns)<br/>
 <kbd>F</kbd>
 
+### Rust
+
+[Опровергаем четыре стереотипа о языке программирования Rust](https://habr.com/ru/post/467901/)
+
 ### Web
 
 [The boring technology behind a one-person Internet company](https://broadcast.listennotes.com/the-boring-technology-behind-listen-notes-56697c2e347b)
+
+[The cost of JavaScript in 2019](https://v8.dev/blog/cost-of-javascript-2019)<br/>
+The cost of JSON parsing is unexpected, but then you remember about JIT.
 
 ### Miscellaneous
 
