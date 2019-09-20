@@ -34,7 +34,7 @@ tags:     digest cpp dev linux oss web misc
 ### Open Source
 
 [Richard M. Stallman resigns](https://www.fsf.org/news/richard-m-stallman-resigns)<br/>
-<kbd>F</kbd>
+<kbd>F</kbd> o7
 
 ### Rust
 
