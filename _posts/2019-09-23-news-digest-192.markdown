@@ -14,6 +14,9 @@ tags:     digest cpp dev linux oss web misc
 [Modern C](http://modernc.gforge.inria.fr)<br/>
 Інтересний підручник.
 
+[Common Systems Programming Optimizations & Tricks](https://paulcavallaro.com/blog/common-systems-programming-optimizations-tricks/)<br/>
+Прям класичні прийомчики. Молодші біти теж часто використовують.
+
 ### Development
 
 [Posit-арифметика: победа над floating point на его собственном поле](https://habr.com/ru/post/465723/)<br/>
@@ -50,6 +53,9 @@ tags:     digest cpp dev linux oss web misc
 
 [The cost of JavaScript in 2019](https://v8.dev/blog/cost-of-javascript-2019)<br/>
 Пост з купою інтересних деталей, над якими треба подумати.
+
+[Explanation of the state of uBlock Origin (and other blockers) for Safari](https://github.com/el1t/uBlock-Safari/issues/158)<br/>
+tl;dr: uBO will no longer with Safari, use Firefox or a new "content blocker" app
 
 ### Miscellaneous
 
