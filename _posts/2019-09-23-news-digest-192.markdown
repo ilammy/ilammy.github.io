@@ -15,7 +15,9 @@ tags:     digest cpp dev linux oss web misc
 Інтересний підручник.
 
 [Common Systems Programming Optimizations & Tricks](https://paulcavallaro.com/blog/common-systems-programming-optimizations-tricks/)<br/>
-Прям класичні прийомчики. Молодші біти теж часто використовують.
+Прям класичні прийомчики. Молодші біти теж часто використовують, наприклад.
+
+[Top 25 Most Dangerous Software Errors](https://cwe.mitre.org/top25/archive/2019/2019_cwe_top25.html)
 
 ### Development
 
@@ -26,7 +28,7 @@ tags:     digest cpp dev linux oss web misc
 Про довготривалий розвиток програмних продуктів на прикладі _Varnish_ (котрий HTTP-кеш).
 
 [Исповедь docker хейтера](https://habr.com/ru/post/467607/)<br/>
-~~Дякую тобі, Боже, що я не девопс.~~
+Дякую тобі, Боже, що я не девопс.
 
 ### Linux
 
