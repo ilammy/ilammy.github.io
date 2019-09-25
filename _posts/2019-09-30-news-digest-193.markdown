@@ -10,3 +10,15 @@ tags:     digest
 https://sdnotes.com/faq
 http://txti.es/about
 Люди підтримують вільний інтернет як можуть.
+
+[When TCP sockets refuse to die](https://idea.popcount.org/2019-09-20-when-tcp-sockets-refuse-to-die/)<br/>
+Про ~~безглуздий~~ TCP keep-alive.
+
+[Secretary problem](https://en.wikipedia.org/wiki/Secretary_problem)<br/>
+Цікаве емпіричне правило поведінки.
+
+[Bike crash left Spokane man unconscious, so his Apple Watch called 911](https://www.seattletimes.com/seattle-news/bike-crash-left-spokane-man-unconscious-but-his-apple-watch-called-911/)<br/>
+Майбутнє вже тут, просто ми його не помічаємо.
+
+[Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
+Підборочка онлайн-курсів з різноманітних CS-дисциплін, кому освіти не вистачає.
