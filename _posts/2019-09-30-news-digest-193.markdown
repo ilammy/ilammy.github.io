@@ -22,3 +22,9 @@ http://txti.es/about
 
 [Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
 Підборочка онлайн-курсів з різноманітних CS-дисциплін, кому освіти не вистачає.
+
+[О [[trivial_abi]] в Clang-е](https://habr.com/ru/post/468759/)<br/>
+Про неочевидні малесенькі втрати в ефективності та машинний код.
+
+[WARP is here](https://blog.cloudflare.com/announcing-warp-plus/)<br/>
+Cloudflare випускає ~~шпигунський~~ проксі для мобілочок.
