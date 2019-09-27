@@ -32,3 +32,9 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)<br/>
 В них взагалі класні пости в технічному блозі.
+
+[Commit graph drawing algorithms](https://pvigier.github.io/2019/05/06/commit-graph-drawing-algorithms.html)<br/>
+Якщо ви раптом надумаєте писати свій браузер історії.
+
+[Announcing Rust 1.38.0](https://blog.rust-lang.org/2019/09/26/Rust-1.38.0.html)<br/>
+Мінорний реліз, але є _суттєва_ оптимізація для проектів з купою залежностей.
