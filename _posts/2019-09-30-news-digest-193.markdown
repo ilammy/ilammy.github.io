@@ -2,30 +2,28 @@
 layout:   post
 title:    "News digest #193"
 date:     2019-09-30 12:00:00 +0300
-tags:     digest
+tags:     digest cpp dev web news misc
 ---
 
-[Nim version 1.0 released](https://nim-lang.org//blog/2019/09/23/version-100-released.html)
+За відсутністю кращого кандидата, нагадаю про розстріли у Бабиному Яру, що відбулися 78 років тому. І порекомендую книгу Крістофера Браунінга «Звичайні люди».
 
-https://sdnotes.com/faq
-http://txti.es/about
-Люди підтримують вільний інтернет як можуть.
+### C++
 
-[When TCP sockets refuse to die](https://idea.popcount.org/2019-09-20-when-tcp-sockets-refuse-to-die/)<br/>
-Про ~~безглуздий~~ TCP keep-alive.
+[О [[trivial_abi]] в Clang-е](https://habr.com/ru/post/468759/)<br/>
+Про неочевидні малесенькі втрати в ефективності та машинний код.
 
-[Secretary problem](https://en.wikipedia.org/wiki/Secretary_problem)<br/>
-Цікаве емпіричне правило поведінки.
-
-[Bike crash left Spokane man unconscious, so his Apple Watch called 911](https://www.seattletimes.com/seattle-news/bike-crash-left-spokane-man-unconscious-but-his-apple-watch-called-911/)<br/>
-[Intro to personal automation](https://support.apple.com/guide/shortcuts/intro-to-personal-automation-apd690170742/ios)<br/>
-Майбутнє вже тут, просто ми його не помічаємо.
+### Development
 
 [Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
 Підборочка онлайн-курсів з різноманітних CS-дисциплін, кому освіти не вистачає.
 
-[О [[trivial_abi]] в Clang-е](https://habr.com/ru/post/468759/)<br/>
-Про неочевидні малесенькі втрати в ефективності та машинний код.
+[Commit graph drawing algorithms](https://pvigier.github.io/2019/05/06/commit-graph-drawing-algorithms.html)<br/>
+Якщо ви раптом надумаєте писати свій браузер історії.
+
+### Web
+
+[When TCP sockets refuse to die](https://idea.popcount.org/2019-09-20-when-tcp-sockets-refuse-to-die/)<br/>
+Про ~~безглуздий~~ TCP keep-alive.
 
 [WARP is here](https://blog.cloudflare.com/announcing-warp-plus/)<br/>
 Cloudflare випускає ~~шпигунський~~ проксі для мобілочок.
@@ -33,8 +31,22 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)<br/>
 В них взагалі класні пости в технічному блозі.
 
-[Commit graph drawing algorithms](https://pvigier.github.io/2019/05/06/commit-graph-drawing-algorithms.html)<br/>
-Якщо ви раптом надумаєте писати свій браузер історії.
+[standard definition notes](https://sdnotes.com/faq) — [Meet txti](http://txti.es/about)
+Люди підтримують вільний інтернет як можуть.
+
+### Releases
+
+[Nim version 1.0 released](https://nim-lang.org//blog/2019/09/23/version-100-released.html)<br/>
+Цікавий... претендент на звання «недооцінена мова року». Там інтересні макроси.
 
 [Announcing Rust 1.38.0](https://blog.rust-lang.org/2019/09/26/Rust-1.38.0.html)<br/>
 Мінорний реліз, але є _суттєва_ оптимізація для проектів з купою залежностей.
+
+### Miscellaneous
+
+[Secretary problem](https://en.wikipedia.org/wiki/Secretary_problem)<br/>
+Цікаве емпіричне правило поведінки.
+
+[Bike crash left Spokane man unconscious, so his Apple Watch called 911](https://www.seattletimes.com/seattle-news/bike-crash-left-spokane-man-unconscious-but-his-apple-watch-called-911/)<br/>
+[Intro to personal automation](https://support.apple.com/guide/shortcuts/intro-to-personal-automation-apd690170742/ios)<br/>
+Майбутнє вже тут, просто ми його не помічаємо.
