@@ -31,7 +31,7 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)<br/>
 В них взагалі класні пости в технічному блозі.
 
-[standard definition notes](https://sdnotes.com/faq) — [Meet txti](http://txti.es/about)
+[standard definition notes](https://sdnotes.com/faq) — [Meet txti](http://txti.es/about)<br/>
 Люди підтримують вільний інтернет як можуть.
 
 ### Releases
