@@ -12,6 +12,9 @@ tags:     digest cpp dev linux web news misc
 [О [[trivial_abi]] в Clang-е](https://habr.com/ru/post/468759/)<br/>
 Про неочевидні малесенькі втрати в ефективності та машинний код.
 
+[How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)<br/>
+Тільки-но обговорював, чи може double-free призводити до remote code execution, і тут відразу приклад.
+
 ### Development
 
 [Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
