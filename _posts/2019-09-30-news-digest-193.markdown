@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #193"
 date:     2019-09-30 12:00:00 +0300
-tags:     digest cpp dev web news misc
+tags:     digest cpp dev linux web news misc
 ---
 
 За відсутності кращого кандидата, нагадаю про розстріли у Бабиному Яру, що відбулися 78 років тому. І порекомендую книгу Крістофера Браунінга «Звичайні люди».
@@ -19,6 +19,11 @@ tags:     digest cpp dev web news misc
 
 [Commit graph drawing algorithms](https://pvigier.github.io/2019/05/06/commit-graph-drawing-algorithms.html)<br/>
 Якщо ви раптом надумаєте писати свій браузер історії.
+
+### Linux
+
+[X Window System basics](https://magcius.github.io/xplain/article/x-basics.html)<br/>
+З прикладами прямо в браузері!
 
 ### Web
 
@@ -56,3 +61,5 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 
 [Рендеринг текста вас ненавидит](https://habr.com/ru/post/469529/)<br/>
 Крутий пост про те, як все насправді складно в браузерах.
+
+[Strategies for Long Projects](http://benbrostoff.github.io/2019/09/28/long-projects.html)
