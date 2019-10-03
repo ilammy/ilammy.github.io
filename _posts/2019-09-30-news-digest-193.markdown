@@ -66,3 +66,6 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 Крутий пост про те, як все насправді складно в браузерах.
 
 [Strategies for Long Projects](http://benbrostoff.github.io/2019/09/28/long-projects.html)
+
+[Compile Stress Test](https://christine.website/blog/compile-stress-test-2019-10-03)<br/>
+"4 TB of ram isn't enough to build hello world in #rust!"
