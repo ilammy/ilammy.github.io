@@ -28,6 +28,9 @@ tags:     digest cpp dev linux web news misc
 [The Grand C++ Error Explosion Competition](https://tgceec.tumblr.com)<br/>
 Ну _звісно ж_ з цього є змагання!
 
+[Инициализация в современном C++](https://habr.com/ru/company/jugru/blog/469465/)<br/>
+Як так вийшло, що в C++ більш ніж двадцять способів ініціалізації.
+
 ### Development
 
 [Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
@@ -60,6 +63,9 @@ Cloudflare випускає ~~шпигунський~~ проксі для мо�
 
 [standard definition notes](https://sdnotes.com/faq) — [Meet txti](http://txti.es/about)<br/>
 Люди підтримують вільний інтернет як можуть.
+
+[Двойной VPN в один клик. Как легко разделить IP-адрес точки входа и выхода](https://habr.com/ru/company/vdsina/blog/469879/)<br/>
+Пашка знову пише про VPN.
 
 ### Releases
 
