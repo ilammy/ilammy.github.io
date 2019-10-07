@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #194"
 date:     2019-10-14 12:00:00 +0300
-tags:     digest web
+tags:     digest web misc
 ---
 
 Oh well... З днем захисників України.
@@ -11,3 +11,7 @@ Oh well... З днем захисників України.
 
 [Images done right: Web graphics, good to the last byte](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)<br/>
 Класний довгий пост про формати, оптимізацію, артефакти, тощо.
+
+### Miscellaneous
+
+[Elliptic Curve Cryptography Explained](https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/)
