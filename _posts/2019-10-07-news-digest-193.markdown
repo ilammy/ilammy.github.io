@@ -1,0 +1,102 @@
+---
+layout:   post
+title:    "News digest #193"
+date:     2019-10-07 12:00:00 +0300
+tags:     digest cpp dev linux web news misc
+---
+
+<style>
+.spoiler {
+  background-color: black;
+  padding: 1pt 2pt;
+}
+.spoiler:hover {
+  color: white;
+}
+</style>
+
+Першим фоткам зворотнього боку Місяця 60 років.
+
+### C++
+
+[О [[trivial_abi]] в Clang-е](https://habr.com/ru/post/468759/)<br/>
+Про неочевидні малесенькі втрати в ефективності та машинний код.
+
+[How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)<br/>
+Тільки-но обговорював, чи може double-free призводити до remote code execution, і тут відразу приклад.
+
+[The Grand C++ Error Explosion Competition](https://tgceec.tumblr.com)<br/>
+Ну _звісно ж_ з цього є змагання!
+
+[Инициализация в современном C++](https://habr.com/ru/company/jugru/blog/469465/)<br/>
+Як так вийшло, що в C++ більш ніж двадцять способів ініціалізації.
+
+### Development
+
+[Open Source Society University: Computer Science](https://github.com/ossu/computer-science)<br/>
+Підборочка онлайн-курсів з різноманітних CS-дисциплін, кому освіти не вистачає.
+
+[Commit graph drawing algorithms](https://pvigier.github.io/2019/05/06/commit-graph-drawing-algorithms.html)<br/>
+Якщо ви раптом надумаєте писати свій браузер історії.
+
+### Linux
+
+[X Window System basics](https://magcius.github.io/xplain/article/x-basics.html)<br/>
+З прикладами прямо в браузері!
+
+[Why printk() is so complicated (and how to fix it)](https://lwn.net/SubscriberLink/800946/a9ad9aba46f14e78/)<br/>
+Це ж _просто_ логгінг! Що там складного? /s
+
+[Kernel Concurrency Sanitizer (KCSAN)](https://github.com/google/ktsan/wiki/KCSAN)<br/>
+Google зробила ще одну утіліту-санітайзер. 300+ відомих багів!
+
+### Web
+
+[When TCP sockets refuse to die](https://idea.popcount.org/2019-09-20-when-tcp-sockets-refuse-to-die/)<br/>
+Про ~~безглуздий~~ TCP keep-alive.
+
+[WARP is here](https://blog.cloudflare.com/announcing-warp-plus/)<br/>
+Cloudflare випускає ~~шпигунський~~ проксі для мобілочок.
+
+[HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)<br/>
+В них взагалі класні пости в технічному блозі.
+
+[standard definition notes](https://sdnotes.com/faq) — [Meet txti](http://txti.es/about)<br/>
+Люди підтримують вільний інтернет як можуть.
+
+[Двойной VPN в один клик. Как легко разделить IP-адрес точки входа и выхода](https://habr.com/ru/company/vdsina/blog/469879/)<br/>
+Пашка знову пише про VPN.
+
+### Releases
+
+[Nim version 1.0 released](https://nim-lang.org//blog/2019/09/23/version-100-released.html)<br/>
+Цікавий... претендент на звання «недооцінена мова року». Там інтересні макроси.
+
+[Announcing Rust 1.38.0](https://blog.rust-lang.org/2019/09/26/Rust-1.38.0.html)<br/>
+Мінорний реліз, але є _суттєва_ оптимізація для проектів з купою залежностей.
+
+### Miscellaneous
+
+[Secretary problem](https://en.wikipedia.org/wiki/Secretary_problem)<br/>
+Цікаве емпіричне правило поведінки.
+
+[Bike crash left Spokane man unconscious, so his Apple Watch called 911](https://www.seattletimes.com/seattle-news/bike-crash-left-spokane-man-unconscious-but-his-apple-watch-called-911/)<br/>
+[Intro to personal automation](https://support.apple.com/guide/shortcuts/intro-to-personal-automation-apd690170742/ios)<br/>
+Майбутнє вже тут, просто ми його не помічаємо.
+
+[A developer goes to a DevOps conference](https://www.darkcoding.net/software/a-developer-goes-to-a-devops-conference/)<br/>
+Їхав Кубернетес до Кубернетес, бачить Кубернетес: Кубернетес. Задеплоїв Кубернетес в Кубернетес. Кубернетес Кубернетес Кубернетес!
+
+[Рендеринг текста вас ненавидит](https://habr.com/ru/post/469529/)<br/>
+Крутий пост про те, як все насправді складно в браузерах.
+
+[Strategies for Long Projects](http://benbrostoff.github.io/2019/09/28/long-projects.html)
+
+[Compile Stress Test](https://christine.website/blog/compile-stress-test-2019-10-03)<br/>
+"4 TB of ram isn't enough to build hello world in #rust!"
+
+[SQL queries don't start with SELECT](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)<br/>
+tfw по сьогодні не можеш згадати, коли виконується group by.
+
+[Ask HN: Who Wants to Be Fired?](https://news.ycombinator.com/item?id=21133181)<br/>
+Настало время <span class="spoiler">восхитительных</span> историй.
