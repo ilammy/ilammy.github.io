@@ -19,3 +19,5 @@ Oh well... З днем захисників України.
 ### Miscellaneous
 
 [Elliptic Curve Cryptography Explained](https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/)
+
+[How do I start being a consultant?](https://news.ycombinator.com/item?id=4247615)
