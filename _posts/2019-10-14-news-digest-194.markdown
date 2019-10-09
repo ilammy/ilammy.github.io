@@ -7,6 +7,10 @@ tags:     digest web misc
 
 Oh well... З днем захисників України.
 
+### Development
+
+[How Do Individual Contributors Get Stuck](http://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html)
+
 ### Linux
 
 [Настраиваем top в GNU/Linux](https://habr.com/ru/company/cloud4y/blog/469487/)
