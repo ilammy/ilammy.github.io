@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #194"
 date:     2019-10-14 12:00:00 +0300
-tags:     digest web misc
+tags:     digest dev web misc
 ---
 
 Oh well... З днем захисників України.
@@ -25,3 +25,7 @@ Oh well... З днем захисників України.
 [Elliptic Curve Cryptography Explained](https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/)
 
 [How do I start being a consultant?](https://news.ycombinator.com/item?id=4247615)
+
+[A set of minimal dependency bootstrap binaries](https://github.com/oriansj/stage0)
+
+[Collapse OS](https://collapseos.org)
