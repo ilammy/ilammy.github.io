@@ -31,3 +31,6 @@ Oh well... З днем захисників України.
 [Collapse OS](https://collapseos.org)
 
 [This wiki is about bootstrapping](https://bootstrapping.miraheze.org/wiki/Main_Page)
+
+[Ken Thompson's Unix password](https://leahneukirchen.org/blog/archive/2019/10/ken-thompson-s-unix-password.html)<br/>
+Батько UNIX дає уроки з придумування паролів, що задовольняють _вимогам безпеки_.
