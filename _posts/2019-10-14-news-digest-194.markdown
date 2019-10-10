@@ -29,3 +29,5 @@ Oh well... З днем захисників України.
 [A set of minimal dependency bootstrap binaries](https://github.com/oriansj/stage0)
 
 [Collapse OS](https://collapseos.org)
+
+[This wiki is about bootstrapping](https://bootstrapping.miraheze.org/wiki/Main_Page)
