@@ -39,3 +39,5 @@ Oh well... З днем захисника України.
 
 [Ken Thompson's Unix password](https://leahneukirchen.org/blog/archive/2019/10/ken-thompson-s-unix-password.html)<br/>
 Батько UNIX дає уроки з придумування паролів, що задовольняють _вимогам безпеки_.
+
+[Perl 6 → Raku](https://github.com/perl6/problem-solving/pull/89#pullrequestreview-300789072)
