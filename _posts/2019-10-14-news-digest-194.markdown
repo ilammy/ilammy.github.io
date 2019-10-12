@@ -12,6 +12,9 @@ Oh well... З днем захисника України.
 [libc++ 9.0.0 Release Notes](https://releases.llvm.org/9.0.0/projects/libcxx/docs/ReleaseNotes.html)<br/>
 В куточку маленькими літерами: «libc++ added explicit support for WebAssembly System Interface».
 
+[objc_msgSend's New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html)<br/>
+Історія про ABI та variadic arguments.
+
 ### Development
 
 [How Do Individual Contributors Get Stuck](http://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html)
