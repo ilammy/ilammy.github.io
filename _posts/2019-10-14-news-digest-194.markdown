@@ -15,6 +15,9 @@ Oh well... З днем захисника України.
 [objc_msgSend's New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html)<br/>
 Історія про ABI та variadic arguments.
 
+[The ugliest C feature: &lt;tgmath.h&gt;](https://web.archive.org/web/20131205042841/http://carolina.mff.cuni.cz/~trmac/blog/2005/the-ugliest-c-feature-tgmathh/)<br/>
+Ulrich Drepper: «Don't ask how».
+
 ### Development
 
 [How Do Individual Contributors Get Stuck](http://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html)
@@ -34,10 +37,8 @@ Oh well... З днем захисника України.
 
 [How do I start being a consultant?](https://news.ycombinator.com/item?id=4247615)
 
-[A set of minimal dependency bootstrap binaries](https://github.com/oriansj/stage0)
-
-[Collapse OS](https://collapseos.org)
-
+[A set of minimal dependency bootstrap binaries](https://github.com/oriansj/stage0)<br/>
+[Collapse OS](https://collapseos.org)<br/>
 [This wiki is about bootstrapping](https://bootstrapping.miraheze.org/wiki/Main_Page)
 
 [Ken Thompson's Unix password](https://leahneukirchen.org/blog/archive/2019/10/ken-thompson-s-unix-password.html)<br/>
