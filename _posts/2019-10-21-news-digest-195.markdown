@@ -2,5 +2,10 @@
 layout:   post
 title:    "News digest #195"
 date:     2019-10-21 12:00:00 +0300
-tags:     digest
+tags:     digest linux
 ---
+
+### Linux
+
+[Linux многоликий: как работать на любом дистрибутиве](https://habr.com/ru/company/veeam/blog/471226/)<br/>
+Тяжке життя комерційних дистрибьюторів, які змушені підтримувати зоопарк.
