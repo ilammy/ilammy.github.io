@@ -1,0 +1,48 @@
+---
+layout:   post
+title:    "News digest #194"
+date:     2019-10-14 12:00:00 +0300
+tags:     digest cpp dev linux web misc
+---
+
+Oh well... З днем захисника України.
+
+### C++
+
+[libc++ 9.0.0 Release Notes](https://releases.llvm.org/9.0.0/projects/libcxx/docs/ReleaseNotes.html)<br/>
+«libc++ added explicit support for WebAssembly System Interface».
+
+[objc_msgSend's New Prototype](https://www.mikeash.com/pyblog/objc_msgsends-new-prototype.html)<br/>
+Історія про ABI та variadic arguments.
+
+[The ugliest C feature: &lt;tgmath.h&gt;](https://web.archive.org/web/20131205042841/http://carolina.mff.cuni.cz/~trmac/blog/2005/the-ugliest-c-feature-tgmathh/)<br/>
+Ulrich Drepper: «Don't ask how».
+
+### Development
+
+[How Do Individual Contributors Get Stuck](http://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html)
+
+### Linux
+
+[Настраиваем top в GNU/Linux](https://habr.com/ru/company/cloud4y/blog/469487/)
+
+### Web
+
+[Images done right: Web graphics, good to the last byte](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)<br/>
+Класний довгий пост про формати, оптимізацію, артефакти, тощо.
+
+### Miscellaneous
+
+[Elliptic Curve Cryptography Explained](https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/)
+
+[How do I start being a consultant?](https://news.ycombinator.com/item?id=4247615)
+
+[A set of minimal dependency bootstrap binaries](https://github.com/oriansj/stage0)<br/>
+[Collapse OS](https://collapseos.org)<br/>
+[This wiki is about bootstrapping](https://bootstrapping.miraheze.org/wiki/Main_Page)
+
+[Ken Thompson's Unix password](https://leahneukirchen.org/blog/archive/2019/10/ken-thompson-s-unix-password.html)<br/>
+Батько UNIX дає уроки з придумування паролів, що задовольняють _вимогам безпеки_.
+
+[Perl 6 → Raku](https://github.com/perl6/problem-solving/pull/89#pullrequestreview-300789072)<br/>
+Ларрі сказав, що можна нарешті змінити назву. 楽, 六, ６, хі-хі.
