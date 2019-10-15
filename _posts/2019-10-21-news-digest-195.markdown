@@ -2,13 +2,21 @@
 layout:   post
 title:    "News digest #195"
 date:     2019-10-21 12:00:00 +0300
-tags:     digest linux security misc
+tags:     digest linux rust security misc
 ---
 
 ### Linux
 
 [Linux многоликий: как работать на любом дистрибутиве](https://habr.com/ru/company/veeam/blog/471226/)<br/>
 Тяжке життя комерційних дистрибьюторів, які змушені підтримувати зоопарк.
+
+### Rust
+
+[Announcing Rustup 1.20.0](https://blog.rust-lang.org/2019/10/15/Rustup-1.20.0.html)<br/>
+rustup на Windows-машинах для CI дійсно працює вічність. Нова версія може це виправити.
+
+[Making the Tokio scheduler 10x faster](https://tokio.rs/blog/2019-10-scheduler/)<br/>
+Дуже довгий та технічний пост. Інтересно, скільки тижнів його писали?
 
 ### Security
 
