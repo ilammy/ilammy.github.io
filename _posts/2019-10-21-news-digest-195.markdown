@@ -2,10 +2,20 @@
 layout:   post
 title:    "News digest #195"
 date:     2019-10-21 12:00:00 +0300
-tags:     digest linux
+tags:     digest linux security misc
 ---
 
 ### Linux
 
 [Linux многоликий: как работать на любом дистрибутиве](https://habr.com/ru/company/veeam/blog/471226/)<br/>
 Тяжке життя комерційних дистрибьюторів, які змушені підтримувати зоопарк.
+
+### Security
+
+[CVE-2019-14287](https://thehackernews.com/2019/10/linux-sudo-run-as-root-flaw.html)<br/>
+Навіть боги, які пишуть sudo, іноді помиляються.
+
+### Miscellaneous
+
+[arm64 architecture handler](https://github.com/zydeco/aah)<br/>
+Безумний спосіб запускати ARM64 iOS на x86_64 macOS.
