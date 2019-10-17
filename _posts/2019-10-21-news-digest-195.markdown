@@ -27,3 +27,6 @@ rustup на Windows-машинах для CI дійсно працює вічн�
 
 [arm64 architecture handler](https://github.com/zydeco/aah)<br/>
 Безумний спосіб запускати ARM64 iOS на x86_64 macOS.
+
+[The Holloway Guide to _Equity Compensation_](https://www.holloway.com/g/equity-compensation)<br/>
+Не те, щоб мене дуже хвилювала ця тема, але якість матеріалу варта похвали.
