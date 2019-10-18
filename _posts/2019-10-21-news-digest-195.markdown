@@ -10,6 +10,7 @@ tags:     digest linux rust security misc
 [My favourite Git commit](https://fatbusinessman.com/2019/my-favourite-git-commit)<br/>
 Час знову задуматись над тим, що ви пишете в комітах. [На HackerNews](https://news.ycombinator.com/item?id=21289827) накидали класних прикладів:
 - [жахи setlocale() в MPV](https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f027338b0fab0f5078971fbe);
+- [чи блог про операційні системи](https://github.com/wm4/dingleberry-os/blob/master/README.rst);
 - [<span style="font-variant: small-caps;">quality</span> в ImageMagick](https://github.com/ImageMagick/ImageMagick/commits/master);
 - [історія про Ctrl-Z в Golang](https://github.com/golang/go/commit/610d522189ed3fcf0d298609a248a3283bde62cd);
 - [ну й просто цей класний пулл-реквест](https://github.com/danielmiessler/SecLists/pull/155).
