@@ -43,3 +43,9 @@ rustup на Windows-машинах для CI дійсно працює вічн�
 
 [The Holloway Guide to _Equity Compensation_](https://www.holloway.com/g/equity-compensation)<br/>
 Не те, щоб мене дуже хвилювала ця тема, але якість матеріалу варта похвали.
+
+[Structure and Interpretation of Computer Programs](https://opendocs.github.io/sicp/sicp.pdf)<br/>
+Час від часу можна нагадувати про цю книгу, гадаю.
+
+[OpenBSD 6.6](https://www.openbsd.org/66.html)<br/>
+Вчіться як треба робити постери до релізів!
