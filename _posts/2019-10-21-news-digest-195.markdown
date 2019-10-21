@@ -1,0 +1,54 @@
+---
+layout:   post
+title:    "News digest #195"
+date:     2019-10-21 12:00:00 +0300
+tags:     digest dev linux rust security misc
+---
+
+<p>“Learn the taste of victory. It will allow you to endure any sort of effort.”</p>
+<p style="text-align: right;"><em>— Michael J. Jonathan</em></p>
+
+### Development
+
+[My favourite Git commit](https://fatbusinessman.com/2019/my-favourite-git-commit)<br/>
+Час знову задуматись над тим, що ви пишете в комітах. [На HackerNews](https://news.ycombinator.com/item?id=21289827) накидали класних прикладів:
+- [жахи setlocale() в MPV](https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f027338b0fab0f5078971fbe);
+- [чи блог про операційні системи](https://github.com/wm4/dingleberry-os/blob/master/README.rst);
+- [<span style="font-variant: small-caps;">quality</span> в ImageMagick](https://github.com/ImageMagick/ImageMagick/commits/master);
+- [історія про Ctrl-Z в Golang](https://github.com/golang/go/commit/610d522189ed3fcf0d298609a248a3283bde62cd);
+- [ну й просто цей класний пулл-реквест](https://github.com/danielmiessler/SecLists/pull/155).
+
+### Linux
+
+[Linux многоликий: как работать на любом дистрибутиве](https://habr.com/ru/company/veeam/blog/471226/)<br/>
+Тяжке життя комерційних дистрибьюторів, які змушені підтримувати зоопарк.
+
+[Really fixing getrandom()](https://lwn.net/SubscriberLink/802360/06e2457983b56edb/)<br/>
+Продовження історії.
+
+### Rust
+
+[Announcing Rustup 1.20.0](https://blog.rust-lang.org/2019/10/15/Rustup-1.20.0.html)<br/>
+rustup на Windows-машинах для CI дійсно працює вічність. Нова версія може це виправити.
+
+[Making the Tokio scheduler 10x faster](https://tokio.rs/blog/2019-10-scheduler/)<br/>
+Дуже довгий та технічний пост. Інтересно, скільки тижнів його писали?
+
+### Security
+
+[CVE-2019-14287](https://thehackernews.com/2019/10/linux-sudo-run-as-root-flaw.html)<br/>
+Навіть боги, які пишуть sudo, іноді помиляються.
+
+### Miscellaneous
+
+[arm64 architecture handler](https://github.com/zydeco/aah)<br/>
+Безумний спосіб запускати ARM64 iOS на x86_64 macOS.
+
+[The Holloway Guide to _Equity Compensation_](https://www.holloway.com/g/equity-compensation)<br/>
+Не те, щоб мене дуже хвилювала ця тема, але якість матеріалу варта похвали.
+
+[Structure and Interpretation of Computer Programs](https://opendocs.github.io/sicp/sicp.pdf)<br/>
+Час від часу можна нагадувати про цю книгу, гадаю.
+
+[OpenBSD 6.6](https://www.openbsd.org/66.html)<br/>
+Вчіться як треба робити постери до релізів!
