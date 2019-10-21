@@ -2,8 +2,11 @@
 layout:   post
 title:    "News digest #195"
 date:     2019-10-21 12:00:00 +0300
-tags:     digest linux rust security misc
+tags:     digest dev linux rust security misc
 ---
+
+<p>“Learn the taste of victory. It will allow you to endure any sort of effort.”</p>
+<p style="text-align: right;"><em>— Michael J. Jonathan</em></p>
 
 ### Development
 
