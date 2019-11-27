@@ -2,5 +2,25 @@
 layout:   post
 title:    "News digest #196"
 date:     2019-12-02 12:00:00 +0200
-tags:     digest
+tags:     digest misc
 ---
+
+### Compilers
+
+[Building a language server for Muon](https://nickmqb.github.io/2019/11/24/building-a-language-server-for-muon.html)
+
+### Miscellaneous
+
+[Fibery](https://fibery.io/anxiety)
+
+[Jennicam: The first woman to stream her life on the Internet](https://www.bbc.com/news/magazine-37681006)
+[Wikipedia](https://en.wikipedia.org/wiki/Jennifer_Ringley)
+1997: Jenni, Jenni, Jenni: A Life Laid Bare on the Computer Screen:
+https://www.latimes.com/archives/la-xpm-1997-oct-01-ls-37894-story.html
+1997: Voyeur Eyes Only: Jennifer Ringley's real-time web of life: https://www.washingtoncitypaper.com/news/article/13013765/voyeur-eyes-only
+1999: 'Ed' of the Internet: JenniCAM going strong after three years:
+http://edition.cnn.com/SHOWBIZ/Movies/9903/26/jennicam/
+And now the punchline: this happened _24 year ago_.
+Also, this movie: https://www.imdb.com/title/tt0498329/
+And this program: https://www.utopiatv.nl/live
+Curious from sociological point of view, and interesting how this will be viewed by historians in 50—100 years.
