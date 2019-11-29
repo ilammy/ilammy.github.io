@@ -30,3 +30,5 @@ https://news.ycombinator.com/item?id=21658301
 https://adventofcode.com/
 
 https://thispersondoesnotexist.com/
+
+https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/
