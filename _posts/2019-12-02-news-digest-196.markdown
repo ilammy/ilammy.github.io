@@ -2,33 +2,45 @@
 layout:   post
 title:    "News digest #196"
 date:     2019-12-02 12:00:00 +0200
-tags:     digest misc
+tags:     digest compilers dev misc
 ---
 
 ### Compilers
 
 [Building a language server for Muon](https://nickmqb.github.io/2019/11/24/building-a-language-server-for-muon.html)
 
+### Development
+
+[Advent of Code 2019](https://adventofcode.com/)<br/>
+It's that season again, boys and girls!
+
+[Molten Bismuth Shader](https://www.shadertoy.com/view/WdVXWy)<br/>
+Go to [this thread](https://news.ycombinator.com/item?id=21658301) for more, specifically [here](https://news.ycombinator.com/item?id=21660023) to learn more.
+
 ### Miscellaneous
 
-[Fibery](https://fibery.io/anxiety)
+[Fibery](https://fibery.io/anxiety)<br/>
+How to do an _honest_ landing page.
 
-[Jennicam: The first woman to stream her life on the Internet](https://www.bbc.com/news/magazine-37681006)
-[Wikipedia](https://en.wikipedia.org/wiki/Jennifer_Ringley)
-1997: Jenni, Jenni, Jenni: A Life Laid Bare on the Computer Screen:
-https://www.latimes.com/archives/la-xpm-1997-oct-01-ls-37894-story.html
-1997: Voyeur Eyes Only: Jennifer Ringley's real-time web of life: https://www.washingtoncitypaper.com/news/article/13013765/voyeur-eyes-only
-1999: 'Ed' of the Internet: JenniCAM going strong after three years:
-http://edition.cnn.com/SHOWBIZ/Movies/9903/26/jennicam/
-And now the punchline: this happened _24 year ago_.
-Also, this movie: https://www.imdb.com/title/tt0498329/
-And this program: https://www.utopiatv.nl/live
-Curious from sociological point of view, and interesting how this will be viewed by historians in 50—100 years.
+<details>
+  <summary>Jennicam: The first woman to stream her life on the Internet</summary>
+  <a href="https://www.bbc.com/news/magazine-37681006">BBC story</a> from 2016 that started this binge.<br/>
+  <a href="https://en.wikipedia.org/wiki/Jennifer_Ringley">Wikipedia article</a>.
 
-https://news.ycombinator.com/item?id=21658301
+  Some coverage at the time:
+  <ul>
+    <li><a href="https://www.latimes.com/archives/la-xpm-1997-oct-01-ls-37894-story.html">Jenni, Jenni, Jenni: A Life Laid Bare on the Computer Screen</a> (1997)</li>
+    <li><a href="https://www.washingtoncitypaper.com/news/article/13013765/voyeur-eyes-only">Voyeur Eyes Only: Jennifer Ringley's real-time web of life</a> (1997)</li>
+    <li><a href="http://edition.cnn.com/SHOWBIZ/Movies/9903/26/jennicam/">'Ed' of the Internet: JenniCAM going strong after three years</a> (1999)</li>
+  </ul>
 
-https://adventofcode.com/
+  Also, <a href="https://www.imdb.com/title/tt0498329/">this movie</a> and <a href="https://www.utopiatv.nl/live">this TV program</a>.</br>
+  Now, a punchline: Jenni did this <em>24 year ago</em>.
+</details>
+Interesting from sociological point of view, like what historians in 50–100 years will think about early age of the Internet, and this whole practice of “life streaming”. Especially given the privacy-conscious context of recent years.
 
-https://thispersondoesnotexist.com/
+[This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
+Finally I can have a proper userpic!
 
-https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/
+[The Siege of Gondor, Part I: Professionals Talk Logistics](https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/)<br/>
+“Unmitigated pedantry” it is.
