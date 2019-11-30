@@ -17,6 +17,9 @@ It's that season again, boys and girls!
 [Molten Bismuth Shader](https://www.shadertoy.com/view/WdVXWy)<br/>
 Go to [this thread](https://news.ycombinator.com/item?id=21658301) for more, specifically [here](https://news.ycombinator.com/item?id=21660023) to learn more.
 
+[WWDC 2019 Session Notes](https://github.com/Blackjacx/WWDC)<br/>
+Apple are infamous for distributing _video-only_ information, after all.
+
 ### Linux
 
 [ELF Binaries and Relocation Entries](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html)
