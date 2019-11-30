@@ -24,6 +24,8 @@ Apple are infamous for distributing _video-only_ information, after all.
 
 [ELF Binaries and Relocation Entries](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html)
 
+[Addressing of AF_INET, AF_INET6 and AF_UNIX sockets](https://idea.popcount.org/2019-12-06-addressing/)
+
 ### Miscellaneous
 
 [Fibery](https://fibery.io/anxiety)<br/>
@@ -31,6 +33,9 @@ How to do an _honest_ landing page.
 
 [This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
 Finally I can have a proper userpic!
+
+[mal - Make a Lisp](https://github.com/kanaka/mal/)<br/
+I'd consider this an art form.
 
 ### Offtopic
 
