@@ -35,21 +35,30 @@ Finally I can have a proper userpic!
 “Unmitigated pedantry” it is.
 
 <details>
-  <summary>Jennicam: The first woman to stream her life on the Internet</summary>
-  <a href="https://www.bbc.com/news/magazine-37681006">BBC story</a> from 2016 that started this binge.<br/>
-  <a href="https://en.wikipedia.org/wiki/Jennifer_Ringley">Wikipedia article</a>.
-
+  <summary>
+    <a href="https://www.bbc.com/news/magazine-37681006">Jennicam: The first woman to stream her life on the Internet</a>
+  </summary>
+  <p>
+    That's a BBC story from 2016 that started this binge.
+    You can also look at
+    <a href="https://en.wikipedia.org/wiki/Jennifer_Ringley">Wikipedia article</a>
+    as a starting point.
+  </p>
+  <p>
   Some coverage at the time:
+  </p>
   <ul>
     <li><a href="https://www.latimes.com/archives/la-xpm-1997-oct-01-ls-37894-story.html">Jenni, Jenni, Jenni: A Life Laid Bare on the Computer Screen</a> (1997)</li>
     <li><a href="https://www.washingtoncitypaper.com/news/article/13013765/voyeur-eyes-only">Voyeur Eyes Only: Jennifer Ringley's real-time web of life</a> (1997)</li>
     <li><a href="http://edition.cnn.com/SHOWBIZ/Movies/9903/26/jennicam/">'Ed' of the Internet: JenniCAM going strong after three years</a> (1999)</li>
   </ul>
-
-  Also, <a href="https://www.imdb.com/title/tt0498329/">this movie</a> and <a href="https://www.utopiatv.nl/live">this TV program</a>.</br>
-  Now, a punchline: Jennifer did this <em>24 year ago</em>.
+  <p>
+    Also, <a href="https://www.imdb.com/title/tt0498329/">this movie</a> and <a href="https://www.utopiatv.nl/live">this TV program</a>.
+    And a punchline: Jennifer did this <em>24 year ago</em>.
+  </p>
+  <p>
+    In general, it's interesting from sociological point of view: like what historians in 50–100 years will think about early age of the Internet, and this whole practice of “life streaming”. Especially given the privacy-conscious context of recent years.
+  </p>
 </details>
-
-Interesting from sociological point of view, like what historians in 50–100 years will think about early age of the Internet, and this whole practice of “life streaming”. Especially given the privacy-conscious context of recent years.
 
 [Bussed out: How America moves its homeless](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study)
