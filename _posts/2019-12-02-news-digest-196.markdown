@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #196"
 date:     2019-12-02 12:00:00 +0200
-tags:     digest compilers dev misc
+tags:     digest compilers dev misc offtopic
 ---
 
 ### Compilers
@@ -22,6 +22,14 @@ Go to [this thread](https://news.ycombinator.com/item?id=21658301) for more, spe
 [Fibery](https://fibery.io/anxiety)<br/>
 How to do an _honest_ landing page.
 
+[This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
+Finally I can have a proper userpic!
+
+[The Siege of Gondor, Part I: Professionals Talk Logistics](https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/)<br/>
+“Unmitigated pedantry” it is.
+
+### Offtopic
+
 <details>
   <summary>Jennicam: The first woman to stream her life on the Internet</summary>
   <a href="https://www.bbc.com/news/magazine-37681006">BBC story</a> from 2016 that started this binge.<br/>
@@ -39,9 +47,3 @@ How to do an _honest_ landing page.
 </details>
 
 Interesting from sociological point of view, like what historians in 50–100 years will think about early age of the Internet, and this whole practice of “life streaming”. Especially given the privacy-conscious context of recent years.
-
-[This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
-Finally I can have a proper userpic!
-
-[The Siege of Gondor, Part I: Professionals Talk Logistics](https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/)<br/>
-“Unmitigated pedantry” it is.
