@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #196"
 date:     2019-12-02 12:00:00 +0200
-tags:     digest compilers dev misc offtopic
+tags:     digest compilers dev linux misc offtopic
 ---
 
 ### Compilers
@@ -16,6 +16,10 @@ It's that season again, boys and girls!
 
 [Molten Bismuth Shader](https://www.shadertoy.com/view/WdVXWy)<br/>
 Go to [this thread](https://news.ycombinator.com/item?id=21658301) for more, specifically [here](https://news.ycombinator.com/item?id=21660023) to learn more.
+
+### Linux
+
+[ELF Binaries and Relocation Entries](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html)
 
 ### Miscellaneous
 
