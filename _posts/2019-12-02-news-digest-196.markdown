@@ -5,6 +5,8 @@ date:     2019-12-02 12:00:00 +0200
 tags:     digest compilers dev linux misc offtopic
 ---
 
+“Only a fool learns from his own mistakes. But the biggest fools learn from the Internet”.
+
 ### Compilers
 
 [Building a language server for Muon](https://nickmqb.github.io/2019/11/24/building-a-language-server-for-muon.html)
@@ -34,7 +36,7 @@ How to do an _honest_ landing page.
 [This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
 Finally I can have a proper userpic!
 
-[mal - Make a Lisp](https://github.com/kanaka/mal/)<br/
+[mal - Make a Lisp](https://github.com/kanaka/mal/)<br/>
 I'd consider this an art form.
 
 ### Offtopic
