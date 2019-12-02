@@ -1,0 +1,74 @@
+---
+layout:   post
+title:    "News digest #196"
+date:     2019-12-02 12:00:00 +0200
+tags:     digest compilers dev linux misc offtopic
+---
+
+“Only a fool learns from his own mistakes. But the biggest fools learn from the Internet”.
+
+### Compilers
+
+[Building a language server for Muon](https://nickmqb.github.io/2019/11/24/building-a-language-server-for-muon.html)
+
+### Development
+
+[Advent of Code 2019](https://adventofcode.com/)<br/>
+It's that season again, boys and girls!
+
+[Molten Bismuth Shader](https://www.shadertoy.com/view/WdVXWy)<br/>
+Go to [this thread](https://news.ycombinator.com/item?id=21658301) for more, specifically [here](https://news.ycombinator.com/item?id=21660023) to learn more.
+
+[WWDC 2019 Session Notes](https://github.com/Blackjacx/WWDC)<br/>
+Apple are infamous for distributing _video-only_ information, after all.
+
+### Linux
+
+[ELF Binaries and Relocation Entries](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/11/29/relocs.html)
+
+[Addressing of AF_INET, AF_INET6 and AF_UNIX sockets](https://idea.popcount.org/2019-12-06-addressing/)
+
+### Miscellaneous
+
+[Fibery](https://fibery.io/anxiety)<br/>
+How to do an _honest_ landing page.
+
+[This Person Does Not Exist](https://thispersondoesnotexist.com/)<br/>
+Finally I can have a proper userpic!
+
+[mal - Make a Lisp](https://github.com/kanaka/mal/)<br/>
+I'd consider this an art form.
+
+### Offtopic
+
+[The Siege of Gondor, Part I: Professionals Talk Logistics](https://acoup.blog/2019/05/10/collections-the-siege-of-gondor/)<br/>
+“Unmitigated pedantry” it is.
+
+<details>
+  <summary>
+    <a href="https://www.bbc.com/news/magazine-37681006">Jennicam: The first woman to stream her life on the Internet</a>
+  </summary>
+  <p>
+    That's a BBC story from 2016 that started this binge.
+    You can also look at
+    <a href="https://en.wikipedia.org/wiki/Jennifer_Ringley">Wikipedia article</a>
+    as a starting point.
+  </p>
+  <p>
+  Some coverage at the time:
+  </p>
+  <ul>
+    <li><a href="https://www.latimes.com/archives/la-xpm-1997-oct-01-ls-37894-story.html">Jenni, Jenni, Jenni: A Life Laid Bare on the Computer Screen</a> (1997)</li>
+    <li><a href="https://www.washingtoncitypaper.com/news/article/13013765/voyeur-eyes-only">Voyeur Eyes Only: Jennifer Ringley's real-time web of life</a> (1997)</li>
+    <li><a href="http://edition.cnn.com/SHOWBIZ/Movies/9903/26/jennicam/">'Ed' of the Internet: JenniCAM going strong after three years</a> (1999)</li>
+  </ul>
+  <p>
+    Also, <a href="https://www.imdb.com/title/tt0498329/">this movie</a> and <a href="https://www.utopiatv.nl/live">this TV program</a>.
+    And a punchline: Jennifer did this <em>24 year ago</em>.
+  </p>
+  <p>
+    In general, it's interesting from sociological point of view: like what historians in 50–100 years will think about early age of the Internet, and this whole practice of “life streaming”. Especially given the privacy-conscious context of recent years.
+  </p>
+</details>
+
+[Bussed out: How America moves its homeless](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study)
