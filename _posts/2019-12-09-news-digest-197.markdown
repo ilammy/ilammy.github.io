@@ -1,6 +1,0 @@
----
-layout:   post
-title:    "News digest #197"
-date:     2019-12-09 12:00:00 +0200
-tags:     digest
----
