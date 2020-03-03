@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #197"
 date:     2020-03-09 12:00:00 +0200
-tags:     digest
+tags:     digest dev release misc
 ---
 
 <!-- Should have been out on 2019-12-09 but will be on 2020-03-09. I wonder if three months are enough. -->
@@ -12,7 +12,16 @@ tags:     digest
 [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices#readme) [(in Russian)](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md)<br/>
 You can think whatever you want about JavaScript developers, but there are some good thoughts here.
 
+### Releases
+
+[](https://golang.org/doc/go1.14)
+
+[Java 14 Arrives with a Host of New Features](https://blogs.oracle.com/javamagazine/java-14-arrives-with-a-host-of-new-features)
+
 ### Miscellaneous
 
 [Little known features of iTerm2](https://banga.github.io/blog/2020/03/02/little-known-features-of-iterm2.html)<br/>
 Customizable hyperlinks is a neat extensibility idea.
+
+[SETI@home search for alien life project shuts down after 21 years](https://www.bleepingcomputer.com/news/software/seti-home-search-for-alien-life-project-shuts-down-after-21-years/)<br/>
+They have been “mining” “aliens” before it become mainstream.
