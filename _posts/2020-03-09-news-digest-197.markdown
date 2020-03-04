@@ -2,10 +2,16 @@
 layout:   post
 title:    "News digest #197"
 date:     2020-03-09 12:00:00 +0200
-tags:     digest dev release misc
+tags:     digest cpp dev unix release misc
 ---
 
 <!-- Should have been out on 2019-12-09 but will be on 2020-03-09. I wonder if three months are enough. -->
+
+### C++
+
+[Will calling “free” or “delete” in C/C++ release the memory to the system?](https://lemire.me/blog/2020/03/03/calling-free-or-delete/)<br/>
+Nice little reminder for systems programming folks.<br/>
+(Also, remember the rule: if an article title is framed as a question, the answer is generally “_no_”.)
 
 ### Development
 
@@ -14,6 +20,14 @@ You can think whatever you want about JavaScript developers, but there are some 
 
 [Capability Immaturity Model (CIMM)](https://en.wikipedia.org/wiki/Capability_Immaturity_Model)<br/>
 Finally, CMM done _right_!
+
+### UNIX
+
+[The UNIX-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf)<br/>
+You should know about it.
+
+[The growth of command line options, 1979-Present](https://danluu.com/cli-complexity/)<br/>
+Or “Why `ls` currently has _58_ options and what is the cause of this bloat”.
 
 ### Releases
 
