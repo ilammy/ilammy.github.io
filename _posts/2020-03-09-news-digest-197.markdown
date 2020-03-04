@@ -44,4 +44,6 @@ Or “Why `ls` currently has _58_ options and what is the cause of this bloat”
 Customizable hyperlinks is a neat extensibility idea.
 
 [SETI@home search for alien life project shuts down after 21 years](https://www.bleepingcomputer.com/news/software/seti-home-search-for-alien-life-project-shuts-down-after-21-years/)<br/>
-They have been “mining” “aliens” before it become mainstream.
+They have been “mining” aliens before it become mainstream.
+
+[matthiasn/talk-transcripts: Transcripts of Clojure-related talks](https://github.com/matthiasn/talk-transcripts)
