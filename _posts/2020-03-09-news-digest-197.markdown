@@ -21,6 +21,9 @@ You can think whatever you want about JavaScript developers, but there are some 
 [Capability Immaturity Model (CIMM)](https://en.wikipedia.org/wiki/Capability_Immaturity_Model)<br/>
 Finally, CMM done _right_!
 
+[Hundred year mistakes](https://ericlippert.com/2020/02/27/hundred-year-mistakes/)<br/>
+“The best time to make a breaking change that involves updating existing code is *now*”.
+
 ### UNIX
 
 [The UNIX-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf)<br/>
