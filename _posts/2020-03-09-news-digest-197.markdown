@@ -27,6 +27,9 @@ Finally, CMM done _right_!
 [Hundred year mistakes](https://ericlippert.com/2020/02/27/hundred-year-mistakes/)<br/>
 “The best time to make a breaking change that involves updating existing code is *now*”.
 
+[“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)<br/>
+Reminder to those with big data (“over 1 GB!”) and high throughput (“over 10 requests per minute!”)
+
 ### UNIX
 
 [The UNIX-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf)<br/>
@@ -50,3 +53,7 @@ Customizable hyperlinks is a neat extensibility idea.
 They have been “mining” aliens before it become mainstream.
 
 [matthiasn/talk-transcripts: Transcripts of Clojure-related talks](https://github.com/matthiasn/talk-transcripts)
+
+[For Decades, Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland’s Official Maps](https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/)
+
+[Clear Your Terminal in Style](https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/)
