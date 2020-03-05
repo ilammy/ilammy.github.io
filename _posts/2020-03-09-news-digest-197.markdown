@@ -28,15 +28,15 @@ Finally, CMM done _right_!
 “The best time to make a breaking change that involves updating existing code is *now*”.
 
 [“Let’s use Kubernetes!” Now you have 8 problems](https://pythonspeed.com/articles/dont-need-kubernetes/)<br/>
-Reminder to those with big data (“over 1 GB!”) and high throughput (“over 10 requests per minute!”)
+Reminder to those with big data (“massive 1 GB!”), high concurrency (“tremendous 10 rps!”), and massive scaling (“up to 800 users!”)
 
 ### UNIX
 
 [The UNIX-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf)<br/>
-You should know about it.
+You should know about this book.
 
 [The growth of command line options, 1979-Present](https://danluu.com/cli-complexity/)<br/>
-Or “Why `ls` currently has _58_ options and what is the cause of this bloat”.
+Or “Why **ls** currently has _fifty-eight_ options and what is the cause of this bloat”.
 
 ### Releases
 
@@ -57,3 +57,5 @@ They have been “mining” aliens before it become mainstream.
 [For Decades, Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland’s Official Maps](https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/)
 
 [Clear Your Terminal in Style](https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/)
+
+[sourcehut - the hacker's forge](https://sourcehut.org/) (shameless plug, but they deserve more publicity)
