@@ -56,6 +56,7 @@ They have been “mining” aliens before it become mainstream.
 
 [For Decades, Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland’s Official Maps](https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/)
 
-[Clear Your Terminal in Style](https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/)
+[Clear Your Terminal in Style](https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/)<br/>
+[No More Secrets](https://github.com/bartobri/no-more-secrets)
 
 [sourcehut - the hacker's forge](https://sourcehut.org/) (shameless plug, but they deserve more publicity)
