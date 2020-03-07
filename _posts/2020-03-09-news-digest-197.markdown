@@ -16,6 +16,9 @@ Nice little reminder for systems programming folks.<br/>
 [Помоги компилятору помочь тебе](https://habr.com/ru/post/490850/)<br/>
 Неплохой обзор предупреждений с примерами.
 
+[Software optimization resources](https://www.agner.org/optimize/)<br/>
+“This series of five manuals describes everything you need to know about optimizing code for x86 and x86-64 family microprocessors”.
+
 ### Development
 
 [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices#readme) [(in Russian)](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.russian.md)<br/>
