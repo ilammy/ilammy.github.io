@@ -38,6 +38,9 @@ You should know about this book.
 [The growth of command line options, 1979-Present](https://danluu.com/cli-complexity/)<br/>
 Or “Why **ls** currently has _fifty-eight_ options and what is the cause of this bloat”.
 
+[Two new ways to read a file quickly](https://lwn.net/SubscriberLink/813827/5a28c7fcd5ffadbb/)<br/>
+Linux may get a `readfile()` syscall in a beer-driven software development process.
+
 ### Releases
 
 [Go 1.14 Release Notes](https://golang.org/doc/go1.14)
