@@ -2,5 +2,12 @@
 layout:   post
 title:    "News digest #198"
 date:     2020-03-16 12:00:00 +0200
-tags:     digest
+tags:     digest dev
 ---
+
+### Development
+
+[This is How Science Happens](https://www.hillelwayne.com/post/this-is-how-science-happens/)<br/>
+This is about a rebuttal of a rebuttal of a study exploring link between programming language choice and software quality. Also, consider this post, linked from the above one:<br/>
+[The epistemology of software quality](ttps://increment.com/teams/the-epistemology-of-software-quality/)<br/>
+Because surprise-surprise: languages are not everything. Well, at least while software is still made by humans.
