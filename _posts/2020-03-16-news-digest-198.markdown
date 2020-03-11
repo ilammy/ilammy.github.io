@@ -2,7 +2,7 @@
 layout:   post
 title:    "News digest #198"
 date:     2020-03-16 12:00:00 +0200
-tags:     digest dev
+tags:     digest dev security release
 ---
 
 ### Development
@@ -11,6 +11,11 @@ tags:     digest dev
 This is about a rebuttal of a rebuttal of a study exploring link between programming language choice and software quality. Also, consider this post, linked from the above one:<br/>
 [The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)<br/>
 Because – _surprise-surprise!_ – languages are not everything. Well, at least while software is still made by humans.
+
+### Security
+
+[LVI - Hijacking Transient Execution with Load Value Injection](https://lviattack.eu)</br>
+_Secure_ Enclave, they say.
 
 ### Releases
 
