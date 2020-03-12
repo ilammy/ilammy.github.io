@@ -21,3 +21,7 @@ _Secure_ Enclave, they say.
 
 [Announcing The Unicode Standard, Version 13.0](http://blog.unicode.org/2020/03/announcing-unicode-standard-version-130.html)<br/>
 Who cares about Syloti Nagri and Dives Akuru? [Here's](https://www.unicode.org/emoji/charts/emoji-released.html) what you have been waiting for!
+
+### Miscellaneous
+
+[How (some) good corporate engineering blogs are written](https://danluu.com/corp-eng-blogs/)
