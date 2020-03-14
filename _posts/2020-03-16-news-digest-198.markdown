@@ -17,6 +17,9 @@ Because – _surprise-surprise!_ – languages are not everything. Well, at leas
 [LVI - Hijacking Transient Execution with Load Value Injection](https://lviattack.eu)</br>
 _Secure_ Enclave, they say.
 
+[EdDSA, Ed25519, Ed25519-IETF, Ed25519ph, Ed25519ctx, HashEdDSA, PureEdDSA, WTF?](https://www.cryptologie.net/article/497/eddsa-ed25519-ed25519-ietf-ed25519ph-ed25519ctx-hasheddsa-pureeddsa-wtf/)<br/>
+PSA to avoid confusion between these algorithms. Or you can use high-level libraries ;)
+
 ### Releases
 
 [Announcing The Unicode Standard, Version 13.0](http://blog.unicode.org/2020/03/announcing-unicode-standard-version-130.html)<br/>
