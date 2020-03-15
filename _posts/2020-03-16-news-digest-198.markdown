@@ -33,3 +33,5 @@ Finally, `matches!`
 [How (some) good corporate engineering blogs are written](https://danluu.com/corp-eng-blogs/)
 
 [Was the Y2K crisis real?](https://news.ycombinator.com/item?id=22556156)
+
+[Nightmare: intro to binary exploitation / reverse engineering course](https://guyinatuxedo.github.io/index.html)
