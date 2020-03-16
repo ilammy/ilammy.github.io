@@ -1,0 +1,37 @@
+---
+layout:   post
+title:    "News digest #198"
+date:     2020-03-16 12:00:00 +0200
+tags:     digest dev security release misc
+---
+
+### Development
+
+[This is How Science Happens](https://www.hillelwayne.com/post/this-is-how-science-happens/)<br/>
+This is about a rebuttal of a rebuttal of a study exploring link between programming language choice and software quality. Also, consider this post, linked from the above one:<br/>
+[The epistemology of software quality](https://increment.com/teams/the-epistemology-of-software-quality/)<br/>
+Because – _surprise-surprise!_ – languages are not everything. Well, at least while software is still made by humans.
+
+### Security
+
+[LVI - Hijacking Transient Execution with Load Value Injection](https://lviattack.eu)</br>
+_Secure_ Enclave, they say.
+
+[EdDSA, Ed25519, Ed25519-IETF, Ed25519ph, Ed25519ctx, HashEdDSA, PureEdDSA, WTF?](https://www.cryptologie.net/article/497/eddsa-ed25519-ed25519-ietf-ed25519ph-ed25519ctx-hasheddsa-pureeddsa-wtf/)<br/>
+PSA to avoid confusion between these algorithms. Or you can use high-level libraries ;)
+
+### Releases
+
+[Announcing The Unicode Standard, Version 13.0](http://blog.unicode.org/2020/03/announcing-unicode-standard-version-130.html)<br/>
+Who cares about Syloti Nagri and Dives Akuru? [Here's](https://www.unicode.org/emoji/charts/emoji-released.html) what you have been waiting for!
+
+[Announcing Rust 1.42.0](https://blog.rust-lang.org/2020/03/12/Rust-1.42.html)<br/>
+Finally, `matches!`
+
+### Miscellaneous
+
+[How (some) good corporate engineering blogs are written](https://danluu.com/corp-eng-blogs/)
+
+[Was the Y2K crisis real?](https://news.ycombinator.com/item?id=22556156)
+
+[Nightmare: intro to binary exploitation / reverse engineering course](https://guyinatuxedo.github.io/index.html)
