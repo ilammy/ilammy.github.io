@@ -2,5 +2,10 @@
 layout:   post
 title:    "News digest #199"
 date:     2020-03-23 12:00:00 +0200
-tags:     digest
+tags:     digest oss
 ---
+
+### Open Source
+
+[npm is joining GitHub](https://github.blog/2020-03-16-npm-is-joining-github/)<br/>
+Yes, they bought it. I'm off setting up mirrors, just in case.
