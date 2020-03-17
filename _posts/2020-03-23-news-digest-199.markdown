@@ -19,3 +19,6 @@ Yes, they bought it. I'm off setting up mirrors, just in case.
 
 [Text processing in the shell](https://blog.balthazar-rouberol.com/text-processing-in-the-shell)<br/>
 Pretty cool overview with examples of various tools like `wc` and `tr`.
+
+[What is fsck up to now?](https://toroid.org/what-is-fsck-up-to-now)<br/>
+A story about progress bars. (Also, did you know about `dd` on Linux supporting SIGUSR1? Or the SIGINFO signal on BSD?)
