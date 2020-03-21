@@ -2,13 +2,16 @@
 layout:   post
 title:    "News digest #199"
 date:     2020-03-23 12:00:00 +0200
-tags:     digest dev go oss rust unix misc
+tags:     digest dev go oss unix misc
 ---
 
-### Developments
+### Development
 
 [Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/)<br/>
 About handling IO timeouts in library API. I guess this will be the one thing that a new language can improve on. Or... there's always _dynamic scoping_.
+
+[Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)<br/>
+Useful reading on secure coding practices, applicable to other languages as well.
 
 ### Go
 
@@ -19,11 +22,6 @@ It also provides a good insight into API design process. Be sure to follow the l
 
 [npm is joining GitHub](https://github.blog/2020-03-16-npm-is-joining-github/)<br/>
 Yes, they bought it. I'm off setting up mirrors, just in case.
-
-### Rust
-
-[Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)<br/>
-Useful reading on secure coding practices, applicable to other languages as well.
 
 ### UNIX
 
