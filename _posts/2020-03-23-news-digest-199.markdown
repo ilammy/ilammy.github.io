@@ -32,3 +32,6 @@ A story about progress bars. (Also, did you know about `dd` on Linux supporting 
 
 [Things you can do with a browser in 2020](https://github.com/luruke/browser-2020)<br/>
 I wish most of these did not exist...
+
+[moderntld/.o](https://github.com/moderntld/.o)<br/>
+The `.o` domain zone of [OpenNIC](https://www.opennic.org).
