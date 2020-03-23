@@ -1,0 +1,40 @@
+---
+layout:   post
+title:    "News digest #199"
+date:     2020-03-23 12:00:00 +0200
+tags:     digest dev go oss unix misc
+---
+
+### Development
+
+[Timeouts and cancellation for humans](https://vorpus.org/blog/timeouts-and-cancellation-for-humans/)<br/>
+About handling IO timeouts in library API. I guess this will be the one thing that a new language can improve on. Or... there's always _dynamic scoping_.
+
+[Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/)<br/>
+Useful reading on secure coding practices, applicable to other languages as well.
+
+### Go
+
+[New Crypto in Go 1.14](https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-new-crypto-in-go-114/)<br/>
+It also provides a good insight into API design process. Be sure to follow the links there too.
+
+### Open Source
+
+[npm is joining GitHub](https://github.blog/2020-03-16-npm-is-joining-github/)<br/>
+Yes, they bought it. I'm off setting up mirrors, just in case.
+
+### UNIX
+
+[Text processing in the shell](https://blog.balthazar-rouberol.com/text-processing-in-the-shell)<br/>
+Pretty cool overview with examples of various tools like `wc` and `tr`.
+
+[What is fsck up to now?](https://toroid.org/what-is-fsck-up-to-now)<br/>
+A story about progress bars. (Also, did you know about `dd` on Linux supporting SIGUSR1? Or the SIGINFO signal on BSD?)
+
+### Miscellaneous
+
+[Things you can do with a browser in 2020](https://github.com/luruke/browser-2020)<br/>
+I wish most of these did not exist...
+
+[moderntld/.o](https://github.com/moderntld/.o)<br/>
+The `.o` domain zone of [OpenNIC](https://www.opennic.org).
