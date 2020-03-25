@@ -1,0 +1,8 @@
+---
+layout:   post
+title:    "News digest #200"
+date:     2020-03-30 12:00:00 +0300
+tags:     digest
+---
+
+<!-- Did you notice the switch from UTC+2 to UTC+3? -->
