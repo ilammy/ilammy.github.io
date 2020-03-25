@@ -2,7 +2,27 @@
 layout:   post
 title:    "News digest #200"
 date:     2020-03-30 12:00:00 +0300
-tags:     digest
+tags:     digest dev releases misc
 ---
 
 <!-- Did you notice the switch from UTC+2 to UTC+3? -->
+
+### Development
+
+[_Secure by Design_](https://henrikwarne.com/2020/03/22/secure-by-design/)<br/>
+Quality review of a book.
+
+[Concurrent programming, with examples](https://begriffs.com/posts/2020-03-23-concurrent-programming.html)<br/>
+Cutie overview of synchronization in POSIX.
+
+### Releases
+
+[Swift 5.2 Released!](https://swift.org/blog/swift-5-2-released/)
+
+### Miscellaneous
+
+[Collections: The Fremen Mirage, Part IV: Desert Power](https://acoup.blog/2020/02/28/collections-the-fremen-mirage-part-iv-desert-power/)<br/>
+This blog lives up to its name.
+
+[An in-depth Look at OCaml’s new “Best-fit” Garbage Collector Strategy](http://www.ocamlpro.com/2020/03/23/ocaml-new-best-fit-garbage-collector/)<br/>
+I always though of GCs as magnificent practical hack. A “hack” simultaneously as a work of art and as a kludge.
