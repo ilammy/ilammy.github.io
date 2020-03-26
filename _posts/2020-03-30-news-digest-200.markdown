@@ -15,6 +15,9 @@ Quality review of a book.
 [Concurrent programming, with examples](https://begriffs.com/posts/2020-03-23-concurrent-programming.html)<br/>
 Cutie overview of synchronization in POSIX.
 
+[Speeding up Linux disk encryption](https://blog.cloudflare.com/speeding-up-linux-disk-encryption/)</br>
+Is crypto slow? Kinda, but not as slow as you'd expect. Includes a nice achaeology story.
+
 ### Releases
 
 [Swift 5.2 Released!](https://swift.org/blog/swift-5-2-released/)
