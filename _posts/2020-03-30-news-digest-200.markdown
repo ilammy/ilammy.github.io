@@ -29,3 +29,9 @@ This blog lives up to its name.
 
 [An in-depth Look at OCaml’s new “Best-fit” Garbage Collector Strategy](http://www.ocamlpro.com/2020/03/23/ocaml-new-best-fit-garbage-collector/)<br/>
 I always though of GCs as magnificent practical hack. A “hack” simultaneously as a work of art and as a kludge.
+
+[A "living" Linux process with no memory](https://github.com/izabera/zeromaps) ([HN](https://news.ycombinator.com/item?id=22693805))<br/>
+Funny edge case.
+
+[New Hard Drive rituals](https://blog.linuxserver.io/2018/10/29/new-hard-drive-rituals/)<br/>
+Do you have any?
