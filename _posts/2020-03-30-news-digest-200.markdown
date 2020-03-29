@@ -49,3 +49,6 @@ Funny edge case.
 
 [New Hard Drive rituals](https://blog.linuxserver.io/2018/10/29/new-hard-drive-rituals/)<br/>
 Do you have any?
+
+[Tale of OpenBSD secure memory allocator internals - malloc(3)](https://bsdb0y.github.io/blog/deep-dive-into-the-OpenBSD-malloc-and-friends-internals-part-1.html)<br/>
+“Deep” is not understatement, it’s a highly technical post.
