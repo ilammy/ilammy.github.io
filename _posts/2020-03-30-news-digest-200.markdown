@@ -1,0 +1,54 @@
+---
+layout:   post
+title:    "News digest #200"
+date:     2020-03-30 12:00:00 +0300
+tags:     digest cpp dev releases misc
+---
+
+<!-- Did you notice the switch from UTC+2 to UTC+3? -->
+
+### C++
+
+[Static analysis in GCC 10](https://developers.redhat.com/blog/2020/03/26/static-analysis-in-gcc-10/)<br/>
+GCC gets a static analysis pass, `-fanalyze`. Competetion with Clang does wonders.
+
+### Development
+
+[_Secure by Design_](https://henrikwarne.com/2020/03/22/secure-by-design/)<br/>
+Quality review of a book.
+
+[Concurrent programming, with examples](https://begriffs.com/posts/2020-03-23-concurrent-programming.html)<br/>
+Cutie overview of synchronization in POSIX.
+
+[Speeding up Linux disk encryption](https://blog.cloudflare.com/speeding-up-linux-disk-encryption/)</br>
+Is crypto slow? Kinda, but not as slow as you'd expect. Includes a nice achaeology story.
+
+[How is the Linux kernel tested?](https://embeddedbits.org/how-is-the-linux-kernel-tested/)<br/>
+Pretty well, I'd say.
+
+[The Reusability Fallacy – part 1](https://www.ufried.com/blog/reusability_fallacy_1/), [part 2](https://www.ufried.com/blog/reusability_fallacy_2/), [part 3](https://www.ufried.com/blog/reusability_fallacy_3/)<br/>
+A somewhat nice writeup about architecture.
+
+[New grad vs senior dev](https://ericlippert.com/2020/03/27/new-grad-vs-senior-dev/)<br/>
+brrrrrr!
+
+### Releases
+
+[Swift 5.2 Released!](https://swift.org/blog/swift-5-2-released/)
+
+### Miscellaneous
+
+[Collections: The Fremen Mirage, Part IV: Desert Power](https://acoup.blog/2020/02/28/collections-the-fremen-mirage-part-iv-desert-power/)<br/>
+This blog lives up to its name.
+
+[An in-depth Look at OCaml’s new “Best-fit” Garbage Collector Strategy](http://www.ocamlpro.com/2020/03/23/ocaml-new-best-fit-garbage-collector/)<br/>
+I always though of GCs as magnificent practical hack. A “hack” simultaneously as a work of art and as a kludge.
+
+[A "living" Linux process with no memory](https://github.com/izabera/zeromaps) ([HN](https://news.ycombinator.com/item?id=22693805))<br/>
+Funny edge case.
+
+[New Hard Drive rituals](https://blog.linuxserver.io/2018/10/29/new-hard-drive-rituals/)<br/>
+Do you have any?
+
+[Tale of OpenBSD secure memory allocator internals - malloc(3)](https://bsdb0y.github.io/blog/deep-dive-into-the-OpenBSD-malloc-and-friends-internals-part-1.html)<br/>
+“Deep” is not understatement, it’s a highly technical post.
