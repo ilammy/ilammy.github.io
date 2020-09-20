@@ -175,3 +175,62 @@ Note that branch names in packaging repositories follow a particular pattern.
 Only recently I had learned that there is a policy for that too: [DEP-14](https://dep-team.pages.debian.net/deps/dep14/).
 According to DEP-14, the master packaging branch for Ubuntu distro should be named `ubuntu/master`,
 and the version tag should be translated into `ubuntu/1.5.3-4_ppa1_ubuntu20.04`.
+
+### Uploading to Launchpad PPA
+
+Now that `logbook` has been adjusted,
+we can check it by building the binary package (`-b`),
+without signing the changes (`-uc`):
+
+```shell
+dpkg-buildpackage -b -uc
+```
+
+Then install it:
+
+```shell
+sudo dpkg -i ../python3-logbook_1.5.3-4~ppa1~ubuntu20.04_amd64.deb
+```
+
+and check that the module can be imported:
+
+```
+$ python
+Python 3.8.2 (default, Jul 16 2020, 14:00:26)
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import logbook
+>>>
+```
+
+Now, Launchpad is meant for open-source software so you don't upload binaries.
+Instead, it expects the *source package* do be uploaded and binary packages will be built on Launchpad.
+
+First of all, you will the *original tarball* with upstream sources: `logbook_1.5.3.orig.tar.gz`.
+You can get it [from Debian](https://packages.debian.org/source/sid/logbook), for example.
+Put it next to the package source tree, which is effectively the unpacked tarball with `debian` directory.
+
+Build the source package (`-S`) and *sign* the changes (`-k...`) like this:
+
+```shell
+debuild -S -k2820EB472F198B25C27253145F338CB3B7203B42
+```
+
+The signing key needs to be the one registered on Launchpad,
+[here's mine](https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x2820EB472F198B25C27253145F338CB3B7203B42),
+for example.
+(I need to specify it explicitly since the email address is different.)
+
+And then the source package can be easily uploaded to the PPA:
+
+```shell
+dput ppa:ilammy/pyfa ../logbook_1.5.3-4~ppa1~ubuntu20.04_source.changes
+```
+
+After an hour or so binary packages are built and added to the repository.
+Check them out like this:
+
+```shell
+sudo add-apt-repository ppa:ilammy/pyfa
+sudo apt install python3-logbook
+```
