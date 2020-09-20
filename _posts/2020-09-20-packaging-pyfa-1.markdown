@@ -32,7 +32,7 @@ For what it's worth, *never* in my experience I had encountered packaging issues
 Software bugs? Sure thing!
 But having `apt` bork my system directories? Never.
 Package fails to install? Nope.
-Package leaves crap in the the system after uninstallaton? Not eve— well, *rarely*.
+Package leaves crap in the system after uninstallaton? Not eve— well, *rarely*.
 Package fails to start after installation? Seriously?
 
 So... Instead of playing the damn game, I'm off wasting my life fiddling with computers again.
