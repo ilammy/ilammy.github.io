@@ -48,7 +48,7 @@ For the uninitiated, here is what each file does:
 | `debian/source/format` | Source package format version |
 | `debian/watch`         | Automatching watching for upstream updates |
 
-Read [Debian Policy](https://www.debian.org/doc/debian-policy/ch-source.html) to learn more ;)
+Read [Debian Policy](https://www.debian.org/doc/debian-policy/ch-source.html) to learn more.
 
 Most of the default boilerplate is not suitable for our package,
 but that's a good start nevertheless.
