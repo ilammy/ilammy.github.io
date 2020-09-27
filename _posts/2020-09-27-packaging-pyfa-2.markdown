@@ -297,6 +297,6 @@ $ dpkg-deb --info ../pyfa_2.28.2-1_amd64.deb
 I can even install it and run it!
 
 ```
-$ sudo dpkg -i ../
+$ sudo dpkg -i ../pyfa_2.28.2-1_amd64.deb
 $ pyfa
 ```
