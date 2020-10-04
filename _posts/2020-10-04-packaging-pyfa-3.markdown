@@ -159,7 +159,15 @@ Such items may be suppressed to not show up in the usual reports.
 For example, I won't be filing an ITP bug for pyfa into Debian
 so the `new-package-should-close-itp-bug` warning has to be suppressed.
 
-...types of overrides
+`dh_lintian` is responsible for installing override files.
+It looks at the following paths:
+
+  - `debian/source/lintian-overrides` — for the whole source package
+  - `debian/${package}.lintian-overrides` — for individual binary packages
+
+Overrides for binary packages are a part of the package
+and get installed into `/usr/share/lintian/overrides`.
+Source package overrides are not installed, they are only used at build time.
 
 Obviously, you shouldn't use this feature lightly and it's better to fix the warnings
 instead of just telling Lintian to shut up.
@@ -172,12 +180,108 @@ In our case, here's what goes into `debian/pyfa.lintian-overrides`:
 pyfa: new-package-should-close-itp-bug
 ```
 
-You can read more about the override format [in the documentation](...).
-It's very similar to the output of `lintian` itself.
-
 ### Writing manpages
 
+Every top-level program in Debian should have a manpage.
+Manual pages are normally written in **nroff** format.
+This is a... *venerable* format which is described in
+[`man(7)`](https://manpages.debian.org/man/7/man).
+You may like it or not but that's *the* format used by `man`.
+
+Manpages for programs usually go into `debian/${name}.1` files.
+(The `1` is the number of manual section for programs.)
+Then `debian/${package}.manpages` file enumerates which manpages to install for which package
+(`dh_installman` takes care of it).
+
+```
+debian/pyfa.1
+```
+
+Since pyfa is primarily GUI application, there aren't many things to write in the manpage.
+The most important parts are in the header.
+Here's a excerpt:
+
+```
+.TH PYFA 1 "2020-09-27" "2.28.2" "General Commands Manual"
+.SH NAME
+pyfa \- EVE Online fitting assistant
+
+.SH SYNOPSIS
+.SY pyfa
+.RB [ --root ]
+.YS
+
+.SH DESCRIPTION
+
+.BR Pyfa ,
+short for Python fitting assistant,
+allows you to create, experiment with, and save ship fittings without being in game.
+```
+
+I won't go into roff syntax here, just read `man(7)`.
+
 ### Updating copyright information
+
+Debian treats licensing and copyright as a serious business,
+making sure that core repositories contain only free software.
+This translates into packaging process too.
+
+The `debian/copyright` file should describe the copyright information:
+who owns the copyright over which files and what is the license
+under which Debian is allowed to use this content.
+Sometimes this is easy to do,
+such as with applications written by one person,
+or with organizations demanding copyright assignment to them.
+However, with modern open-source development practices it's often a legal nightmare.
+*Technically*, the source code is the combined work of the authors
+(which pyfa has 83 as of time of writing this),
+and you should accurately track who edited which files and when.
+
+I don't really have time for this
+but I did some basic authorship analysis to single out core contributors.
+The result looks like this:
+
+```
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pyfa
+Upstream-Contact: DarkPhoenix <xxxxxx@example.com>
+Source: https://github.com/pyfa-org/pyfa
+License: GPL-3.0+
+Comment: accurate authorship information is available in git history
+
+Files: config.py
+       pyfa.py
+Copyright: 2010 DarkPhoenix
+           2010 Diego Duclos
+           2010 HomeWorld
+           2014 Ryan Holmes
+           2016 Ebag333
+           other minor contributors, see git history
+License: GPL-3.0+
+
+License: GPL-3.0+
+ pyfa is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published
+ by the Free Software Foundation, either version 3 of the License,
+ or (at your option) any later version.
+ .
+ pyfa is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with pyfa.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+```
+
+The `debian/copyright` file is expected to be readable by machines and humans alike.
+Its format is documented [in the policy](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).
+
+pyfa is primarily licensed under GPL 3, with some parts (eos) released under LGPL.
+There are also some original game images used with CCP's permission.
 
 ### Tweaking pyfa functionality
 
